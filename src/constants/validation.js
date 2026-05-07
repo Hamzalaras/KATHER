@@ -1,0 +1,3 @@
+export const POET_SEARCH_QUERY_MAX_LENGTH = 120;
+export const POEM_TYPE_MAX_LENGTH = 120;
+export const POEM_SEARCH_QUERY_MAX_LENGTH = 500;

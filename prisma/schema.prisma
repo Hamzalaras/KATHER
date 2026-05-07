@@ -1,0 +1,71 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql" 
+}
+
+model Poems {
+  id         Int          @id
+  name       String
+  engTopic   String
+  arabTopic  String
+  type       String
+  engSea     String
+  arabSea    String
+  quafia     String
+  order      Int
+  created_at DateTime     @default(now())
+  poetId     Int
+  Poets      Poets        @relation(fields: [poetId], references: [id])
+  PoemsLines PoemsLines[]
+
+  @@index([name(ops: raw("gin_trgm_ops"))], map: "idx_poems_name_trgm", type: Gin)
+  @@index([engTopic], map: "idx_poems_engtopic")
+  @@index([arabTopic], map: "idx_poems_arabtopic")
+  @@index([type], map: "idx_poems_type")
+  @@index([engSea], map: "idx_poems_engsea")
+  @@index([arabSea], map: "idx_poems_arabsea")
+  @@index([quafia], map: "idx_poems_quafia")
+  @@index([poetId], map: "idx_poems_poetid")
+  @@index([poetId, order], map: "idx_poems_poetid_order")
+}
+
+model PoemsLines {
+  id         Int      @id @default(autoincrement())
+  content    String
+  type       Int
+  order      Int
+  created_at DateTime @default(now())
+  poemId     Int
+  Poems      Poems    @relation(fields: [poemId], references: [id])
+
+  @@index([content(ops: raw("gin_trgm_ops"))], map: "idx_poemslines_content_trgm", type: Gin)
+  @@index([poemId], map: "idx_poemslines_poemid")
+  @@index([poemId, order], map: "idx_poemslines_poemid_order")
+  @@index([poemId, type, order], map: "idx_poemslines_poemid_type_order")
+}
+
+model Poets {
+  id          Int      @id
+  engName     String   @unique
+  arabName    String
+  bio         String
+  engEra      String
+  arabEra     String
+  engCountry  String
+  arabCountry String
+  gender      String
+  created_at  DateTime @default(now())
+  Poems       Poems[]
+
+  @@index([arabName(ops: raw("gin_trgm_ops"))], map: "idx_poets_arabname_trgm", type: Gin)
+  @@index([bio(ops: raw("gin_trgm_ops"))], map: "idx_poets_bio_trgm", type: Gin)
+  @@index([engName(ops: raw("gin_trgm_ops"))], map: "idx_poets_engname_trgm", type: Gin)
+  @@index([gender], map: "idx_poets_gender")
+  @@index([engEra], map: "idx_poets_engera")
+  @@index([arabEra], map: "idx_poets_arabera")
+  @@index([engCountry], map: "idx_poets_engcountry")
+  @@index([arabCountry], map: "idx_poets_arabcountry")
+}

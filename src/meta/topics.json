@@ -1,0 +1,178 @@
+[
+  {
+    "id": "supplication",
+    "value": "Supplication",
+    "labelAr": "قصائد ابتهال",
+    "aliases": [
+      "ابتهال"
+    ]
+  },
+  {
+    "id": "apology",
+    "value": "Apology",
+    "labelAr": "قصائد اعتذار",
+    "aliases": []
+  },
+  {
+    "id": "anthems",
+    "value": "Anthems",
+    "labelAr": "قصائد الاناشيد",
+    "aliases": []
+  },
+  {
+    "id": "muallaqat",
+    "value": "Mu'allaqat",
+    "labelAr": "قصائد المعلقات",
+    "aliases": ["Mu'allaqat"]
+  },
+  {
+    "id": "generosity",
+    "value": "Generosity",
+    "labelAr": "قصائد جود وكرم",
+    "aliases": []
+  },
+  {
+    "id": "sadness",
+    "value": "Sadness",
+    "labelAr": "قصائد حزينه",
+    "aliases": []
+  },
+  {
+    "id": "wisdom",
+    "value": "Wisdom",
+    "labelAr": "قصائد حكمة",
+    "aliases": []
+  },
+  {
+    "id": "religious",
+    "value": "Religious",
+    "labelAr": "قصائد دينية",
+    "aliases": []
+  },
+  {
+    "id": "condemnation",
+    "value": "Condemnation",
+    "labelAr": "قصائد ذم",
+    "aliases": []
+  },
+  {
+    "id": "elegy",
+    "value": "Elegy",
+    "labelAr": "قصائد رثاء",
+    "aliases": []
+  },
+  {
+    "id": "mercy",
+    "value": "Mercy",
+    "labelAr": "قصائد رحمة",
+    "aliases": []
+  },
+  {
+    "id": "romance",
+    "value": "Romance",
+    "labelAr": "قصائد رومنسيه",
+    "aliases": []
+  },
+  {
+    "id": "political",
+    "value": "Political",
+    "labelAr": "قصائد سياسية",
+    "aliases": []
+  },
+  {
+    "id": "longing",
+    "value": "Longing",
+    "labelAr": "قصائد شوق",
+    "aliases": []
+  },
+  {
+    "id": "patience",
+    "value": "Patience",
+    "labelAr": "قصائد صبر",
+    "aliases": []
+  },
+  {
+    "id": "general",
+    "value": "General",
+    "labelAr": "قصائد عامه",
+    "aliases": []
+  },
+  {
+    "id": "reproach",
+    "value": "Reproach",
+    "labelAr": "قصائد عتاب",
+    "aliases": []
+  },
+  {
+    "id": "justice",
+    "value": "Justice",
+    "labelAr": "قصائد عدل",
+    "aliases": []
+  },
+  {
+    "id": "ghazal",
+    "value": "Ghazal",
+    "labelAr": "قصائد غزل",
+    "aliases": []
+  },
+  {
+    "id": "parting",
+    "value": "Parting",
+    "labelAr": "قصائد فراق",
+    "aliases": []
+  },
+  {
+    "id": "short",
+    "value": "Short",
+    "labelAr": "قصائد قصيره",
+    "aliases": []
+  },
+  {
+    "id": "praise",
+    "value": "Praise",
+    "labelAr": "قصائد مدح",
+    "aliases": []
+  },
+  {
+    "id": "advice",
+    "value": "Advice",
+    "labelAr": "قصائد نصيحة",
+    "aliases": []
+  },
+  {
+    "id": "satire",
+    "value": "Satire",
+    "labelAr": "قصائد هجاء",
+    "aliases": []
+  },
+  {
+    "id": "patriotic",
+    "value": "Patriotic",
+    "labelAr": "قصائد وطنيه",
+    "aliases": []
+  },
+  {
+    "id": "pride",
+    "value": "Pride",
+    "labelAr": "قصائد فخر",
+    "aliases": []
+  },
+  {
+    "id": "description",
+    "value": "Description",
+    "labelAr": "قصائد وصف",
+    "aliases": []
+  },
+  {
+    "id": "asceticism",
+    "value": "Asceticism",
+    "labelAr": "قصائد زهد",
+    "aliases": []
+  },
+  {
+    "id": "enthusiasm",
+    "value": "Enthusiasm",
+    "labelAr": "قصائد حماسة",
+    "aliases": []
+  }
+]

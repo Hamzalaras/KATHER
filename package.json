@@ -1,0 +1,42 @@
+{
+  "name": "KATHER",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "seed": "node --expose-gc prisma/seed.js",
+    "test": "echo \"No tests yet\" && exit 0",
+    "validate:docs": "spectral lint openapi.yaml"
+  },
+  "prisma": {
+    "seed": "node --expose-gc prisma/seed.js"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.7.0",
+    "@prisma/client": "^7.7.0",
+    "pg": "^8.20.0",
+    "compression": "^1.8.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.3.2",
+    "fast-stable-stringify": "^1.0.0",
+    "helmet": "^8.1.0",
+    "ioredis": "^5.10.1",
+    "morgan": "^1.10.1",
+    "prom-client": "^15.0.0",
+    "redoc-express": "^2.1.0",
+    "swagger-ui-express": "^5.0.1",
+    "yaml": "^2.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prisma": "^7.7.0",
+    "@stoplight/spectral-cli": "^6.14.0"
+  }
+}

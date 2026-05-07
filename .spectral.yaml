@@ -1,0 +1,31 @@
+extends:
+  - spectral:oas
+
+rules:
+  response-examples:
+    description: Responses must include example or examples
+    message: Response content is missing an example
+    given: $.paths[?(!@property.match('^/(metrics|docs|redoc|openapi\\.yaml|openapi\\.json|health|ready)'))][*].responses[*].content[*]
+    severity: error
+    then:
+      function: schema
+      functionOptions:
+        schema:
+          type: object
+          anyOf:
+            - required: [example]
+            - required: [examples]
+
+  request-body-examples:
+    description: Request bodies must include example or examples
+    message: Request body content is missing an example
+    given: $.paths[*][*].requestBody.content[*]
+    severity: error
+    then:
+      function: schema
+      functionOptions:
+        schema:
+          type: object
+          anyOf:
+            - required: [example]
+            - required: [examples]

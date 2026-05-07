@@ -1,0 +1,218 @@
+[
+  {
+    "id": "q-ا",
+    "value": "q-ا",
+    "labelAr": "قافية الألف (ا)",
+    "aliases": []
+  },
+  {
+    "id": "q-أ",
+    "value": "q-أ",
+    "labelAr": "قافية ألف الهمزة (أ)",
+    "aliases": []
+  },
+  {
+    "id": "q-إ",
+    "value": "q-إ",
+    "labelAr": "قافية الألف (إ)",
+    "aliases": []
+  },
+  {
+    "id": "q-آ",
+    "value": "q-آ",
+    "labelAr": "قافية ألف المدة (آ)",
+    "aliases": []
+  },
+  {
+    "id": "q-ء",
+    "value": "q-ء",
+    "labelAr": "قافية الهمزة (ء)",
+    "aliases": []
+  },
+  {
+    "id": "q-ئ",
+    "value": "q-ئ",
+    "labelAr": "قافية ياء همزة (ئ)",
+    "aliases": []
+  },
+  {
+    "id": "q-ؤ",
+    "value": "q-ؤ",
+    "labelAr": "قافية واو همزة (ؤ)",
+    "aliases": []
+  },
+  {
+    "id": "q-ى",
+    "value": "q-ى",
+    "labelAr": "قافية الياء (ى)",
+    "aliases": []
+  },
+  {
+    "id": "q-ب",
+    "value": "q-ب",
+    "labelAr": "قافية الباء (ب)",
+    "aliases": []
+  },
+  {
+    "id": "q-ت",
+    "value": "q-ت",
+    "labelAr": "قافية التاء (ت)",
+    "aliases": []
+  },
+  {
+    "id": "q-ة",
+    "value": "q-ة",
+    "labelAr": "قافية التاء المربوطة (ة)",
+    "aliases": []
+  },
+  {
+    "id": "q-ث",
+    "value": "q-ث",
+    "labelAr": "قافية الثاء (ث)",
+    "aliases": []
+  },
+  {
+    "id": "q-ج",
+    "value": "q-ج",
+    "labelAr": "قافية الجيم (ج)",
+    "aliases": []
+  },
+  {
+    "id": "q-ح",
+    "value": "q-ح",
+    "labelAr": "قافية الحاء (ح)",
+    "aliases": []
+  },
+  {
+    "id": "q-خ",
+    "value": "q-خ",
+    "labelAr": "قافية الخاء (خ)",
+    "aliases": []
+  },
+  {
+    "id": "q-د",
+    "value": "q-د",
+    "labelAr": "قافية الدال (د)",
+    "aliases": []
+  },
+  {
+    "id": "q-ذ",
+    "value": "q-ذ",
+    "labelAr": "قافية الذال (ذ)",
+    "aliases": []
+  },
+  {
+    "id": "q-ر",
+    "value": "q-ر",
+    "labelAr": "قافية الراء (ر)",
+    "aliases": []
+  },
+  {
+    "id": "q-ز",
+    "value": "q-ز",
+    "labelAr": "قافية الزاى (ز)",
+    "aliases": []
+  },
+  {
+    "id": "q-ش",
+    "value": "q-ش",
+    "labelAr": "قافية الشين (ش)",
+    "aliases": []
+  },
+  {
+    "id": "q-س",
+    "value": "q-س",
+    "labelAr": "قافية السين (س)",
+    "aliases": []
+  },
+  {
+    "id": "q-ص",
+    "value": "q-ص",
+    "labelAr": "قافية الصاد (ص)",
+    "aliases": []
+  },
+  {
+    "id": "q-ض",
+    "value": "q-ض",
+    "labelAr": "قافية الضاد (ض)",
+    "aliases": []
+  },
+  {
+    "id": "q-ط",
+    "value": "q-ط",
+    "labelAr": "قافية الطاء (ط)",
+    "aliases": []
+  },
+  {
+    "id": "q-ظ",
+    "value": "q-ظ",
+    "labelAr": "قافية الظاء (ظ)",
+    "aliases": []
+  },
+  {
+    "id": "q-ع",
+    "value": "q-ع",
+    "labelAr": "قافية العين (ع)",
+    "aliases": []
+  },
+  {
+    "id": "q-غ",
+    "value": "q-غ",
+    "labelAr": "قافية الغين (غ)",
+    "aliases": []
+  },
+  {
+    "id": "q-ف",
+    "value": "q-ف",
+    "labelAr": "قافية الفاء (ف)",
+    "aliases": []
+  },
+  {
+    "id": "q-ق",
+    "value": "q-ق",
+    "labelAr": "قافية القاف (ق)",
+    "aliases": []
+  },
+  {
+    "id": "q-ك",
+    "value": "q-ك",
+    "labelAr": "قافية الكاف (ك)",
+    "aliases": []
+  },
+  {
+    "id": "q-ل",
+    "value": "q-ل",
+    "labelAr": "قافية اللام (ل)",
+    "aliases": []
+  },
+  {
+    "id": "q-م",
+    "value": "q-م",
+    "labelAr": "قافية الميم (م)",
+    "aliases": []
+  },
+  {
+    "id": "q-ن",
+    "value": "q-ن",
+    "labelAr": "قافية النون (ن)",
+    "aliases": []
+  },
+  {
+    "id": "q-ه",
+    "value": "q-ه",
+    "labelAr": "قافية الهاء (ه)",
+    "aliases": []
+  },
+  {
+    "id": "q-و",
+    "value": "q-و",
+    "labelAr": "قافية الواو (و)",
+    "aliases": []
+  },
+  {
+    "id": "q-ي",
+    "value": "q-ي",
+    "labelAr": "قافية الياء (ي)",
+    "aliases": []
+  }
+]

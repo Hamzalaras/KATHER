@@ -1,0 +1,70 @@
+[
+  {
+    "id": "pre-islamic-era",
+    "value": "pre-islamic-era",
+    "labelAr": "العصر الجاهلي",
+    "aliases": []
+  },
+  {
+    "id": "islamic-era",
+    "value": "islamic-era",
+    "labelAr": "العصر الإسلامي",
+    "aliases": ["العصر الاسلامي"]
+  },
+  {
+    "id": "abbasid-era",
+    "value": "abbasid-era",
+    "labelAr": "العصر العباسي",
+    "aliases": []
+  },
+  {
+    "id": "ayubi-era",
+    "value": "ayubi-era",
+    "labelAr": "العصر الأيوبي",
+    "aliases": ["العصر الايوبي"]
+  },
+  {
+    "id": "ottoman-era",
+    "value": "ottoman-era",
+    "labelAr": "العصر العثماني",
+    "aliases": []
+  },
+  {
+    "id": "veteran-era",
+    "value": "veteran-era",
+    "labelAr": "عصر المخضرمون",
+    "aliases": []
+  },
+  {
+    "id": "umayyad-era",
+    "value": "umayyad-era",
+    "labelAr": "العصر الأموي",
+    "aliases": ["العصر الاموي"]
+  },
+  {
+    "id": "andalusian-era",
+    "value": "andalusian-era",
+    "labelAr": "العصر الأندلسي",
+    "aliases": ["العصر الاندلسي"]
+  },
+  {
+    "id": "mamluk-era",
+    "value": "mamluk-era",
+    "labelAr": "العصر المملوكي",
+    "aliases": []
+  },
+  {
+    "id": "fatimi-era",
+    "value": "fatimi-era",
+    "labelAr": "العصر الفاطمي",
+    "aliases": []
+  },
+  {
+    "id": "new",
+    "value": "new",
+    "labelAr": "العصر الحديث",
+    "aliases": [
+      "modern-era"
+    ]
+  }
+]

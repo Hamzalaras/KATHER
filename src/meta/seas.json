@@ -1,0 +1,392 @@
+[
+  {
+    "id": "ahd-el-kamel",
+    "value": "ahd-el-kamel",
+    "labelAr": "أحذ الكامل",
+    "aliases": []
+  },
+  {
+    "id": "ahd-el-madid",
+    "value": "ahd-el-madid",
+    "labelAr": "أحذ المديد",
+    "aliases": []
+  },
+  {
+    "id": "ahd-el-wafer",
+    "value": "ahd-el-wafer",
+    "labelAr": "أحذ الوافر",
+    "aliases": []
+  },
+  {
+    "id": "bassit",
+    "value": "bassit",
+    "labelAr": "البسيط",
+    "aliases": []
+  },
+  {
+    "id": "el-taf3ila",
+    "value": "el-taf3ila",
+    "labelAr": "التفعيله",
+    "aliases": []
+  },
+  {
+    "id": "el-khbb",
+    "value": "el-khbb",
+    "labelAr": "الخبب",
+    "aliases": []
+  },
+  {
+    "id": "el-khafif",
+    "value": "el-khafif",
+    "labelAr": "الخفيف",
+    "aliases": []
+  },
+  {
+    "id": "el-dobit",
+    "value": "el-dobit",
+    "labelAr": "الدوبيت",
+    "aliases": []
+  },
+  {
+    "id": "el-rijz",
+    "value": "el-rijz",
+    "labelAr": "الرجز",
+    "aliases": []
+  },
+  {
+    "id": "el-raml",
+    "value": "el-raml",
+    "labelAr": "الرمل",
+    "aliases": []
+  },
+  {
+    "id": "el-sari3",
+    "value": "el-sari3",
+    "labelAr": "السريع",
+    "aliases": []
+  },
+  {
+    "id": "el-silsila",
+    "value": "el-silsila",
+    "labelAr": "السلسلة",
+    "aliases": []
+  },
+  {
+    "id": "el-tawil",
+    "value": "el-tawil",
+    "labelAr": "الطويل",
+    "aliases": []
+  },
+  {
+    "id": "el-gouma",
+    "value": "el-gouma",
+    "labelAr": "القوما",
+    "aliases": []
+  },
+  {
+    "id": "el-kamel",
+    "value": "el-kamel",
+    "labelAr": "الكامل",
+    "aliases": []
+  },
+  {
+    "id": "el-kamel-elma9tou3",
+    "value": "el-kamel-elma9tou3",
+    "labelAr": "الكامل المقطوع",
+    "aliases": []
+  },
+  {
+    "id": "el-motaderick",
+    "value": "el-motaderick",
+    "labelAr": "المتدارك",
+    "aliases": []
+  },
+  {
+    "id": "el-motaderick-el-manhouk",
+    "value": "el-motaderick-el-manhouk",
+    "labelAr": "المتدارك المنهوك",
+    "aliases": []
+  },
+  {
+    "id": "el-mota9areb",
+    "value": "el-mota9areb",
+    "labelAr": "المتقارب",
+    "aliases": []
+  },
+  {
+    "id": "el-mojateth",
+    "value": "el-mojateth",
+    "labelAr": "المجتث",
+    "aliases": []
+  },
+  {
+    "id": "el-madid",
+    "value": "el-madid",
+    "labelAr": "المديد",
+    "aliases": []
+  },
+  {
+    "id": "el-modare3",
+    "value": "el-modare3",
+    "labelAr": "المضارع",
+    "aliases": []
+  },
+  {
+    "id": "el-mo9tadeb",
+    "value": "el-mo9tadeb",
+    "labelAr": "المقتضب",
+    "aliases": []
+  },
+  {
+    "id": "el-monsareh",
+    "value": "el-monsareh",
+    "labelAr": "المنسرح",
+    "aliases": []
+  },
+  {
+    "id": "el-moualia",
+    "value": "el-moualia",
+    "labelAr": "المواليا",
+    "aliases": []
+  },
+  {
+    "id": "el-hazj",
+    "value": "el-hazj",
+    "labelAr": "الهزج",
+    "aliases": []
+  },
+  {
+    "id": "el-wafer",
+    "value": "el-wafer",
+    "labelAr": "الوافر",
+    "aliases": []
+  },
+  {
+    "id": "taf3ila-el-rijz",
+    "value": "taf3ila-el-rijz",
+    "labelAr": "تفعيلة الرجز",
+    "aliases": []
+  },
+  {
+    "id": "taf3ila-el-ramel",
+    "value": "taf3ila-el-ramel",
+    "labelAr": "تفعيلة الرمل",
+    "aliases": []
+  },
+  {
+    "id": "taf3ila-el-kamel",
+    "value": "taf3ila-el-kamel",
+    "labelAr": "تفعيلة الكامل",
+    "aliases": []
+  },
+  {
+    "id": "taf3ila-el-mota9areb",
+    "value": "taf3ila-el-mota9areb",
+    "labelAr": "تفعيلة المتقارب",
+    "aliases": []
+  },
+  {
+    "id": "majzoua-el-bassit",
+    "value": "majzoua-el-bassit",
+    "labelAr": "مجزوء البسيط",
+    "aliases": []
+  },
+  {
+    "id": "majzoua-el-khafif",
+    "value": "majzoua-el-khafif",
+    "labelAr": "مجزوء الخفيف",
+    "aliases": []
+  },
+  {
+    "id": "majzoua-el-dobit",
+    "value": "majzoua-el-dobit",
+    "labelAr": "مجزوء الدوبيت",
+    "aliases": []
+  },
+  {
+    "id": "majzoua-el-rijz",
+    "value": "majzoua-el-rijz",
+    "labelAr": "مجزوء الرجز",
+    "aliases": []
+  },
+  {
+    "id": "majzoua-el-ramel",
+    "value": "majzoua-el-ramel",
+    "labelAr": "مجزوء الرمل",
+    "aliases": []
+  },
+  {
+    "id": "majzoua-el-sari3",
+    "value": "majzoua-el-sari3",
+    "labelAr": "مجزوء السريع",
+    "aliases": []
+  },
+  {
+    "id": "majzoua-el-tawil",
+    "value": "majzoua-el-tawil",
+    "labelAr": "مجزوء الطويل",
+    "aliases": []
+  },
+  {
+    "id": "majzoua-el-kamel",
+    "value": "majzoua-el-kamel",
+    "labelAr": "مجزوء الكامل",
+    "aliases": []
+  },
+  {
+    "id": "majzoua-el-motaderick",
+    "value": "majzoua-el-motaderick",
+    "labelAr": "مجزوء المتدارك",
+    "aliases": []
+  },
+  {
+    "id": "majzoua-el-mota9areb",
+    "value": "majzoua-el-mota9areb",
+    "labelAr": "مجزوء المتقارب",
+    "aliases": []
+  },
+  {
+    "id": "majzoua-el-mojateth",
+    "value": "majzoua-el-mojateth",
+    "labelAr": "مجزوء المجتث",
+    "aliases": []
+  },
+  {
+    "id": "majzoua-el-madid",
+    "value": "majzoua-el-madid",
+    "labelAr": "مجزوء المديد",
+    "aliases": []
+  },
+  {
+    "id": "majzoua-el-mo9tadeb",
+    "value": "majzoua-el-mo9tadeb",
+    "labelAr": "مجزوء المقتضب",
+    "aliases": []
+  },
+  {
+    "id": "majzoua-el-monsareh",
+    "value": "majzoua-el-monsareh",
+    "labelAr": "مجزوء المنسرح",
+    "aliases": []
+  },
+  {
+    "id": "majzoua-el-moualia",
+    "value": "majzoua-el-moualia",
+    "labelAr": "مجزوء المواليا",
+    "aliases": []
+  },
+  {
+    "id": "majzoua-el-hazj",
+    "value": "majzoua-el-hazj",
+    "labelAr": "مجزوء الهزج",
+    "aliases": []
+  },
+  {
+    "id": "majzoua-el-wafer",
+    "value": "majzoua-el-wafer",
+    "labelAr": "مجزوء الوافر",
+    "aliases": []
+  },
+  {
+    "id": "majzoua-el-mouchah",
+    "value": "majzoua-el-mouchah",
+    "labelAr": "مجزوء موشح",
+    "aliases": []
+  },
+  {
+    "id": "mkhla3-el-bassit",
+    "value": "mkhla3-el-bassit",
+    "labelAr": "مخلع البسيط",
+    "aliases": []
+  },
+  {
+    "id": "mkhla3-el-rijz",
+    "value": "mkhla3-el-rijz",
+    "labelAr": "مخلع الرجز",
+    "aliases": []
+  },
+  {
+    "id": "mkhla3-el-ramel",
+    "value": "mkhla3-el-ramel",
+    "labelAr": "مخلع الرمل",
+    "aliases": []
+  },
+  {
+    "id": "mkhla3-el-sari3",
+    "value": "mkhla3-el-sari3",
+    "labelAr": "مخلع السريع",
+    "aliases": []
+  },
+  {
+    "id": "mkhla3-el-kamel",
+    "value": "mkhla3-el-kamel",
+    "labelAr": "مخلع الكامل",
+    "aliases": []
+  },
+  {
+    "id": "mkhla3-el-mouchah",
+    "value": "mkhla3-el-mouchah",
+    "labelAr": "مخلع موشح",
+    "aliases": []
+  },
+  {
+    "id": "morabe3-el-bassit",
+    "value": "morabe3-el-bassit",
+    "labelAr": "مربع البسيط",
+    "aliases": []
+  },
+  {
+    "id": "morabe3-el-rijz",
+    "value": "morabe3-el-rijz",
+    "labelAr": "مربع الرجز",
+    "aliases": []
+  },
+  {
+    "id": "machtour-el-rijz",
+    "value": "machtour-el-rijz",
+    "labelAr": "مشطور الرجز",
+    "aliases": []
+  },
+  {
+    "id": "machtour-el-sari3",
+    "value": "machtour-el-sari3",
+    "labelAr": "مشطور السريع",
+    "aliases": []
+  },
+  {
+    "id": "machtour-el-tawil",
+    "value": "machtour-el-tawil",
+    "labelAr": "مشطور الطويل",
+    "aliases": []
+  },
+  {
+    "id": "manhouk-el-bassit",
+    "value": "manhouk-el-bassit",
+    "labelAr": "منهوك البسيط",
+    "aliases": []
+  },
+  {
+    "id": "manhouk-el-rijz",
+    "value": "manhouk-el-rijz",
+    "labelAr": "منهوك الرجز",
+    "aliases": []
+  },
+  {
+    "id": "manhouk-el-kamel",
+    "value": "manhouk-el-kamel",
+    "labelAr": "منهوك الكامل",
+    "aliases": []
+  },
+  {
+    "id": "manhouk-el-monsareh",
+    "value": "manhouk-el-monsareh",
+    "labelAr": "منهوك المنسرح",
+    "aliases": []
+  },
+  {
+    "id": "mouchah",
+    "value": "mouchah",
+    "labelAr": "موشح",
+    "aliases": []
+  }
+]

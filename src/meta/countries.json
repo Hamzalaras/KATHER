@@ -1,0 +1,128 @@
+[
+  {
+    "id": "uae",
+    "value": "uae",
+    "labelAr": "الإمارات",
+    "aliases": ["الامارات"]
+  },
+  {
+    "id": "bahrain",
+    "value": "bahrain",
+    "labelAr": "البحرين",
+    "aliases": []
+  },
+  {
+    "id": "algeria",
+    "value": "algeria",
+    "labelAr": "الجزائر",
+    "aliases": []
+  },
+  {
+    "id": "arabia",
+    "value": "arabia",
+    "labelAr": "السعودية",
+    "aliases": []
+  },
+  {
+    "id": "sudan",
+    "value": "sudan",
+    "labelAr": "السودان",
+    "aliases": []
+  },
+  {
+    "id": "iraq",
+    "value": "iraq",
+    "labelAr": "العراق",
+    "aliases": []
+  },
+  {
+    "id": "morocco",
+    "value": "morocco",
+    "labelAr": "المغرب",
+    "aliases": []
+  },
+  {
+    "id": "yemen",
+    "value": "yemen",
+    "labelAr": "اليمن",
+    "aliases": []
+  },
+  {
+    "id": "tunisia",
+    "value": "tunisia",
+    "labelAr": "تونس",
+    "aliases": []
+  },
+  {
+    "id": "syria",
+    "value": "syria",
+    "labelAr": "سوريا",
+    "aliases": []
+  },
+  {
+    "id": "oman",
+    "value": "oman",
+    "labelAr": "عمان",
+    "aliases": []
+  },
+  {
+    "id": "palestine",
+    "value": "palestine",
+    "labelAr": "فلسطين",
+    "aliases": []
+  },
+  {
+    "id": "lebanon",
+    "value": "lebanon",
+    "labelAr": "لبنان",
+    "aliases": []
+  },
+  {
+    "id": "libya",
+    "value": "libya",
+    "labelAr": "ليبيا",
+    "aliases": []
+  },
+  {
+    "id": "egypt",
+    "value": "egypt",
+    "labelAr": "مصر",
+    "aliases": []
+  },
+  {
+    "id": "jordan",
+    "value": "jordan",
+    "labelAr": "الأردن",
+    "aliases": ["الاردن"]
+  },
+  {
+    "id": "kuwait",
+    "value": "kuwait",
+    "labelAr": "الكويت",
+    "aliases": []
+  },
+  {
+    "id": "qatar",
+    "value": "qatar",
+    "labelAr": "قطر",
+    "aliases": []
+  },
+  {
+    "id": "mauritania",
+    "value": "mauritania",
+    "labelAr": "موريتانيا",
+    "aliases": []
+  },
+  {
+    "id": "somalia",
+    "value": "somalia",
+    "labelAr": "الصومال",
+    "aliases": []
+  },
+  {
+    "id": "senegal",
+    "value": "senegal",
+    "labelAr": "السنغال",
+    "aliases": []
+  }
+]
