@@ -1,9 +1,11 @@
 generator client {
   provider = "prisma-client-js"
+  previewFeatures = ["postgresqlExtensions"]
 }
 
 datasource db {
   provider = "postgresql" 
+  extensions = [pg_trgm]
 }
 
 model Poems {
@@ -35,6 +37,7 @@ model Poems {
 model PoemsLines {
   id         Int      @id @default(autoincrement())
   content    String
+  contentNoDiacritics String
   type       Int
   order      Int
   created_at DateTime @default(now())
@@ -42,6 +45,7 @@ model PoemsLines {
   Poems      Poems    @relation(fields: [poemId], references: [id])
 
   @@index([content(ops: raw("gin_trgm_ops"))], map: "idx_poemslines_content_trgm", type: Gin)
+  @@index([contentNoDiacritics(ops: raw("gin_trgm_ops"))], map: "idx_poemslines_contentnodiacritics_trgm", type: Gin)
   @@index([poemId], map: "idx_poemslines_poemid")
   @@index([poemId, order], map: "idx_poemslines_poemid_order")
   @@index([poemId, type, order], map: "idx_poemslines_poemid_type_order")
