@@ -1,4 +1,5 @@
 import { getDirJsons, getContentOfJsonFile } from './accessFiles.js';
+import { stripDiacritics } from '../../src/utils/diacritics.js';
 
 export const insert = async (prisma) => {
     const files = await getDirJsons('../../seedData/poems');
@@ -9,7 +10,7 @@ export const insert = async (prisma) => {
             const poems = await getContentOfJsonFile(`../../seedData/poems/${file}`);
             const toInsert = poems.map(poem => ({
                 id: poem.id,
-                name: poem.name,
+                name: stripDiacritics(poem.name),
                 engTopic: poem.engTopic,
                 arabTopic: poem.arabTopic,
                 type: (poem.type ?? 'غير محددة بعد'),

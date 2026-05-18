@@ -2,6 +2,7 @@ import { prismaClient } from '../database/prismaClient.js';
 import { getCachedCount } from '../utils/cache/count.js';
 import { randomSkip } from '../utils/randomSkip.js';
 import { isValidLabel } from '../utils/isValidLabel.js';
+import { hasDiacritics } from '../utils/diacritics.js';
 import { ValidationError } from '../utils/errors/ApiError.js';
 import { DEFAULT_COUNT_TTL_SECONDS } from '../constants/cache.js';
 import { ENTITY_KEYS } from '../constants/domain.js';
@@ -48,6 +49,7 @@ const poemInLineSelect = {
 const lineSummarySelect = {
     id: true,
     content: true,
+    contentNoDiacritics: true,
     type: true,
     order: true,
     created_at: true,
@@ -94,6 +96,7 @@ const mapPoemInLine = (poem) => ({
 const mapLineDetail = (line) => ({
     id: line.id,
     content: line.content,
+    contentNoDiacritics: line.contentNoDiacritics,
     type: line.type,
     order: line.order,
     created_at: line.created_at,
@@ -144,7 +147,9 @@ const buildLineWhere = ({ poemId, poetId, era, country, gender, quafia, sea, top
         }),
         ...(q && {
             OR: [
-                { content: { contains: q, mode: 'insensitive' } },
+                (hasDiacritics(q) ? { content: { contains: q, mode: 'insensitive' } } :
+                                    { contentNoDiacritics: { contains: q, mode: 'insensitive' } }
+                                ),
                 { Poems: { name: { contains: q, mode: 'insensitive' } } },
                 { Poems: { Poets: { engName: { contains: q, mode: 'insensitive' } } } },
                 { Poems: { Poets: { arabName: { contains: q, mode: 'insensitive' } } } },

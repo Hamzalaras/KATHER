@@ -48,6 +48,7 @@ const poemSummarySelect = {
 const poemLineSelect = {
     id: true,
     content: true,
+    contentNoDiacritics: true,
     type: true,
     order: true,
 };
@@ -106,6 +107,7 @@ const mapPoemSummary = (poem) => ({
 const mapPoemLine = (line) => ({
     id: line.id,
     content: line.content,
+    contentNoDiacritics: line.contentNoDiacritics,
     type: line.type,
     order: line.order,
 });
