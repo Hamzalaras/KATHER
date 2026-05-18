@@ -159,7 +159,8 @@ Arabic content is preserved as UTF-8 throughout the stack.
 The current search strategy is pragmatic rather than linguistic:
 
 - it uses trigram indexes for fast partial matching
-- it does not perform Arabic stem analysis or diacritic normalization
+- it does not perform full Arabic stem analysis or general-purpose text normalization
+- line search falls back to a diacritic-stripped content column when the query has no diacritics
 - results are best for discovery, browsing, and fuzzy search, not for strict lexical search
 
 If you need true Arabic NLP search later, that will require a dedicated normalization or full-text pipeline.
@@ -216,6 +217,15 @@ Before opening the repository publicly, verify the following:
 - migrations apply cleanly on a fresh PostgreSQL database
 - seeding works end to end against a clean database
 - `/health`, `/ready`, `/metrics`, and the documentation routes behave as expected
+
+## Developer Notes
+
+- Large corpus: more than 3 million lines, 2,000+ poets, and 120,000+ poems.
+- Structured discovery first: the API is tuned for filtering and browsing, not ad hoc querying.
+- Compact metadata layer: the catalog metadata files contain 21 countries, 11 eras, 36 quawafi, 65 seas, and 29 topics.
+- Main tradeoff: line search can still be expensive on very large result sets, especially when broad filters are combined.
+- Data quality reality: at this scale, some records may be misattributed or inconsistent — for example, a poem assigned to the wrong poet, lines linked to the wrong poem, or false poem type assigned. A single developer cannot manually verify a corpus this large, so if you encounter incorrect or misattributed data, please open a GitHub issue or submit a pull request so it can be corrected in the database.
+- Future gap: no voice endpoint is included today; if it becomes a requirement, a cloud text-to-speech service such as Google Cloud Text-to-Speech would be a straightforward path.
 
 ## License
 
