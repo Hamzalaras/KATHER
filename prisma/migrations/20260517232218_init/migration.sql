@@ -1,8 +1,5 @@
--- Enable trigram support required by search indexes
-CREATE EXTENSION IF NOT EXISTS pg_trgm;
-
--- CreateSchema
-CREATE SCHEMA IF NOT EXISTS "public";
+-- CreateExtension
+CREATE EXTENSION IF NOT EXISTS "pg_trgm";
 
 -- CreateTable
 CREATE TABLE "Poems" (
@@ -23,8 +20,9 @@ CREATE TABLE "Poems" (
 
 -- CreateTable
 CREATE TABLE "PoemsLines" (
-    "id" INTEGER NOT NULL,
+    "id" SERIAL NOT NULL,
     "content" TEXT NOT NULL,
+    "contentNoDiacritics" TEXT NOT NULL,
     "type" INTEGER NOT NULL,
     "order" INTEGER NOT NULL,
     "created_at" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -80,6 +78,9 @@ CREATE INDEX "idx_poems_poetid_order" ON "Poems"("poetId", "order");
 CREATE INDEX "idx_poemslines_content_trgm" ON "PoemsLines" USING GIN ("content" gin_trgm_ops);
 
 -- CreateIndex
+CREATE INDEX "idx_poemslines_contentnodiacritics_trgm" ON "PoemsLines" USING GIN ("contentNoDiacritics" gin_trgm_ops);
+
+-- CreateIndex
 CREATE INDEX "idx_poemslines_poemid" ON "PoemsLines"("poemId");
 
 -- CreateIndex
@@ -87,6 +88,9 @@ CREATE INDEX "idx_poemslines_poemid_order" ON "PoemsLines"("poemId", "order");
 
 -- CreateIndex
 CREATE INDEX "idx_poemslines_poemid_type_order" ON "PoemsLines"("poemId", "type", "order");
+
+-- CreateIndex
+CREATE UNIQUE INDEX "Poets_engName_key" ON "Poets"("engName");
 
 -- CreateIndex
 CREATE INDEX "idx_poets_arabname_trgm" ON "Poets" USING GIN ("arabName" gin_trgm_ops);
