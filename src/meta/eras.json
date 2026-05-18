@@ -3,68 +3,66 @@
     "id": "pre-islamic-era",
     "value": "pre-islamic-era",
     "labelAr": "العصر الجاهلي",
-    "aliases": []
+    "aliases": ["جاهلي", "الجاهلي"]
   },
   {
     "id": "islamic-era",
     "value": "islamic-era",
     "labelAr": "العصر الإسلامي",
-    "aliases": ["العصر الاسلامي"]
+    "aliases": ["العصر الاسلامي", "إسلامي", "اسلامي", "الإسلامي", "الاسلامي"]
   },
   {
     "id": "abbasid-era",
     "value": "abbasid-era",
     "labelAr": "العصر العباسي",
-    "aliases": []
+    "aliases": ["عباسي", "العباسي"]
   },
   {
     "id": "ayubi-era",
     "value": "ayubi-era",
     "labelAr": "العصر الأيوبي",
-    "aliases": ["العصر الايوبي"]
+    "aliases": ["العصر الايوبي", "أيوبي", "ايوبي", "الأيوبي", "الايوبي"]
   },
   {
     "id": "ottoman-era",
     "value": "ottoman-era",
     "labelAr": "العصر العثماني",
-    "aliases": []
+    "aliases": ["عثماني", "العثماني"]
   },
   {
     "id": "veteran-era",
     "value": "veteran-era",
     "labelAr": "عصر المخضرمون",
-    "aliases": []
+    "aliases": ["مخضرمون", "المخضرمون", "عصر المخضرمين", "مخضرمين", "المخضرمين"]
   },
   {
     "id": "umayyad-era",
     "value": "umayyad-era",
     "labelAr": "العصر الأموي",
-    "aliases": ["العصر الاموي"]
+    "aliases": ["العصر الاموي", "أموي", "اموي", "الأموي", "الاموي"]
   },
   {
     "id": "andalusian-era",
     "value": "andalusian-era",
     "labelAr": "العصر الأندلسي",
-    "aliases": ["العصر الاندلسي"]
+    "aliases": ["العصر الاندلسي", "أندلسي", "اندلسي", "الأندلسي", "الاندلسي"]
   },
   {
     "id": "mamluk-era",
     "value": "mamluk-era",
     "labelAr": "العصر المملوكي",
-    "aliases": []
+    "aliases": ["مملوكي", "المملوكي"]
   },
   {
     "id": "fatimi-era",
     "value": "fatimi-era",
     "labelAr": "العصر الفاطمي",
-    "aliases": []
+    "aliases": ["فاطمي", "الفاطمي"]
   },
   {
     "id": "new",
     "value": "new",
     "labelAr": "العصر الحديث",
-    "aliases": [
-      "modern-era"
-    ]
+    "aliases": ["modern-era", "حديث", "الحديث"]
   }
 ]

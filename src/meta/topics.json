@@ -4,175 +4,520 @@
     "value": "Supplication",
     "labelAr": "قصائد ابتهال",
     "aliases": [
-      "ابتهال"
+      "ابتهال",
+      "إبتهال",
+      "دعاء",
+      "التماس",
+      "إلتماس",
+      "prayer",
+      "invocation",
+      "plea",
+      "entreaty",
+      "dua"
     ]
   },
   {
     "id": "apology",
     "value": "Apology",
     "labelAr": "قصائد اعتذار",
-    "aliases": []
+    "aliases": [
+      "اعتذار",
+      "إعتذار",
+      "استعطاف",
+      "إستعطاف",
+      "ندم",
+      "طلب المسامحة",
+      "excuse",
+      "regret",
+      "contrition",
+      "forgiveness",
+      "penitence"
+    ]
   },
   {
     "id": "anthems",
     "value": "Anthems",
     "labelAr": "قصائد الاناشيد",
-    "aliases": []
+    "aliases": [
+      "الاناشيد",
+      "الإناشيد",
+      "نشيد",
+      "إنشاد",
+      "أغنية",
+      "ترتيلة",
+      "hymns",
+      "chants",
+      "songs",
+      "marching songs",
+      "ballads"
+    ]
   },
   {
     "id": "muallaqat",
     "value": "Mu'allaqat",
     "labelAr": "قصائد المعلقات",
-    "aliases": ["Mu'allaqat"]
+    "aliases": [
+      "المعلقات",
+      "المعلّقات",
+      "معلقة",
+      "معلّقة",
+      "قصائد معلقة",
+      "hanging poems",
+      "pre-Islamic poetry",
+      "classical Arabic poems",
+      "Jahiliyyah poetry"
+    ]
   },
   {
     "id": "generosity",
     "value": "Generosity",
     "labelAr": "قصائد جود وكرم",
-    "aliases": []
+    "aliases": [
+      "جود",
+      "كرم",
+      "سخاء",
+      "ندى",
+      "أندى",
+      "أكرم",
+      "charity",
+      "magnanimity",
+      "benevolence",
+      "munificence",
+      "liberality"
+    ]
   },
   {
     "id": "sadness",
     "value": "Sadness",
     "labelAr": "قصائد حزينه",
-    "aliases": []
+    "aliases": [
+      "حزين",
+      "حزينة",
+      "كآبة",
+      "أسف",
+      "كدر",
+      "أسى",
+      "حزن",
+      "melancholy",
+      "sorrow",
+      "grief",
+      "depression",
+      "lament",
+      "mourning"
+    ]
   },
   {
     "id": "wisdom",
     "value": "Wisdom",
     "labelAr": "قصائد حكمة",
-    "aliases": []
+    "aliases": [
+      "حكمة",
+      "فلسفة",
+      "حكيم",
+      "معرفة",
+      "إفادة",
+      "أحكام",
+      "philosophy",
+      "prudence",
+      "insight",
+      "knowledge",
+      "aphorism"
+    ]
   },
   {
     "id": "religious",
     "value": "Religious",
     "labelAr": "قصائد دينية",
-    "aliases": []
+    "aliases": [
+      "دينية",
+      "روحاني",
+      "إسلامي",
+      "إيماني",
+      "تعبدي",
+      "أيماني",
+      "spiritual",
+      "sacred",
+      "devotional",
+      "Islamic",
+      "theological"
+    ]
   },
   {
     "id": "condemnation",
     "value": "Condemnation",
     "labelAr": "قصائد ذم",
-    "aliases": []
+    "aliases": [
+      "ذم",
+      "نقد",
+      "إنتقاد",
+      "انتقاد",
+      "استنكار",
+      "إستنكار",
+      "blame",
+      "criticism",
+      "denunciation",
+      "disparagement",
+      "censure"
+    ]
   },
   {
     "id": "elegy",
     "value": "Elegy",
     "labelAr": "قصائد رثاء",
-    "aliases": []
+    "aliases": [
+      "رثاء",
+      "نعي",
+      "نعى",
+      "مراثي",
+      "حداء",
+      "رثية",
+      "lament",
+      "funeral poem",
+      "mourning",
+      "dirge",
+      "lamentation"
+    ]
   },
   {
     "id": "mercy",
     "value": "Mercy",
     "labelAr": "قصائد رحمة",
-    "aliases": []
+    "aliases": [
+      "رحمة",
+      "عطف",
+      "شفقة",
+      "رقة",
+      "أرحام",
+      "عاطفة",
+      "compassion",
+      "kindness",
+      "sympathy",
+      "clemency",
+      "compassionate"
+    ]
   },
   {
     "id": "romance",
     "value": "Romance",
     "labelAr": "قصائد رومنسيه",
-    "aliases": []
+    "aliases": [
+      "رومنسي",
+      "رومنسية",
+      "حب",
+      "عاطفة",
+      "محبة",
+      "إعجاب",
+      "love",
+      "affection",
+      "courtship",
+      "romantic love",
+      "tender"
+    ]
   },
   {
     "id": "political",
     "value": "Political",
     "labelAr": "قصائد سياسية",
-    "aliases": []
+    "aliases": [
+      "سياسية",
+      "سياسي",
+      "إدارة",
+      "حكم",
+      "أحكام",
+      "شؤون الدولة",
+      "governance",
+      "state affairs",
+      "political commentary",
+      "civic",
+      "statecraft"
+    ]
   },
   {
     "id": "longing",
     "value": "Longing",
     "labelAr": "قصائد شوق",
-    "aliases": []
+    "aliases": [
+      "شوق",
+      "حنين",
+      "إشتياق",
+      "اشتياق",
+      "ضنى",
+      "أحنان",
+      "yearning",
+      "nostalgia",
+      "desire",
+      "homesickness",
+      "wistfulness"
+    ]
   },
   {
     "id": "patience",
     "value": "Patience",
     "labelAr": "قصائد صبر",
-    "aliases": []
+    "aliases": [
+      "صبر",
+      "تحمل",
+      "إحتمال",
+      "احتمال",
+      "جلد",
+      "أناة",
+      "endurance",
+      "forbearance",
+      "perseverance",
+      "resignation",
+      "fortitude"
+    ]
   },
   {
     "id": "general",
     "value": "General",
     "labelAr": "قصائد عامه",
-    "aliases": []
+    "aliases": [
+      "عام",
+      "عامة",
+      "متنوع",
+      "مختلف",
+      "إختلاف",
+      "متعدد",
+      "miscellaneous",
+      "various",
+      "diverse",
+      "mixed",
+      "general purpose"
+    ]
   },
   {
     "id": "reproach",
     "value": "Reproach",
     "labelAr": "قصائد عتاب",
-    "aliases": []
+    "aliases": [
+      "عتاب",
+      "لوم",
+      "ملامة",
+      "توبيخ",
+      "أنب",
+      "إنب",
+      "blame",
+      "censure",
+      "remonstrance",
+      "complaint",
+      "rebuke"
+    ]
   },
   {
     "id": "justice",
     "value": "Justice",
     "labelAr": "قصائد عدل",
-    "aliases": []
+    "aliases": [
+      "عدل",
+      "عادل",
+      "إنصاف",
+      "انصاف",
+      "حق",
+      "إستقامة",
+      "استقامة",
+      "fairness",
+      "equity",
+      "righteousness",
+      "law",
+      "impartiality"
+    ]
   },
   {
     "id": "ghazal",
     "value": "Ghazal",
     "labelAr": "قصائد غزل",
-    "aliases": []
+    "aliases": [
+      "غزل",
+      "غزلي",
+      "غزلية",
+      "هيام",
+      "نسيب",
+      "أنس",
+      "erotic poetry",
+      "love poetry",
+      "sensual poetry",
+      "amorous",
+      "flirtation"
+    ]
   },
   {
     "id": "parting",
     "value": "Parting",
     "labelAr": "قصائد فراق",
-    "aliases": []
+    "aliases": [
+      "فراق",
+      "إفتراق",
+      "افتراق",
+      "وداع",
+      "فراقية",
+      "توديع",
+      "separation",
+      "departure",
+      "farewell",
+      "goodbye",
+      "separation poetry"
+    ]
   },
   {
     "id": "short",
     "value": "Short",
     "labelAr": "قصائد قصيره",
-    "aliases": []
+    "aliases": [
+      "قصيرة",
+      "مختصر",
+      "قليل الأبيات",
+      "موجز",
+      "أبيات",
+      "brief",
+      "concise",
+      "short form",
+      "condensed",
+      "abbreviated"
+    ]
   },
   {
     "id": "praise",
     "value": "Praise",
     "labelAr": "قصائد مدح",
-    "aliases": []
+    "aliases": [
+      "مدح",
+      "مديح",
+      "استحسان",
+      "إستحسان",
+      "تمجيد",
+      "أمداح",
+      "laudation",
+      "commendation",
+      "glorification",
+      "encomium",
+      "tribute"
+    ]
   },
   {
     "id": "advice",
     "value": "Advice",
     "labelAr": "قصائد نصيحة",
-    "aliases": []
+    "aliases": [
+      "نصيحة",
+      "موعظة",
+      "إرشاد",
+      "ارشاد",
+      "تعليم",
+      "إفادة",
+      "counsel",
+      "guidance",
+      "recommendation",
+      "exhortation",
+      "moral lesson"
+    ]
   },
   {
     "id": "satire",
     "value": "Satire",
     "labelAr": "قصائد هجاء",
-    "aliases": []
+    "aliases": [
+      "هجاء",
+      "هجائي",
+      "هجائية",
+      "سخرية",
+      "استهزاء",
+      "إستهزاء",
+      "mockery",
+      "ridicule",
+      "lampoon",
+      "sarcasm",
+      "invective"
+    ]
   },
   {
     "id": "patriotic",
     "value": "Patriotic",
     "labelAr": "قصائد وطنيه",
-    "aliases": []
+    "aliases": [
+      "وطني",
+      "وطنية",
+      "قومي",
+      "قومية",
+      "أوطان",
+      "حب الوطن",
+      "nationalist",
+      "patriotism",
+      "homeland",
+      "national pride",
+      "nationalism"
+    ]
   },
   {
     "id": "pride",
     "value": "Pride",
     "labelAr": "قصائد فخر",
-    "aliases": []
+    "aliases": [
+      "فخر",
+      "فخور",
+      "اعتزاز",
+      "إعتزاز",
+      "تفاخر",
+      "أفخار",
+      "boasting",
+      "self-glorification",
+      "arrogance",
+      "honor",
+      "nobility"
+    ]
   },
   {
     "id": "description",
     "value": "Description",
     "labelAr": "قصائد وصف",
-    "aliases": []
+    "aliases": [
+      "وصف",
+      "وصفي",
+      "وصفية",
+      "تصوير",
+      "رسم",
+      "إبداع",
+      "portrayal",
+      "depiction",
+      "imagery",
+      "vivid description",
+      "descriptive"
+    ]
   },
   {
     "id": "asceticism",
     "value": "Asceticism",
     "labelAr": "قصائد زهد",
-    "aliases": []
+    "aliases": [
+      "زهد",
+      "زاهد",
+      "زاهدة",
+      "ورع",
+      "تقوى",
+      "أنسك",
+      "renunciation",
+      "piety",
+      "abstinence",
+      "monasticism",
+      "ascetic"
+    ]
   },
   {
     "id": "enthusiasm",
     "value": "Enthusiasm",
     "labelAr": "قصائد حماسة",
-    "aliases": []
+    "aliases": [
+      "حماسة",
+      "حماسي",
+      "حماسية",
+      "عزيمة",
+      "إقدام",
+      "أقدام",
+      "fervor",
+      "zeal",
+      "passion",
+      "excitement",
+      "ardor"
+    ]
   }
 ]
