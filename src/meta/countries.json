@@ -3,126 +3,126 @@
     "id": "uae",
     "value": "uae",
     "labelAr": "الإمارات",
-    "aliases": ["الامارات"]
+    "aliases": ["الامارات", "الإمارات العربية المتحدة", "الامارات العربية المتحدة", "ae"]
   },
   {
     "id": "bahrain",
     "value": "bahrain",
     "labelAr": "البحرين",
-    "aliases": []
+    "aliases": ["بحرين", "مملكة البحرين", "bh"]
   },
   {
     "id": "algeria",
     "value": "algeria",
     "labelAr": "الجزائر",
-    "aliases": []
+    "aliases": ["جزائر", "الجمهورية الجزائرية", "dz"]
   },
   {
     "id": "arabia",
     "value": "arabia",
     "labelAr": "السعودية",
-    "aliases": []
+    "aliases": ["سعودية", "المملكة العربية السعودية", "sa"]
   },
   {
     "id": "sudan",
     "value": "sudan",
     "labelAr": "السودان",
-    "aliases": []
+    "aliases": ["سودان", "جمهورية السودان", "sd"]
   },
   {
     "id": "iraq",
     "value": "iraq",
     "labelAr": "العراق",
-    "aliases": []
+    "aliases": ["عراق", "جمهورية العراق", "iq"]
   },
   {
     "id": "morocco",
     "value": "morocco",
     "labelAr": "المغرب",
-    "aliases": []
+    "aliases": ["مغرب", "المملكة المغربية", "ma"]
   },
   {
     "id": "yemen",
     "value": "yemen",
     "labelAr": "اليمن",
-    "aliases": []
+    "aliases": ["يمن", "الجمهورية اليمنية", "ye"]
   },
   {
     "id": "tunisia",
     "value": "tunisia",
     "labelAr": "تونس",
-    "aliases": []
+    "aliases": ["التونسية", "الجمهورية التونسية", "tn"]
   },
   {
     "id": "syria",
     "value": "syria",
     "labelAr": "سوريا",
-    "aliases": []
+    "aliases": ["سورية", "الجمهورية العربية السورية", "sy"]
   },
   {
     "id": "oman",
     "value": "oman",
     "labelAr": "عمان",
-    "aliases": []
+    "aliases": ["عُمان", "سلطنة عمان", "om"]
   },
   {
     "id": "palestine",
     "value": "palestine",
     "labelAr": "فلسطين",
-    "aliases": []
+    "aliases": ["دولة فلسطين", "ps"]
   },
   {
     "id": "lebanon",
     "value": "lebanon",
     "labelAr": "لبنان",
-    "aliases": []
+    "aliases": ["الجمهورية اللبنانية", "lb"]
   },
   {
     "id": "libya",
     "value": "libya",
     "labelAr": "ليبيا",
-    "aliases": []
+    "aliases": ["الدولة الليبية", "ly"]
   },
   {
     "id": "egypt",
     "value": "egypt",
     "labelAr": "مصر",
-    "aliases": []
+    "aliases": ["جمهورية مصر العربية", "eg"]
   },
   {
     "id": "jordan",
     "value": "jordan",
     "labelAr": "الأردن",
-    "aliases": ["الاردن"]
+    "aliases": ["الاردن", "أردن", "اردن", "المملكة الأردنية الهاشمية", "jo"]
   },
   {
     "id": "kuwait",
     "value": "kuwait",
     "labelAr": "الكويت",
-    "aliases": []
+    "aliases": ["كويت", "دولة الكويت", "kw"]
   },
   {
     "id": "qatar",
     "value": "qatar",
     "labelAr": "قطر",
-    "aliases": []
+    "aliases": ["دولة قطر", "qa"]
   },
   {
     "id": "mauritania",
     "value": "mauritania",
     "labelAr": "موريتانيا",
-    "aliases": []
+    "aliases": ["الجمهورية الإسلامية الموريتانية", "mr"]
   },
   {
     "id": "somalia",
     "value": "somalia",
     "labelAr": "الصومال",
-    "aliases": []
+    "aliases": ["صومال", "جمهورية الصومال الفيدرالية", "so"]
   },
   {
     "id": "senegal",
     "value": "senegal",
     "labelAr": "السنغال",
-    "aliases": []
+    "aliases": ["سنغال", "جمهورية السنغال", "sn"]
   }
 ]
