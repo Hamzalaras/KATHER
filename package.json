@@ -1,9 +1,9 @@
 {
   "name": "KATHER",
   "version": "1.0.0",
-  "description": "",
+  "description": "KATHER - Arabic Poetry API - A RESTful API for accessing a rich collection of Arabic poetry, including poets, poems, and lines. Built with Express.js and Prisma ORM.",
   "license": "ISC",
-  "author": "",
+  "author": "LARAS HAMZA",
   "type": "module",
   "main": "index.js",
   "scripts": {
