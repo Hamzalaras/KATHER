@@ -1,4 +1,5 @@
 import { getDirJsons, getContentOfJsonFile } from './accessFiles.js';
+import { stripDiacritics } from '../../src/utils/diacritics.js';
 
 const LINE_CHUNK_SIZE = 5000;
 
@@ -35,6 +36,7 @@ export const insert = async (prisma) => {
             const lines = await getContentOfJsonFile(`../../seedData/poemsLines/${file}`);
             const toInsert = lines.map(line => ({
                 content: line.content,
+                contentNoDiacritics: stripDiacritics(line.content),
                 type: line.type,
                 order: line.order,
                 poemId: line.poemId,
