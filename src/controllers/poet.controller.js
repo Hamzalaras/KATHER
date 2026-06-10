@@ -58,8 +58,8 @@ export const getPoetById = async (req, res) => {
 };
 
 export const getPoetPoems = async (req, res) => {
-    const { id, offset, limit } = res.locals;
-    const result = await fetchPoetPoems({ poetId: id, offset, limit });
+    const { id, offset, limit, sort } = res.locals;
+    const result = await fetchPoetPoems({ poetId: id, offset, limit, sort });
     const nextOffset = offset + limit;
     const prevOffset = Math.max(offset - limit, 0);
 
@@ -73,9 +73,9 @@ export const getPoetPoems = async (req, res) => {
         data: result.data,
         pagination: result.pagination,
         links: {
-            self: `${req.baseUrl}/${id}/poems${buildQuery({ limit, offset })}`,
-            next: result.pagination.has_more ? `${req.baseUrl}/${id}/poems${buildQuery({ limit, offset: nextOffset })}` : null,
-            prev: offset > 0 ? `${req.baseUrl}/${id}/poems${buildQuery({ limit, offset: prevOffset })}` : null,
+            self: `${req.baseUrl}/${id}/poems${buildQuery({ limit, offset, sort })}`,
+            next: result.pagination.has_more ? `${req.baseUrl}/${id}/poems${buildQuery({ limit, offset: nextOffset, sort })}` : null,
+            prev: offset > 0 ? `${req.baseUrl}/${id}/poems${buildQuery({ limit, offset: prevOffset, sort })}` : null,
             poet: `${req.baseUrl}/${id}`,
         },
     });

@@ -6,6 +6,7 @@ import { hasDiacritics } from '../utils/diacritics.js';
 import { ValidationError } from '../utils/errors/ApiError.js';
 import { DEFAULT_COUNT_TTL_SECONDS } from '../constants/cache.js';
 import { ENTITY_KEYS } from '../constants/domain.js';
+import { LINES_SORT } from '../constants/sort.js';
 
 const poetSummarySelect = {
     id: true,
@@ -169,7 +170,7 @@ const selectLineById = async (lineId) => prismaClient.poemsLines.findUnique({
 });
 
 
-export const getLineCollection = async ({ poemId, poetId, era, country, gender, quafia, sea, topic, lineType, q, limit, offset, meta }) => {
+export const getLineCollection = async ({ poemId, poetId, era, country, gender, quafia, sea, topic, lineType, q, limit, offset, meta, sort }) => {
     const where = buildLineWhere({ poemId, poetId, era, country, gender, quafia, sea, topic, lineType, q });
 
     const shouldRunCount = !q || meta;
@@ -182,11 +183,7 @@ export const getLineCollection = async ({ poemId, poetId, era, country, gender, 
     const fetchLimit = shouldRunCount ? limit : limit + 1;
     const data = total === 0 ? [] : await prismaClient.poemsLines.findMany({
         where,
-        orderBy: [
-            { poemId: 'asc' },
-            { order: 'asc' },
-            { id: 'asc' },
-        ],
+        orderBy: LINES_SORT.get(sort) ?? LINES_SORT.get('poem_id'),
         skip: offset,
         take: fetchLimit,
         select: lineSummarySelect,
@@ -241,9 +238,7 @@ export const getRandomLine = async ({ poemId, poetId, era, country, gender, quaf
     const line = await prismaClient.poemsLines.findFirst({
         where,
         skip: randomSkip(total),
-        orderBy: {
-            id: 'asc',
-        },
+        orderBy: LINES_SORT.get('id'),
         select: lineSummarySelect,
     });
 

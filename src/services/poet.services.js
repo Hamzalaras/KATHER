@@ -5,6 +5,7 @@ import { isValidLabel } from '../utils/isValidLabel.js';
 import { ValidationError } from '../utils/errors/ApiError.js';
 import { DEFAULT_COUNT_TTL_SECONDS } from '../constants/cache.js';
 import { ENTITY_KEYS, RELATED_ITEMS_LIMIT } from '../constants/domain.js';
+import { POEMS_SORT, POETS_SORT } from '../constants/sort.js';
 
 const poetBaseSelect = {
     id: true,
@@ -60,19 +61,6 @@ const buildPoetWhere = ({ era, country, gender, q }) => ({
     }),
 });
 
-const resolvePoetOrderBy = (sort) => {
-    switch (sort) {
-        case '-name': return { engName: 'desc' };
-        case 'arab_name': return { arabName: 'asc' };
-        case '-arab_name': return { arabName: 'desc' };
-        case 'created_at': return { created_at: 'asc' };
-        case '-created_at': return { created_at: 'desc' };
-        case 'id': return { id: 'asc' };
-        case '-id': return { id: 'desc' };
-        case 'name':
-        default: return { engName: 'asc' };
-    }
-};
 
 const buildPagination = (offset, limit, total) => {
     const page = Math.floor(offset / limit) + 1;
@@ -149,7 +137,7 @@ export const getPoetCollection = async ({ era, country, gender, q, sort, limit, 
     const fetchLimit = shouldRunCount ? limit : limit + 1;
     const data = total === 0 ? [] : await prismaClient.poets.findMany({
         where,
-        orderBy: resolvePoetOrderBy(sort),
+        orderBy: POETS_SORT.get(sort) ?? POETS_SORT.get('eng_name'),
         skip: offset,
         take: fetchLimit,
         select: poetBaseSelect,
@@ -185,7 +173,7 @@ export const getPoetProfile = async (poetId) => {
     return poet ? mapPoetProfile(poet) : null;
 };
 
-export const getPoetPoems = async ({ poetId, offset, limit }) => {
+export const getPoetPoems = async ({ poetId, offset, limit, sort }) => {
 
     const poet = await prismaClient.poets.findUnique({
         where: { id: poetId },
@@ -202,7 +190,7 @@ export const getPoetPoems = async ({ poetId, offset, limit }) => {
 
     const data = total === 0 ? [] : await prismaClient.poems.findMany({
         where: { poetId },
-        orderBy: { order: 'asc' },
+        orderBy: POEMS_SORT.get(sort) ?? POEMS_SORT.get('order'),
         skip: offset,
         take: limit,
         select: poemSummarySelect,
@@ -277,7 +265,7 @@ export const getRandomPoet = async ({ era, country, gender, q }) => {
     const poet = await prismaClient.poets.findFirst({
         where,
         skip: randomSkip(total),
-        orderBy: { id: 'asc' },
+        orderBy: POETS_SORT.get('id'),
         select: poetProfileSelect,
     });
 

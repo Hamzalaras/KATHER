@@ -5,6 +5,7 @@ import { isValidLabel } from '../utils/isValidLabel.js';
 import { ValidationError } from '../utils/errors/ApiError.js';
 import { DEFAULT_COUNT_TTL_SECONDS } from '../constants/cache.js';
 import { ENTITY_KEYS, RELATED_ITEMS_LIMIT } from '../constants/domain.js';
+import { LINES_SORT, POEMS_SORT } from '../constants/sort.js';
 
 const poetSummarySelect = {
     id: true,
@@ -148,7 +149,7 @@ const selectPoemById = async (poemId) => prismaClient.poems.findUnique({
 
 
 
-export const getPoemCollection = async ({ poetId, era, country, gender, quafia, sea, topic, type, q, limit, offset, meta }) => {
+export const getPoemCollection = async ({ poetId, era, country, gender, quafia, sea, topic, type, q, limit, offset, meta, sort }) => {
     const where = buildPoemWhere({ poetId, era, country, gender, quafia, sea, topic, type, q });
 
     const shouldRunCount = !q || meta;
@@ -161,10 +162,7 @@ export const getPoemCollection = async ({ poetId, era, country, gender, quafia, 
     const fetchLimit = shouldRunCount ? limit : limit + 1;
     const data = total === 0 ? [] : await prismaClient.poems.findMany({
         where,
-        orderBy: [
-            { order: 'asc' },
-            { id: 'asc' },
-        ],
+        orderBy: POEMS_SORT.get(sort) ?? POEMS_SORT.get('poet_id'),
         skip: offset,
         take: fetchLimit,
         select: poemSummarySelect,
@@ -208,7 +206,7 @@ export const getPoemProfile = async (poemId) => {
     return poem ? mapPoemSummary(poem) : null;
 };
 
-export const getPoemDetail = async ({ poemId, limit, offset }) => {
+export const getPoemDetail = async ({ poemId, limit, offset, sort }) => {
     const poem = await selectPoemById(poemId);
 
     if (!poem) return null;
@@ -223,10 +221,7 @@ export const getPoemDetail = async ({ poemId, limit, offset }) => {
         where: {
             poemId,
         },
-        orderBy: [
-            { order: 'asc' },
-            { id: 'asc' },
-        ],
+        orderBy: LINES_SORT.get(sort) ?? LINES_SORT.get('order'),
         skip: offset,
         take: limit,
         select: poemLineSelect,
@@ -262,10 +257,7 @@ export const getPoemContext = async (poemId) => {
                 },
                 ...relatedWhere,
             },
-            orderBy: [
-                { order: 'desc' },
-                { id: 'desc' },
-            ],
+            orderBy: [POEMS_SORT.get('-order'), POEMS_SORT.get('-id')],
             select: poemSummarySelect,
         }),
 
@@ -277,10 +269,7 @@ export const getPoemContext = async (poemId) => {
                 },
                 ...relatedWhere,
             },
-            orderBy: [
-                { order: 'asc' },
-                { id: 'asc' },
-            ],
+            orderBy: [POEMS_SORT.get('order'), POEMS_SORT.get('id')],
             select: poemSummarySelect,
         }),
         prismaClient.poems.findMany({
@@ -288,10 +277,7 @@ export const getPoemContext = async (poemId) => {
                 poetId: poem.poetId,
                 ...relatedWhere,
             },
-            orderBy: [
-                { order: 'asc' },
-                { id: 'asc' },
-            ],
+            orderBy: [POEMS_SORT.get('order'), POEMS_SORT.get('id')],
             take: RELATED_ITEMS_LIMIT,
             select: poemSummarySelect,
         }),
@@ -303,10 +289,7 @@ export const getPoemContext = async (poemId) => {
                     { arabTopic: poem.arabTopic },
                 ],
             },
-            orderBy: [
-                { order: 'asc' },
-                { id: 'asc' },
-            ],
+            orderBy: [POEMS_SORT.get('order'), POEMS_SORT.get('id')],
             take: RELATED_ITEMS_LIMIT,
             select: poemSummarySelect,
         }),
@@ -318,10 +301,7 @@ export const getPoemContext = async (poemId) => {
                     { arabSea: poem.arabSea },
                 ],
             },
-            orderBy: [
-                { order: 'asc' },
-                { id: 'asc' },
-            ],
+            orderBy: [POEMS_SORT.get('order'), POEMS_SORT.get('id')],
             take: RELATED_ITEMS_LIMIT,
             select: poemSummarySelect,
         }),
@@ -349,9 +329,7 @@ export const getRandomPoem = async ({ poetId, era, country, gender, quafia, sea,
     const poem = await prismaClient.poems.findFirst({
         where,
         skip: randomSkip(total),
-        orderBy: {
-            id: 'asc',
-        },
+        orderBy: POEMS_SORT.get('id'),
         select: poemSummarySelect,
     });
 

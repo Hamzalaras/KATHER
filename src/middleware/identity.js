@@ -1,14 +1,16 @@
-import { getCachedCount } from '../utils/cache/count.js';
 import { ValidationError } from '../utils/errors/index.js';
-import { DEFAULT_COUNT_TTL_SECONDS } from '../constants/cache.js';
 
-export const defineId = (countKey, ttl = DEFAULT_COUNT_TTL_SECONDS) => {
+export const defineId = (idName, required = false) => {
     return (req, res, next) => {
-        const raw = req.params.id ?? null;
-
+        const raw = req.params[idName] ?? null;
+        
         if (raw === null) {
-            res.locals.id = null;
-            return next();
+            if (required) {
+                throw new ValidationError('Id must be specified', 'ABSENT_ID');
+            } else {
+                res.locals[idName] = null;
+                return next();
+            }
         }
 
         const parsed = Number(raw);
@@ -21,7 +23,7 @@ export const defineId = (countKey, ttl = DEFAULT_COUNT_TTL_SECONDS) => {
             throw new ValidationError('Id is out of range', 'ID_OUT_OF_RANGE');
         }
 
-        res.locals.id = parsed;
+        res.locals[idName] = parsed;
         next();
     };
 };

@@ -32,9 +32,9 @@ const buildLineFilters = (locals) => ({
 
 export const getLineList = async (req, res) => {
 
-    const { limit, offset } = res.locals;
+    const { limit, offset, sort } = res.locals;
     const filters = buildLineFilters(res.locals);
-    const result = await getLineCollection({ ...filters, offset, limit });
+    const result = await getLineCollection({ ...filters, offset, limit, sort });
     const nextOffset = offset + limit;
     const prevOffset = Math.max(offset - limit, 0);
 
@@ -43,9 +43,9 @@ export const getLineList = async (req, res) => {
         data: result.data,
         pagination: result.pagination,
         links: {
-            self: `${req.baseUrl}${buildQuery({ ...filters, limit, offset })}`,
-            next: result.pagination.has_more ? `${req.baseUrl}${buildQuery({ ...filters, limit, offset: nextOffset })}` : null,
-            prev: offset > 0 ? `${req.baseUrl}${buildQuery({ ...filters, limit, offset: prevOffset })}` : null,
+            self: `${req.baseUrl}${buildQuery({ ...filters, limit, offset, sort })}`,
+            next: result.pagination.has_more ? `${req.baseUrl}${buildQuery({ ...filters, limit, offset: nextOffset, sort })}` : null,
+            prev: offset > 0 ? `${req.baseUrl}${buildQuery({ ...filters, limit, offset: prevOffset, sort })}` : null,
             random: `${req.baseUrl}/random${buildQuery(filters)}`,
         },
         meta: {

@@ -31,13 +31,18 @@ export const defineLimit = (maxLimit = MAX_LIMIT) => {
             res.locals.limit = maxLimit;
             return next();
         }
+
         const parsed = Number(raw);
-        if (!Number.isInteger(parsed) || parsed < 1 || parsed > maxLimit) {
-            throw new ValidationError(`Limit must be between 1 and ${maxLimit}`, 'INVALID_LIMIT');
+        if (!Number.isInteger(parsed)) {
+            throw new ValidationError('Limit must be an integer', 'INVALID_LIMIT');
+        }
+
+        if (parsed < 1 || parsed > maxLimit) {
+            throw new ValidationError('Limit is out of range', 'LIMIT_OUT_OF_RANGE');
         }
 
         res.locals.limit = parsed;
         next();
     };
-}
+};
 
