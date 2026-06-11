@@ -1,13 +1,18 @@
 import { resolveCatalogValue } from '../utils/catalogData.js';
 import { ValidationError } from '../utils/errors/index.js';
 import { CATALOG_GROUPS } from '../constants/catalog.js';
-import { GENDERS, LINE_TYPE_VALUES } from '../constants/domain.js';
+import { GENDERS, LINE_TYPE_VALUES, UNSET_VALUES } from '../constants/domain.js';
 
 export const defineEra = () => {
     return (req, res, next) => {
         const raw = req.query.era ?? null;
 
         if (raw === null) {
+            res.locals.era = undefined;
+            return next();
+        }
+
+        if (UNSET_VALUES.has(raw)) {
             res.locals.era = null;
             return next();
         }
@@ -27,9 +32,14 @@ export const defineCountry = () => {
         const raw = req.query.country ?? null;
 
         if (raw === null) {
-            res.locals.country = null;
+            res.locals.country = undefined;
             return next();
         }
+
+        if (UNSET_VALUES.has(raw)) {
+            res.locals.country = null;
+            return next();
+        }        
 
         const resolved = resolveCatalogValue(CATALOG_GROUPS.COUNTRIES, raw);
         if (!resolved) {
@@ -46,6 +56,11 @@ export const defineTopic = () => {
         const raw = req.query.topic ?? null;
 
         if (raw === null) {
+            res.locals.topic = undefined;
+            return next();
+        }
+
+        if (UNSET_VALUES.has(raw)) {
             res.locals.topic = null;
             return next();
         }
@@ -65,6 +80,11 @@ export const defineQuafia = () => {
         const raw = req.query.quafia ?? null;
 
         if (raw === null) {
+            res.locals.quafia = undefined;
+            return next();
+        }
+
+        if (UNSET_VALUES.has(raw)) {
             res.locals.quafia = null;
             return next();
         }
@@ -84,9 +104,15 @@ export const defineSea = () => {
         const raw = req.query.sea ?? null;
 
         if (raw === null) {
+            res.locals.sea = undefined;
+            return next();
+        }
+
+        if (UNSET_VALUES.has(raw)) {
             res.locals.sea = null;
             return next();
         }
+
         const resolved = resolveCatalogValue(CATALOG_GROUPS.SEAS, raw);
         if (!resolved) {
             throw new ValidationError('Invalid sea value', 'INVALID_SEA');
@@ -102,7 +128,7 @@ export const defineGender = () => {
         const raw = req.query.gender ?? null;
 
         if (raw === null) {
-            res.locals.gender = null;
+            res.locals.gender = undefined;
             return next();
         }
 
@@ -121,7 +147,7 @@ export const defineLineType = () => {
         const raw = req.query.lineType ?? null;
 
         if (raw === null) {
-            res.locals.lineType = null;
+            res.locals.lineType = undefined;
             return next();
         }
 
@@ -144,6 +170,11 @@ export const definePoemType = () => {
         const raw = req.query.type ?? null;
 
         if (raw === null) {
+            res.locals.type = undefined;
+            return next();
+        }
+
+        if (UNSET_VALUES.has(raw)) {
             res.locals.type = null;
             return next();
         }

@@ -115,16 +115,16 @@ const mapPoemLine = (line) => ({
 
 const buildPoemWhere = ({ poetId, era, country, gender, quafia, sea, topic, type, q }) => {
     const where = {
-        ...(poetId && { poetId }),
-        ...(quafia && { quafia }),
-        ...(sea && { engSea: sea }),
-        ...(topic && { engTopic: topic }),
-        ...(type && { type }),
-        ...((era || country || gender) && {
+        ...(poetId !== undefined && { poetId }),
+        ...(quafia !== undefined && { quafia }),
+        ...(sea !== undefined && { engSea: sea }),
+        ...(topic !== undefined && { engTopic: topic }),
+        ...(type !== undefined && { type }),
+        ...((era !== undefined || country !== undefined || gender !== undefined) && {
         Poets: {
-            ...(era && { engEra: era }),
-            ...(country && { engCountry: country }),
-            ...(gender && { gender }),
+            ...(era !== undefined && { engEra: era }),
+            ...(country !== undefined && { engCountry: country }),
+            ...(gender !== undefined && { gender }),
         },
         }),
         ...(q && {
@@ -248,63 +248,68 @@ export const getPoemContext = async (poemId) => {
         },
     };
 
-    const [previous, next, relatedByPoet, relatedByTopic, relatedBySea] = await Promise.all([
-        prismaClient.poems.findFirst({
-            where: {
-                poetId: poem.poetId,
-                order: {
-                    lt: poem.order,
-                },
-                ...relatedWhere,
-            },
-            orderBy: [POEMS_SORT.get('-order'), POEMS_SORT.get('-id')],
-            select: poemSummarySelect,
-        }),
+    const previousPromise = prismaClient.poems.findFirst({
+        where: {
+            poetId: poem.poetId,
+            order: { lt: poem.order },
+            ...relatedWhere,
+        },
+        orderBy: [POEMS_SORT.get('-order'), POEMS_SORT.get('-id')],
+        select: poemSummarySelect,
+    });
 
-        prismaClient.poems.findFirst({
-            where: {
-                poetId: poem.poetId,
-                order: {
-                    gt: poem.order,
-                },
-                ...relatedWhere,
-            },
-            orderBy: [POEMS_SORT.get('order'), POEMS_SORT.get('id')],
-            select: poemSummarySelect,
-        }),
-        prismaClient.poems.findMany({
-            where: {
-                poetId: poem.poetId,
-                ...relatedWhere,
-            },
-            orderBy: [POEMS_SORT.get('order'), POEMS_SORT.get('id')],
-            take: RELATED_ITEMS_LIMIT,
-            select: poemSummarySelect,
-        }),
+    const nextPromise = prismaClient.poems.findFirst({
+        where: {
+            poetId: poem.poetId,
+            order: { gt: poem.order },
+            ...relatedWhere,
+        },
+        orderBy: [POEMS_SORT.get('order'), POEMS_SORT.get('id')],
+        select: poemSummarySelect,
+    });
+
+    const relatedByPoetPromise = prismaClient.poems.findMany({
+        where: {
+            poetId: poem.poetId,
+            ...relatedByPoet,
+        },
+        orderBy: [POEMS_SORT.get('order'), POEMS_SORT.get('id')],
+        take: RELATED_ITEMS_LIMIT,
+        select: poemSummarySelect,
+    });
+
+    const relatedByTopicPromise = poem.engTopic || poem.arabTopic ? 
         prismaClient.poems.findMany({
             where: {
                 ...relatedWhere,
                 OR: [
-                    { engTopic: poem.engTopic },
-                    { arabTopic: poem.arabTopic },
+                    ...(poem.engTopic && { engTopic: poem.engTopic }),
+                    ...(poem.arabTopic && { arabTopic: poem.arabTopic }),
                 ],
             },
             orderBy: [POEMS_SORT.get('order'), POEMS_SORT.get('id')],
             take: RELATED_ITEMS_LIMIT,
             select: poemSummarySelect,
-        }),
+        }) :
+        Promise.resolve([]);
+
+    const relatedBySeaPromise = poem.engSea || poem.arabSea ? 
         prismaClient.poems.findMany({
             where: {
                 ...relatedWhere,
                 OR: [
-                    { engSea: poem.engSea },
-                    { arabSea: poem.arabSea },
+                    ...(poem.engSea && { engSea: poem.engSea }),
+                    ...(poem.arabSea && { arabSea: poem.arabSea }),
                 ],
             },
             orderBy: [POEMS_SORT.get('order'), POEMS_SORT.get('id')],
             take: RELATED_ITEMS_LIMIT,
             select: poemSummarySelect,
-        }),
+        }) :
+        Promise.resolve([]);
+
+    const [previous, next, relatedByPoet, relatedByTopic, relatedBySea] = await Promise.all([
+        previousPromise, nextPromise, relatedByPoetPromise, relatedByTopicPromise, relatedBySeaPromise,
     ]);
 
     return {

@@ -11,12 +11,12 @@ datasource db {
 model Poems {
   id         Int          @id
   name       String
-  engTopic   String
-  arabTopic  String
-  type       String
-  engSea     String
-  arabSea    String
-  quafia     String
+  engTopic   String?
+  arabTopic  String?
+  type       String?
+  engSea     String?
+  arabSea    String?
+  quafia     String?
   order      Int
   created_at DateTime     @default(now())
   poetId     Int
@@ -56,10 +56,10 @@ model Poets {
   engName     String   @unique
   arabName    String
   bio         String
-  engEra      String
-  arabEra     String
-  engCountry  String
-  arabCountry String
+  engEra      String?
+  arabEra     String?
+  engCountry  String?
+  arabCountry String?
   gender      String
   created_at  DateTime @default(now())
   Poems       Poems[]

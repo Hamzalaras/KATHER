@@ -1,7 +1,6 @@
 import { prismaClient } from '../database/prismaClient.js';
 import { getCachedCount } from '../utils/cache/count.js';
 import { randomSkip } from '../utils/randomSkip.js';
-import { isValidLabel } from '../utils/isValidLabel.js';
 import { ValidationError } from '../utils/errors/ApiError.js';
 import { DEFAULT_COUNT_TTL_SECONDS } from '../constants/cache.js';
 import { ENTITY_KEYS, RELATED_ITEMS_LIMIT } from '../constants/domain.js';
@@ -49,9 +48,9 @@ const poemSummarySelect = {
 };
 
 const buildPoetWhere = ({ era, country, gender, q }) => ({
-    ...(era && { engEra: era }),
-    ...(country && { engCountry: country }),
-    ...(gender && { gender }),
+    ...(era !== undefined && { engEra: era }),
+    ...(country !== undefined && { engCountry: country }),
+    ...(gender !== undefined && { gender }),
     ...(q && {
         OR: [
             { engName: { contains: q, mode: 'insensitive' } },
@@ -215,37 +214,40 @@ export const getPoetStats = async (poetId) => {
         prismaClient.poemsLines.count({ where: { Poems: { poetId } } }),
         prismaClient.poems.groupBy({
             by: ['engTopic', 'arabTopic'],
-            where: { poetId },
+            where: { 
+                poetId,
+                engTopic: { not: null },
+            },
             _count: { engTopic: true },
             orderBy: { _count: { engTopic: 'desc' } },
             take: RELATED_ITEMS_LIMIT,
         }),
         prismaClient.poems.groupBy({
             by: ['engSea', 'arabSea'],
-            where: { poetId },
+            where: { 
+                poetId,
+                engSea: { not: null },
+            },
             _count: { engSea: true },
             orderBy: { _count: { engSea: 'desc' } },
             take: RELATED_ITEMS_LIMIT,
         }),
     ]);
 
+    const [filteredTopics, filteredSeas] = 
+        [
+            topics.map(topic => ({
+                    engTopic: topic.engTopic,
+                    arabTopic: topic.arabTopic,
+                    count: topic._count.engTopic,
+                })),
+            seas.map(sea => ({
+                    engSea: sea.engSea,
+                    arabSea: sea.arabSea,
+                    count: sea._count.engSea,
+                })),
+        ];
 
-
-    const filteredTopics = topics
-        .filter(t => isValidLabel(t.engTopic) || isValidLabel(t.arabTopic))
-        .map(topic => ({
-            engTopic: isValidLabel(topic.engTopic) ? topic.engTopic : null,
-            arabTopic: isValidLabel(topic.arabTopic) ? topic.arabTopic : null,
-            count: topic._count.engTopic,
-        }));
-
-    const filteredSeas = seas
-        .filter(s => isValidLabel(s.engSea) || isValidLabel(s.arabSea))
-        .map(sea => ({
-            engSea: isValidLabel(sea.engSea) ? sea.engSea : null,
-            arabSea: isValidLabel(sea.arabSea) ? sea.arabSea : null,
-            count: sea._count.engSea,
-        }));
 
     return {
         poet: mapPoetSummary(poet),

@@ -129,19 +129,19 @@ const buildPagination = (offset, limit, total) => {
 
 const buildLineWhere = ({ poemId, poetId, era, country, gender, quafia, sea, topic, lineType, q }) => {
     const where = {
-        ...(poemId && { poemId }),
-        ...(lineType && { type: lineType }),
-        ...((poetId || era || country || gender || quafia || sea || topic) && {
+        ...(poemId !== undefined && { poemId }),
+        ...(lineType !== undefined && { type: lineType }),
+        ...((poetId !== undefined || era !== undefined || country !== undefined || gender !== undefined || quafia !== undefined || sea !== undefined || topic !== undefined) && {
             Poems: {
-                ...(poetId && { poetId }),
-                ...(quafia && { quafia }),
-                ...(sea && { engSea: sea }),
-                ...(topic && { engTopic: topic }),
-                ...((era || country || gender) && {
+                ...(poetId !== undefined && { poetId }),
+                ...(quafia !== undefined && { quafia }),
+                ...(sea !== undefined && { engSea: sea }),
+                ...(topic !== undefined && { engTopic: topic }),
+                ...((era !== undefined || country !== undefined || gender !== undefined) && {
                     Poets: {
-                        ...(era && { engEra: era }),
-                        ...(country && { engCountry: country }),
-                        ...(gender && { gender }),
+                        ...(era !== undefined && { engEra: era }),
+                        ...(country !== undefined && { engCountry: country }),
+                        ...(gender !== undefined && { gender }),
                     },
                 }),
             },
