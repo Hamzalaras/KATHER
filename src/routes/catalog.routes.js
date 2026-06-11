@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { getCatalog, getEras, getCountries, getQuawafi, getSeas, getTopics } from '../controllers/catalog.controller.js';
+import { getCatalog, getEras, getCountries, getQuawafi, getSeas, getTopics, getPoemsTypes } from '../controllers/catalog.controller.js';
 import { catchWrapper } from '../utils/catchWrapper.js';
 
 const router = Router();
@@ -21,6 +21,9 @@ router.get('/seas',
         );
 router.get('/topics', 
             catchWrapper(getTopics)
+        );
+router.get('/poemsTypes',
+            catchWrapper(getPoemsTypes)
         );
 
 export default router;

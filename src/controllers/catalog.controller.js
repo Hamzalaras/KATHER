@@ -1,5 +1,4 @@
-import { getCatalogCountsInfo, getCatalogInfo, getCountriesInfo, getErasInfo, getQuawafiInfo, getSeasInfo, getTopicsInfo } from '../services/catalog.services.js';
-import { catalogRouteLinks } from '../utils/catalogData.js';
+import { getCatalogCountsInfo, getCatalogInfo, getCountriesInfo, getErasInfo, getQuawafiInfo, getSeasInfo, getTopicsInfo, getPoemsTypesInfo, catalogRouteLinks } from '../services/catalog.services.js';
 import { CATALOG_CACHE_CONTROL_HEADER } from '../constants/cache.js';
 import { CATALOG_GROUPS } from '../constants/catalog.js';
 import { RESPONSE_STATUS } from '../constants/http.js';
@@ -66,4 +65,9 @@ export const getSeas = (req, res) => {
 export const getTopics = (req, res) => {
     setCatalogHeaders(res);
     return res.json(buildCollectionResponse(CATALOG_GROUPS.TOPICS, getTopicsInfo()));
+}
+
+export const getPoemsTypes = (req, res) => {
+    setCatalogHeaders(res);
+    return res.json(buildCollectionResponse(CATALOG_GROUPS.POEMS_TYPES, getPoemsTypes()))
 }

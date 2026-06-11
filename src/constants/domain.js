@@ -6,7 +6,8 @@ export const ENTITY_KEYS = {
 
 export const GENDERS = ['male', 'female'];
 
-export const LINE_TYPE_MIN = 1;
-export const LINE_TYPE_MAX = 3;
+export const LINE_TYPE_VALUES = new Set([
+	1, 2, 3,
+]);
 
 export const RELATED_ITEMS_LIMIT = 5;

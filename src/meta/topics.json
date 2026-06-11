@@ -1,8 +1,8 @@
 [
   {
-    "id": "supplication",
-    "value": "Supplication",
-    "labelAr": "قصائد ابتهال",
+    "id": 1,
+    "name_ar": "ابتهال",
+    "name_en": "supplication",
     "aliases": [
       "ابتهال",
       "إبتهال",
@@ -17,9 +17,9 @@
     ]
   },
   {
-    "id": "apology",
-    "value": "Apology",
-    "labelAr": "قصائد اعتذار",
+    "id": 2,
+    "name_ar": "اعتذار",
+    "name_en": "apology",
     "aliases": [
       "اعتذار",
       "إعتذار",
@@ -35,9 +35,9 @@
     ]
   },
   {
-    "id": "anthems",
-    "value": "Anthems",
-    "labelAr": "قصائد الاناشيد",
+    "id": 3,
+    "name_ar": "الاناشيد",
+    "name_en": "anthems",
     "aliases": [
       "الاناشيد",
       "الإناشيد",
@@ -53,15 +53,15 @@
     ]
   },
   {
-    "id": "muallaqat",
-    "value": "Mu'allaqat",
-    "labelAr": "قصائد المعلقات",
+    "id": 4,
+    "name_ar": "المعلقات",
+    "name_en": "mu'allaqat",
     "aliases": [
       "المعلقات",
       "المعلّقات",
       "معلقة",
       "معلّقة",
-      "قصائد معلقة",
+      "معلقة",
       "hanging poems",
       "pre-Islamic poetry",
       "classical Arabic poems",
@@ -69,9 +69,9 @@
     ]
   },
   {
-    "id": "generosity",
-    "value": "Generosity",
-    "labelAr": "قصائد جود وكرم",
+    "id": 5,
+    "name_ar": "جود وكرم",
+    "name_en": "generosity",
     "aliases": [
       "جود",
       "كرم",
@@ -87,9 +87,9 @@
     ]
   },
   {
-    "id": "sadness",
-    "value": "Sadness",
-    "labelAr": "قصائد حزينه",
+    "id": 6,
+    "name_ar": "حزينه",
+    "name_en": "sadness",
     "aliases": [
       "حزين",
       "حزينة",
@@ -107,9 +107,9 @@
     ]
   },
   {
-    "id": "wisdom",
-    "value": "Wisdom",
-    "labelAr": "قصائد حكمة",
+    "id": 7,
+    "name_ar": "حكمة",
+    "name_en": "wisdom",
     "aliases": [
       "حكمة",
       "فلسفة",
@@ -125,9 +125,9 @@
     ]
   },
   {
-    "id": "religious",
-    "value": "Religious",
-    "labelAr": "قصائد دينية",
+    "id": 8,
+    "name_ar": "دينية",
+    "name_en": "religious",
     "aliases": [
       "دينية",
       "روحاني",
@@ -143,9 +143,9 @@
     ]
   },
   {
-    "id": "condemnation",
-    "value": "Condemnation",
-    "labelAr": "قصائد ذم",
+    "id": 9,
+    "name_ar": "ذم",
+    "name_en": "condemnation",
     "aliases": [
       "ذم",
       "نقد",
@@ -161,9 +161,9 @@
     ]
   },
   {
-    "id": "elegy",
-    "value": "Elegy",
-    "labelAr": "قصائد رثاء",
+    "id": 10,
+    "name_ar": "رثاء",
+    "name_en": "elegy",
     "aliases": [
       "رثاء",
       "نعي",
@@ -179,9 +179,9 @@
     ]
   },
   {
-    "id": "mercy",
-    "value": "Mercy",
-    "labelAr": "قصائد رحمة",
+    "id": 11,
+    "name_ar": "رحمة",
+    "name_en": "mercy",
     "aliases": [
       "رحمة",
       "عطف",
@@ -197,9 +197,9 @@
     ]
   },
   {
-    "id": "romance",
-    "value": "Romance",
-    "labelAr": "قصائد رومنسيه",
+    "id": 12,
+    "name_ar": "رومنسيه",
+    "name_en": "romance",
     "aliases": [
       "رومنسي",
       "رومنسية",
@@ -215,9 +215,9 @@
     ]
   },
   {
-    "id": "political",
-    "value": "Political",
-    "labelAr": "قصائد سياسية",
+    "id": 13,
+    "name_ar": "سياسية",
+    "name_en": "political",
     "aliases": [
       "سياسية",
       "سياسي",
@@ -233,9 +233,9 @@
     ]
   },
   {
-    "id": "longing",
-    "value": "Longing",
-    "labelAr": "قصائد شوق",
+    "id": 14,
+    "name_ar": "شوق",
+    "name_en": "longing",
     "aliases": [
       "شوق",
       "حنين",
@@ -251,9 +251,9 @@
     ]
   },
   {
-    "id": "patience",
-    "value": "Patience",
-    "labelAr": "قصائد صبر",
+    "id": 15,
+    "name_ar": "صبر",
+    "name_en": "patience",
     "aliases": [
       "صبر",
       "تحمل",
@@ -269,9 +269,9 @@
     ]
   },
   {
-    "id": "general",
-    "value": "General",
-    "labelAr": "قصائد عامه",
+    "id": 16,
+    "name_ar": "عامه",
+    "name_en": "general",
     "aliases": [
       "عام",
       "عامة",
@@ -287,9 +287,9 @@
     ]
   },
   {
-    "id": "reproach",
-    "value": "Reproach",
-    "labelAr": "قصائد عتاب",
+    "id": 17,
+    "name_ar": "عتاب",
+    "name_en": "reproach",
     "aliases": [
       "عتاب",
       "لوم",
@@ -305,9 +305,9 @@
     ]
   },
   {
-    "id": "justice",
-    "value": "Justice",
-    "labelAr": "قصائد عدل",
+    "id": 18,
+    "name_ar": "عدل",
+    "name_en": "justice",
     "aliases": [
       "عدل",
       "عادل",
@@ -324,9 +324,9 @@
     ]
   },
   {
-    "id": "ghazal",
-    "value": "Ghazal",
-    "labelAr": "قصائد غزل",
+    "id": 19,
+    "name_ar": "غزل",
+    "name_en": "ghazal",
     "aliases": [
       "غزل",
       "غزلي",
@@ -342,9 +342,9 @@
     ]
   },
   {
-    "id": "parting",
-    "value": "Parting",
-    "labelAr": "قصائد فراق",
+    "id": 20,
+    "name_ar": "فراق",
+    "name_en": "parting",
     "aliases": [
       "فراق",
       "إفتراق",
@@ -360,9 +360,9 @@
     ]
   },
   {
-    "id": "short",
-    "value": "Short",
-    "labelAr": "قصائد قصيره",
+    "id": 21,
+    "name_ar": "قصيره",
+    "name_en": "short",
     "aliases": [
       "قصيرة",
       "مختصر",
@@ -377,9 +377,9 @@
     ]
   },
   {
-    "id": "praise",
-    "value": "Praise",
-    "labelAr": "قصائد مدح",
+    "id": 22,
+    "name_ar": "مدح",
+    "name_en": "praise",
     "aliases": [
       "مدح",
       "مديح",
@@ -395,9 +395,9 @@
     ]
   },
   {
-    "id": "advice",
-    "value": "Advice",
-    "labelAr": "قصائد نصيحة",
+    "id": 23,
+    "name_ar": "نصيحة",
+    "name_en": "advice",
     "aliases": [
       "نصيحة",
       "موعظة",
@@ -413,9 +413,9 @@
     ]
   },
   {
-    "id": "satire",
-    "value": "Satire",
-    "labelAr": "قصائد هجاء",
+    "id": 24,
+    "name_ar": "هجاء",
+    "name_en": "satire",
     "aliases": [
       "هجاء",
       "هجائي",
@@ -431,9 +431,9 @@
     ]
   },
   {
-    "id": "patriotic",
-    "value": "Patriotic",
-    "labelAr": "قصائد وطنيه",
+    "id": 25,
+    "name_ar": "وطنيه",
+    "name_en": "patriotic",
     "aliases": [
       "وطني",
       "وطنية",
@@ -449,9 +449,9 @@
     ]
   },
   {
-    "id": "pride",
-    "value": "Pride",
-    "labelAr": "قصائد فخر",
+    "id": 26,
+    "name_ar": "فخر",
+    "name_en": "pride",
     "aliases": [
       "فخر",
       "فخور",
@@ -467,9 +467,9 @@
     ]
   },
   {
-    "id": "description",
-    "value": "Description",
-    "labelAr": "قصائد وصف",
+    "id": 27,
+    "name_ar": "وصف",
+    "name_en": "description",
     "aliases": [
       "وصف",
       "وصفي",
@@ -485,9 +485,9 @@
     ]
   },
   {
-    "id": "asceticism",
-    "value": "Asceticism",
-    "labelAr": "قصائد زهد",
+    "id": 28,
+    "name_ar": "زهد",
+    "name_en": "asceticism",
     "aliases": [
       "زهد",
       "زاهد",
@@ -503,9 +503,9 @@
     ]
   },
   {
-    "id": "enthusiasm",
-    "value": "Enthusiasm",
-    "labelAr": "قصائد حماسة",
+    "id": 29,
+    "name_ar": "حماسة",
+    "name_en": "enthusiasm",
     "aliases": [
       "حماسة",
       "حماسي",

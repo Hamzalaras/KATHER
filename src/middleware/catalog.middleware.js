@@ -1,7 +1,7 @@
 import { resolveCatalogValue } from '../utils/catalogData.js';
 import { ValidationError } from '../utils/errors/index.js';
 import { CATALOG_GROUPS } from '../constants/catalog.js';
-import { GENDERS, LINE_TYPE_MAX, LINE_TYPE_MIN } from '../constants/domain.js';
+import { GENDERS, LINE_TYPE_VALUES } from '../constants/domain.js';
 
 export const defineEra = () => {
     return (req, res, next) => {
@@ -124,12 +124,36 @@ export const defineLineType = () => {
             res.locals.lineType = null;
             return next();
         }
+
         const parsed = Number(raw);
-        if (!Number.isInteger(parsed) || parsed < LINE_TYPE_MIN || parsed > LINE_TYPE_MAX) {
-            throw new ValidationError('Invalid line type value', 'INVALID_LINE_TYPE');
+        if (!Number.isInteger(parsed)) {
+            throw new ValidationError('Line type must be an integer', 'INVALID_LINE_TYPE');
+        }
+
+        if (!LINE_TYPE_VALUES.has(parsed)) {
+            throw new ValidationError('Invalid line type value', 'INVALID_LINE_TYPE_VALUE');
         }
 
         res.locals.lineType = parsed;
         next();
     }
 }
+
+export const definePoemType = () => {
+    return (req, res, next) => {
+        const raw = req.query.type ?? null;
+
+        if (raw === null) {
+            res.locals.type = null;
+            return next();
+        }
+
+        const resolved = resolveCatalogValue(CATALOG_GROUPS.POEMS_TYPES, raw);
+        if (!resolved) {
+            throw new ValidationError('Invalid poem type value', 'INVALID_POEM_TYPE');
+        }
+
+        res.locals.type = resolved;
+        next();
+    };
+};

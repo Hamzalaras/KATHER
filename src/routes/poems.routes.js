@@ -1,8 +1,7 @@
 import { Router } from 'express';
 import { defineLimit, defineOffset } from '../middleware/pagination.js';
 import { defineId } from '../middleware/identity.js';
-import { defineEra, defineCountry, defineGender, defineQuafia, defineSea, defineTopic } from '../middleware/catalog.middleware.js';
-import { definePoemType } from '../middleware/poem.middleware.js';
+import { defineEra, defineCountry, defineGender, defineQuafia, defineSea, defineTopic, definePoemType } from '../middleware/catalog.middleware.js';
 import { defineMeta, defineSort, defineSearchQuery } from '../middleware/meta.middleware.js';
 import { getPoemList, getPoemById, getPoemLines, getPoemContext, getRandomPoemEndpoint } from '../controllers/poem.controller.js';
 import { catchWrapper } from '../utils/catchWrapper.js';
