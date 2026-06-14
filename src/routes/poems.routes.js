@@ -3,7 +3,7 @@ import { defineLimit, defineOffset } from '../middleware/pagination.js';
 import { defineId } from '../middleware/identity.js';
 import { defineEra, defineCountry, defineGender, defineQuafia, defineSea, defineTopic, definePoemType } from '../middleware/catalog.middleware.js';
 import { defineMeta, defineSort, defineSearchQuery } from '../middleware/meta.middleware.js';
-import { getPoemList, getPoemById, getPoemLines, getPoemContext, getRandomPoemEndpoint } from '../controllers/poem.controller.js';
+import { getPoemById, getPoemContext, getPoemLines, getPoemList, getRandomPoem } from '../controllers/poem.controller.js';
 import { catchWrapper } from '../utils/catchWrapper.js';
 import { DEFAULT_COUNT_TTL_SECONDS } from '../constants/cache.js';
 import { ENTITY_KEYS } from '../constants/domain.js';
@@ -23,9 +23,9 @@ router.get('/',
 
 router.get('/random',
     catchWrapper(defineId('poetId', false)), catchWrapper(defineEra()), catchWrapper(defineCountry()), catchWrapper(defineGender()),
-    catchWrapper(defineQuafia()), catchWrapper(defineSea()), catchWrapper(defineTopic()),
+    catchWrapper(defineQuafia()), catchWrapper(defineSea()), catchWrapper(defineTopic()), catchWrapper(defineLimit(POEM_DETAIL_LINES_LIMIT)),
     catchWrapper(definePoemType()), catchWrapper(defineSearchQuery(POEM_SEARCH_QUERY_MAX_LENGTH)),
-    catchWrapper(getRandomPoemEndpoint),
+    catchWrapper(getRandomPoem),
 );
 
 router.get('/:id/context',

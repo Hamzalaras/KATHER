@@ -1,23 +1,18 @@
-import { getPoetCollection, getPoetProfile, getPoetPoems as fetchPoetPoems, getPoetStats as fetchPoetStats, getRandomPoet } from '../services/poet.services.js';
+import { getPoetsList as getPoetsListServices, 
+         getPoetPoems as getPoetPoemsServices,
+         getPoetStats as getPoetStatsServices,
+         getPoetById as getPoetByIdServices,
+         getRandomPoet as getRandomPoetServices,
+        } from '../services/poet.services.js';
 import { NotFoundError } from '../utils/errors/index.js';
 import { ERROR_CODES, NOT_FOUND_MESSAGES } from '../constants/errors.js';
 import { RESPONSE_STATUS } from '../constants/http.js';
+import { buildQuery, buildCommuneFilters } from '../utils/builders.js';
 
-const buildQuery = (query = {}) => {
-    const params = new URLSearchParams();
-
-    for (const [key, value] of Object.entries(query)) {
-        if (value === undefined || value === null || value === '') continue;
-        params.set(key, String(value));
-    }
-
-    const serialized = params.toString();
-    return serialized ? `?${serialized}` : '';
-};
-
-export const listPoets = async (req, res) => {
-    const { era, country, gender, q, sort, limit, offset, meta } = res.locals;
-    const result = await getPoetCollection({ era, country, gender, q, sort, limit, offset, meta });
+export const getPoetsList = async (req, res) => {
+    const { limit, offset } = res.locals;
+    const filters = buildCommuneFilters(res.locals)
+    const result = await getPoetsListServices({ ...filters, limit, offset });
     const nextOffset = offset + limit;
     const prevOffset = Math.max(offset - limit, 0);
 
@@ -26,20 +21,22 @@ export const listPoets = async (req, res) => {
         data: result.data,
         pagination: result.pagination,
         links: {
-            self: `${req.baseUrl}${buildQuery({ era, country, gender, q, sort, limit, offset, meta })}`,
-            next: result.pagination.has_more ? `${req.baseUrl}${buildQuery({ era, country, gender, q, sort, limit, offset: nextOffset, meta })}` : null,
-            prev: offset > 0 ? `${req.baseUrl}${buildQuery({ era, country, gender, q, sort, limit, offset: prevOffset, meta })}` : null,
+            self: `${req.baseUrl}${buildQuery({ ...filters, limit, offset })}`,
+            next: result.pagination.has_more ? `${req.baseUrl}${buildQuery({ ...filters, limit, offset: nextOffset })}` : null,
+            prev: offset > 0 ? `${req.baseUrl}${buildQuery({ ...filters, limit, offset: prevOffset })}` : null,
             random: `${req.baseUrl}/random`,
         },
         meta: {
-            filters: result.filters,
+            filters: {
+                ...filters,
+            },
         },
     });
 };
 
 export const getPoetById = async (req, res) => {
     const { id } = res.locals;
-    const result = await getPoetProfile(id);
+    const result = await getPoetByIdServices(id);
 
     if (!result) {
         throw new NotFoundError(NOT_FOUND_MESSAGES.POET, ERROR_CODES.POET_NOT_FOUND);
@@ -59,7 +56,7 @@ export const getPoetById = async (req, res) => {
 
 export const getPoetPoems = async (req, res) => {
     const { id, offset, limit, sort } = res.locals;
-    const result = await fetchPoetPoems({ poetId: id, offset, limit, sort });
+    const result = await getPoetPoemsServices({ poetId: id, offset, limit, sort });
     const nextOffset = offset + limit;
     const prevOffset = Math.max(offset - limit, 0);
 
@@ -78,12 +75,15 @@ export const getPoetPoems = async (req, res) => {
             prev: offset > 0 ? `${req.baseUrl}/${id}/poems${buildQuery({ limit, offset: prevOffset, sort })}` : null,
             poet: `${req.baseUrl}/${id}`,
         },
+        filters: {
+            sort,
+        },
     });
 };
 
 export const getPoetStats = async (req, res) => {
     const { id } = res.locals;
-    const result = await fetchPoetStats(id);
+    const result = await getPoetStatsServices(id);
 
     if (!result) {
         throw new NotFoundError(NOT_FOUND_MESSAGES.POET, ERROR_CODES.POET_NOT_FOUND);
@@ -100,9 +100,9 @@ export const getPoetStats = async (req, res) => {
     });
 };
 
-export const getRandomPoetEndpoint = async (req, res) => {
-    const { era, country, gender, q } = res.locals;
-    const result = await getRandomPoet({ era, country, gender, q });
+export const getRandomPoet = async (req, res) => {
+    const filters = buildCommuneFilters(res.locals);
+    const result = await getRandomPoetServices(filters);
 
     if (!result) {
         throw new NotFoundError(NOT_FOUND_MESSAGES.POET_NO_MATCH, ERROR_CODES.POET_NOT_FOUND);
@@ -116,6 +116,11 @@ export const getRandomPoetEndpoint = async (req, res) => {
             poet: `${req.baseUrl}/${result.id}`,
             poems: `${req.baseUrl}/${result.id}/poems`,
             stats: `${req.baseUrl}/${result.id}/stats`,
+        },
+        meta: {
+            filters: {
+                ...filters,
+            },
         },
     });
 };

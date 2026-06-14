@@ -2,15 +2,11 @@ import { ValidationError } from '../utils/errors/index.js';
 
 export const defineId = (idName, required = false) => {
     return (req, res, next) => {
-        const raw = req.params[idName] ?? null;
+        const raw = required ? req.params.id : req.query[idName];
         
-        if (raw === null) {
-            if (required) {
-                throw new ValidationError('Id must be specified', 'ABSENT_ID');
-            } else {
-                res.locals[idName] = null;
-                return next();
-            }
+        if (raw == null) {
+            if (required) throw new ValidationError('Id must be specified', 'ABSENT_ID');
+            else return next();
         }
 
         const parsed = Number(raw);

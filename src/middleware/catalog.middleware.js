@@ -3,153 +3,62 @@ import { ValidationError } from '../utils/errors/index.js';
 import { CATALOG_GROUPS } from '../constants/catalog.js';
 import { GENDERS, LINE_TYPE_VALUES, UNSET_VALUES } from '../constants/domain.js';
 
-export const defineEra = () => {
-    return (req, res, next) => {
-        const raw = req.query.era ?? null;
+const createCatalogMiddleware = (queryKey, catalogGroup, errorKey) => {
+    return () => (req, res, next) => {
+        const raw = req.query[queryKey];
 
-        if (raw === null) {
-            res.locals.era = undefined;
+        if (raw == null) return next();
+
+        const value = String(raw).trim().toLowerCase();
+        if (UNSET_VALUES.has(value)) {
+            res.locals[queryKey] = null;
             return next();
         }
 
-        if (UNSET_VALUES.has(raw)) {
-            res.locals.era = null;
-            return next();
-        }
-
-        const resolved = resolveCatalogValue(CATALOG_GROUPS.ERAS, raw);
+        const resolved = resolveCatalogValue(catalogGroup, raw);
         if (!resolved) {
-            throw new ValidationError('Invalid era value', 'INVALID_ERA');
+            throw new ValidationError(`Invalid ${queryKey} value`, `INVALID_${errorKey}`);
         }
 
-        res.locals.era = resolved;
+        res.locals[queryKey] = resolved;
         next();
-    }
-}
+    };
+};
 
-export const defineCountry = () => {
-    return (req, res, next) => {
-        const raw = req.query.country ?? null;
+export const defineEra = createCatalogMiddleware('era', CATALOG_GROUPS.ERAS, 'ERA');
+export const defineCountry = createCatalogMiddleware('country', CATALOG_GROUPS.COUNTRIES, 'COUNTRY');
+export const defineTopic = createCatalogMiddleware('topic', CATALOG_GROUPS.TOPICS, 'TOPIC');
+export const defineQuafia = createCatalogMiddleware('quafia', CATALOG_GROUPS.QUAWAFI, 'QUAFIA');
+export const defineSea = createCatalogMiddleware('sea', CATALOG_GROUPS.SEAS, 'SEA');
+export const definePoemType = createCatalogMiddleware('type',  CATALOG_GROUPS.POEMS_TYPES, 'POEM_TYPE');
 
-        if (raw === null) {
-            res.locals.country = undefined;
-            return next();
-        }
-
-        if (UNSET_VALUES.has(raw)) {
-            res.locals.country = null;
-            return next();
-        }        
-
-        const resolved = resolveCatalogValue(CATALOG_GROUPS.COUNTRIES, raw);
-        if (!resolved) {
-            throw new ValidationError('Invalid country value', 'INVALID_COUNTRY');
-        }
-
-        res.locals.country = resolved;
-        next();
-    }
-}
-
-export const defineTopic = () => {
-    return (req, res, next) => {
-        const raw = req.query.topic ?? null;
-
-        if (raw === null) {
-            res.locals.topic = undefined;
-            return next();
-        }
-
-        if (UNSET_VALUES.has(raw)) {
-            res.locals.topic = null;
-            return next();
-        }
-
-        const resolved = resolveCatalogValue(CATALOG_GROUPS.TOPICS, raw);
-        if (!resolved) {
-            throw new ValidationError('Invalid topic value', 'INVALID_TOPIC');
-        }
-
-        res.locals.topic = resolved;
-        next();
-    }
-}
-
-export const defineQuafia = () => {
-    return (req, res, next) => {
-        const raw = req.query.quafia ?? null;
-
-        if (raw === null) {
-            res.locals.quafia = undefined;
-            return next();
-        }
-
-        if (UNSET_VALUES.has(raw)) {
-            res.locals.quafia = null;
-            return next();
-        }
-
-        const resolved = resolveCatalogValue(CATALOG_GROUPS.QUAWAFI, raw);
-        if (!resolved) {
-            throw new ValidationError('Invalid quafia value', 'INVALID_QUAFIA');
-        }
-
-        res.locals.quafia = resolved;
-        next();
-    }   
-}
-
-export const defineSea = () => {
-    return (req, res, next) => {
-        const raw = req.query.sea ?? null;
-
-        if (raw === null) {
-            res.locals.sea = undefined;
-            return next();
-        }
-
-        if (UNSET_VALUES.has(raw)) {
-            res.locals.sea = null;
-            return next();
-        }
-
-        const resolved = resolveCatalogValue(CATALOG_GROUPS.SEAS, raw);
-        if (!resolved) {
-            throw new ValidationError('Invalid sea value', 'INVALID_SEA');
-        }
-
-        res.locals.sea = resolved;
-        next();
-    }
-}
 
 export const defineGender = () => {
     return (req, res, next) => {
-        const raw = req.query.gender ?? null;
+        const raw = req.query.gender;
 
-        if (raw === null) {
-            res.locals.gender = undefined;
+        if (raw == null) return next();
+
+        const value = String(raw).trim().toLowerCase();
+        if (UNSET_VALUES.has(value)) { 
+            res.locals.gender = null;
             return next();
         }
 
-        if (!GENDERS.includes(raw)) {
+        if (!GENDERS.has(value)) {
             throw new ValidationError('Invalid gender value', 'INVALID_GENDER');
         }
 
-        res.locals.gender = raw;
+        res.locals.gender = value;
         next();
-    }
-}
-
+    };
+};
 
 export const defineLineType = () => {
     return (req, res, next) => {
-        const raw = req.query.lineType ?? null;
+        const raw = req.query.lineType;
 
-        if (raw === null) {
-            res.locals.lineType = undefined;
-            return next();
-        }
+        if (raw == null) return next();
 
         const parsed = Number(raw);
         if (!Number.isInteger(parsed)) {
@@ -161,30 +70,6 @@ export const defineLineType = () => {
         }
 
         res.locals.lineType = parsed;
-        next();
-    }
-}
-
-export const definePoemType = () => {
-    return (req, res, next) => {
-        const raw = req.query.type ?? null;
-
-        if (raw === null) {
-            res.locals.type = undefined;
-            return next();
-        }
-
-        if (UNSET_VALUES.has(raw)) {
-            res.locals.type = null;
-            return next();
-        }
-
-        const resolved = resolveCatalogValue(CATALOG_GROUPS.POEMS_TYPES, raw);
-        if (!resolved) {
-            throw new ValidationError('Invalid poem type value', 'INVALID_POEM_TYPE');
-        }
-
-        res.locals.type = resolved;
         next();
     };
 };
