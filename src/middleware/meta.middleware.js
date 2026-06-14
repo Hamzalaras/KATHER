@@ -45,7 +45,8 @@ export const defineSort = (SORT_MAP) => {
 
         if (raw == null) return next();
 
-        if (!SORT_MAP.has(raw)) {
+        const value = String(raw).trim().toLocaleLowerCase();
+        if (!SORT_MAP.has(value)) {
             throw new ValidationError('Invalid sort value', 'INVALID_SORT');
         }
 

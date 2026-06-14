@@ -30,7 +30,7 @@ export const defineCountry = createCatalogMiddleware('country', CATALOG_GROUPS.C
 export const defineTopic = createCatalogMiddleware('topic', CATALOG_GROUPS.TOPICS, 'TOPIC');
 export const defineQuafia = createCatalogMiddleware('quafia', CATALOG_GROUPS.QUAWAFI, 'QUAFIA');
 export const defineSea = createCatalogMiddleware('sea', CATALOG_GROUPS.SEAS, 'SEA');
-export const definePoemType = createCatalogMiddleware('type',  CATALOG_GROUPS.POEMS_TYPES, 'POEM_TYPE');
+export const definePoemType = createCatalogMiddleware('poemType',  CATALOG_GROUPS.POEMS_TYPES, 'POEM_TYPE');
 
 
 export const defineGender = () => {

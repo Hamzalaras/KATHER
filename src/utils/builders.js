@@ -33,13 +33,13 @@ export const buildQuery = (query = {}) => {
 };
 
 export const buildCommuneFilters = (locals) => ({
-    era: locals.era,
-    country: locals.country,
+    era_id: locals.era,
+    country_id: locals.country,
     gender: locals.gender,
-    quafia: locals.quafia,
-    sea: locals.sea,
-    topic: locals.topic,
-    sort: locals.topic,
+    quafia_id: locals.quafia,
+    sea_id: locals.sea,
+    topic_id: locals.topic,
+    sort: locals.sort,
     q: locals.q,
     meta: locals.meta,
 });

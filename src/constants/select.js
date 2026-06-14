@@ -1,18 +1,21 @@
 
+const META_SELECT = {
+    id: true,
+    name_en: true,
+    name_ar: true,
+};
 
 export const POET_BASE_SELECT = {
     id: true,
-    engName: true,
-    arabName: true,
-    engEra: true,
-    arabEra: true,
-    engCountry: true,
-    arabCountry: true,
+    name_en: true,
+    name_ar: true,
+    eras: { select: META_SELECT },
+    countries: { select: META_SELECT },
     gender: true,
     created_at: true,
     _count: {
         select: {
-            Poems: true,
+            poems: true,
         },
     },
 };
@@ -20,25 +23,23 @@ export const POET_BASE_SELECT = {
 export const POEM_BASE_SELECT = {
     id: true,
     name: true,
-    engTopic: true,
-    arabTopic: true,
-    type: true,
-    engSea: true,
-    arabSea: true,
-    quafia: true,
+    poet_id: true,
+    topics: { select: META_SELECT },
+    poemsTypes: { select: META_SELECT },
+    seas: { select: META_SELECT },
+    quawafi: { select: META_SELECT },
     order: true,
     created_at: true,
-    poetId: true,
     _count: {
         select: {
-            PoemsLines: true,
+            poemsLines: true,
         },
     },
 };
 
 export const POEM_SELECT = {
     ...POEM_BASE_SELECT,
-    Poets: {
+    poets: {
         select: POET_BASE_SELECT,
     },
 };
@@ -46,8 +47,8 @@ export const POEM_SELECT = {
 export const LINE_BASE_SELECT = {
     id: true,
     content: true,
-    contentNoDiacritics: true,
-    type: true,
+    content_nd: true,
+    line_type: true,
     order: true,
     created_at: true,
 };

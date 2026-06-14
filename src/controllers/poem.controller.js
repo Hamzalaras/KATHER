@@ -11,8 +11,8 @@ import { buildQuery, buildCommuneFilters } from '../utils/builders.js';
 
 const buildPoemFilters = (locals) => ({
     ...buildCommuneFilters(locals),
-    poetId: locals.poetId,
-    type: locals.type,
+    poet_id: locals.poetId,
+    poem_type_id: locals.poemType,
 });
 
 export const getPoemList = async (req, res) => {
@@ -42,7 +42,7 @@ export const getPoemList = async (req, res) => {
 
 export const getPoemById = async (req, res) => {
     const { sort, id, limit, offset } = res.locals;
-    const result = await getPoemWithLines({ poemId: id, sort, limit, offset });
+    const result = await getPoemWithLines({ poem_id: id, sort, limit, offset });
 
     if (!result) {
         throw new NotFoundError(NOT_FOUND_MESSAGES.POEM, ERROR_CODES.POEM_NOT_FOUND);
@@ -60,7 +60,7 @@ export const getPoemById = async (req, res) => {
             lines: `${req.baseUrl}/${id}/lines${buildQuery({ limit, offset })}`,
             context: `${req.baseUrl}/${id}/context`,
             random: `${req.baseUrl}/random`,
-            poet: `${V1_RESOURCE_PATHS.POETS}/${result.poem.poetId}`,
+            poet: `${V1_RESOURCE_PATHS.POETS}/${result.poem.poet_id}`,
         },
         meta: {
             filters: {
@@ -71,8 +71,8 @@ export const getPoemById = async (req, res) => {
 };
 
 export const getPoemLines = async (req, res) => {
-    const { id, limit, offset, sort } = res.locals;
-    const result = await getPoemWithLines({ poemId: id, limit, offset, sort });
+    const { id, limit, offset, sort } = res.locals;    
+    const result = await getPoemWithLines({ poem_id: id, limit, offset, sort });
     const nextOffset = offset + limit;
     const prevOffset = Math.max(offset - limit, 0);
 
@@ -138,10 +138,10 @@ export const getRandomPoem = async (req, res) => {
         },
         links: {
             self: `${req.baseUrl}/random${buildQuery(filters)}`,
-            poem: `${req.baseUrl}/${result.id}`,
-            lines: `${req.baseUrl}/${result.id}/lines`,
-            context: `${req.baseUrl}/${result.id}/context`,
-            poet: `${V1_RESOURCE_PATHS.POETS}/${result.poet.id}`,
+            poem: `${req.baseUrl}/${result.poem.id}`,
+            lines: `${req.baseUrl}/${result.poem.id}/lines`,
+            context: `${req.baseUrl}/${result.poem.id}/context`,
+            poet: `${V1_RESOURCE_PATHS.POETS}/${result.poem.poet_id}`,
         },
         meta: {
             filters: {
