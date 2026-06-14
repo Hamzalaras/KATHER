@@ -14,23 +14,23 @@ const ORDER_SORT = [
 
 export const POETS_SORT = new Map([
     ...BASIC_SORT,
-    ['eng_name', { engName: 'asc' }],
-    ['-eng_name', { engName: 'desc' }],
-    ['arab_name', { arabName: 'asc' }],
-    ['-arab_name', { arabName: 'desc' }],
+    ['name_en', { name_en: 'asc' }],
+    ['-name_en', { name_en: 'desc' }],
+    ['name_ar', { name_ar: 'asc' }],
+    ['-name_ar', { name_ar: 'desc' }],
 ]);
 
 export const POEMS_SORT = new Map([
     ...BASIC_SORT,
     ...ORDER_SORT,
-    ['poet_id', { poetId: 'asc' }],
-    ['-poet_id', { poetId: 'desc' }],
+    ['poet_id', { poet_id: 'asc' }],
+    ['-poet_id', { poet_id: 'desc' }],
 
 ]);
 
 export const LINES_SORT = new Map([
     ...BASIC_SORT,
     ...ORDER_SORT,
-    ['poem_id', { poemId: 'asc' }],
-    ['-poem_id', { poemId: 'desc' }],
+    ['poem_id', { poem_id: 'asc' }],
+    ['-poem_id', { poem_id: 'desc' }],
 ]);

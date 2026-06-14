@@ -10,13 +10,11 @@ export const insert = async (prisma) => {
             const poets = await getContentOfJsonFile(`../../seedData/poets/${file}`);
             const toInsert = poets.map(poet => ({
                 id: poet.id,
-                engName: poet.engName,
-                arabName: stripDiacritics(poet.arabName),
+                name_en: poet.name_en,
+                name_ar: stripDiacritics(poet.name_ar),
                 bio: stripDiacritics(poet.bio),
-                engEra: poet.engEra,
-                arabEra: poet.arabEra,
-                engCountry: poet.engCountry,
-                arabCountry: poet.arabCountry,
+                era_id: poet.era_id,
+                country_id: poet.country_id,
                 gender: poet.gender,
             }));
 

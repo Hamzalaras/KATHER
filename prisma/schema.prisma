@@ -8,68 +8,130 @@ datasource db {
   extensions = [pg_trgm]
 }
 
+model Countries { 
+  id         Int         @id
+  name_en    String
+  name_ar    String
+  created_at DateTime    @default(now())
+  aliases    String[]
+
+  poets      Poets[]
+}
+
+model Eras {
+  id         Int         @id
+  name_en    String
+  name_ar    String
+  created_at DateTime    @default(now())
+  aliases    String[]
+
+  poets      Poets[]
+}
+
+model Quawafi {
+  id         Int         @id
+  name_en    String
+  name_ar    String
+  created_at DateTime    @default(now())
+  aliases    String[]
+
+  poems      Poems[]
+}
+
+model Seas {
+  id         Int         @id
+  name_en    String
+  name_ar    String
+  created_at DateTime    @default(now())
+  aliases    String[]
+
+  poems      Poems[]
+}
+
+model Topics {
+  id         Int         @id
+  name_en    String
+  name_ar    String
+  created_at DateTime    @default(now())
+  aliases    String[]
+
+  poems      Poems[]
+}
+
+model PoemsTypes {
+  id         Int         @id
+  name_en    String
+  name_ar    String
+  created_at DateTime    @default(now())
+  aliases    String[]
+
+  poems      Poems[]
+}
+
 model Poems {
   id         Int          @id
   name       String
-  engTopic   String?
-  arabTopic  String?
-  type       String?
-  engSea     String?
-  arabSea    String?
-  quafia     String?
+  poet_id    Int
+  topic_id   Int?
+  poem_type_id Int?
+  sea_id     Int?
+  quafia_id  Int?
   order      Int
   created_at DateTime     @default(now())
-  poetId     Int
-  Poets      Poets        @relation(fields: [poetId], references: [id])
-  PoemsLines PoemsLines[]
+
+  poemsLines PoemsLines[]
+  poets      Poets         @relation(fields: [poet_id], references: [id])
+  topics     Topics?       @relation(fields: [topic_id], references: [id])
+  poemsTypes PoemsTypes?   @relation(fields: [poem_type_id], references: [id])
+  seas       Seas?         @relation(fields: [sea_id], references: [id])
+  quawafi    Quawafi?      @relation(fields: [quafia_id], references: [id])
 
   @@index([name(ops: raw("gin_trgm_ops"))], map: "idx_poems_name_trgm", type: Gin)
-  @@index([engTopic], map: "idx_poems_engtopic")
-  @@index([arabTopic], map: "idx_poems_arabtopic")
-  @@index([type], map: "idx_poems_type")
-  @@index([engSea], map: "idx_poems_engsea")
-  @@index([arabSea], map: "idx_poems_arabsea")
-  @@index([quafia], map: "idx_poems_quafia")
-  @@index([poetId], map: "idx_poems_poetid")
-  @@index([poetId, order], map: "idx_poems_poetid_order")
+  @@index([poet_id, order, id])
+  @@index([topic_id], map: "idx_poems_topic_id")
+  @@index([poem_type_id], map: "idx_poems_type_id")
+  @@index([sea_id], map: "idx_poems_sea_id")
+  @@index([quafia_id], map: "idx_poems_quafia_id")
 }
 
 model PoemsLines {
   id         Int      @id @default(autoincrement())
   content    String
-  contentNoDiacritics String
-  type       Int
+  content_nd String
+  poem_id    Int
+  poet_id    Int
+  line_type  Int
   order      Int
   created_at DateTime @default(now())
-  poemId     Int
-  Poems      Poems    @relation(fields: [poemId], references: [id])
+
+  poems      Poems    @relation(fields: [poem_id], references: [id])
+  poets      Poets    @relation(fields: [poet_id], references: [id])
 
   @@index([content(ops: raw("gin_trgm_ops"))], map: "idx_poemslines_content_trgm", type: Gin)
-  @@index([contentNoDiacritics(ops: raw("gin_trgm_ops"))], map: "idx_poemslines_contentnodiacritics_trgm", type: Gin)
-  @@index([poemId], map: "idx_poemslines_poemid")
-  @@index([poemId, order], map: "idx_poemslines_poemid_order")
-  @@index([poemId, type, order], map: "idx_poemslines_poemid_type_order")
+  @@index([content_nd(ops: raw("gin_trgm_ops"))], map: "idx_poemslines_content_nd_trgm", type: Gin)
+  @@index([poem_id, order], map: "idx_poemslines_poem_id_order")
+  @@index([poet_id, order], map: "idx_poemslines_poet_id_order")
 }
 
 model Poets {
   id          Int      @id
-  engName     String   @unique
-  arabName    String
+  name_en     String   @unique
+  name_ar     String
   bio         String
-  engEra      String?
-  arabEra     String?
-  engCountry  String?
-  arabCountry String?
-  gender      String
+  era_id      Int?
+  country_id  Int?
+  gender      String?
   created_at  DateTime @default(now())
-  Poems       Poems[]
 
-  @@index([arabName(ops: raw("gin_trgm_ops"))], map: "idx_poets_arabname_trgm", type: Gin)
+  poems       Poems[]
+  poemsLines PoemsLines[]
+  eras        Eras?    @relation(fields: [era_id], references: [id])
+  countries   Countries? @relation(fields: [country_id], references: [id])
+
+  @@index([name_ar(ops: raw("gin_trgm_ops"))], map: "idx_poets_name_ar_trgm", type: Gin)
   @@index([bio(ops: raw("gin_trgm_ops"))], map: "idx_poets_bio_trgm", type: Gin)
-  @@index([engName(ops: raw("gin_trgm_ops"))], map: "idx_poets_engname_trgm", type: Gin)
+  @@index([name_en(ops: raw("gin_trgm_ops"))], map: "idx_poets_name_en_trgm", type: Gin)
   @@index([gender], map: "idx_poets_gender")
-  @@index([engEra], map: "idx_poets_engera")
-  @@index([arabEra], map: "idx_poets_arabera")
-  @@index([engCountry], map: "idx_poets_engcountry")
-  @@index([arabCountry], map: "idx_poets_arabcountry")
+  @@index([era_id], map: "idx_poets_era_id")
+  @@index([country_id], map: "idx_poets_country_id")
 }

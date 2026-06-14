@@ -13,48 +13,48 @@ import { ERROR_CODES, NOT_FOUND_MESSAGES } from '../constants/errors.js';
 
 const LINE_SELECT = {
     ...LINE_BASE_SELECT,
-    Poems: {
+    poems: {
         select: POEM_SELECT,
     },
 };
 
 const mapPoemLine = (line) => ({
     ...mapPoemLineBase(line),
-    poem: mapPoem(line.Poems),
+    poem: mapPoem(line.poems),
 });
 
-const buildLineWhere = ({ poemId, poetId, era, country, gender, quafia, sea, topic, lineType, q }) => ({
-        ...(poemId !== undefined && { poemId }),
-        ...(lineType !== undefined && { type: lineType }),
-        ...((poetId !== undefined || era !== undefined || country !== undefined || gender !== undefined || quafia !== undefined || sea !== undefined || topic !== undefined) && {
-            Poems: {
-                ...(poetId !== undefined && { poetId }),
-                ...(quafia !== undefined && { quafia }),
-                ...(sea !== undefined && { engSea: sea }),
-                ...(topic !== undefined && { engTopic: topic }),
-                ...((era !== undefined || country !== undefined || gender !== undefined) && {
-                    Poets: {
-                        ...(era !== undefined && { engEra: era }),
-                        ...(country !== undefined && { engCountry: country }),
+const buildLineWhere = ({ poem_id, poet_id, era_id, country_id, gender, quafia_id, sea_id, topic_id, line_type, q }) => ({
+        ...(line_type !== undefined && { line_type }),
+        ...((poem_id !== undefined || quafia_id !== undefined || sea_id !== undefined || topic_id !== undefined) && {
+            poems: {
+                ...(poem_id !== undefined && { id: poem_id }),
+                ...(quafia_id !== undefined && { quafia_id }),
+                ...(sea_id !== undefined && { sea_id }),
+                ...(topic_id !== undefined && { topic_id }),
+            }
+        }),
+        ...((poet_id !== undefined || era_id !== undefined || country_id !== undefined || gender !== undefined) && {    
+            poets : {
+                        ...(poet_id !== undefined && { id: poet_id }),
+                        ...(era_id !== undefined && { era_id }),
+                        ...(country_id !== undefined && { country_id }),
                         ...(gender !== undefined && { gender }),
-                    },
-                }),
             },
         }),
         ...(q && {
             OR: [
                 (hasDiacritics(q) ? { content: { contains: q, mode: 'insensitive' } } :
-                                    { contentNoDiacritics: { contains: q, mode: 'insensitive' } }
+                                    { content_nd: { contains: q, mode: 'insensitive' } }
                                 ),
-                { Poems: { name: { contains: q, mode: 'insensitive' } } },
-                { Poems: { Poets: { engName: { contains: q, mode: 'insensitive' } } } },
-                { Poems: { Poets: { arabName: { contains: q, mode: 'insensitive' } } } },
+                { poems: { name: { contains: q, mode: 'insensitive' } } },
+                { poets: { name_en: { contains: q, mode: 'insensitive' } }  },
+                { poets: { name_ar: { contains: q, mode: 'insensitive' } }  },
             ],
         }),
 });
 
-export const getLinesList = async ({ poemId, poetId, era, country, gender, quafia, sea, topic, lineType, q, limit, offset, meta, sort }) => {
-    const where = buildLineWhere({ poemId, poetId, era, country, gender, quafia, sea, topic, lineType, q });
+export const getLinesList = async ({ limit, offset, meta, q, sort, ...filters }) => {
+    const where = buildLineWhere({ q, ...filters });
 
     const shouldRunCount = !q || meta;
     const total = shouldRunCount ? await getCachedCount(ENTITY_KEYS.POEMS_LINES, DEFAULT_COUNT_TTL_SECONDS, where) : null;
@@ -92,17 +92,17 @@ export const getLinesList = async ({ poemId, poetId, era, country, gender, quafi
     };
 };
 
-export const getLineById = async (lineId) => {
+export const getLineById = async (line_id) => {
     const line = await prismaClient.poemsLines.findUnique({
-        where: { id: lineId },
+        where: { id: line_id },
         select: LINE_SELECT,
     });
     return line ? mapPoemLine(line) : null;
 };
 
-export const getRandomLine = async ({ poemId, poetId, era, country, gender, quafia, sea, topic, lineType, q }) => {
+export const getRandomLine = async (filters) => {
 
-    const where = buildLineWhere({ poemId, poetId, era, country, gender, quafia, sea, topic, lineType, q });
+    const where = buildLineWhere(filters);
     const total = await getCachedCount(ENTITY_KEYS.POEMS_LINES, DEFAULT_COUNT_TTL_SECONDS, where);
 
     if (total === 0) return null;

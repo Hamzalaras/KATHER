@@ -9,7 +9,7 @@ export const GENDERS = new Set([
 ]);
 
 export const LINE_TYPE_VALUES = new Set([
-	1, 2, 3,
+	0, 1, 2, 3,
 ]);
 
 export const UNSET_VALUES = new Set([

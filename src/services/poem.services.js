@@ -10,30 +10,30 @@ import { mapPoem, mapPoemBase, mapPoemLineBase } from '../utils/mappers.js';
 import { buildPagination } from '../utils/builders.js';
 import { ERROR_CODES, NOT_FOUND_MESSAGES } from '../constants/errors.js';
 
-const buildPoemWhere = ({ poetId, era, country, gender, quafia, sea, topic, type, q }) => ({
-        ...(poetId !== undefined && { poetId }),
-        ...(quafia !== undefined && { quafia }),
-        ...(sea !== undefined && { engSea: sea }),
-        ...(topic !== undefined && { engTopic: topic }),
-        ...(type !== undefined && { type }),
-        ...((era !== undefined || country !== undefined || gender !== undefined) && {
-            Poets: {
-                    ...(era !== undefined && { engEra: era }),
-                    ...(country !== undefined && { engCountry: country }),
+const buildPoemWhere = ({ poet_id, era_id, country_id, gender, quafia_id, sea_id, topic_id, poem_type_id, q }) => ({
+        ...(poet_id !== undefined && { poet_id }),
+        ...(quafia_id !== undefined && { quafia_id }),
+        ...(sea_id !== undefined && { sea_id }),
+        ...(topic_id !== undefined && { topic_id }),
+        ...(poem_type_id !== undefined && { poemType_id }),
+        ...((era_id !== undefined || country_id !== undefined || gender !== undefined) && {
+            poets: {
+                    ...(era_id !== undefined && { era_id }),
+                    ...(country_id !== undefined && { country_id }),
                     ...(gender !== undefined && { gender }),
                 },
             }),
             ...(q && {
             OR: [
                 { name: { contains: q, mode: 'insensitive' } },
-                { Poets: { engName: { contains: q, mode: 'insensitive' } } },
-                { Poets: { arabName: { contains: q, mode: 'insensitive' } } },
+                { poets: { name_en: { contains: q, mode: 'insensitive' } } },
+                { poets: { name_en: { contains: q, mode: 'insensitive' } } },
             ],
         }),
 });
 
-export const getPoemsList = async ({ poetId, era, country, gender, quafia, sea, topic, type, q, limit, offset, meta, sort }) => {
-    const where = buildPoemWhere({ poetId, era, country, gender, quafia, sea, topic, type, q });
+export const getPoemsList = async ({ q, limit, offset, meta, sort, ...filters }) => {
+    const where = buildPoemWhere({ ...filters, q });
 
     const shouldRunCount = !q || meta;
     const total = shouldRunCount ? await getCachedCount(ENTITY_KEYS.POEMS, DEFAULT_COUNT_TTL_SECONDS, where) : null;
@@ -71,17 +71,17 @@ export const getPoemsList = async ({ poetId, era, country, gender, quafia, sea, 
     };
 };
 
-const getPoemById = async (poemId) => {
+const getPoemById = async (poem_id) => {
     const poem = await prismaClient.poems.findUnique({
-        where: { id: poemId },
+        where: { id: poem_id },
         select: POEM_SELECT,
     });
 
     return poem ? mapPoem(poem) : null;
 };
 
-export const getPoemWithLines = async ({ poemId, limit, offset, sort }) => {
-    const poem = await getPoemById(poemId);
+export const getPoemWithLines = async ({ poem_id, limit, offset, sort }) => {
+    const poem = await getPoemById(poem_id);
 
     if (!poem) return null;
 
@@ -92,9 +92,7 @@ export const getPoemWithLines = async ({ poemId, limit, offset, sort }) => {
     }
 
     const lines = totalLines === 0 ? [] : await prismaClient.poemsLines.findMany({
-        where: {
-            poemId,
-        },
+        where: { poem_id },
         orderBy: LINES_SORT.get(sort) ?? LINES_SORT.get('order'),
         skip: offset,
         take: limit,
@@ -110,21 +108,19 @@ export const getPoemWithLines = async ({ poemId, limit, offset, sort }) => {
 };
 
 
-export const getPoemContext = async (poemId) => {
+export const getPoemContext = async (poem_id) => {
 
-    const poem = await getPoemById(poemId);
+    const poem = await getPoemById(poem_id);
 
     if (!poem) return null;
 
     const relatedWhere = {
-        id: {
-            not: poemId,
-        },
+        id: { not: poem_id },
     };
 
     const previousPromise = prismaClient.poems.findFirst({
         where: {
-            poetId: poem.poetId,
+            poet_id: poem.poet_id,
             order: { lt: poem.order },
             ...relatedWhere,
         },
@@ -134,7 +130,7 @@ export const getPoemContext = async (poemId) => {
 
     const nextPromise = prismaClient.poems.findFirst({
         where: {
-            poetId: poem.poetId,
+            poet_id: poem.poet_id,
             order: { gt: poem.order },
             ...relatedWhere,
         },
@@ -144,7 +140,7 @@ export const getPoemContext = async (poemId) => {
 
     const relatedByPoetPromise = prismaClient.poems.findMany({
         where: {
-            poetId: poem.poetId,
+            poet_id: poem.poet_id,
             ...relatedWhere,
         },
         orderBy: [POEMS_SORT.get('order'), POEMS_SORT.get('id')],
@@ -152,34 +148,32 @@ export const getPoemContext = async (poemId) => {
         select:POEM_BASE_SELECT,
     });
 
-    const relatedByTopicPromise = poem.engTopic || poem.arabTopic ? 
+    const relatedByTopicPromise = poem.topic != null ? 
         prismaClient.poems.findMany({
             where: {
                 ...relatedWhere,
-                ...(poem.engTopic && { engTopic: poem.engTopic }),
+                topic_id: poem.topic.id,
             },
             orderBy: [POEMS_SORT.get('order'), POEMS_SORT.get('id')],
             take: RELATED_ITEMS_LIMIT,
             select: {
                 ...POEM_SELECT,
-                engTopic: false,
-                arabTopic: false,
+                topics: false,
             },
         }) :
         Promise.resolve([]);
 
-    const relatedBySeaPromise = poem.engSea || poem.arabSea ? 
+    const relatedBySeaPromise = poem.sea != null ? 
         prismaClient.poems.findMany({
             where: {
                 ...relatedWhere,
-                ...(poem.engSea && { engSea: poem.engSea }),
+                sea_id: poem.sea.id,
             },
             orderBy: [POEMS_SORT.get('order'), POEMS_SORT.get('id')],
             take: RELATED_ITEMS_LIMIT,
             select: {
                 ...POEM_SELECT,
-                engSea: false,
-                arabSea: false,
+                seas: false,
             },
         }) :
         Promise.resolve([]);
@@ -187,7 +181,7 @@ export const getPoemContext = async (poemId) => {
     const [previous, next, relatedByPoet, relatedByTopic, relatedBySea] = await Promise.all([
         previousPromise, nextPromise, relatedByPoetPromise, relatedByTopicPromise, relatedBySeaPromise,
     ]);
-    console.log(relatedByPoet)
+
     return {
         poem: { ...poem, poet: undefined },
         poet: poem.poet,
@@ -200,9 +194,9 @@ export const getPoemContext = async (poemId) => {
 
 };
 
-export const getRandomPoem = async ({ poetId, era, country, gender, quafia, sea, topic, type, q, limit }) => {
+export const getRandomPoem = async ({ limit, ...filters }) => {
 
-    const where = buildPoemWhere({ poetId, era, country, gender, quafia, sea, topic, type, q });
+    const where = buildPoemWhere(filters);
     const total = await getCachedCount(ENTITY_KEYS.POEMS, DEFAULT_COUNT_TTL_SECONDS, where);
 
     if (total === 0) return null;
@@ -213,15 +207,16 @@ export const getRandomPoem = async ({ poetId, era, country, gender, quafia, sea,
         orderBy: POEMS_SORT.get('id'),
         select: {
             ...POEM_SELECT,
-            PoemsLines: {
+            poemsLines: {
                 select: LINE_BASE_SELECT,
                 take: limit,
             },
         },
     });
+    if (!poem) return null;
 
-    return poem ? {
+    return {
         poem: mapPoem(poem),
-        lines: poem.PoemsLines.map(mapPoemLineBase),
-    } : null;
+        lines: poem.poemsLines.map(mapPoemLineBase),
+    };
 };

@@ -9,9 +9,9 @@ import { buildQuery, buildCommuneFilters } from '../utils/builders.js';
 
 const buildLineFilters = (locals) => ({
     ...buildCommuneFilters(locals),
-    poemId: locals.poemId,
-    poetId: locals.poetId,
-    lineType: locals.lineType,
+    poem_id: locals.poemId,
+    poet_id: locals.poetId,
+    line_type: locals.lineType,
 });
 
 export const getLineList = async (req, res) => {

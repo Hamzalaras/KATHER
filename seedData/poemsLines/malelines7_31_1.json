@@ -1,5246 +1,6120 @@
 [
   {
     "content": "للهِ صَبٌّ مدْحُ مَعْشوقِهِ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59153
+    "poem_id": 59153,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "دَِيْدنُه مُتَّبِعٌ نَهْجَهْ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59153
+    "poem_id": 59153,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "يفْرح إن وَافاهُ في مَحْفَلٍ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59153
+    "poem_id": 59153,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "كَمُذْنِبٍ قامتْ له حُجَّهْ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59153
+    "poem_id": 59153,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "بَيْتِي وكلِّي مِلْكُ مَن يَدُه",
-    "type": 1,
-    "order": 1,
-    "poemId": 59154
+    "poem_id": 59154,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "فوق الأيادي دَأْبُها المِنَحُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59154
+    "poem_id": 59154,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "فإذا انْتدَبْتُ لأمرِ دَعْوَتِهِ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59154
+    "poem_id": 59154,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "قالوا طُفَيْلِيٌّ ويقْتَرِحُ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59154
+    "poem_id": 59154,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "قد جئتُ دارَك زائراً بَهِجاً",
-    "type": 1,
-    "order": 1,
-    "poemId": 59155
+    "poem_id": 59155,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "يا مَن به قد أشْرق النادِي",
-    "type": 2,
-    "order": 2,
-    "poemId": 59155
+    "poem_id": 59155,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "رِجْلِي إليك مَطِيَّتِي ولها",
-    "type": 1,
-    "order": 3,
-    "poemId": 59155
+    "poem_id": 59155,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "قلبِي دليلٌ والثَّنا حَادِي",
-    "type": 2,
-    "order": 4,
-    "poemId": 59155
+    "poem_id": 59155,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "للرَّوضِ رُواً طَلْقُ المُحَيَّا نَضِرُ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59156
+    "poem_id": 59156,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "لو تَمَّ بكم كما رَجوْنَا وَطَرُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59156
+    "poem_id": 59156,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "فالوردُ إلى الطريقِ أصْغَى أُذُناً",
-    "type": 1,
-    "order": 3,
-    "poemId": 59156
+    "poem_id": 59156,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "والنَّرْجِسُ عَيْنُه غَدَتْ تنْتظِرُ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59156
+    "poem_id": 59156,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "مضى الأُلَى برائِقِ اِلشِّعْرِ وما",
-    "type": 1,
-    "order": 1,
-    "poemId": 59157
+    "poem_id": 59157,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "أبْقَوا لنا في كأْسِنَا إلاَّ العَكِرْ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59157
+    "poem_id": 59157,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "تمتَّعُوا بحَشْوِ لَوْزِينَجِهمْ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59157
+    "poem_id": 59157,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "وقد حُرِمْنَا نحن مِن حَشْوِ الأُكَرْ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59157
+    "poem_id": 59157,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "فَلا يَستَحمِدونَ النَّاسَ أَمْراً",
-    "type": 1,
-    "order": 1,
-    "poemId": 59158
+    "poem_id": 59158,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "وَلَكِنْ ضَربَ مُجْتَمعِ الشُّؤُونِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59158
+    "poem_id": 59158,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "وظَبْيٍ أُفكِّر في تِيهِهِ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59159
+    "poem_id": 59159,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "فلا يحْظُر الوصلُ في خاطِرِي",
-    "type": 2,
-    "order": 2,
-    "poemId": 59159
+    "poem_id": 59159,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "حَبانِي مُجَرَّدَ وَعْدٍ له",
-    "type": 1,
-    "order": 3,
-    "poemId": 59159
+    "poem_id": 59159,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "كَلَيْلِي عليه بلا آخِرِ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59159
+    "poem_id": 59159,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "إذا النسيمُ جَرَّرَ ذَيْلَه علَى",
-    "type": 1,
-    "order": 1,
-    "poemId": 59160
+    "poem_id": 59160,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ساحةِ رَوضٍ فُتِّحتْ أزْهارُهُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59160
+    "poem_id": 59160,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "فنَشْرهُ مِن الثَّناءِ نَفْحةٌ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59160
+    "poem_id": 59160,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "يُثْنِى على المُزْنِ بها نُوَّارُهُ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59160
+    "poem_id": 59160,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "جاء الربيعُ الطَّلْقُ فانْهَضْ مُحْرِزاً",
-    "type": 1,
-    "order": 1,
-    "poemId": 59161
+    "poem_id": 59161,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "صَفْوَ نَعِيمٍ حَقُّه أن يُحْرَزَا",
-    "type": 2,
-    "order": 2,
-    "poemId": 59161
+    "poem_id": 59161,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "وانْظُرْ بِساطاً من نَسِيجِ نَبْتِهِ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59161
+    "poem_id": 59161,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "مُنَبَّتَاً بوَشْيهِ مُطَرَّزَا",
-    "type": 2,
-    "order": 4,
-    "poemId": 59161
+    "poem_id": 59161,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "إن يكنْ قَطَّر من رِيِقِه",
-    "type": 1,
-    "order": 1,
-    "poemId": 59162
+    "poem_id": 59162,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ماءَ َوْردٍ لحياةِ الأنْفُسِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59162
+    "poem_id": 59162,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "فلقد أبْدَى لنا من وَجْهِهِ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59162
+    "poem_id": 59162,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "عَرَقُ الْفِتْنةِ عِطْرَ النَّفَسِ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59162
+    "poem_id": 59162,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "وشادِنٍ أزْهَى من الطَّاوُوس",
-    "type": 1,
-    "order": 1,
-    "poemId": 59163
+    "poem_id": 59163,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "في عِشْقِه مَنِيَّةُ النُّفُوسِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59163
+    "poem_id": 59163,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "أبْدَى لنا مِن الثَّنايا فَمُه",
-    "type": 1,
-    "order": 3,
-    "poemId": 59163
+    "poem_id": 59163,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "سِيناً عسى تكون للتَّنْفيسِ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59163
+    "poem_id": 59163,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "ألا لا تَخْشَ من صَفْعٍ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59164
+    "poem_id": 59164,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ولا يأخُذْكَ إيحاشُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59164
+    "poem_id": 59164,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "تَنَلْ شَاشاً بِعشْرتِنا",
-    "type": 1,
-    "order": 3,
-    "poemId": 59164
+    "poem_id": 59164,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "فشَاشٌ قَلْبُه شَاشُ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59164
+    "poem_id": 59164,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "كم حِيلةٍ أعْمَلْتُها فلم تُفِدْ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59165
+    "poem_id": 59165,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "لكنْ دَعَتْنِي للهُدُوِّ والرِّضَا",
-    "type": 2,
-    "order": 2,
-    "poemId": 59165
+    "poem_id": 59165,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "إذا مَطايا العَزْمِ أَخْلَتْ بُرْهةً",
-    "type": 1,
-    "order": 3,
-    "poemId": 59165
+    "poem_id": 59165,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "سَلِّمْ زِمامَها إلى يَدِ الْقَضَا",
-    "type": 2,
-    "order": 4,
-    "poemId": 59165
+    "poem_id": 59165,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "دَعِ الهوى فآفةُ العقلِ الهوَى",
-    "type": 1,
-    "order": 1,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ومَن أطاعَه من المجد هَوَى",
-    "type": 2,
-    "order": 2,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "وفي الغرامِ لَذَّةٌ لو سَلِمْت",
-    "type": 1,
-    "order": 3,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "من الهَوانِ والمَلامِ والنَّوَى",
-    "type": 2,
-    "order": 4,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "وأفضلُ النُّفوسِ نفْسٌ رغِبتْ",
-    "type": 1,
-    "order": 5,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "عن عَرَضِ الدنيا وفتنةِ الظِّبَا",
-    "type": 2,
-    "order": 6,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "والعشقُ جهلٌ والغرامُ فتنةٌ",
-    "type": 1,
-    "order": 7,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 7
   },
   {
     "content": "ومَيِّتُ الأحياءِ مُغْرَمُ الدُّمَى",
-    "type": 2,
-    "order": 8,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 8
   },
   {
     "content": "قالوا لنا الغرامُ حِلْيَةُ الحِجَى",
-    "type": 1,
-    "order": 9,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 9
   },
   {
     "content": "قُلنا لهم بل حليةُ العِقل التُّقَى",
-    "type": 2,
-    "order": 10,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 10
   },
   {
     "content": "وهل رأيتُم في الورَى أذَلَّ من",
-    "type": 1,
-    "order": 11,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 11
   },
   {
     "content": "مُعذَّبٍ تلْهو به أيْدِي الهَوى",
-    "type": 2,
-    "order": 12,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 12
   },
   {
     "content": "أو أحَداً أغْبَنَ من مُتَيَّمٍ",
-    "type": 1,
-    "order": 13,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 13
   },
   {
     "content": "تقُودُه شَهوتُه إلى الرَّدَى",
-    "type": 2,
-    "order": 14,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 14
   },
   {
     "content": "ولِلْغوانِي فتنةٌ أشدُّ مِن",
-    "type": 1,
-    "order": 15,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 15
   },
   {
     "content": "قَتْلِ النفوسِ والفَتَى مَن ارْعَوَى",
-    "type": 2,
-    "order": 16,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 16
   },
   {
     "content": "وما على ساجِي الجُفونِ راقدٍ",
-    "type": 1,
-    "order": 17,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 17
   },
   {
     "content": "من دَنِفٍ يَبِيتُ فاقدَ الْكَرَى",
-    "type": 2,
-    "order": 18,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 18
   },
   {
     "content": "ومَن أعَدَّ للشِّتَا كافاتِه",
-    "type": 1,
-    "order": 19,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 19
   },
   {
     "content": "فلا تُرِيعُه بُرودَةُ الْهَوا",
-    "type": 2,
-    "order": 20,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 20
   },
   {
     "content": "مَظِنَّةُ الجهلِ الصِّبا وإنما",
-    "type": 1,
-    "order": 21,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 21
   },
   {
     "content": "مَفْسدةُ المرءِ الشَّبابُ والغِنَى",
-    "type": 2,
-    "order": 22,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 22
   },
   {
     "content": "والنفسُ ما علِمْتَها فإن تجدْ",
-    "type": 1,
-    "order": 23,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 23
   },
   {
     "content": "ذا عِفَّةٍ فزُهْدُه من الرِّيَا",
-    "type": 2,
-    "order": 24,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 24
   },
   {
     "content": "والناسُ إمَّا ناسِكٌ بجَهْلِه",
-    "type": 1,
-    "order": 25,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 25
   },
   {
     "content": "أو عالمٌ مُفَرِّطٌ أو لاَ ولاَ",
-    "type": 2,
-    "order": 26,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 26
   },
   {
     "content": "كأنهم أفيالُ شِطْرَنْجٍ فلا",
-    "type": 1,
-    "order": 27,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 27
   },
   {
     "content": "يُظاهِر المرءُ أخاه في عَنَا",
-    "type": 2,
-    "order": 28,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 28
   },
   {
     "content": "وإن خَفِيتَ بينهم عَذَرْتَهم",
-    "type": 1,
-    "order": 29,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 29
   },
   {
     "content": "فشدَّةُ الظهورِ تُوِرُث الْخَفَا",
-    "type": 2,
-    "order": 30,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 30
   },
   {
     "content": "وليلةٍ بِتُّ أعُدُّ نَجْمَها",
-    "type": 1,
-    "order": 31,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 31
   },
   {
     "content": "والدمعُ قاني الصِّبْغ مَحْلولُ الوِكَا",
-    "type": 2,
-    "order": 32,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 32
   },
   {
     "content": "ولم يطُلْ لَيلِي ولكنَّ الجوى",
-    "type": 1,
-    "order": 33,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 33
   },
   {
     "content": "يُعِيدُ ليلَ الصيفِ من ليل الشِّتَا",
-    "type": 2,
-    "order": 34,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 34
   },
   {
     "content": "والشوقُ كالليلِ إذا الليلُ دَجَا",
-    "type": 1,
-    "order": 35,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 35
   },
   {
     "content": "والليلُ كالبحرِ إذا البحرُ طَمَا",
-    "type": 2,
-    "order": 36,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 36
   },
   {
     "content": "كأنما المرِّيخُ عَينُ أرْمدٍ",
-    "type": 1,
-    "order": 37,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 37
   },
   {
     "content": "أو جمرةٌ من تحت فَحْمَةِ الدُّجَى",
-    "type": 2,
-    "order": 38,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 38
   },
   {
     "content": "كأنما السُّها أخو صَبابةٍ",
-    "type": 1,
-    "order": 39,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 39
   },
   {
     "content": "يكاد يُخْفِيه السَّقامُ والضَّنَى",
-    "type": 2,
-    "order": 40,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 40
   },
   {
     "content": "كأنما سُهَيْلُ راعِي نُعُمٍٍ",
-    "type": 1,
-    "order": 41,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 41
   },
   {
     "content": "أو فارسٌ يقْدُم جيْشاً للْوغَى",
-    "type": 2,
-    "order": 42,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 42
   },
   {
     "content": "كأنما الجَوزاءُ عِقْدُ جوهرٍ",
-    "type": 1,
-    "order": 43,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 43
   },
   {
     "content": "أو سُبْحةٌ أو مَبْسِمُ العَذْبِ اللَّمَى",
-    "type": 2,
-    "order": 44,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 44
   },
   {
     "content": "كأنَّ مُنْقَضَّ النُّجُوم شَرَرٌ",
-    "type": 1,
-    "order": 45,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 45
   },
   {
     "content": "تثِيرُه الرِّياحُ من جَمْرِ الْغَضَا",
-    "type": 2,
-    "order": 46,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 46
   },
   {
     "content": "كأنما السُّحْبُ سُتورٌ رُفِعتْ",
-    "type": 1,
-    "order": 47,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 47
   },
   {
     "content": "أو مَوجُ بحرٍ أو شَوامِخُ القِلاَ",
-    "type": 2,
-    "order": 48,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 48
   },
   {
     "content": "كأنما الرَّعْدُ زَئيرُ ضَيْغَمٍ",
-    "type": 1,
-    "order": 49,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 49
   },
   {
     "content": "قد فَقد الشِّبالَ أو صوتُ رَحَى",
-    "type": 2,
-    "order": 50,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 50
   },
   {
     "content": "كأنما البَرْق حُسامُ لاعبٍ",
-    "type": 1,
-    "order": 51,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 51
   },
   {
     "content": "يُديره في يَدِه كيف يَشَا",
-    "type": 2,
-    "order": 52,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 52
   },
   {
     "content": "كأنما القَطْرُ لآلٍ نُثِرتْ",
-    "type": 1,
-    "order": 53,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 53
   },
   {
     "content": "على بساطِ سُنْدُسٍ يومَ جِلاَ",
-    "type": 2,
-    "order": 54,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 54
   },
   {
     "content": "كأنما الْهَمَّ غَرِيمٌ مُقْسِمٌ",
-    "type": 1,
-    "order": 55,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 55
   },
   {
     "content": "أن لا يَغِيبَ لَحْظةً عن الحشَا",
-    "type": 2,
-    "order": 56,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 56
   },
   {
     "content": "كأنما القلبُ مكلَّفٌ بأن",
-    "type": 1,
-    "order": 57,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 57
   },
   {
     "content": "يحمِل منه ما تحمَّل الوَرَى",
-    "type": 2,
-    "order": 58,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 58
   },
   {
     "content": "كأنما وَجْهُ البَسِيطِ شُقَّةٌ",
-    "type": 1,
-    "order": 59,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 59
   },
   {
     "content": "لا تَنْطوِي ولا لحدِّها انتهَا",
-    "type": 2,
-    "order": 60,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 60
   },
   {
     "content": "كأنَّني مُوكَّلٌ بِذَرْعِها",
-    "type": 1,
-    "order": 61,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 61
   },
   {
     "content": "من قِبَلِ الْخِضرِ بأذْرُع الْخُطَا",
-    "type": 2,
-    "order": 62,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 62
   },
   {
     "content": "لا أسْتقرُّ ساعةً بمنزلٍ",
-    "type": 1,
-    "order": 63,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 63
   },
   {
     "content": "إلا اقْتضَى أمرٌ تجدُّدَ النَّوى",
-    "type": 2,
-    "order": 64,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 64
   },
   {
     "content": "ولا تَراني قطُّ إلاَّ راكباً",
-    "type": 1,
-    "order": 65,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 65
   },
   {
     "content": "في طلب المجدِ وتحْصِيلِ العُلَى",
-    "type": 2,
-    "order": 66,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 66
   },
   {
     "content": "والحُرُّ لا يرضَى الهَوانَ صاحباً",
-    "type": 1,
-    "order": 67,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 67
   },
   {
     "content": "وليس دارُ الذُّلِّ مَسْكنَ الفَتَى",
-    "type": 2,
-    "order": 68,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 68
   },
   {
     "content": "والعقلُ في هذا الزمانِ آفةٌ",
-    "type": 1,
-    "order": 69,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 69
   },
   {
     "content": "وربما يقْتُل أهلَه الذَّكَا",
-    "type": 2,
-    "order": 70,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 70
   },
   {
     "content": "وذو النُّهَى مُعذَّبٌ لأنه",
-    "type": 1,
-    "order": 71,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 71
   },
   {
     "content": "يريد أن تَرى الأنامُ ما يَرَى",
-    "type": 2,
-    "order": 72,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 72
   },
   {
     "content": "والناسُ حَمْقَى ما ظفرت بينهم",
-    "type": 1,
-    "order": 73,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 73
   },
   {
     "content": "بعاقلٍ في الرأي إن خطبٌ دَهَى",
-    "type": 2,
-    "order": 74,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 74
   },
   {
     "content": "وكلَّما ارْتَقَى العُلَى سَرِيُّهم",
-    "type": 1,
-    "order": 75,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 75
   },
   {
     "content": "كَفَّ عن الخيراتِ كَفَّاً وطَوَى",
-    "type": 2,
-    "order": 76,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 76
   },
   {
     "content": "يهْوَى المديحَ عالِماً بنَقْدِه",
-    "type": 1,
-    "order": 77,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 77
   },
   {
     "content": "ودون نَقْدِه تناوُلُ السُّهَا",
-    "type": 2,
-    "order": 78,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 78
   },
   {
     "content": "وإن طلبْتَ حاجةً وَجدْتَه",
-    "type": 1,
-    "order": 79,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 79
   },
   {
     "content": "كمِشْجَبٍ من حيث جِئْتَ فهوْلا",
-    "type": 2,
-    "order": 80,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 80
   },
   {
     "content": "إن أوْعَدُوا فالفعلُ قبلَ قَوْلِهم",
-    "type": 1,
-    "order": 81,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 81
   },
   {
     "content": "أو وَعَدُوا فإنهم كالشُّعَرَا",
-    "type": 2,
-    "order": 82,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 82
   },
   {
     "content": "والآن قد رَغِبْتُ عن نَوالِهم",
-    "type": 1,
-    "order": 83,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 83
   },
   {
     "content": "وتُبْتُ من مَدِيحهم قبلَ الْهِجَا",
-    "type": 2,
-    "order": 84,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 84
   },
   {
     "content": "لا ينْبَغي الشِّعْرُ لذي فضيلةٍ",
-    "type": 1,
-    "order": 85,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 85
   },
   {
     "content": "كيف وقد سُدَّتْ مذاهبُ الرَّجَا",
-    "type": 2,
-    "order": 86,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 86
   },
   {
     "content": "وخابتِ الآمالُ إلاَّ في الذي",
-    "type": 1,
-    "order": 87,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 87
   },
   {
     "content": "حِماهُ مَلْجَأُ العُفاةِ الضُّعَفَا",
-    "type": 2,
-    "order": 88,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 88
   },
   {
     "content": "يا خيرَ مَن يشْفَع في الحَشْرِ ومَن",
-    "type": 1,
-    "order": 89,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 89
   },
   {
     "content": "أفْلَحَ قاصِدٌ لِبابِه الْتَجَا",
-    "type": 2,
-    "order": 90,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 90
   },
   {
     "content": "كُنْ لي شفيعاً يومَ لا مُشَفَّعٌ",
-    "type": 1,
-    "order": 91,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 91
   },
   {
     "content": "سِواكَ يُنْجي الخائفين مِن لَظَى",
-    "type": 2,
-    "order": 92,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 92
   },
   {
     "content": "قد عظُم الخوفُ لِمَا جَنَيْتُه",
-    "type": 1,
-    "order": 93,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 93
   },
   {
     "content": "والعفوُ عند الأكْرمين يُرْتجَى",
-    "type": 2,
-    "order": 94,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 94
   },
   {
     "content": "وليس لي عذرٌ سوى توكُّلِي",
-    "type": 1,
-    "order": 95,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 95
   },
   {
     "content": "على الكثيرِ عَفْوُه لمن عَصَى",
-    "type": 2,
-    "order": 96,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 96
   },
   {
     "content": "لولا الذُّنوبُ ضاع فيْضُ جُودِه",
-    "type": 1,
-    "order": 97,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 97
   },
   {
     "content": "و لم يَبِنْ فضلُك بين الشُّفَعَا",
-    "type": 2,
-    "order": 98,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 98
   },
   {
     "content": "وها كَها خَرِيدةً مقصورةً",
-    "type": 1,
-    "order": 99,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 99
   },
   {
     "content": "على مَعاليك ومَهْرُها الرِّضَا",
-    "type": 2,
-    "order": 100,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 100
   },
   {
     "content": "إن قُبِلْتَ فيالها من نِعْمةٍ",
-    "type": 1,
-    "order": 101,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 101
   },
   {
     "content": "وهل يخافُ واردُ البحرِ الظَّمَا",
-    "type": 2,
-    "order": 102,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 102
   },
   {
     "content": "صلَّى عليك ذو الجلالِ كلما",
-    "type": 1,
-    "order": 103,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 103
   },
   {
     "content": "صلَّى عليك مُخْلِصٌ وسَلَّمَا",
-    "type": 2,
-    "order": 104,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 104
   },
   {
     "content": "وبَاكَرتْ ذاك الضَّرِيحَ سُحْرةً",
-    "type": 1,
-    "order": 105,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 105
   },
   {
     "content": "حَوامِلُ المُزْن يُحثُّها الصَّبَا",
-    "type": 2,
-    "order": 106,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 106
   },
   {
     "content": "ما سُلَّ عَضْبُ الفجرِ من غَمْدِ الدُّجَى",
-    "type": 1,
-    "order": 107,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 107
   },
   {
     "content": "وما سَرَى رَكْبُ الحجازِ مُدْلِجَا",
-    "type": 2,
-    "order": 108,
-    "poemId": 59166
+    "poem_id": 59166,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 108
   },
   {
     "content": "كانت بِقَلْبِي غُلَّةٌ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59167
+    "poem_id": 59167,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "حَرَّاءُ للرَّشأالمُمَنَّعْ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59167
+    "poem_id": 59167,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "حتى دَنَوتُ لثَغْرِه",
-    "type": 1,
-    "order": 3,
-    "poemId": 59167
+    "poem_id": 59167,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "فرَشفْتُه والرَّشْفُ أنْقَعْ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59167
+    "poem_id": 59167,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "مِن صَفْوةِ الخَلْقِِ مَلِيحٌ وَجْهُه",
-    "type": 1,
-    "order": 1,
-    "poemId": 59168
+    "poem_id": 59168,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "جامِعُ حُسْنٍ مُتْقَنُ الصِّناعَهْ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59168
+    "poem_id": 59168,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "قد خُطَّ مِحْرابان في قِبْلَتِهِ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59168
+    "poem_id": 59168,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "لمَّا اقْتضَتْه كثرةُ الجماعَهْ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59168
+    "poem_id": 59168,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "أحسنُ ما سارتْ به الأمثالُ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "حَمْدُ إلهٍ مالَه مثالُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "فالحمدُ لِله على إسْدائِهِ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "فضلاً يكِلُّ النُّطْقُ عن إحْصائِهِ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "ثم الصلاةُ للنبيِّ المُحْتَرمْ",
-    "type": 1,
-    "order": 5,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "مَنْبَعِ أسْرارِ العلومِ والحِكَمْ",
-    "type": 2,
-    "order": 6,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "وآله وصحبِه الكرامِ",
-    "type": 1,
-    "order": 7,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 7
   },
   {
     "content": "مَن فهِموا مَزِيَّةَ الكلامِ",
-    "type": 2,
-    "order": 8,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 8
   },
   {
     "content": "ما تُلِيتْ مَحاسنُ الألْفاظِ",
-    "type": 1,
-    "order": 9,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 9
   },
   {
     "content": "فشَنَّفتْ مسامِعَ الحُفَّاظِ",
-    "type": 2,
-    "order": 10,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 10
   },
   {
     "content": "وهذه تَحائفٌ أُهْدِيها",
-    "type": 1,
-    "order": 11,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 11
   },
   {
     "content": "من حِكَمٍ لمن وَعَى أُبْدِيهَا",
-    "type": 2,
-    "order": 12,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 12
   },
   {
     "content": "سَمَّيْتُهَا برَاحةِ الأرْواحِ",
-    "type": 1,
-    "order": 13,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 13
   },
   {
     "content": "جَالبةِ السرورِ والأفْراحِ",
-    "type": 2,
-    "order": 14,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 14
   },
   {
     "content": "قالتْ لها الأمثالُ حزْتِ السَّبْقَا",
-    "type": 1,
-    "order": 15,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 15
   },
   {
     "content": "إذْ أنتِ في حِفْظِ اللبيبِ أبْقَى",
-    "type": 2,
-    "order": 16,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 16
   },
   {
     "content": "إنَّ اللَّبيبَ يعرِف المَزايَا",
-    "type": 1,
-    "order": 17,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 17
   },
   {
     "content": "وكم خَبايَا لُحْنَ في الزَّوايَا",
-    "type": 2,
-    "order": 18,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 18
   },
   {
     "content": "ورُبَّ جاهلٍ لقد تعلَّما",
-    "type": 1,
-    "order": 19,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 19
   },
   {
     "content": "لا يَأْيَسَنَّ نائمٌ أن يغْنَمَا",
-    "type": 2,
-    "order": 20,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 20
   },
   {
     "content": "من غَنِم الفرصةَ أدْركَ المُنَى",
-    "type": 1,
-    "order": 21,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 21
   },
   {
     "content": "ما فاز بالكَرْمِ سوى الذي جَنَى",
-    "type": 2,
-    "order": 22,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 22
   },
   {
     "content": "الناسُ إخوانٌ وشَتَّى في الشِّيَم",
-    "type": 1,
-    "order": 23,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 23
   },
   {
     "content": "وكلُّهم يجمعُهم بَيْتُ الأدَمْ",
-    "type": 2,
-    "order": 24,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 24
   },
   {
     "content": "فالبعضُ منهم كالغذاءِ النافعِ",
-    "type": 1,
-    "order": 25,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 25
   },
   {
     "content": "والبعضُ كالسَّمِّ الزُّعافِ الناقِعِ",
-    "type": 2,
-    "order": 26,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 26
   },
   {
     "content": "وهكذا بعضُ الذَّواتِ رُوحُ",
-    "type": 1,
-    "order": 27,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 27
   },
   {
     "content": "والبعضُ منها في الحشَا قُروحُ",
-    "type": 2,
-    "order": 28,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 28
   },
   {
     "content": "ورُبَّ شخصٍ حسنٍ في الخَلْقِ",
-    "type": 1,
-    "order": 29,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 29
   },
   {
     "content": "وهْو أشدُّ من شَجىً في الحَلْقِ",
-    "type": 2,
-    "order": 30,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 30
   },
   {
     "content": "والدهرُ صَرَّافٌ له تصْريفُ",
-    "type": 1,
-    "order": 31,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 31
   },
   {
     "content": "يرُوج فيه النَّقْدُ والزَّيُوفُ",
-    "type": 2,
-    "order": 32,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 32
   },
   {
     "content": "لذاك ضاعتْ خُلَّصُ الأحرار",
-    "type": 1,
-    "order": 33,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 33
   },
   {
     "content": "كضَيْعَةِ المصباحِ في النهارِ",
-    "type": 2,
-    "order": 34,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 34
   },
   {
     "content": "تَعادُلُ الفاضلِ وَالمفْضولِ",
-    "type": 1,
-    "order": 35,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 35
   },
   {
     "content": "عَرَّ فنا الفضلَ من الفُضولِ",
-    "type": 2,
-    "order": 36,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 36
   },
   {
     "content": "والاعْتدالُ في الأمور أعْدَلُ",
-    "type": 1,
-    "order": 37,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 37
   },
   {
     "content": "والمَسْلَك الأوسطُ فيها أمْثَلُ",
-    "type": 2,
-    "order": 38,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 38
   },
   {
     "content": "هي المُنَى مَجْلَبَةُ التَّعَنِّي",
-    "type": 1,
-    "order": 39,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 39
   },
   {
     "content": "كم عاشقٍٍ أهَّلَه التَّجَنِّي",
-    "type": 2,
-    "order": 40,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 40
   },
   {
     "content": "قد تُحْرَمُ الآمال حيث الرَّغْبهْ",
-    "type": 1,
-    "order": 41,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 41
   },
   {
     "content": "وتسقُط الطيرُ لأجلِ الحَبَّهْ",
-    "type": 2,
-    "order": 42,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 42
   },
   {
     "content": "المرءُ تَوَّاقٌ إلى ما لم يَنَلْ",
-    "type": 1,
-    "order": 43,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 43
   },
   {
     "content": "وكلُّ شيءٍ أخْطأَ الأنْفَ جَلَلْ",
-    "type": 2,
-    "order": 44,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 44
   },
   {
     "content": "مَن كان يهْوَى مَنْظَراً بلا خَبَرْ",
-    "type": 1,
-    "order": 45,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 45
   },
   {
     "content": "فماله أوْفَقُ من عِشَقِ القَمَرْ",
-    "type": 2,
-    "order": 46,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 46
   },
   {
     "content": "مَضى الصِّبا فأين منه الوَطَرُ",
-    "type": 1,
-    "order": 47,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 47
   },
   {
     "content": "هيْهات هيهات الجَنابُ الأخْضَرُ",
-    "type": 2,
-    "order": 48,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 48
   },
   {
     "content": "مِيعادُ دمعِي ذِكْرُ أيامِ الصِّبا",
-    "type": 1,
-    "order": 49,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 49
   },
   {
     "content": "وجُلُّ شَجْوِي عند هَبَّةِ الصَّبَا",
-    "type": 2,
-    "order": 50,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 50
   },
   {
     "content": "مضَى نَشاطِي إذْ تولَّى الصَّحْبُ",
-    "type": 1,
-    "order": 51,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 51
   },
   {
     "content": "ما أعْلَمَ الموتَ بمَن أُحِبُّ",
-    "type": 2,
-    "order": 52,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 52
   },
   {
     "content": "صَبْراً على الهمومِ والأحزانِ",
-    "type": 1,
-    "order": 53,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 53
   },
   {
     "content": "فإنَّ هذا خُلُقُ الزمانِ",
-    "type": 2,
-    "order": 54,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 54
   },
   {
     "content": "ثِقْ بالإله كم له صُنْعٌ حَفِي",
-    "type": 1,
-    "order": 55,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 55
   },
   {
     "content": "وهْو إذا حَلَّ البَلاَ لُطْفٌ خَفِي",
-    "type": 2,
-    "order": 56,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 56
   },
   {
     "content": "خُذْ فُرْصةَ الإمْكانِ في إبَّانِهِ",
-    "type": 1,
-    "order": 57,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 57
   },
   {
     "content": "واسْجُدْ لقِرْدِ السّوءِ في زَمانِهِ",
-    "type": 2,
-    "order": 58,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 58
   },
   {
     "content": "إن فاتَكَ الغَدِيرُ فاقصِدِ الوَشَلْ",
-    "type": 1,
-    "order": 59,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 59
   },
   {
     "content": "يرْضَى بِعِقْدِ الأسْرِ من أوْفى الثَّلَلْ",
-    "type": 2,
-    "order": 60,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 60
   },
   {
     "content": "حَدُّ العفافِ القَنعُ بالكَفافِ",
-    "type": 1,
-    "order": 61,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 61
   },
   {
     "content": "ما ضاق عيْشٌ والإلهُ كافِي",
-    "type": 2,
-    "order": 62,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 62
   },
   {
     "content": "مَن لم تكن أنتَ له نَسِيبَا",
-    "type": 1,
-    "order": 63,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 63
   },
   {
     "content": "فلا تُؤمِّلْ عنده نَصِيبَا",
-    "type": 2,
-    "order": 64,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 64
   },
   {
     "content": "والناسُ إن سألْتَهم فَضْلَ القُرَبْ",
-    "type": 1,
-    "order": 65,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 65
   },
   {
     "content": "حاوَلْتَ أن تجْنِي من الشَّوكِ العِنَبْ",
-    "type": 2,
-    "order": 66,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 66
   },
   {
     "content": "هذا زمانُ الشُّحِّ والإقْتارِ",
-    "type": 1,
-    "order": 67,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 67
   },
   {
     "content": "مضَى زمانُ الجُودِ والإيثارِ",
-    "type": 2,
-    "order": 68,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 68
   },
   {
     "content": "من كلَّف النفوسَ ضِدَّ طَبْعِهَا",
-    "type": 1,
-    "order": 69,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 69
   },
   {
     "content": "أعْيَى بما لا يُرْتجَى مِن نَفْعِهَا",
-    "type": 2,
-    "order": 70,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 70
   },
   {
     "content": "وإنَّ مَن خَصَّ لئيماً بنَدَى",
-    "type": 1,
-    "order": 71,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 71
   },
   {
     "content": "كان كمن رَبَّى لِحَتْفٍ أسَدَا",
-    "type": 2,
-    "order": 72,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 72
   },
   {
     "content": "قد يبلُغون رُتَبَاً في الدنيا",
-    "type": 1,
-    "order": 73,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 73
   },
   {
     "content": "لكنَّهم لا يبلُغون العَلْيَا",
-    "type": 2,
-    "order": 74,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 74
   },
   {
     "content": "إنَّ المعالِي صَعْبةُ المَراقِي",
-    "type": 1,
-    "order": 75,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 75
   },
   {
     "content": "مِن دُونها الأرواحُ في التَّراقِي",
-    "type": 2,
-    "order": 76,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 76
   },
   {
     "content": "لا تسْتوِي في الرَّاحةِ الأناملُ",
-    "type": 1,
-    "order": 77,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 77
   },
   {
     "content": "ورُبَّ مَأْمولٍ عَلاهُ الآمِلُ",
-    "type": 2,
-    "order": 78,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 78
   },
   {
     "content": "قد تُورِدُ الأقْدارُ ثم تُصْدِرُ",
-    "type": 1,
-    "order": 79,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 79
   },
   {
     "content": "وتُدْبِرُ الأقمارُ ثم تُبْدِرُ",
-    "type": 2,
-    "order": 80,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 80
   },
   {
     "content": "بالجُودِ يَرْقَى المرءُ مَرْقَى الحمدِ",
-    "type": 1,
-    "order": 81,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 81
   },
   {
     "content": "إن السَّخاء سُلَّمٌ للمَجْدِ",
-    "type": 2,
-    "order": 82,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 82
   },
   {
     "content": "وعَوِّذِ النَّعْما من الزَّوالِ",
-    "type": 1,
-    "order": 83,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 83
   },
   {
     "content": "بكَثْرةِ الإحسانِ والنَّوالِ",
-    "type": 2,
-    "order": 84,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 84
   },
   {
     "content": "يضُوع عَرْفُ العُرْفِ عند الحُرِّ",
-    "type": 1,
-    "order": 85,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 85
   },
   {
     "content": "وإنه يَضِيع عند الغِمْرِ",
-    "type": 2,
-    "order": 86,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 86
   },
   {
     "content": "وإنما المعروفُ والصَّنِيعهْ",
-    "type": 1,
-    "order": 87,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 87
   },
   {
     "content": "تُعْرَف عند أهلِها وَدْيعهْ",
-    "type": 2,
-    "order": 88,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 88
   },
   {
     "content": "الرأيُ كلّ الرَّأْيِ في تَرْكِ الكُلَفْ",
-    "type": 1,
-    "order": 89,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 89
   },
   {
     "content": "فقد مضَى عليه ساداتُ السَّلَفْ",
-    "type": 2,
-    "order": 90,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 90
   },
   {
     "content": "ومن تغُرُّ عَقْلَه السَّلامهْ",
-    "type": 1,
-    "order": 91,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 91
   },
   {
     "content": "تخدمُه ألْسِنةُ النَّدامَهْ",
-    "type": 2,
-    "order": 92,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 92
   },
   {
     "content": "من لزِم السِّلْمَ من الحرب سَلِمْ",
-    "type": 1,
-    "order": 93,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 93
   },
   {
     "content": "ومَن أبَى إلاَّ هوَى النفسِ نَدِمْ",
-    "type": 2,
-    "order": 94,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 94
   },
   {
     "content": "يأْرَجُ بالنَّسِيم عَرْفُ الرَّنْدِ",
-    "type": 1,
-    "order": 95,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 95
   },
   {
     "content": "والقَدْحُ أصلٌ في ثُقوبِ الزَّنْدِ",
-    "type": 2,
-    "order": 96,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 96
   },
   {
     "content": "لكلِّ قلبٍ في طِلابِه هوَى",
-    "type": 1,
-    "order": 97,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 97
   },
   {
     "content": "وقِسْ عليه الدَّاء يحْتاجُ الدَّوَا",
-    "type": 2,
-    "order": 98,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 98
   },
   {
     "content": "مَن طلَب الدُّرَّ بقَعْرِ البحرِ",
-    "type": 1,
-    "order": 99,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 99
   },
   {
     "content": "لم يَخْلُ مِن شُرْبِ الأجاجِ المُرِّ",
-    "type": 2,
-    "order": 100,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 100
   },
   {
     "content": "دَعْ في الأمورِ الحَدْسَ والظُّنونَا",
-    "type": 1,
-    "order": 101,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 101
   },
   {
     "content": "لابُدَّ للمقْدورِ أن يكونَا",
-    "type": 2,
-    "order": 102,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 102
   },
   {
     "content": "ما قِيمةُ الآمالِ للقُصَّادِ",
-    "type": 1,
-    "order": 103,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 103
   },
   {
     "content": "والموتُ للإنسانِ بالمِرْصادِ",
-    "type": 2,
-    "order": 104,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 104
   },
   {
     "content": "إذا بَقِي من الجَدَى ما قانَكْ",
-    "type": 1,
-    "order": 105,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 105
   },
   {
     "content": "فلا تكُنْ تَأْسَى على ما فاتَكْ",
-    "type": 2,
-    "order": 106,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 106
   },
   {
     "content": "ربَّ اجْتهادٍ دونه الجِهادُ",
-    "type": 1,
-    "order": 107,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 107
   },
   {
     "content": "في راحةٍ مَن لا له مُرادُ",
-    "type": 2,
-    "order": 108,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 108
   },
   {
     "content": "ما ينْفعُ التَّدْبيرُ والتَّقديرُ",
-    "type": 1,
-    "order": 109,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 109
   },
   {
     "content": "ينْبِضُ قَوْسُه ولا تَوْتِيرُ",
-    "type": 2,
-    "order": 110,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 110
   },
   {
     "content": "قَراقِعٌ ما تحْتهُنَّ طائِلُ",
-    "type": 1,
-    "order": 111,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 111
   },
   {
     "content": "إلاَّ مِحَاقُ العُمْرِ والغَوائِلُ",
-    "type": 2,
-    "order": 112,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 112
   },
   {
     "content": "قد ذهبتْ مَكارمُ الأخلاقِ",
-    "type": 1,
-    "order": 113,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 113
   },
   {
     "content": "إلاَّ من الأمثالِ والأوْراقِ",
-    "type": 2,
-    "order": 114,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 114
   },
   {
     "content": "تغيَّر الإخوانُ واخْتلَّ الزَّمَنْ",
-    "type": 1,
-    "order": 115,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 115
   },
   {
     "content": "فلا صديقَ غيرُ صِحَّةِ البَدَنْ",
-    "type": 2,
-    "order": 116,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 116
   },
   {
     "content": "لا تكْتُمنَّ دَاءَك الطَّبِيبَا",
-    "type": 1,
-    "order": 117,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 117
   },
   {
     "content": "ولا الصديقَ سِرَّك المَحْجوبَا",
-    "type": 2,
-    "order": 118,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 118
   },
   {
     "content": "هذا إذا كانَا عسى وعَلَّما",
-    "type": 1,
-    "order": 119,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 119
   },
   {
     "content": "وما أظنُّ الدهرَ يسْخو بِهِمَا",
-    "type": 2,
-    "order": 120,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 120
   },
   {
     "content": "كفى عن المَخْبَرِ مَنْظَرٌ أطَلّ",
-    "type": 1,
-    "order": 121,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 121
   },
   {
     "content": "في حُمْرةِ الخَدِّ غِناً عن الخَجَلْ",
-    "type": 2,
-    "order": 122,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 122
   },
   {
     "content": "مَنْظَرُ كلِّ ماجدٍ مِعْيارُهُ",
-    "type": 1,
-    "order": 123,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 123
   },
   {
     "content": "إنَّ الجوادَ عَيْنُه فُرَارُهُ",
-    "type": 2,
-    "order": 124,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 124
   },
   {
     "content": "مَن سابَق الجَوادَ بالحِمارِ",
-    "type": 1,
-    "order": 125,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 125
   },
   {
     "content": "جَنَتْ يداه ثمرَ العِثارِ",
-    "type": 2,
-    "order": 126,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 126
   },
   {
     "content": "قد تُسعِف الأقدارُ بالسُّعودِ",
-    "type": 1,
-    "order": 127,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 127
   },
   {
     "content": "فتُلْحِق المَحْدُودَ بالمَجْدُودِ",
-    "type": 2,
-    "order": 128,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 128
   },
   {
     "content": "كم قد نصَبْتُ للأماني مَرْمَى",
-    "type": 1,
-    "order": 129,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 129
   },
   {
     "content": "مُفَوِّقاً منِّي إليه سَهْمَا",
-    "type": 2,
-    "order": 130,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 130
   },
   {
     "content": "فلم يكُن لي عنده نَصِيبُ",
-    "type": 1,
-    "order": 131,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 131
   },
   {
     "content": "ما كلُّ رامِي غَرَضٍ يُصِيبُ",
-    "type": 2,
-    "order": 132,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 132
   },
   {
     "content": "والسَّعْدُ إنْ ما كان حيناً أبْطَا",
-    "type": 1,
-    "order": 133,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 133
   },
   {
     "content": "فلا تقُلْ بأنه قد أخْطَا",
-    "type": 2,
-    "order": 134,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 134
   },
   {
     "content": "إذْ ربما قد عَوَّقتْه الأقْدارُ",
-    "type": 1,
-    "order": 135,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 135
   },
   {
     "content": "وكلُّ شيءٍ عنده مِقْدارُ",
-    "type": 2,
-    "order": 136,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 136
   },
   {
     "content": "في يَدكِ الحُزْنُ متى تشاءُ",
-    "type": 1,
-    "order": 137,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 137
   },
   {
     "content": "فاغْنَمْ سُروراً تَرْكُه عَناءُ",
-    "type": 2,
-    "order": 138,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 138
   },
   {
     "content": "ما كلُّ وقتٍ مُسْعِفٌ بما يُحبّ",
-    "type": 1,
-    "order": 139,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 139
   },
   {
     "content": "فإن يكُن دَرَّتْ لَبُونٌ فاحْتَلِبْ",
-    "type": 2,
-    "order": 140,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 140
   },
   {
     "content": "مَن يطلُبِ الخَلاصَ نالَه الأسَى",
-    "type": 1,
-    "order": 141,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 141
   },
   {
     "content": "وفي خُطوبِ الناسِ للناسِ أُسَى",
-    "type": 2,
-    "order": 142,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 142
   },
   {
     "content": "حُبُّ الثَّنا طبيعةُ الإنسانِ",
-    "type": 1,
-    "order": 143,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 143
   },
   {
     "content": "والشكرُ مَوْقوفٌ على الإحسانِ",
-    "type": 2,
-    "order": 144,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 144
   },
   {
     "content": "الجُودُ بالمَوجُودِ عُنْوانُ الشَّرفْ",
-    "type": 1,
-    "order": 145,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 145
   },
   {
     "content": "ومَن أضافَ لم يُبالِ بالسَّرَفْ",
-    "type": 2,
-    "order": 146,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 146
   },
   {
     "content": "من يتلقَّى الجُودَ بالجُحودِ",
-    "type": 1,
-    "order": 147,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 147
   },
   {
     "content": "عَرَّض نُعْماهُ إلى الشُّرودِ",
-    "type": 2,
-    "order": 148,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 148
   },
   {
     "content": "لِلْوِدِّ عَقْدُ ذِمَّةٍ لا تُهْمَلُ",
-    "type": 1,
-    "order": 149,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 149
   },
   {
     "content": "وللرَّجاء حُرْمَةٌ لا تُجْهَلُ",
-    "type": 2,
-    "order": 150,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 150
   },
   {
     "content": "سَالِفُ ما كان من الحُرُماتِ",
-    "type": 1,
-    "order": 151,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 151
   },
   {
     "content": "يسْتوجِبُ العَفْوَ عن الزَّلاَّت",
-    "type": 2,
-    "order": 152,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 152
   },
   {
     "content": "بالفَحْصِ عن خَواطِر الأحِبَّهْ",
-    "type": 1,
-    "order": 153,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 153
   },
   {
     "content": "يُنْسَجُ بُرْدُ الوُدِّ والمَحَبَّهْ",
-    "type": 2,
-    "order": 154,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 154
   },
   {
     "content": "إنَّ الرَّقيب يمنعُ التَّراضِي",
-    "type": 1,
-    "order": 155,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 155
   },
   {
     "content": "كالخَصْمِ قد يرضَى ويأْبَى القاضِي",
-    "type": 2,
-    "order": 156,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 156
   },
   {
     "content": "حتى متى أصْبُو ورأسِي شُمْطُ",
-    "type": 1,
-    "order": 157,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 157
   },
   {
     "content": "أحسَبُ أن الموتَ باسْمِي يغْلَطُ",
-    "type": 2,
-    "order": 158,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 158
   },
   {
     "content": "ليس على فَقْدِ الحياةِ من نَدَمْ",
-    "type": 1,
-    "order": 159,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 159
   },
   {
     "content": "قد اسْتَوى الوُجودُ فيها والعَدَمْ",
-    "type": 2,
-    "order": 160,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 160
   },
   {
     "content": "كلُّ نَعِيم فإلى فَناءِ",
-    "type": 1,
-    "order": 161,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 161
   },
   {
     "content": "وكلُّ عَيْشٍ فإلى انْقِضَاءِ",
-    "type": 2,
-    "order": 162,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 162
   },
   {
     "content": "عليك يا هذا الفتى بالتَّوْبَةِ",
-    "type": 1,
-    "order": 163,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 163
   },
   {
     "content": "فانْجُ بها قبلَ انْتهاءِ النَّوْبَةِ",
-    "type": 2,
-    "order": 164,
-    "poemId": 59169
+    "poem_id": 59169,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 164
   },
   {
     "content": "في الرَّوضِ جَرَى زُلالُ ماءٍ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59170
+    "poem_id": 59170,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "عن أحْسَنِ مَنْظَرٍ يَشِفُّ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59170
+    "poem_id": 59170,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "أحْداقُ لُجَينِهِ عليها",
-    "type": 1,
-    "order": 3,
-    "poemId": 59170
+    "poem_id": 59170,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "أهْدابُ زَبَرْجَدٍ تَرِفُّ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59170
+    "poem_id": 59170,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "للقلب ما شاء الغَرامْ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "والجسم حِصَّتُه السَّقامْ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "وإذا اخْتبرْتَ وَجَدْتَ مِحْ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "نةَ مَن يُحِبُّ هِيَ الحِمامْ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "عجَباً لقلبي لا يَمَلُّ",
-    "type": 1,
-    "order": 5,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "جَوًى ويُؤْلِمه المَلامْ",
-    "type": 2,
-    "order": 6,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "وأبِيك هذِي شِيمتِي",
-    "type": 1,
-    "order": 7,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 7
   },
   {
     "content": "من مُنذ أدْركنِي الفِطامْ",
-    "type": 2,
-    "order": 8,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 8
   },
   {
     "content": "إنِّي أغار على الهوَى",
-    "type": 1,
-    "order": 9,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 9
   },
   {
     "content": "من أن تُؤمِّلَه الأنامْ",
-    "type": 2,
-    "order": 10,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 10
   },
   {
     "content": "وأرُومُ من حَدَقِ الظِّبا",
-    "type": 1,
-    "order": 11,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 11
   },
   {
     "content": "نَظَراً به حَتْفِي يُرامْ",
-    "type": 2,
-    "order": 12,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 12
   },
   {
     "content": "أفْدِي الذي منه يَغا",
-    "type": 1,
-    "order": 13,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 13
   },
   {
     "content": "رُ إذا بَدَا البدرُ التَّمامْ",
-    "type": 2,
-    "order": 14,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 14
   },
   {
     "content": "فَعَلتْ بنا أحْداقُه",
-    "type": 1,
-    "order": 15,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 15
   },
   {
     "content": "ما ليس تفعلُه المُدامْ",
-    "type": 2,
-    "order": 16,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 16
   },
   {
     "content": "إن شَطَّ عنك خيالُه",
-    "type": 1,
-    "order": 17,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 17
   },
   {
     "content": "فعلى حُشاشتِك السلامْ",
-    "type": 2,
-    "order": 18,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 18
   },
   {
     "content": "أأُخَيَّ مَن يَكُ عاشقاً",
-    "type": 1,
-    "order": 19,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 19
   },
   {
     "content": "فعلى مَ يجْفُوه المَرامْ",
-    "type": 2,
-    "order": 20,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 20
   },
   {
     "content": "إنِّي بُليتُ بمَحْنةٍ",
-    "type": 1,
-    "order": 21,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 21
   },
   {
     "content": "هانتْ بها النُّوَبُ العِظامْ",
-    "type": 2,
-    "order": 22,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 22
   },
   {
     "content": "حتى لقد عَمِيَتْ عليَّ",
-    "type": 1,
-    "order": 23,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 23
   },
   {
     "content": "مَسالِكي ودَجَا الْقَتامْ",
-    "type": 2,
-    "order": 24,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 24
   },
   {
     "content": "صاحبْتُ ذُلِّي بعد أنْ",
-    "type": 1,
-    "order": 25,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 25
   },
   {
     "content": "قد كان تفخرُ بي الكِرامْ",
-    "type": 2,
-    "order": 26,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 26
   },
   {
     "content": "والمرءُ يصعُب جُهْدُه",
-    "type": 1,
-    "order": 27,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 27
   },
   {
     "content": "ويُلِين صَعْدَتَه الصِّرامْ",
-    "type": 2,
-    "order": 28,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 28
   },
   {
     "content": "لا تتْهمنَّ تَذلُّلي",
-    "type": 1,
-    "order": 29,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 29
   },
   {
     "content": "فالتِّبْرُ مَعْدِنُه الرَّغامْ",
-    "type": 2,
-    "order": 30,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 30
   },
   {
     "content": "وإذا جَفانِي مَن هَوِي",
-    "type": 1,
-    "order": 31,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 31
   },
   {
     "content": "تُ صبَرتُ حتى لا أُضامْ",
-    "type": 2,
-    "order": 32,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 32
   },
   {
     "content": "فعُبوسُ أرْديةِ الْحيَا",
-    "type": 1,
-    "order": 33,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 33
   },
   {
     "content": "عُقْباه للرَّوضِ ابْتسامْ",
-    "type": 2,
-    "order": 34,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 34
   },
   {
     "content": "ولئِنْ وَهَتْ لي عَزْمَةٌ",
-    "type": 1,
-    "order": 35,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 35
   },
   {
     "content": "فلربَّما صَدَِي الحُسامْ",
-    "type": 2,
-    "order": 36,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 36
   },
   {
     "content": "فعسَى الذي أبْلَى يُعِي",
-    "type": 1,
-    "order": 37,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 37
   },
   {
     "content": "نُ وينقضِي هذا الخِصَامْ",
-    "type": 2,
-    "order": 38,
-    "poemId": 59171
+    "poem_id": 59171,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 38
   },
   {
     "content": "مَن كان مَذْكوراً بعِشْقِ الظِّبا",
-    "type": 1,
-    "order": 1,
-    "poemId": 59172
+    "poem_id": 59172,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "بلا خلافٍ للنُّهَى حَالَفَا",
-    "type": 2,
-    "order": 2,
-    "poemId": 59172
+    "poem_id": 59172,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "ومن يكُنْ خالَف في أمْرِه",
-    "type": 1,
-    "order": 3,
-    "poemId": 59172
+    "poem_id": 59172,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "فَغَيْرُ مذكورٍ وإن خَاَلفَا",
-    "type": 2,
-    "order": 4,
-    "poemId": 59172
+    "poem_id": 59172,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "كم شِدَّةٍ حَملْتُ ثِقْلَ خُطوبها",
-    "type": 1,
-    "order": 1,
-    "poemId": 59173
+    "poem_id": 59173,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ليستْ لِمَحْمِلِها الجبالُ تُطِيقُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59173
+    "poem_id": 59173,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "ما كنتُ أضْبِطُ للزَّمان نَوائِباً",
-    "type": 1,
-    "order": 3,
-    "poemId": 59173
+    "poem_id": 59173,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "أيَعُدُّ أمْواجَ البحارِ غريقُ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59173
+    "poem_id": 59173,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "بأبى وإن كان أبى سميذَعا",
-    "type": 1,
-    "order": 1,
-    "poemId": 59174
+    "poem_id": 59174,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "خُلِقت يداهُ للشجاعةِ والنَدى",
-    "type": 2,
-    "order": 2,
-    "poemId": 59174
+    "poem_id": 59174,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "راجَعتُه في أزمةٍ فكأنّما",
-    "type": 1,
-    "order": 3,
-    "poemId": 59174
+    "poem_id": 59174,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "جرَّدتُ منه على الزمان مُهنّدا",
-    "type": 2,
-    "order": 4,
-    "poemId": 59174
+    "poem_id": 59174,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "ملكٌ كريمٌ كالنسيم لطافةً",
-    "type": 1,
-    "order": 5,
-    "poemId": 59174
+    "poem_id": 59174,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "فإذا دَجا خَطبٌ قسا وتمرّدا",
-    "type": 2,
-    "order": 6,
-    "poemId": 59174
+    "poem_id": 59174,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "أمواجُ إحسانٍ أسِرَّةُ وجهِه",
-    "type": 1,
-    "order": 7,
-    "poemId": 59174
+    "poem_id": 59174,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 7
   },
   {
     "content": "لصَديقه وسيوفُ بأسٍ للعِدا",
-    "type": 2,
-    "order": 8,
-    "poemId": 59174
+    "poem_id": 59174,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 8
   },
   {
     "content": "كالبحر يُنعِمُ بالجواهر ساكناً",
-    "type": 1,
-    "order": 9,
-    "poemId": 59174
+    "poem_id": 59174,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 9
   },
   {
     "content": "كرَماً ويأتي بالعجائب مُزبدا",
-    "type": 2,
-    "order": 10,
-    "poemId": 59174
+    "poem_id": 59174,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 10
   },
   {
     "content": "يُفنى من الأعمار إن غشىَ الورى",
-    "type": 1,
-    "order": 11,
-    "poemId": 59174
+    "poem_id": 59174,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 11
   },
   {
     "content": "مالو حَوى أفنى الزمانَ وخُلّدا",
-    "type": 2,
-    "order": 12,
-    "poemId": 59174
+    "poem_id": 59174,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 12
   },
   {
     "content": "والهامُ تسجدُ خشيةً من سيفِه",
-    "type": 1,
-    "order": 13,
-    "poemId": 59174
+    "poem_id": 59174,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 13
   },
   {
     "content": "لمّا أبَت أربابُها أن تسجُدا",
-    "type": 2,
-    "order": 14,
-    "poemId": 59174
+    "poem_id": 59174,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 14
   },
   {
     "content": "لا تعجَبوا إن لم يَسِل منهم دمٌ",
-    "type": 1,
-    "order": 15,
-    "poemId": 59174
+    "poem_id": 59174,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 15
   },
   {
     "content": "فالخوفُ قد أفنى النفوسَ وجمَّدا",
-    "type": 2,
-    "order": 16,
-    "poemId": 59174
+    "poem_id": 59174,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 16
   },
   {
     "content": "وإذا قصدتُ حِماكَ يدْعونِي إلى",
-    "type": 1,
-    "order": 1,
-    "poemId": 59175
+    "poem_id": 59175,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "سَاحاتِ نائِلِه النعيمُ المُخْضَلُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59175
+    "poem_id": 59175,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "أمْشي بقلْبِي لا برِجْلِي إنَّما",
-    "type": 1,
-    "order": 3,
-    "poemId": 59175
+    "poem_id": 59175,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "تمشِي بحيثُ هَوَى القلوبِ الأرْجُلُ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59175
+    "poem_id": 59175,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "مُذْ قَعْقَعتْ عُمُدٌ لِلْحَيِّ وانْتَجَعَتْ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59176
+    "poem_id": 59176,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "كِرامُ قُطَّانِه لم ألْقَ مِن سَنَدِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59176
+    "poem_id": 59176,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "مضى الأُلَى كنتُ أخْشَى أن يُلِمَّ بهم",
-    "type": 1,
-    "order": 3,
-    "poemId": 59176
+    "poem_id": 59176,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "رَيْبُ الزمانِ فلا أخْشَى على أَحَدِ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59176
+    "poem_id": 59176,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "فأفْرَخ الرَّوعُ أن شَالَتْ نَعامتُهم",
-    "type": 1,
-    "order": 5,
-    "poemId": 59176
+    "poem_id": 59176,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "وأفْسَد الدهرُ منهم بَيْضةَ البَلَدَ",
-    "type": 2,
-    "order": 6,
-    "poemId": 59176
+    "poem_id": 59176,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "مَولايَ يَهْنِيك ما أثَّرْت من أثَرٍ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59177
+    "poem_id": 59177,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "أعْطاك ربُّك فيه غايةَ الأمَلِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59177
+    "poem_id": 59177,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "بَنَيْتَ دُنْياك في دارٍ جمعتَ بها",
-    "type": 1,
-    "order": 3,
-    "poemId": 59177
+    "poem_id": 59177,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "كلَّ الخلائِق من عَلْياكَ في رَجُلِ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59177
+    "poem_id": 59177,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "وشَادِنٍ قَيْدُ العقولِ وَجْهُهُ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59178
+    "poem_id": 59178,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "وصُدْغُه سِلْسلةُ الآراءِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59178
+    "poem_id": 59178,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "شَامَتُه حَبَّةُ قلبٍ مذ بَدَتْ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59178
+    "poem_id": 59178,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "جَنَتْ بها الأحشاء بالسَّوْداءِ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59178
+    "poem_id": 59178,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "وكم ليَ من رَوضِ فَضْلٍ لقدْ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59179
+    "poem_id": 59179,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "تَفيَّأتُ فيه ظِلالَ الكَرَمْ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59179
+    "poem_id": 59179,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "تَعرَّفتُه بِثَناءِ النَّدَى",
-    "type": 1,
-    "order": 3,
-    "poemId": 59179
+    "poem_id": 59179,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "وعَرِّفْتُه بنسيمِ النِّعَمْ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59179
+    "poem_id": 59179,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "لا بِدْعَ أن شاعَ في البَرايَا",
-    "type": 1,
-    "order": 1,
-    "poemId": 59180
+    "poem_id": 59180,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "تهتُّكِي في الرَّشَا الرَّبيبِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59180
+    "poem_id": 59180,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "عِشْقِي عجيبٌ فكيف يخْفَى",
-    "type": 1,
-    "order": 3,
-    "poemId": 59180
+    "poem_id": 59180,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "وحُسْنُه أعْجَبُ العجيبِ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59180
+    "poem_id": 59180,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "غَنِيتُ وقد شاهدتُ أحسنَ مَنْظَرٍ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59181
+    "poem_id": 59181,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "من الرَّوضِ عمَّا يصْطفِيه جِنانُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59181
+    "poem_id": 59181,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "فأزْهَارُه وَشْيٌ وسَلْسَلُ مائِه",
-    "type": 1,
-    "order": 3,
-    "poemId": 59181
+    "poem_id": 59181,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "سُلافُ كُؤوسٍ والطيورُ قِيانُ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59181
+    "poem_id": 59181,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "بِي مَن إن عايَنَتْهُ مُقْلَتِي",
-    "type": 1,
-    "order": 1,
-    "poemId": 59182
+    "poem_id": 59182,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "يَنْمَحِي جسمي ويفْنَى طَرَبَا",
-    "type": 2,
-    "order": 2,
-    "poemId": 59182
+    "poem_id": 59182,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "أيُّ شيءٍ رَاعَهُ حتى انْثَنى",
-    "type": 1,
-    "order": 3,
-    "poemId": 59182
+    "poem_id": 59182,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "هارباً منِّي ووَلَّى مُغْضَبَا",
-    "type": 2,
-    "order": 4,
-    "poemId": 59182
+    "poem_id": 59182,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "وَارَحْتما لِمُعذَّبٍ قَلِقِ الحشَا",
-    "type": 1,
-    "order": 1,
-    "poemId": 59183
+    "poem_id": 59183,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "بهُمومِه قد بان عنه شبابُهُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59183
+    "poem_id": 59183,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "دَمُ قلبِه ما سَاقطتْهُ جفونُه",
-    "type": 1,
-    "order": 3,
-    "poemId": 59183
+    "poem_id": 59183,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "يومَ النَّوَى لمَّا نأتْ أحبابُهُ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59183
+    "poem_id": 59183,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "ثقِيلُ رُوحٍ أنْكَرُوا وَطْأَهُ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59184
+    "poem_id": 59184,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "نَرْجِسَ رَوضٍ حُفَّ بالسَّوْسَنِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59184
+    "poem_id": 59184,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "فقلتُ غُضُّوا الطَّرْفَ عن وَضْعِهِ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59184
+    "poem_id": 59184,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "فإنَّه يَمْشِي على الأعْيُنِ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59184
+    "poem_id": 59184,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "وليس سقوطُ الثُّريَّا إلى",
-    "type": 1,
-    "order": 1,
-    "poemId": 59185
+    "poem_id": 59185,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "نِداءِ المَوالِي من المُنْكَراتِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59185
+    "poem_id": 59185,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "فإن الشمُوسَ إذا أسْفَرتْ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59185
+    "poem_id": 59185,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "فلا حَظَّ للأنْجُمِ النَّيِّراتِ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59185
+    "poem_id": 59185,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "شِعْرِي إذا أبْدَيْتُه لعِصابةٍ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59186
+    "poem_id": 59186,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "تَلْقاهُم لنَشِيدِه لا يُحْسِنُوا",
-    "type": 2,
-    "order": 2,
-    "poemId": 59186
+    "poem_id": 59186,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "كالعِطْرِ تجلِبُه لأنْطاكِيَّةٍ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59186
+    "poem_id": 59186,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "فَتَراهُ يفسُد رِيحُه بل يُنْتِنُ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59186
+    "poem_id": 59186,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "قد قلتُ لِسِحْرِ طَرْفهِ إذْ نَفَثَا",
-    "type": 1,
-    "order": 1,
-    "poemId": 59187
+    "poem_id": 59187,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "من شاهدٍ إذا في أهلِه مَا لَبِثَا",
-    "type": 2,
-    "order": 2,
-    "poemId": 59187
+    "poem_id": 59187,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "إذ يكْسِر جَفْنَيْه لكي يَعْبَثَ بي",
-    "type": 1,
-    "order": 3,
-    "poemId": 59187
+    "poem_id": 59187,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "سُبْحانَك ما خلقْتَ هذا عَبَثَا",
-    "type": 2,
-    "order": 4,
-    "poemId": 59187
+    "poem_id": 59187,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "أنْعِمْ صَباحاً في ظِلالِ رَوضةٍ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59188
+    "poem_id": 59188,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "تدعُو إلى النَّشْوةِ حُسْناً وبَهَا",
-    "type": 2,
-    "order": 2,
-    "poemId": 59188
+    "poem_id": 59188,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "لمَّا غَفَا فيها النَّباتُ سُحْرَةً",
-    "type": 1,
-    "order": 3,
-    "poemId": 59188
+    "poem_id": 59188,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "دَغْدَغَهُ نَسِيمُها فانْتَبَها",
-    "type": 2,
-    "order": 4,
-    "poemId": 59188
+    "poem_id": 59188,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "أهْوَى تَباعُدَه والفكرُ يُدْنِيهِ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59189
+    "poem_id": 59189,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ضِدَّانِ ما جُمِعا إلاَّ لِتَمْويهِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59189
+    "poem_id": 59189,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "فما تُقرِّبُه منِّي مَحاسِنُه",
-    "type": 1,
-    "order": 3,
-    "poemId": 59189
+    "poem_id": 59189,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "ولا تُبَعِّدُه عنِّي مَساوِيهِ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59189
+    "poem_id": 59189,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "نَفَرٌ في الدِّين مُذ عَبَثُوا",
-    "type": 1,
-    "order": 1,
-    "poemId": 59190
+    "poem_id": 59190,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "بَعُدُوا عن خَيرِهِ الزَّاهِي",
-    "type": 2,
-    "order": 2,
-    "poemId": 59190
+    "poem_id": 59190,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "فهُمُ ما بين أظْهُرِنا",
-    "type": 1,
-    "order": 3,
-    "poemId": 59190
+    "poem_id": 59190,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "فَضَضٌ مِن لَعْنةِ اللّهِ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59190
+    "poem_id": 59190,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "أرى جسمِي تَحُطُّ به البَلايَا",
-    "type": 1,
-    "order": 1,
-    "poemId": 59191
+    "poem_id": 59191,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "وما شارَفْتُ مُعْتَركَ المَنايَا",
-    "type": 2,
-    "order": 2,
-    "poemId": 59191
+    "poem_id": 59191,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "فإنْ أبْقانِيَ المَولَى فأرجُو",
-    "type": 1,
-    "order": 3,
-    "poemId": 59191
+    "poem_id": 59191,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "بَقَايا منه في عُمْرِي نَقايَا",
-    "type": 2,
-    "order": 4,
-    "poemId": 59191
+    "poem_id": 59191,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "ما كلُّ دارٍ آنسَتْ دارُ الحِمَى",
-    "type": 1,
-    "order": 1,
-    "poemId": 59192
+    "poem_id": 59192,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "أو كلُّ بيضاءِ الطُّلى أسْماءُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59192
+    "poem_id": 59192,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "ولي ألْفُ وَجْهٍ في مُخالَطةِ الورَى",
-    "type": 1,
-    "order": 1,
-    "poemId": 59193
+    "poem_id": 59193,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ولكنْ بلا قلبٍ إلى أين أذْهَبُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59193
+    "poem_id": 59193,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
-    "content": "وليس عجيباً ما بجسمِي منالضَّنَى",
-    "type": 1,
-    "order": 1,
-    "poemId": 59194
+    "content": "وليس عجيباً ما بجسمِي من الضَّنَى",
+    "poem_id": 59194,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ولكن حياتي يا ابْنةَ القومِ أعْجَبُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59194
+    "poem_id": 59194,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "إن الكرامَ إذا اخْتشَوْا نَدَّ العُلَى",
-    "type": 1,
-    "order": 1,
-    "poemId": 59195
+    "poem_id": 59195,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "جَعَلُوا لها سِمْطَ القَرِيضِ قُيودَا",
-    "type": 2,
-    "order": 2,
-    "poemId": 59195
+    "poem_id": 59195,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "وما الدهرُ من أصلِه فاسدٌ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59196
+    "poem_id": 59196,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ولكنْ فسادُ الورَى أفْسَدَهْ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59196
+    "poem_id": 59196,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "قل للذي هَمُّهُ الفَخارُ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59197
+    "poem_id": 59197,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "من دون ذا ينْفَق الحمارُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59197
+    "poem_id": 59197,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "إذا تَناءتْ قلوبٌ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59198
+    "poem_id": 59198,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "لا كان قربُ ديارِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59198
+    "poem_id": 59198,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "ما خُصَّ ذو الجهلِ الدَّنِيِّ برُتْبةٍ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59199
+    "poem_id": 59199,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "إلاَّ كما خُصَّ الخِتامُ بخِنْصَرِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59199
+    "poem_id": 59199,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "نعيمُ المرءِ ثوبٌ مُسْتعارُ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59200
+    "poem_id": 59200,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "وفي الماضي لمن يبْقَى اعْتبارُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59200
+    "poem_id": 59200,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "مَن رام مِن حُسَّادِهِ نُصْرَةً",
-    "type": 1,
-    "order": 1,
-    "poemId": 59201
+    "poem_id": 59201,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "كان كمَن في النارِ يُطْفِي الأُوَارْ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59201
+    "poem_id": 59201,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "مَحْصولُ وُدِّك في رِضاك مُحَصَّلٌ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59202
+    "poem_id": 59202,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "شَرْحُ القصائدِ في الوُجوهِ مُلَخَّصُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59202
+    "poem_id": 59202,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "غُصَصُ الحياةِ كثيرةٌ ولقد",
-    "type": 1,
-    "order": 1,
-    "poemId": 59203
+    "poem_id": 59203,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "تُنْسِي الحوادثُ بعضُها بَعْضاَ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59203
+    "poem_id": 59203,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "إن زاحَمتْك نوائبٌ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59204
+    "poem_id": 59204,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "زَاحِمْ بِعَوْدٍ أو دَعِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59204
+    "poem_id": 59204,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "عَيْنٌ أصابتْ شَمْلَنا لا رأَتْ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59205
+    "poem_id": 59205,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "شَمْلاً على طُولِ المَدامِعِ يُجْمَعُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59205
+    "poem_id": 59205,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "كلامُه في وعيدِي ليس يجْرحُنِي",
-    "type": 1,
-    "order": 1,
-    "poemId": 59206
+    "poem_id": 59206,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "إن الوعيدَ سلاحُ العاجِز الحمِقِِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59206
+    "poem_id": 59206,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "لك الوُدُّ والإخلاصُ من قلبِ صادقٍ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59207
+    "poem_id": 59207,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "وأبعَدُ ما حاولْتَ قلبُ الحقائقِِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59207
+    "poem_id": 59207,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "صدَقُوا ولكن لستُ ممن يقْبلُ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59208
+    "poem_id": 59208,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ليس المُخاطَبُ في الورَى مَن يعْقِلُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59208
+    "poem_id": 59208,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "ومَن لم يشكرِ النَّعْماءَ يوماً",
-    "type": 1,
-    "order": 1,
-    "poemId": 59209
+    "poem_id": 59209,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "وأنْكَرها فقد رَضِيَ الزَّوالاَ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59209
+    "poem_id": 59209,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "ولا خيرَ فيمن غَيَّرَ البُعْدُ قلبَه",
-    "type": 1,
-    "order": 1,
-    "poemId": 59210
+    "poem_id": 59210,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ولا في وِدادٍ غَيَّرتْه العَوامِلُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59210
+    "poem_id": 59210,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "لا شيءَ أجْرَى لدموعِ عاشقٍٍ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59211
+    "poem_id": 59211,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "من فُرْقةِ الأحبابِ والمَنازلِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59211
+    "poem_id": 59211,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "مَطلتْنِي ثم أدَّعيْتَ السَّخا",
-    "type": 1,
-    "order": 1,
-    "poemId": 59212
+    "poem_id": 59212,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "والمَطْلُ مولودٌ من البُخْلِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59212
+    "poem_id": 59212,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "أنا والمَنِيَّةُ في وَجَلْ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59213
+    "poem_id": 59213,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "مِن سِحْرِ هاتيك المُقَلْ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59213
+    "poem_id": 59213,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "إذا لم أذُقْ غَيْرَ هَجْرِ الظِّبا",
-    "type": 1,
-    "order": 1,
-    "poemId": 59214
+    "poem_id": 59214,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "فمِن أين أعرفُ طَعْمَ الوِصالْ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59214
+    "poem_id": 59214,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "كنتُ مُسْتأنِساً إلى كلِّ شخصٍ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59215
+    "poem_id": 59215,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "فأنا الآن نافِرٌ من خَيالِي",
-    "type": 2,
-    "order": 2,
-    "poemId": 59215
+    "poem_id": 59215,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "بين اللَّواحِظِ والمُتونِ ذِمامُ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59216
+    "poem_id": 59216,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "سَبَبٌ لأن تَفْنَى به الأجْسامُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59216
+    "poem_id": 59216,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "كلُّ نارٍ غيرَ نارِ الْ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59217
+    "poem_id": 59217,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "عشْقِِ بَرْدٌ وسَلامْ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59217
+    "poem_id": 59217,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "الشيءُ يَظْهَر في الوجودِ بضدِّهِ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59218
+    "poem_id": 59218,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "لولا الضرورةُ ما اسْتبانَ المُنْعِمُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59218
+    "poem_id": 59218,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "تكتُّمُ المُغْرَمِ لا يُمْكِنُ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59219
+    "poem_id": 59219,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "وسَلْوةُ العاشقِ لا تَحْسُنُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59219
+    "poem_id": 59219,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "ما كلُّ ما تحْذرُ بالكائِنِ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59220
+    "poem_id": 59220,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "قد ينْزِلُ المكروهُ بالآمِنِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59220
+    "poem_id": 59220,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "لا عذَّب اللُهُ مُتَيَّماً بما",
-    "type": 1,
-    "order": 1,
-    "poemId": 59221
+    "poem_id": 59221,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "لَقِيتُه مِن كثْرةِ التَّجَنِّي",
-    "type": 2,
-    "order": 2,
-    "poemId": 59221
+    "poem_id": 59221,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "إن الرجالَ لهم وسائلُ للمُنَى",
-    "type": 1,
-    "order": 1,
-    "poemId": 59222
+    "poem_id": 59222,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ووَسِيلتِي حُبُّ النبيِّ وآلِهِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59222
+    "poem_id": 59222,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "إن تكنْ صُحْبتِي تنفَيْتَ عنها",
-    "type": 1,
-    "order": 1,
-    "poemId": 59223
+    "poem_id": 59223,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "أيَّ أُحْدوثَةٍ تُحِبُّ فكُنْهَا",
-    "type": 2,
-    "order": 2,
-    "poemId": 59223
+    "poem_id": 59223,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "بالصبر يَرْقَى المرءُ أوْجَ العُلَى",
-    "type": 1,
-    "order": 1,
-    "poemId": 59224
+    "poem_id": 59224,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "إن التَّأنِّي دَرَجٌ للرَّقَا",
-    "type": 2,
-    "order": 2,
-    "poemId": 59224
+    "poem_id": 59224,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "لئِنْ ضاقتْ بيَ الأيامُ ذَرْعاً",
-    "type": 1,
-    "order": 1,
-    "poemId": 59225
+    "poem_id": 59225,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "فصبرِي مُذْهِبٌ ما عِشْتُ كَرْبِي",
-    "type": 2,
-    "order": 2,
-    "poemId": 59225
+    "poem_id": 59225,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "خَلَصْتُ من الأماني في حياتي",
-    "type": 1,
-    "order": 3,
-    "poemId": 59225
+    "poem_id": 59225,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "فأرجُو في مَماتي عَفْوَ رَبِّي",
-    "type": 2,
-    "order": 4,
-    "poemId": 59225
+    "poem_id": 59225,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "ألا في سبيلِ اللَهِ نفسٌ وَقفتُها",
-    "type": 1,
-    "order": 1,
-    "poemId": 59226
+    "poem_id": 59226,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "على محَن الأشجانِ في طاعةِ الحُبّ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59226
+    "poem_id": 59226,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "أُعاني جوىً من ذي ولوعٍ بكيدهِ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59226
+    "poem_id": 59226,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "إذا لم يمُت بالصد يقتلُ بالعجبِ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59226
+    "poem_id": 59226,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "تخيّرتُه من ألطفِ الغيدِ خِلقَةً",
-    "type": 1,
-    "order": 5,
-    "poemId": 59226
+    "poem_id": 59226,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "تكوّن بين الراح والمبسِم العَذبِ",
-    "type": 2,
-    "order": 6,
-    "poemId": 59226
+    "poem_id": 59226,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "أبى القلبُ إلّا أن يكون بحُبِّه",
-    "type": 1,
-    "order": 7,
-    "poemId": 59226
+    "poem_id": 59226,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 7
   },
   {
     "content": "وحيداً على رَغم النصيحةِ والعَتبِ",
-    "type": 2,
-    "order": 8,
-    "poemId": 59226
+    "poem_id": 59226,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 8
   },
   {
     "content": "فلو فَوَّقتَ سهمَ المنون جفونُه",
-    "type": 1,
-    "order": 9,
-    "poemId": 59226
+    "poem_id": 59226,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 9
   },
   {
     "content": "لقلبٍ سوى قلبي تمنَّيتُه قلبي",
-    "type": 2,
-    "order": 10,
-    "poemId": 59226
+    "poem_id": 59226,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 10
   },
   {
     "content": "لا كانتِ الدنيا وأنت بعيدُ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59227
+    "poem_id": 59227,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "يا واحداً أنا في هواه وحيدُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59227
+    "poem_id": 59227,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "يا مَن لبستُ لهَجرِه ثوبَ الضنى",
-    "type": 1,
-    "order": 3,
-    "poemId": 59227
+    "poem_id": 59227,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "وخلعتُ برد اللهوِ وهو جديدُ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59227
+    "poem_id": 59227,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "وتركتُ لذّاتِ الوجودِ بأسرها",
-    "type": 1,
-    "order": 5,
-    "poemId": 59227
+    "poem_id": 59227,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "حتى استوى المعدومُ والموجودُ",
-    "type": 2,
-    "order": 6,
-    "poemId": 59227
+    "poem_id": 59227,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "قسَماً بما ألقى عليك من العِدى",
-    "type": 1,
-    "order": 7,
-    "poemId": 59227
+    "poem_id": 59227,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 7
   },
   {
     "content": "ومُحِبُّ وجهِك في الوَرى محسودُ",
-    "type": 2,
-    "order": 8,
-    "poemId": 59227
+    "poem_id": 59227,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 8
   },
   {
     "content": "إنَّ المحبَّ كما علمتَ صبابةً",
-    "type": 1,
-    "order": 9,
-    "poemId": 59227
+    "poem_id": 59227,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 9
   },
   {
     "content": "فالصبرُ ينقُصُ والغرامُ يزيدُ",
-    "type": 2,
-    "order": 10,
-    "poemId": 59227
+    "poem_id": 59227,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 10
   },
   {
     "content": "ولقد ملأتَ القلبَ منك مهابةً",
-    "type": 1,
-    "order": 11,
-    "poemId": 59227
+    "poem_id": 59227,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 11
   },
   {
     "content": "فعلّى منك إذا خلَوتُ شهيدُ",
-    "type": 2,
-    "order": 12,
-    "poemId": 59227
+    "poem_id": 59227,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 12
   },
   {
     "content": "والحرص مذمومٌ بإجماع الورى",
-    "type": 1,
-    "order": 13,
-    "poemId": 59227
+    "poem_id": 59227,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 13
   },
   {
     "content": "إلّا عليك فإنه محمودُ",
-    "type": 2,
-    "order": 14,
-    "poemId": 59227
+    "poem_id": 59227,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 14
   },
   {
     "content": "وأغيدَ يُسكرُ عقلَ الغيدِ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59228
+    "poem_id": 59228,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "يصيدُ بالحُسنِ قلوبَ الصيدِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59228
+    "poem_id": 59228,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "فؤادُه صوِّرَ من حديدِ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59228
+    "poem_id": 59228,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "وقلبُه أقسى من الجلمودِ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59228
+    "poem_id": 59228,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "مولىً عظيمُ الفتكِ بالعبيدِ",
-    "type": 1,
-    "order": 5,
-    "poemId": 59228
+    "poem_id": 59228,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "يُغنيه حسنُه عن الجنودِ",
-    "type": 2,
-    "order": 6,
-    "poemId": 59228
+    "poem_id": 59228,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "سكرُ لحاظِه بلا حدودِ",
-    "type": 1,
-    "order": 7,
-    "poemId": 59228
+    "poem_id": 59228,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 7
   },
   {
     "content": "يصُدُّ والهلاكُ في الصدودِ",
-    "type": 2,
-    "order": 8,
-    "poemId": 59228
+    "poem_id": 59228,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 8
   },
   {
     "content": "قد عاقَهُ الثلجُ عن الوُرودِ",
-    "type": 1,
-    "order": 9,
-    "poemId": 59228
+    "poem_id": 59228,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 9
   },
   {
     "content": "ما الثلجُ إلا بَرَصُ الوُجودِ",
-    "type": 2,
-    "order": 10,
-    "poemId": 59228
+    "poem_id": 59228,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 10
   },
   {
     "content": "بلادٌ قد حَوَت كلّ الأماني",
-    "type": 1,
-    "order": 1,
-    "poemId": 59229
+    "poem_id": 59229,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "نبيتُ بها ونُصبحُ في أمانِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59229
+    "poem_id": 59229,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "هي البلدُ الأمينُ فليس نخشى",
-    "type": 1,
-    "order": 3,
-    "poemId": 59229
+    "poem_id": 59229,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "بها ظُلماً سوى جورِ الغواني",
-    "type": 2,
-    "order": 4,
-    "poemId": 59229
+    "poem_id": 59229,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "حدائقُها من الروضاتِ حسناً",
-    "type": 1,
-    "order": 5,
-    "poemId": 59229
+    "poem_id": 59229,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "هي الفِردَوسُ من بين الجنانِ",
-    "type": 2,
-    "order": 6,
-    "poemId": 59229
+    "poem_id": 59229,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "وبُقعتُها من الدنيا جميعاً",
-    "type": 1,
-    "order": 7,
-    "poemId": 59229
+    "poem_id": 59229,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 7
   },
   {
     "content": "بمنزلةِ الربيع من الزمانِ",
-    "type": 2,
-    "order": 8,
-    "poemId": 59229
+    "poem_id": 59229,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 8
   },
   {
     "content": "وكَوثَرُها على الحصباء يجرى",
-    "type": 1,
-    "order": 9,
-    "poemId": 59229
+    "poem_id": 59229,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 9
   },
   {
     "content": "كذَوبِ التبر سال على الجمانِ",
-    "type": 2,
-    "order": 10,
-    "poemId": 59229
+    "poem_id": 59229,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 10
   },
   {
     "content": "إذا صدَحَت بلابلُها أجابت",
-    "type": 1,
-    "order": 11,
-    "poemId": 59229
+    "poem_id": 59229,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 11
   },
   {
     "content": "كواكبُها بأنوارِ الحسانِ",
-    "type": 2,
-    "order": 12,
-    "poemId": 59229
+    "poem_id": 59229,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 12
   },
   {
     "content": "لئن أصبحتُ أدنى القومِ سنّاً",
-    "type": 1,
-    "order": 1,
-    "poemId": 59230
+    "poem_id": 59230,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "فعَدُّ فضائِلي لا يُستطاع",
-    "type": 2,
-    "order": 2,
-    "poemId": 59230
+    "poem_id": 59230,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "كشطرَنجٍ ترى الألبابَ فيه",
-    "type": 1,
-    "order": 3,
-    "poemId": 59230
+    "poem_id": 59230,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "حيارى وهو رُقعتُه ذِراعُ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59230
+    "poem_id": 59230,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "كُلّنا جَرحى خُطوبٍ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59231
+    "poem_id": 59231,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ما لنا الدهرَ مريح",
-    "type": 2,
-    "order": 2,
-    "poemId": 59231
+    "poem_id": 59231,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "فلهذا لم يكن يو",
-    "type": 1,
-    "order": 3,
-    "poemId": 59231
+    "poem_id": 59231,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "جدُ شامِيُّ صَحيح",
-    "type": 2,
-    "order": 4,
-    "poemId": 59231
+    "poem_id": 59231,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "للَه مُجتَمَعٌ كواكبُهُ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59232
+    "poem_id": 59232,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "تلك الوُجوهُ وضيئَةُ الحَلَكِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59232
+    "poem_id": 59232,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "حتى النجومُ هوَت له كَلَفاً",
-    "type": 1,
-    "order": 3,
-    "poemId": 59232
+    "poem_id": 59232,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "بنِظامِها من قُبَّةِ الفَلكِ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59232
+    "poem_id": 59232,
+    "poet_id": 1656,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "ومن غفلةِ الواشي إذا ما أتَيتُها",
-    "type": 1,
-    "order": 1,
-    "poemId": 59233
+    "poem_id": 59233,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ومن زورتي أبياتها خالياً وحدي",
-    "type": 2,
-    "order": 2,
-    "poemId": 59233
+    "poem_id": 59233,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "ومن صيحّةٍ في الملتقى ثمّ سكتةٍ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59233
+    "poem_id": 59233,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "وكلتاهما عندي ألذُّ منَ الخُلدِ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59233
+    "poem_id": 59233,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "اُختلِسَت ريحانتي من يدي",
-    "type": 1,
-    "order": 1,
-    "poemId": 59234
+    "poem_id": 59234,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "أَبكي عَلَيها آخِرَ الأَبَدِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59234
+    "poem_id": 59234,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "كانت هيَ الأُنسُ إذا استَوحَشت",
-    "type": 1,
-    "order": 3,
-    "poemId": 59234
+    "poem_id": 59234,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "نَفسي من الأقرَبِ والأبعَدِ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59234
+    "poem_id": 59234,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "ورَوضةٌ كان بها مَرتَعي",
-    "type": 1,
-    "order": 5,
-    "poemId": 59234
+    "poem_id": 59234,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "ومَنهلاً كان بها مَورِدي",
-    "type": 2,
-    "order": 6,
-    "poemId": 59234
+    "poem_id": 59234,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "كانَت يدي كانت بها قُوَّتي",
-    "type": 1,
-    "order": 7,
-    "poemId": 59234
+    "poem_id": 59234,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 7
   },
   {
     "content": "فاختَلَسَ الدهرُ يدي من يدي",
-    "type": 2,
-    "order": 8,
-    "poemId": 59234
+    "poem_id": 59234,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 8
   },
   {
     "content": "أصبحَ ديني الذي أدينُ بهِ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59235
+    "poem_id": 59235,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ولَستُ منهُ الغداةَ مُعتَذِرا",
-    "type": 2,
-    "order": 2,
-    "poemId": 59235
+    "poem_id": 59235,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "حُبُّ عليٍّ بعدَ النبِيِّ ولا",
-    "type": 1,
-    "order": 3,
-    "poemId": 59235
+    "poem_id": 59235,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "أشتُمُ صِدّيقاً ولا عُمَرا",
-    "type": 2,
-    "order": 4,
-    "poemId": 59235
+    "poem_id": 59235,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "ثم ابنِ عفانَ في الجنانِ معَ ال",
-    "type": 1,
-    "order": 5,
-    "poemId": 59235
+    "poem_id": 59235,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "أبرارِ ذلك القتيل مُصطَبِرا",
-    "type": 2,
-    "order": 6,
-    "poemId": 59235
+    "poem_id": 59235,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "ألا ولا أشتُمُ الزُّبيرَ ولا",
-    "type": 1,
-    "order": 7,
-    "poemId": 59235
+    "poem_id": 59235,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 7
   },
   {
     "content": "طلحة إن قال قائلٌ غدَرا",
-    "type": 2,
-    "order": 8,
-    "poemId": 59235
+    "poem_id": 59235,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 8
   },
   {
     "content": "وعائشٌ الأمُّ لستُ أشتُمُها",
-    "type": 1,
-    "order": 9,
-    "poemId": 59235
+    "poem_id": 59235,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 9
   },
   {
     "content": "من يفتريها فنحنُ مِنهُ بَرا",
-    "type": 2,
-    "order": 10,
-    "poemId": 59235
+    "poem_id": 59235,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 10
   },
   {
     "content": "أما ترى ذا الفلكَ السائِرا",
-    "type": 1,
-    "order": 1,
-    "poemId": 59236
+    "poem_id": 59236,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "أبيتُ من هَمٍّ به ساهرا",
-    "type": 2,
-    "order": 2,
-    "poemId": 59236
+    "poem_id": 59236,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "مُفكِّراً فيه وفي أمرهِ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59236
+    "poem_id": 59236,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "فما أرى خَلقاً به خابِرا",
-    "type": 2,
-    "order": 4,
-    "poemId": 59236
+    "poem_id": 59236,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "يُخبِرُ عن لُطفِ تدابيرهِ",
-    "type": 1,
-    "order": 5,
-    "poemId": 59236
+    "poem_id": 59236,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "وكيفَ أضحى لِلوَرَى حاضِرا",
-    "type": 2,
-    "order": 6,
-    "poemId": 59236
+    "poem_id": 59236,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "يا ليتَ شِعري هل أُرى مرَّةً",
-    "type": 1,
-    "order": 7,
-    "poemId": 59236
+    "poem_id": 59236,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 7
   },
   {
     "content": "أكونُ في أبراجهِ سائرا",
-    "type": 2,
-    "order": 8,
-    "poemId": 59236
+    "poem_id": 59236,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 8
   },
   {
     "content": "أكونُ مع طالعهِ طالِعاً",
-    "type": 1,
-    "order": 9,
-    "poemId": 59236
+    "poem_id": 59236,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 9
   },
   {
     "content": "طَوراً ومع غائِرهِ غائرا",
-    "type": 2,
-    "order": 10,
-    "poemId": 59236
+    "poem_id": 59236,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 10
   },
   {
     "content": "حتى أرى جُملة تدبيرهِ",
-    "type": 1,
-    "order": 11,
-    "poemId": 59236
+    "poem_id": 59236,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 11
   },
   {
     "content": "وأعرِفَ المستُورَ والظاهرا",
-    "type": 2,
-    "order": 12,
-    "poemId": 59236
+    "poem_id": 59236,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 12
   },
   {
     "content": "وأبيضَ أمَّا جسمُهُ فَمُدَوَّرٌ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59237
+    "poem_id": 59237,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "نَقيٌّ وأما رأسهُ فمُعارُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59237
+    "poem_id": 59237,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "ولك يكتَسِب إلا لتسكُنَ وسَطه",
-    "type": 1,
-    "order": 3,
-    "poemId": 59237
+    "poem_id": 59237,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "مؤَنّثة لم تُكسَ قطُّ خِمارُ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59237
+    "poem_id": 59237,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "لها أخواتٌ أربعٌ هُنَّ مِثلُها",
-    "type": 1,
-    "order": 5,
-    "poemId": 59237
+    "poem_id": 59237,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "ولكنَّها الصُغرى وهُنَّ كبارُ",
-    "type": 2,
-    "order": 6,
-    "poemId": 59237
+    "poem_id": 59237,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "أذُمّ لكَ الأيام في ذات بيننا",
-    "type": 1,
-    "order": 1,
-    "poemId": 59238
+    "poem_id": 59238,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "وما لِليالي في الذي بيننَا عُذرُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59238
+    "poem_id": 59238,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "إذا لم يكن بين المحبين زَورَةٌ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59238
+    "poem_id": 59238,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "سِوى ذِكرِ شيءٍ قد مضى درس الفِكر",
-    "type": 2,
-    "order": 4,
-    "poemId": 59238
+    "poem_id": 59238,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "خرجنا إلى صيد الظِّباءِ فصادَني",
-    "type": 1,
-    "order": 1,
-    "poemId": 59239
+    "poem_id": 59239,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "هناك غزالٌ أدعجُ العينِ أَحورُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59239
+    "poem_id": 59239,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "غزالٌ كأنّ البدرَ حلّ جبينَه",
-    "type": 1,
-    "order": 3,
-    "poemId": 59239
+    "poem_id": 59239,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "وفي خدّه الشِّعرى المنيرةُ تَزهرُ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59239
+    "poem_id": 59239,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "فصاد فُؤادي إذ رماني بسَهمه",
-    "type": 1,
-    "order": 5,
-    "poemId": 59239
+    "poem_id": 59239,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "وسهمُ غزالِ الإنسِ طرفٌ ومِحجَرُ",
-    "type": 2,
-    "order": 6,
-    "poemId": 59239
+    "poem_id": 59239,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "فيا من رأى ظبياً يصيدُ ومن رأى",
-    "type": 1,
-    "order": 7,
-    "poemId": 59239
+    "poem_id": 59239,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 7
   },
   {
     "content": "أخا قَنَصٍ يُصطَادُ قَهراً ويُقسَرُ",
-    "type": 2,
-    "order": 8,
-    "poemId": 59239
+    "poem_id": 59239,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 8
   },
   {
     "content": "فلا أنتَ أعتَبتَ من زِلَّةٍ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59240
+    "poem_id": 59240,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ولا أنتَ بالَغتَ في المعذِرَه",
-    "type": 2,
-    "order": 2,
-    "poemId": 59240
+    "poem_id": 59240,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "ولا أنتَ ولَّيتني أمرها",
-    "type": 1,
-    "order": 3,
-    "poemId": 59240
+    "poem_id": 59240,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "فأغفِرَ ذنبَكَ عن مَقدِرَه",
-    "type": 2,
-    "order": 4,
-    "poemId": 59240
+    "poem_id": 59240,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "حيَّاكَ ربُّ الناسِ حيّاكَ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59241
+    "poem_id": 59241,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "إنَّ الذي أمَّلتَ أخطاكا",
-    "type": 2,
-    "order": 2,
-    "poemId": 59241
+    "poem_id": 59241,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "أتيتَ شخصاً كيسُه قد خلا",
-    "type": 1,
-    "order": 3,
-    "poemId": 59241
+    "poem_id": 59241,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "ولو حوى شيئاً لأعطاكا",
-    "type": 2,
-    "order": 4,
-    "poemId": 59241
+    "poem_id": 59241,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "تعالي تكونُ الكتبُ بَيني وبينكم",
-    "type": 1,
-    "order": 1,
-    "poemId": 59242
+    "poem_id": 59242,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "مُلاحظةً نُومي بها ونُشِيرُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59242
+    "poem_id": 59242,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "فعِندي منَ الكتب المشومة حَيرةٌ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59242
+    "poem_id": 59242,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "وعنديَ من شؤم الرسول أمورُ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59242
+    "poem_id": 59242,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "نفسٌ تدمى مسَالِكهُ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59243
+    "poem_id": 59243,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "وحنينٌ لستُ أملكُهُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59243
+    "poem_id": 59243,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "والذي أخفيهِ من سَقمٍ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59243
+    "poem_id": 59243,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "فلسانُ الدمعِ يهتكُهُ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59243
+    "poem_id": 59243,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "نحنُ الذينَ إذا تخموا عُصبةٌ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59244
+    "poem_id": 59244,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "من معشَر كنّا لها أنكالا",
-    "type": 2,
-    "order": 2,
-    "poemId": 59244
+    "poem_id": 59244,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "ونرى القُرومَ مخالة لقرُومِنا",
-    "type": 1,
-    "order": 3,
-    "poemId": 59244
+    "poem_id": 59244,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "فيكَ اللقاءُ تقطرُ الأبوالا",
-    "type": 2,
-    "order": 4,
-    "poemId": 59244
+    "poem_id": 59244,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "نردُ المنيةَ لا نخافُ ورودَها",
-    "type": 1,
-    "order": 5,
-    "poemId": 59244
+    "poem_id": 59244,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "تحت العجاجةِ والعيونُ تلالا",
-    "type": 2,
-    "order": 6,
-    "poemId": 59244
+    "poem_id": 59244,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "نُعطي الجزيل فلا نمُنُّ عطاؤنا",
-    "type": 1,
-    "order": 7,
-    "poemId": 59244
+    "poem_id": 59244,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 7
   },
   {
     "content": "قبل السؤالِ ونحمل الأثقالا",
-    "type": 2,
-    "order": 8,
-    "poemId": 59244
+    "poem_id": 59244,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 8
   },
   {
     "content": "وإذا البلادُ على الأنامِ تزلزلَت",
-    "type": 1,
-    "order": 9,
-    "poemId": 59244
+    "poem_id": 59244,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 9
   },
   {
     "content": "كُنّا لِزَلزَلةِ البلادِ جبالا",
-    "type": 2,
-    "order": 10,
-    "poemId": 59244
+    "poem_id": 59244,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 10
   },
   {
     "content": "جعلتُ كتابي عبرةً مُستهِلةً",
-    "type": 1,
-    "order": 1,
-    "poemId": 59245
+    "poem_id": 59245,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ففي الخدِّ من ماءِ الجفونِ وسطورُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59245
+    "poem_id": 59245,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "ورسلي لحاجاتي وهُنَّ كثيرةٌ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59245
+    "poem_id": 59245,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "إليكَ إشاراتٌ بها وزفيرُ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59245
+    "poem_id": 59245,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "كلُّ عيشٍ وإن تطاول يوماً",
-    "type": 1,
-    "order": 1,
-    "poemId": 59246
+    "poem_id": 59246,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "صائرٌ مرةً إلى أن يزولا",
-    "type": 2,
-    "order": 2,
-    "poemId": 59246
+    "poem_id": 59246,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "ليتني كُنتُ قَبلَ يوميَ هذا",
-    "type": 1,
-    "order": 3,
-    "poemId": 59246
+    "poem_id": 59246,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "في قلالِ الجبالِ أرعى الوُعولا",
-    "type": 2,
-    "order": 4,
-    "poemId": 59246
+    "poem_id": 59246,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "نحنُ في أفضلِ السرورِ ولكن",
-    "type": 1,
-    "order": 1,
-    "poemId": 59247
+    "poem_id": 59247,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ليسَ إلا بكُم يتمُّ السرورُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59247
+    "poem_id": 59247,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "عيبُ ما نحن فيه يا أهل ودِّي",
-    "type": 1,
-    "order": 3,
-    "poemId": 59247
+    "poem_id": 59247,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "أنَّكم غبتُمُ ونحنُ حُضورُ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59247
+    "poem_id": 59247,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "فأجِدُّوا المسيرَ بل إن قدرتُم",
-    "type": 1,
-    "order": 5,
-    "poemId": 59247
+    "poem_id": 59247,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "أن تطيروا معَ الرياحِ فطيروا",
-    "type": 2,
-    "order": 6,
-    "poemId": 59247
+    "poem_id": 59247,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "أعرض طعَامَكَ وابذُلهُ لِمن دخلا",
-    "type": 1,
-    "order": 1,
-    "poemId": 59248
+    "poem_id": 59248,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "واحلِف على من أبَى واشكُر لِمن أكَلا",
-    "type": 2,
-    "order": 2,
-    "poemId": 59248
+    "poem_id": 59248,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "فلا تكن سابرِيَّ العِرضِ مُحتَشِماً",
-    "type": 1,
-    "order": 3,
-    "poemId": 59248
+    "poem_id": 59248,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "من القليلِ فلَستُ الدهرَ مُحتَفِلا",
-    "type": 2,
-    "order": 4,
-    "poemId": 59248
+    "poem_id": 59248,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "يا ليلةً فُزنا بها حُلوةً",
-    "type": 1,
-    "order": 1,
-    "poemId": 59249
+    "poem_id": 59249,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "جامِعةً في ظلِّها الشَّملُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59249
+    "poem_id": 59249,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "شرابُنا الريقُ وكاساتُنا",
-    "type": 1,
-    "order": 3,
-    "poemId": 59249
+    "poem_id": 59249,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "شِفاهُنا والقُبلُ النَّقلُ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59249
+    "poem_id": 59249,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "ظباءٌ كالدَّنانير",
-    "type": 1,
-    "order": 1,
-    "poemId": 59250
+    "poem_id": 59250,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "مِلاحٌ في المقاصيرِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59250
+    "poem_id": 59250,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "جلاهُنَّ الشَّعانينُ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59250
+    "poem_id": 59250,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "علينا في الزَّنانير",
-    "type": 2,
-    "order": 4,
-    "poemId": 59250
+    "poem_id": 59250,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "وقد زرَّفنَ أصداغاً",
-    "type": 1,
-    "order": 5,
-    "poemId": 59250
+    "poem_id": 59250,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "كأذنابِ الزَّرازيرِ",
-    "type": 2,
-    "order": 6,
-    "poemId": 59250
+    "poem_id": 59250,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "وأقبَلنَ بأوساطٍ",
-    "type": 1,
-    "order": 7,
-    "poemId": 59250
+    "poem_id": 59250,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 7
   },
   {
     "content": "كأوساطِ الزَّنابيرِ",
-    "type": 2,
-    "order": 8,
-    "poemId": 59250
+    "poem_id": 59250,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 8
   },
   {
     "content": "من كان راعيه ديناً في حُلوبته",
-    "type": 1,
-    "order": 1,
-    "poemId": 59251
+    "poem_id": 59251,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "فهو الذي نفسَه في أمره ظلما",
-    "type": 2,
-    "order": 2,
-    "poemId": 59251
+    "poem_id": 59251,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "تَرجو كفايته والغَدرُ عادته",
-    "type": 1,
-    "order": 3,
-    "poemId": 59251
+    "poem_id": 59251,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "ومن ولايته يستجني النَّدما",
-    "type": 2,
-    "order": 4,
-    "poemId": 59251
+    "poem_id": 59251,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "تسمَّيتَ لا أدري فإنَّكَ لا تدري",
-    "type": 1,
-    "order": 1,
-    "poemId": 59252
+    "poem_id": 59252,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "بما فعلَ الحبُّ المبرحُ في صدري",
-    "type": 2,
-    "order": 2,
-    "poemId": 59252
+    "poem_id": 59252,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "قل لابنِ حمزةَ ما ترى",
-    "type": 1,
-    "order": 1,
-    "poemId": 59253
+    "poem_id": 59253,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "في زيرِياجِ مُحكَمَه",
-    "type": 2,
-    "order": 2,
-    "poemId": 59253
+    "poem_id": 59253,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "قال ابن حمزة يا بُنَي",
-    "type": 1,
-    "order": 1,
-    "poemId": 59254
+    "poem_id": 59254,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "يَ هزلتَ مجتَرئاً فَمَه",
-    "type": 2,
-    "order": 2,
-    "poemId": 59254
+    "poem_id": 59254,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "تَعجيلُ جودِ المرءِ أُكرومَةٌ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59255
+    "poem_id": 59255,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "تنشرُ عنه أحسنَ الذّكرِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59255
+    "poem_id": 59255,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "والحرُّ لا يمطُلُ معروفَه",
-    "type": 1,
-    "order": 3,
-    "poemId": 59255
+    "poem_id": 59255,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "ولا يليقُ المَطلُ بالحُرِّ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59255
+    "poem_id": 59255,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "تكلَّم ليسَ يُجعُكَ الكلامُ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59256
+    "poem_id": 59256,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ولا يُزري محاسِنَك السَّلامُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59256
+    "poem_id": 59256,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "أنا المأمونُ والملِكُ الهُمامُ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59256
+    "poem_id": 59256,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "ولكنِّي بحُبّكِ مُستهامُ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59256
+    "poem_id": 59256,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "يَحقُّ عليكِ ألاَّ تقتليني",
-    "type": 1,
-    "order": 5,
-    "poemId": 59256
+    "poem_id": 59256,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "فيبقَى الناسُ ليس لهم إمامُ",
-    "type": 2,
-    "order": 6,
-    "poemId": 59256
+    "poem_id": 59256,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "أنا النارُ في أحجارِهَا مستَكِنَّةٌ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59257
+    "poem_id": 59257,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "متى ما يهِجها قادحٌ تتَضرَّمِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59257
+    "poem_id": 59257,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "فارسٌ في الحَربِ مُنغَمِسٌ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59258
+    "poem_id": 59258,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "عارفٌ بالطَّعنِ في الظُلَمِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59258
+    "poem_id": 59258,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "رامَ أن يَدمي فريسَتهُ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59258
+    "poem_id": 59258,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "فاتَّقتهُ من دمٍ بِدَمِ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59258
+    "poem_id": 59258,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "أرضٌ مُرَبَّعةٌ حمراءُ من أدَمٍ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59259
+    "poem_id": 59259,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ما بين إلفَينِ معرفَين بالكرَمِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59259
+    "poem_id": 59259,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "تذاكَرا الحربَ فاحتالا لها حِيَلاً",
-    "type": 1,
-    "order": 3,
-    "poemId": 59259
+    "poem_id": 59259,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "من غيرِ أن يأثَما فيها بسَفكِ دَمِ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59259
+    "poem_id": 59259,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "هذا يُغيرُ على هذا وذاكَ على",
-    "type": 1,
-    "order": 5,
-    "poemId": 59259
+    "poem_id": 59259,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "هذا يُغيرُ وعَينُ الحَزمِ لم تَنَمِ",
-    "type": 2,
-    "order": 6,
-    "poemId": 59259
+    "poem_id": 59259,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "فانظُر إلى فِطَنٍ جالت بِمَعرِفَةٍ",
-    "type": 1,
-    "order": 7,
-    "poemId": 59259
+    "poem_id": 59259,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 7
   },
   {
     "content": "في عسكَرينِ بلا طَبلٍ ولا عَلَمِ",
-    "type": 2,
-    "order": 8,
-    "poemId": 59259
+    "poem_id": 59259,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 8
   },
   {
     "content": "أسمَعتَ غيرَ كهام السمعِ والبصر",
-    "type": 1,
-    "order": 1,
-    "poemId": 59260
+    "poem_id": 59260,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "لا يقطَع السيفُ إلا في يد الحَذِرِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59260
+    "poem_id": 59260,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "سيُصبحُ القومُ من سيفي وضارِبِهِ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59260
+    "poem_id": 59260,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "مثلَ الهشيم ذَرَته الريحُ بالمطَرِ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59260
+    "poem_id": 59260,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "كأنما قابلَ القرطاسُ إذ مُشِقَت",
-    "type": 1,
-    "order": 1,
-    "poemId": 59261
+    "poem_id": 59261,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "منها ثلاثةَ أقلامٍ على قَلَمِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59261
+    "poem_id": 59261,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "بَكَرَت تَلومُكَ مطلَعَ الفجرِ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59262
+    "poem_id": 59262,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ولقد تلومُ بغيرِ ما تدري",
-    "type": 2,
-    "order": 2,
-    "poemId": 59262
+    "poem_id": 59262,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "ما إن ملكتُ مصيبةً نزَلت",
-    "type": 1,
-    "order": 3,
-    "poemId": 59262
+    "poem_id": 59262,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "إذ لا يحكَّم طائعاً أمري",
-    "type": 2,
-    "order": 4,
-    "poemId": 59262
+    "poem_id": 59262,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "ملك الملوك عليَّ مقتدراً",
-    "type": 1,
-    "order": 5,
-    "poemId": 59262
+    "poem_id": 59262,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "يُعطي إذا ما شاء من يُسرِ",
-    "type": 2,
-    "order": 6,
-    "poemId": 59262
+    "poem_id": 59262,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "فلَرُبَّ مُغتَبِطٍ بمُرزِئةٍ",
-    "type": 1,
-    "order": 7,
-    "poemId": 59262
+    "poem_id": 59262,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 7
   },
   {
     "content": "ومُفَجَّعٍ بنوائِبِ الدَّهرِ",
-    "type": 2,
-    "order": 8,
-    "poemId": 59262
+    "poem_id": 59262,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 8
   },
   {
     "content": "ومكاشحٍ لي قد مدَدتُ لهُ",
-    "type": 1,
-    "order": 9,
-    "poemId": 59262
+    "poem_id": 59262,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 9
   },
   {
     "content": "نحراً بلا ضَرعٍ ولا غمرِ",
-    "type": 2,
-    "order": 10,
-    "poemId": 59262
+    "poem_id": 59262,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 10
   },
   {
     "content": "حتَّى يقول لِنفسِهِ لهفاً",
-    "type": 1,
-    "order": 11,
-    "poemId": 59262
+    "poem_id": 59262,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 11
   },
   {
     "content": "في أي مذهبٍ غايةٍ أجري",
-    "type": 2,
-    "order": 12,
-    "poemId": 59262
+    "poem_id": 59262,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 12
   },
   {
     "content": "وترى قناتي حيثُ يغمزها",
-    "type": 1,
-    "order": 13,
-    "poemId": 59262
+    "poem_id": 59262,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 13
   },
   {
     "content": "غمزَ الثقافِ بطيئةِ الكسرِ",
-    "type": 2,
-    "order": 14,
-    "poemId": 59262
+    "poem_id": 59262,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 14
   },
   {
     "content": "عتقت حتى لو اتصلت",
-    "type": 1,
-    "order": 1,
-    "poemId": 59263
+    "poem_id": 59263,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "بلسان ناطق وفمِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59263
+    "poem_id": 59263,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "لاحتبت في القوم ماثلةً",
-    "type": 1,
-    "order": 3,
-    "poemId": 59263
+    "poem_id": 59263,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "ثم قُصّت قصّة الأممِ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59263
+    "poem_id": 59263,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "إنّي وأنتَ رضيعا قهوَةٍ لَطُفَت",
-    "type": 1,
-    "order": 1,
-    "poemId": 59264
+    "poem_id": 59264,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "عن العِيانِ ودقَّت عن مَدَى الفَهِمِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59264
+    "poem_id": 59264,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "لم نرتَضِع غيرَ كأسٍ دَرُّها ذَهبٌ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59264
+    "poem_id": 59264,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "والكأسُ حُرمتها أولى من الرَّحمِ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59264
+    "poem_id": 59264,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "فإن كثُرت منكِ الأقاويلُ لم يكن",
-    "type": 1,
-    "order": 1,
-    "poemId": 59265
+    "poem_id": 59265,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "هنالكَ شكٌّ إن ذا منكِ وسوسَه",
-    "type": 2,
-    "order": 2,
-    "poemId": 59265
+    "poem_id": 59265,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "أُلامُ على شُكرِ الوصِيّ أبي الحَسَن",
-    "type": 1,
-    "order": 1,
-    "poemId": 59266
+    "poem_id": 59266,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "وذلكَ عِندي مِن عَجائِبِ ذا الزَّمَن",
-    "type": 2,
-    "order": 2,
-    "poemId": 59266
+    "poem_id": 59266,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "خليفةِ خيرِ الناسِ والأوّل الذي",
-    "type": 1,
-    "order": 3,
-    "poemId": 59266
+    "poem_id": 59266,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "أعانَ رسول الله في السِّرِّ والعَلَن",
-    "type": 2,
-    "order": 4,
-    "poemId": 59266
+    "poem_id": 59266,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "ولولاهُ ما عُدَّت لهاشمٍ امرَةٌ",
-    "type": 1,
-    "order": 5,
-    "poemId": 59266
+    "poem_id": 59266,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "وكانت على الأيّام تُفضَح وتُمتَهَن",
-    "type": 2,
-    "order": 6,
-    "poemId": 59266
+    "poem_id": 59266,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "فولَّى بني العبّاس ما اختصّ غَيرَهم",
-    "type": 1,
-    "order": 7,
-    "poemId": 59266
+    "poem_id": 59266,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 7
   },
   {
     "content": "ومن منهُ أولى بالتكرُّم والمِنَن",
-    "type": 2,
-    "order": 8,
-    "poemId": 59266
+    "poem_id": 59266,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 8
   },
   {
     "content": "فأوضحَ عبدُ الله بالبَصرَةِ الهُدى",
-    "type": 1,
-    "order": 9,
-    "poemId": 59266
+    "poem_id": 59266,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 9
   },
   {
     "content": "وفاضَ عبيد الله جوداً على اليَمَن",
-    "type": 2,
-    "order": 10,
-    "poemId": 59266
+    "poem_id": 59266,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 10
   },
   {
     "content": "وقَسَّمَ أعمالَ الخِلافةِ بينَهُم",
-    "type": 1,
-    "order": 11,
-    "poemId": 59266
+    "poem_id": 59266,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 11
   },
   {
     "content": "فلا زِلتُ مربوطاً بِذا الشُّكرِ مُرتَهَن",
-    "type": 2,
-    "order": 12,
-    "poemId": 59266
+    "poem_id": 59266,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 12
   },
   {
     "content": "يا خيرَ من دبَّتِ المطيُّ بهِ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59267
+    "poem_id": 59267,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ومن تقدَّى بسرجِهِ فرَسُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59267
+    "poem_id": 59267,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "هل غايةٌ في المسيرِ نعرِفُها",
-    "type": 1,
-    "order": 3,
-    "poemId": 59267
+    "poem_id": 59267,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "أم أمرنا في المسيرِ مُلتَبَسُ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59267
+    "poem_id": 59267,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "ما علمُ هذا إلا إلى ملكٍ",
-    "type": 1,
-    "order": 5,
-    "poemId": 59267
+    "poem_id": 59267,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "من نورهِ في الظلامِ نقتَبِسُ",
-    "type": 2,
-    "order": 6,
-    "poemId": 59267
+    "poem_id": 59267,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "إن سِرتَ سار الرّشادُ مُتَّبِعاً",
-    "type": 1,
-    "order": 7,
-    "poemId": 59267
+    "poem_id": 59267,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 7
   },
   {
     "content": "وإن تقف فالرَّشادُ محتَبَسُ",
-    "type": 2,
-    "order": 8,
-    "poemId": 59267
+    "poem_id": 59267,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 8
   },
   {
     "content": "هذهِ المَنهِيُّ عَنها",
-    "type": 1,
-    "order": 1,
-    "poemId": 59268
+    "poem_id": 59268,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "وأنا المُحتَجُّ عنها",
-    "type": 2,
-    "order": 2,
-    "poemId": 59268
+    "poem_id": 59268,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "ما لها تُحرَمُ في الدُّن",
-    "type": 1,
-    "order": 3,
-    "poemId": 59268
+    "poem_id": 59268,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "يا وفي الجَنَّةِ منها",
-    "type": 2,
-    "order": 4,
-    "poemId": 59268
+    "poem_id": 59268,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "قد طلعت شمسٌ على شمسِ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59269
+    "poem_id": 59269,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "فزالتِ الوحشةُ بالأنسِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59269
+    "poem_id": 59269,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "ماذا تقولينَ فيمَن شَفَّهُ أَرَقُ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59270
+    "poem_id": 59270,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "من جهدِ حُبّكِ حتى صارَ حيرانا",
-    "type": 2,
-    "order": 2,
-    "poemId": 59270
+    "poem_id": 59270,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "قد كنت أشنا الشمسَ فيما مضى",
-    "type": 1,
-    "order": 1,
-    "poemId": 59271
+    "poem_id": 59271,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "فصرتُ أشتاق إلى الشمسِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59271
+    "poem_id": 59271,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "إذا وجدنا مُحِبّاً قد أَضَرَّ بهِ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59272
+    "poem_id": 59272,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "داءُ الصَّبابةِ أوليناهُ إحسانا",
-    "type": 2,
-    "order": 2,
-    "poemId": 59272
+    "poem_id": 59272,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "رَهوَ خراسانَ وتيهُ النَّبطْ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59273
+    "poem_id": 59273,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ونخوةُ الخوذِ وغدرُ الشُّرَطْ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59273
+    "poem_id": 59273,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "اجتمعت فيك ومِن بعدِ ذا",
-    "type": 1,
-    "order": 3,
-    "poemId": 59273
+    "poem_id": 59273,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "أنَّك رازيٌّ كثيرُ الغَلَطْ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59273
+    "poem_id": 59273,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "أوّلُ الحب مَزاحٌ وولَع",
-    "type": 1,
-    "order": 1,
-    "poemId": 59274
+    "poem_id": 59274,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ثم يزداد إذا زادَ الطّمَع",
-    "type": 2,
-    "order": 2,
-    "poemId": 59274
+    "poem_id": 59274,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "كلُّ من يهوى وإن غالت بهِ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59274
+    "poem_id": 59274,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "رتبةُ المُلكِ لمَن يهوَى تَبَع",
-    "type": 2,
-    "order": 4,
-    "poemId": 59274
+    "poem_id": 59274,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "فلِذا همٌّ وغدرٌ ونَوَى",
-    "type": 1,
-    "order": 5,
-    "poemId": 59274
+    "poem_id": 59274,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "ولذا شوقٌ ووجدٌ وجزع",
-    "type": 2,
-    "order": 6,
-    "poemId": 59274
+    "poem_id": 59274,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "صِلِ النُّدمانَ يومَ المهرجان",
-    "type": 1,
-    "order": 1,
-    "poemId": 59275
+    "poem_id": 59275,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "بصافٍ من مُعَتَّقة الدِّنانِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59275
+    "poem_id": 59275,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "بكأسٍ خُسروانيٍّ عتيقٍ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59275
+    "poem_id": 59275,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "فإن العيد عيدٌ خُسرواني",
-    "type": 2,
-    "order": 4,
-    "poemId": 59275
+    "poem_id": 59275,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "وجنِّبني الزّبَيبيِّينِ طُرّاً",
-    "type": 1,
-    "order": 5,
-    "poemId": 59275
+    "poem_id": 59275,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "فشأنُ ذوي الزبيبِ خلاف شأني",
-    "type": 2,
-    "order": 6,
-    "poemId": 59275
+    "poem_id": 59275,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "فأشرَبُها وأزعُمها حَراماً",
-    "type": 1,
-    "order": 7,
-    "poemId": 59275
+    "poem_id": 59275,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 7
   },
   {
     "content": "وأرجو عفو ربٍّ ذي امتنانِ",
-    "type": 2,
-    "order": 8,
-    "poemId": 59275
+    "poem_id": 59275,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 8
   },
   {
     "content": "ويشرَبُها ويزعُمُها حلالاً",
-    "type": 1,
-    "order": 9,
-    "poemId": 59275
+    "poem_id": 59275,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 9
   },
   {
     "content": "وتلك على الشَّقيِّ خطيئتانِ",
-    "type": 2,
-    "order": 10,
-    "poemId": 59275
+    "poem_id": 59275,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 10
   },
   {
     "content": "لساني كتومٌ لأسراركمُ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59276
+    "poem_id": 59276,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ودمعي نمومٌ لِسرِّي مُذيع",
-    "type": 2,
-    "order": 2,
-    "poemId": 59276
+    "poem_id": 59276,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "فلولا دموعي كتمتُ الهوى",
-    "type": 1,
-    "order": 3,
-    "poemId": 59276
+    "poem_id": 59276,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "ولولا الهوى لم يكن لي دُموع",
-    "type": 2,
-    "order": 4,
-    "poemId": 59276
+    "poem_id": 59276,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "وصاحبٍ ونديمٍ ذي مُحافظةٍ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59277
+    "poem_id": 59277,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "سَبطِ اليَدَينِ بشربِ الراحِ مفتونِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59277
+    "poem_id": 59277,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "نامدتهُ ورواقُ الليلِ منخرقٌ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59277
+    "poem_id": 59277,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "تحت الصباحِ دفيناً في الرّياحينِ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59277
+    "poem_id": 59277,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "فقلتُ خذ قال كفّي لا تُطاوعُني",
-    "type": 1,
-    "order": 5,
-    "poemId": 59277
+    "poem_id": 59277,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "فقلتُ قُم قال رِجلي لا تُواتيني",
-    "type": 2,
-    "order": 6,
-    "poemId": 59277
+    "poem_id": 59277,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "إني غفلتُ عن الساقي فصَيَّرني",
-    "type": 1,
-    "order": 7,
-    "poemId": 59277
+    "poem_id": 59277,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 7
   },
   {
     "content": "كما تراني سليبَ العقلِ والدِّينِ",
-    "type": 2,
-    "order": 8,
-    "poemId": 59277
+    "poem_id": 59277,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 8
   },
   {
     "content": "إن أخا الهيجاءِ من يسعى معك",
-    "type": 1,
-    "order": 1,
-    "poemId": 59278
+    "poem_id": 59278,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ومن يضرّ نفسَه لينفَعَك",
-    "type": 2,
-    "order": 2,
-    "poemId": 59278
+    "poem_id": 59278,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "ومن إذا ريبُ الزمانِ صدَّعَك",
-    "type": 1,
-    "order": 3,
-    "poemId": 59278
+    "poem_id": 59278,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "شتَّتَ فيكَ شملَهُ لِيَجمَعَك",
-    "type": 2,
-    "order": 4,
-    "poemId": 59278
+    "poem_id": 59278,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "أراني منحتُ الحبَّ من ليسَ يعرِفُ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59279
+    "poem_id": 59279,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "فما أنصَفَتني في المحبةِ مُنصِفُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59279
+    "poem_id": 59279,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "وزادت لَدَنيا حُظوَةً يومَ أعرَضَت",
-    "type": 1,
-    "order": 3,
-    "poemId": 59279
+    "poem_id": 59279,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "وفي إصبعَيها أسمَرُ اللونِ أهيَفُ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59279
+    "poem_id": 59279,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "أصَمُّ سميعٌ ساكنٌ متحَرّكٌ",
-    "type": 1,
-    "order": 5,
-    "poemId": 59279
+    "poem_id": 59279,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "ينالُ جَسيماتِ العُلى وهو أعجَفُ",
-    "type": 2,
-    "order": 6,
-    "poemId": 59279
+    "poem_id": 59279,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "عجِبت لهُ أنَّى ودهرُكَ مُعجِبٌ",
-    "type": 1,
-    "order": 7,
-    "poemId": 59279
+    "poem_id": 59279,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 7
   },
   {
     "content": "يُقوِّمُ تحريفَ العِبادِ مُحَرِّفُ",
-    "type": 2,
-    "order": 8,
-    "poemId": 59279
+    "poem_id": 59279,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 8
   },
   {
     "content": "أخي أنتَ ومولايَ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59280
+    "poem_id": 59280,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "ومن أشكرُ نُعماهُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59280
+    "poem_id": 59280,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "فما أحببتَ من أمرٍ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59280
+    "poem_id": 59280,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "فإنِّي الدَّهرَ أهواهُ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59280
+    "poem_id": 59280,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "وما تكرهُ من شيءٍ",
-    "type": 1,
-    "order": 5,
-    "poemId": 59280
+    "poem_id": 59280,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "فإني لستُ أرضاهُ",
-    "type": 2,
-    "order": 6,
-    "poemId": 59280
+    "poem_id": 59280,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "لك الله على ذاكَ",
-    "type": 1,
-    "order": 7,
-    "poemId": 59280
+    "poem_id": 59280,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 7
   },
   {
     "content": "لك الله لكَ الله",
-    "type": 2,
-    "order": 8,
-    "poemId": 59280
+    "poem_id": 59280,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 8
   },
   {
     "content": "وجه الذي يعشقُ معروفُ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59281
+    "poem_id": 59281,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "لأنَّهُ أصفرُ منحوفُ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59281
+    "poem_id": 59281,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "ليسَ كمن أمسى له جُنَّةٌ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59281
+    "poem_id": 59281,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "كأنه لِلذبح معلوف",
-    "type": 2,
-    "order": 4,
-    "poemId": 59281
+    "poem_id": 59281,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "يا راقِدَ الليلِ انتَبِه",
-    "type": 1,
-    "order": 1,
-    "poemId": 59282
+    "poem_id": 59282,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "إن الخطوبَ لها سُرى",
-    "type": 2,
-    "order": 2,
-    "poemId": 59282
+    "poem_id": 59282,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "ثِقةُ الفتى بزمانِهِ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59282
+    "poem_id": 59282,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "ثِقةٌ مُحلَّلَةُ العُرى",
-    "type": 2,
-    "order": 4,
-    "poemId": 59282
+    "poem_id": 59282,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "حيّاك ربُّ الناسِ حيّاك",
-    "type": 1,
-    "order": 1,
-    "poemId": 59283
+    "poem_id": 59283,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "إذ بجمال الوجهِ ردّاكا",
-    "type": 2,
-    "order": 2,
-    "poemId": 59283
+    "poem_id": 59283,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "بغدادُ من نورك قد أشرَقَت",
-    "type": 1,
-    "order": 3,
-    "poemId": 59283
+    "poem_id": 59283,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "وأورقَ العودُ بِجدواك",
-    "type": 2,
-    "order": 4,
-    "poemId": 59283
+    "poem_id": 59283,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "ظبيٌ كنَيتُ بِطَرفي",
-    "type": 1,
-    "order": 1,
-    "poemId": 59284
+    "poem_id": 59284,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "عن الضَّميرِ إليهِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59284
+    "poem_id": 59284,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "قبّلتُهُ مِن بَعيدٍ",
-    "type": 1,
-    "order": 3,
-    "poemId": 59284
+    "poem_id": 59284,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "فاعتَلَّ مِن شفَتَيهِ",
-    "type": 2,
-    "order": 4,
-    "poemId": 59284
+    "poem_id": 59284,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   },
   {
     "content": "ورد أحسن رد",
-    "type": 1,
-    "order": 5,
-    "poemId": 59284
+    "poem_id": 59284,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 5
   },
   {
     "content": "بالكسر من حاجبيه",
-    "type": 2,
-    "order": 6,
-    "poemId": 59284
+    "poem_id": 59284,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 6
   },
   {
     "content": "فما بَرحتُ مكاني",
-    "type": 1,
-    "order": 7,
-    "poemId": 59284
+    "poem_id": 59284,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 7
   },
   {
     "content": "حتَّى قَدِرتُ عليهِ",
-    "type": 2,
-    "order": 8,
-    "poemId": 59284
+    "poem_id": 59284,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 8
   },
   {
     "content": "يا ملكاً لستُ بناسيهِ",
-    "type": 1,
-    "order": 1,
-    "poemId": 59285
+    "poem_id": 59285,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 1
   },
   {
     "content": "وليتَني بالنفسِ أفديهِ",
-    "type": 2,
-    "order": 2,
-    "poemId": 59285
+    "poem_id": 59285,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 2
   },
   {
     "content": "باكِيَتي من جَزَعٍ أقصِري",
-    "type": 1,
-    "order": 3,
-    "poemId": 59285
+    "poem_id": 59285,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 3
   },
   {
     "content": "قد غَلِقَ الرَّهنُ بما فيه",
-    "type": 2,
-    "order": 4,
-    "poemId": 59285
+    "poem_id": 59285,
+    "poet_id": 1657,
+    "type": 3,
+    "order": 4
   }
 ]

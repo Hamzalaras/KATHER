@@ -1,4 +1,4 @@
-import eras from '../meta/countries.json' with { type: 'json' };
+import eras from '../meta/eras.json' with { type: 'json' };
 import countries from '../meta/countries.json' with { type: 'json' };
 import quawafi from '../meta/quawafi.json' with { type: 'json' };
 import seas from '../meta/seas.json' with { type: 'json' };
@@ -7,7 +7,7 @@ import poemsTypes from '../meta/poemsTypes.json' with { type: 'json' };
 import { CATALOG_GROUPS } from '../constants/catalog.js';
 import { V1_RESOURCE_PATHS } from '../constants/http.js';
 
-const catalogSources = {
+export const catalogSources = {
     [CATALOG_GROUPS.ERAS]: eras,
     [CATALOG_GROUPS.COUNTRIES]: countries,
     [CATALOG_GROUPS.QUAWAFI]: quawafi,

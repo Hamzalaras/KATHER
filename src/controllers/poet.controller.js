@@ -56,7 +56,7 @@ export const getPoetById = async (req, res) => {
 
 export const getPoetPoems = async (req, res) => {
     const { id, offset, limit, sort } = res.locals;
-    const result = await getPoetPoemsServices({ poetId: id, offset, limit, sort });
+    const result = await getPoetPoemsServices({ poet_id: id, offset, limit, sort });
     const nextOffset = offset + limit;
     const prevOffset = Math.max(offset - limit, 0);
 

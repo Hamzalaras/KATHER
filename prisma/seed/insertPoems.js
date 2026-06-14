@@ -11,14 +11,12 @@ export const insert = async (prisma) => {
             const toInsert = poems.map(poem => ({
                 id: poem.id,
                 name: stripDiacritics(poem.name),
-                engTopic: poem.engTopic,
-                arabTopic: poem.arabTopic,
-                type: (poem.type ?? 'غير محددة بعد'),
-                engSea: poem.engSea,
-                arabSea: poem.arabSea,
-                quafia: poem.quafia,
+                poet_id: poem.poet_id,
+                topic_id: poem.topic_id,
+                poem_type_id: poem.type_id,
+                sea_id: poem.sea_id,
+                quafia_id: poem.quafia_id,
                 order: poem.order,
-                poetId: poem.poetId,
             }));
 
             const result = await prisma.poems.createMany({

@@ -11,10 +11,10 @@ const buildLookup = (collection) => {
     const lookup = new Map();
 
     for (const item of collection) {
-        const candidateValues = [item.name_ar, item.name_en, ...(item.aliases ?? [])];
+        const candidateValues = [item.id, item.name_ar, item.name_en, ...(item.aliases ?? [])];
 
         for (const candidate of candidateValues) {
-            lookup.set(normalizeLookupValue(candidate), item.name_ar);
+            lookup.set(normalizeLookupValue(candidate), item.id);
         }
     }
 
