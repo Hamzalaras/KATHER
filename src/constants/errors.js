@@ -7,6 +7,7 @@ export const ERROR_CODES = {
 	UNAUTHORIZED: 'UNAUTHORIZED',
 	METRICS_ERROR: 'METRICS_ERROR',
 	RATE_LIMIT_EXCEEDED: 'RATE_LIMIT_EXCEEDED',
+	OFFSET_EXCEEDS_TOTAL: 'OFFSET_EXCEEDS_TOTAL',
 };
 
 export const NOT_FOUND_MESSAGES = {
@@ -16,4 +17,5 @@ export const NOT_FOUND_MESSAGES = {
 	POET_NO_MATCH: 'No poet matched the provided filters',
 	POEM_NO_MATCH: 'No poem matched the provided filters',
 	LINE_NO_MATCH: 'No line matched the provided filters',
+	OFFSET_NOT_FOUND: 'Offset exceeds total number of lines',
 };

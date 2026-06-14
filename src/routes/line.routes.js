@@ -3,7 +3,7 @@ import { defineLimit, defineOffset } from '../middleware/pagination.js';
 import { defineId } from '../middleware/identity.js';
 import { defineCountry, defineEra, defineGender, defineQuafia, defineSea, defineTopic, defineLineType } from '../middleware/catalog.middleware.js';
 import { defineMeta, defineSearchQuery, defineSort } from '../middleware/meta.middleware.js';
-import { getLineList, getLineDetail, getRandomLineEndpoint } from '../controllers/line.controller.js';
+import { getLineList, getLineById, getRandomLine } from '../controllers/line.controller.js';
 import { catchWrapper } from '../utils/catchWrapper.js';
 import { DEFAULT_COUNT_TTL_SECONDS } from '../constants/cache.js';
 import { ENTITY_KEYS } from '../constants/domain.js';
@@ -28,12 +28,12 @@ router.get('/random',
     catchWrapper(defineEra()), catchWrapper(defineCountry()), catchWrapper(defineGender()),
     catchWrapper(defineQuafia()), catchWrapper(defineSea()), catchWrapper(defineTopic()), 
     catchWrapper(defineLineType()), catchWrapper(defineSearchQuery(LINE_SEARCH_QUERY_MAX_LENGTH)),
-    catchWrapper(getRandomLineEndpoint),
+    catchWrapper(getRandomLine),
 );
 
 router.get('/:id',
     catchWrapper(defineId('id', true)),
-    catchWrapper(getLineDetail),
+    catchWrapper(getLineById),
 );
 
 

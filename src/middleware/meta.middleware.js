@@ -1,36 +1,32 @@
 import { ValidationError } from '../utils/errors/index.js';
+import { META_VALUES } from '../constants/domain.js';
 
 export const defineMeta = () => {
     return (req, res, next) => {
-        const meta = req.query.meta ?? null;
+        const raw = req.query.meta;
 
-        if (meta === null) {
-            res.locals.meta = null;
-            return next();
-        }
+        if (raw == null) return next();
 
-        if (meta.toLowerCase() !== 'full') {
+        const value = String(raw).trim().toLowerCase();
+
+        if (!META_VALUES.has(value)) {
             throw new ValidationError('Invalid meta value', 'INVALID_META');
         }
 
-        res.locals.meta = 'full';
+        res.locals.meta = true;
         next();
-    }
+    };
 };
 
 export const defineSearchQuery = (SEARCH_QUERY_MAX_LENGTH) => {
     return (req, res, next) => {
-        const raw = req.query.q ?? null;
+        const raw = req.query.q;
 
-        if (raw === null) {
-            res.locals.q = null;
-            return next();
-        }
+        if (raw == null) return next();
 
         const value = String(raw).trim();
-
-        if (value.length === 0) {
-            res.locals.q = null;
+        if (!value.length) {
+            res.locals.q = undefined;
             return next();
         }
 
@@ -45,12 +41,9 @@ export const defineSearchQuery = (SEARCH_QUERY_MAX_LENGTH) => {
 
 export const defineSort = (SORT_MAP) => {
     return (req, res, next) => {
-        const raw = req.query.sort ?? null;
+        const raw = req.query.sort;
 
-        if (raw === null) {
-            res.locals.sort = null;
-            return next();
-        }
+        if (raw == null) return next();
 
         if (!SORT_MAP.has(raw)) {
             throw new ValidationError('Invalid sort value', 'INVALID_SORT');

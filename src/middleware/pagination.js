@@ -3,8 +3,8 @@ import { MAX_LIMIT } from '../constants/pagination.js';
 
 export const defineOffset = () => {
     return (req, res, next) => {
-        const raw = req.query.offset ?? null;
-        if (raw === null) {
+        const raw = req.query.offset;
+        if (raw == null) {
             res.locals.offset = 0;
             return next();
         }
@@ -26,8 +26,9 @@ export const defineOffset = () => {
 
 export const defineLimit = (maxLimit = MAX_LIMIT) => {
     return (req, res, next) => {
-        const raw = req.query.limit ?? null;
-        if (raw === null) {
+        const raw = req.query.limit;
+        
+        if (raw == null) {
             res.locals.limit = maxLimit;
             return next();
         }

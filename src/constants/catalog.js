@@ -4,5 +4,5 @@ export const CATALOG_GROUPS = {
 	QUAWAFI: 'quawafi',
 	SEAS: 'seas',
 	TOPICS: 'topics',
-	POEMS_TYPES: 'poems_types',
+	POEMS_TYPES: 'poemsTypes',
 };
