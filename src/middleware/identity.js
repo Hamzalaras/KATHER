@@ -1,8 +1,8 @@
 import { ValidationError } from '../utils/errors/index.js';
 
-export const defineId = (idName, required = false) => {
+export const defineId = (queryKey, localsKey, required = false) => {
     return (req, res, next) => {
-        const raw = required ? req.params.id : req.query[idName];
+        const raw = required ? req.params.id : req.query[queryKey];
         
         if (raw == null) {
             if (required) throw new ValidationError('Id must be specified', 'ABSENT_ID');
@@ -19,7 +19,7 @@ export const defineId = (idName, required = false) => {
             throw new ValidationError('Id is out of range', 'ID_OUT_OF_RANGE');
         }
 
-        res.locals[idName] = parsed;
+        res.locals[localsKey] = parsed;
         next();
     };
 };

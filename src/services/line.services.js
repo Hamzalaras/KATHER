@@ -1,14 +1,14 @@
 import { prismaClient } from '../database/prismaClient.js';
 import { getCachedCount } from '../utils/cache/count.js';
 import { randomSkip } from '../utils/randomSkip.js';
-import { hasDiacritics } from '../utils/diacritics.js';
 import { ValidationError } from '../utils/errors/ApiError.js';
 import { DEFAULT_COUNT_TTL_SECONDS } from '../constants/cache.js';
 import { ENTITY_KEYS } from '../constants/domain.js';
 import { LINES_SORT } from '../constants/sort.js';
 import { POEM_SELECT, LINE_BASE_SELECT } from '../constants/select.js';
 import { mapPoem, mapPoemLineBase } from '../utils/mappers.js';
-import { buildPagination } from '../utils/builders.js';
+import { buildPagination } from '../utils/builders/buildMeta.js';
+import { buildLineWhere } from '../utils/builders/buildWhere.js';
 import { ERROR_CODES, NOT_FOUND_MESSAGES } from '../constants/errors.js';
 
 const LINE_SELECT = {
@@ -21,36 +21,6 @@ const LINE_SELECT = {
 const mapPoemLine = (line) => ({
     ...mapPoemLineBase(line),
     poem: mapPoem(line.poems),
-});
-
-const buildLineWhere = ({ poem_id, poet_id, era_id, country_id, gender, quafia_id, sea_id, topic_id, line_type, q }) => ({
-        ...(line_type !== undefined && { line_type }),
-        ...((poem_id !== undefined || quafia_id !== undefined || sea_id !== undefined || topic_id !== undefined) && {
-            poems: {
-                ...(poem_id !== undefined && { id: poem_id }),
-                ...(quafia_id !== undefined && { quafia_id }),
-                ...(sea_id !== undefined && { sea_id }),
-                ...(topic_id !== undefined && { topic_id }),
-            }
-        }),
-        ...((poet_id !== undefined || era_id !== undefined || country_id !== undefined || gender !== undefined) && {    
-            poets : {
-                        ...(poet_id !== undefined && { id: poet_id }),
-                        ...(era_id !== undefined && { era_id }),
-                        ...(country_id !== undefined && { country_id }),
-                        ...(gender !== undefined && { gender }),
-            },
-        }),
-        ...(q && {
-            OR: [
-                (hasDiacritics(q) ? { content: { contains: q, mode: 'insensitive' } } :
-                                    { content_nd: { contains: q, mode: 'insensitive' } }
-                                ),
-                { poems: { name: { contains: q, mode: 'insensitive' } } },
-                { poets: { name_en: { contains: q, mode: 'insensitive' } }  },
-                { poets: { name_ar: { contains: q, mode: 'insensitive' } }  },
-            ],
-        }),
 });
 
 export const getLinesList = async ({ limit, offset, meta, q, sort, ...filters }) => {

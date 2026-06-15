@@ -7,13 +7,8 @@ import {
 import { NotFoundError } from '../utils/errors/index.js';
 import { ERROR_CODES, NOT_FOUND_MESSAGES } from '../constants/errors.js';
 import { RESPONSE_STATUS, V1_RESOURCE_PATHS } from '../constants/http.js';
-import { buildQuery, buildCommuneFilters } from '../utils/builders.js';
-
-const buildPoemFilters = (locals) => ({
-    ...buildCommuneFilters(locals),
-    poet_id: locals.poetId,
-    poem_type_id: locals.poemType,
-});
+import { buildQuery } from '../utils/builders/buildMeta.js';
+import { buildPoemFilters, buildLineFilters } from '../utils/builders/buildFilter.js';
 
 export const getPoemList = async (req, res) => {
     const { limit, offset } = res.locals;
@@ -41,8 +36,9 @@ export const getPoemList = async (req, res) => {
 };
 
 export const getPoemById = async (req, res) => {
-    const { sort, id, limit, offset } = res.locals;
-    const result = await getPoemWithLines({ poem_id: id, sort, limit, offset });
+    const { poem_id, limit, offset } = res.locals;
+    const lineFilters = buildLineFilters(res.locals);
+    const result = await getPoemWithLines({ limit, offset, ...lineFilters });
 
     if (!result) {
         throw new NotFoundError(NOT_FOUND_MESSAGES.POEM, ERROR_CODES.POEM_NOT_FOUND);
@@ -56,23 +52,24 @@ export const getPoemById = async (req, res) => {
             pagination: result.pagination,
         },
         links: {
-            self: `${req.baseUrl}/${id}${buildQuery({ limit, offset })}`,
-            lines: `${req.baseUrl}/${id}/lines${buildQuery({ limit, offset })}`,
-            context: `${req.baseUrl}/${id}/context`,
+            self: `${req.baseUrl}/${poem_id}${buildQuery({ limit, offset, ...lineFilters })}`,
+            lines: `${req.baseUrl}/${poem_id}/lines${buildQuery({ limit, offset, ...lineFilters })}`,
+            context: `${req.baseUrl}/${poem_id}/context`,
             random: `${req.baseUrl}/random`,
             poet: `${V1_RESOURCE_PATHS.POETS}/${result.poem.poet_id}`,
         },
         meta: {
             filters: {
-                sort,
+                ...lineFilters,
             },
         },
     });
 };
 
 export const getPoemLines = async (req, res) => {
-    const { id, limit, offset, sort } = res.locals;    
-    const result = await getPoemWithLines({ poem_id: id, limit, offset, sort });
+    const { poem_id, limit, offset } = res.locals;    
+    const lineFilters = buildLineFilters(res.locals);
+    const result = await getPoemWithLines({ limit, offset, ...lineFilters });
     const nextOffset = offset + limit;
     const prevOffset = Math.max(offset - limit, 0);
 
@@ -86,23 +83,23 @@ export const getPoemLines = async (req, res) => {
         data: result.lines,
         pagination: result.pagination,
         links: {
-            self: `${req.baseUrl}/${id}/lines${buildQuery({ sort, limit, offset })}`,
-            next: result.pagination.has_more ? `${req.baseUrl}/${id}/lines${buildQuery({ sort, limit, offset: nextOffset })}` : null,
-            prev: offset > 0 ? `${req.baseUrl}/${id}/lines${buildQuery({ sort, limit, offset: prevOffset })}` : null,
-            poem: `${req.baseUrl}/${id}`,
-            context: `${req.baseUrl}/${id}/context`,
+            self: `${req.baseUrl}/${poem_id}/lines${buildQuery({ limit, offset, ...lineFilters })}`,
+            next: result.pagination.has_more ? `${req.baseUrl}/${poem_id}/lines${buildQuery({ limit, offset: nextOffset, ...lineFilters })}` : null,
+            prev: offset > 0 ? `${req.baseUrl}/${poem_id}/lines${buildQuery({ limit, offset: prevOffset, ...lineFilters })}` : null,
+            poem: `${req.baseUrl}/${poem_id}`,
+            context: `${req.baseUrl}/${poem_id}/context`,
         },
         meta: {
             filters: {
-                sort,
+                ...lineFilters,
             },
         },
     });
 };
 
 export const getPoemContext = async (req, res) => {
-    const { id } = res.locals;
-    const result = await getPoemContextServices(id);
+    const { poem_id } = res.locals;
+    const result = await getPoemContextServices(poem_id);
 
     if (!result) {
         throw new NotFoundError(NOT_FOUND_MESSAGES.POEM, ERROR_CODES.POEM_NOT_FOUND);
@@ -112,9 +109,9 @@ export const getPoemContext = async (req, res) => {
         status: RESPONSE_STATUS.SUCCESS,
         data: result,
         links: {
-            self: `${req.baseUrl}/${id}/context`,
-            poem: `${req.baseUrl}/${id}`,
-            lines: `${req.baseUrl}/${id}/lines`,
+            self: `${req.baseUrl}/${poem_id}/context`,
+            poem: `${req.baseUrl}/${poem_id}`,
+            lines: `${req.baseUrl}/${poem_id}/lines`,
             poet: `${V1_RESOURCE_PATHS.POETS}/${result.poet.id}`,
             random: `${req.baseUrl}/random`,
         },

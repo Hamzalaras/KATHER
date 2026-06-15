@@ -1,13 +1,13 @@
 import { Router } from 'express';
 import { defineOffset, defineLimit } from '../middleware/pagination.js';
 import { defineId } from '../middleware/identity.js';
-import { defineEra, defineCountry, defineGender } from '../middleware/catalog.middleware.js';
+import { defineEra, defineCountry, defineGender, defineLineType, defineTopic, definePoemType, defineSea, defineQuafia } from '../middleware/catalog.middleware.js';
 import { defineMeta, defineSearchQuery, defineSort } from '../middleware/meta.middleware.js';
-import { getPoetById, getPoetPoems, getPoetsList, getPoetStats, getRandomPoet } from '../controllers/poet.controller.js';
+import { getPoetById, getPoetPoems, getPoetsList, getPoetStats, getRandomPoet, getPoetLines } from '../controllers/poet.controller.js';
 import { catchWrapper } from '../utils/catchWrapper.js';
 import { DEFAULT_COUNT_TTL_SECONDS } from '../constants/cache.js';
-import { POET_SEARCH_QUERY_MAX_LENGTH } from '../constants/validation.js';
-import { POEMS_SORT, POETS_SORT } from '../constants/sort.js';
+import { LINE_SEARCH_QUERY_MAX_LENGTH, POEM_SEARCH_QUERY_MAX_LENGTH, POET_SEARCH_QUERY_MAX_LENGTH } from '../constants/validation.js';
+import { LINES_SORT, POEMS_SORT, POETS_SORT } from '../constants/sort.js';
 
 const router = new Router();
 
@@ -25,20 +25,28 @@ router.get('/random',
         );
 
 router.get('/:id/stats',
-            catchWrapper(defineId('id', true)),
+            catchWrapper(defineId('id', 'poet_id', true)),
             catchWrapper(getPoetStats),
         );
 
 router.get('/:id/poems',
-            catchWrapper(defineId('id', true)),
+            catchWrapper(defineId('id', 'poet_id', true)),
             catchWrapper(defineOffset()), catchWrapper(defineLimit()), catchWrapper(defineSort(POEMS_SORT)),
+            catchWrapper(defineTopic()), catchWrapper(definePoemType()), catchWrapper(defineSea()),
+            catchWrapper(defineQuafia()), catchWrapper(defineSearchQuery(POEM_SEARCH_QUERY_MAX_LENGTH)),
             catchWrapper(getPoetPoems),
         );
 
 router.get('/:id',
-            catchWrapper(defineId('id', true)),
+            catchWrapper(defineId('id', 'poet_id', true)),
             catchWrapper(getPoetById),
         );
 
+router.get('/:id/lines',
+            catchWrapper(defineId('id', 'poet_id', true)), catchWrapper(defineLimit()), catchWrapper(defineOffset()),
+            catchWrapper(defineLineType()), catchWrapper(defineSort(LINES_SORT)),
+            catchWrapper(defineSearchQuery(LINE_SEARCH_QUERY_MAX_LENGTH)),
+            catchWrapper(getPoetLines),
+        );
 
 export default router;
