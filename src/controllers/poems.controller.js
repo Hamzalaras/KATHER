@@ -3,7 +3,7 @@ import {
     getPoemWithLines,
     getPoemContext as getPoemContextServices,
     getRandomPoem as getRandomPoemServices,
-} from '../services/poem.services.js';
+} from '../services/poem.service.js';
 import { NotFoundError } from '../utils/errors/index.js';
 import { ERROR_CODES, NOT_FOUND_MESSAGES } from '../constants/errors.js';
 import { RESPONSE_STATUS, V1_RESOURCE_PATHS } from '../constants/http.js';

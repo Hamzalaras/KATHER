@@ -1,9 +1,9 @@
 import { Router } from 'express';
-import { defineLimit, defineOffset } from '../middleware/pagination.js';
-import { defineId } from '../middleware/identity.js';
+import { defineLimit, defineOffset } from '../middleware/pagination.middleware.js';
+import { defineId } from '../middleware/identity.middleware.js';
 import { defineEra, defineCountry, defineGender, defineQuafia, defineSea, defineTopic, definePoemType, defineLineType } from '../middleware/catalog.middleware.js';
 import { defineMeta, defineSort, defineSearchQuery } from '../middleware/meta.middleware.js';
-import { getPoemById, getPoemContext, getPoemLines, getPoemList, getRandomPoem } from '../controllers/poem.controller.js';
+import { getPoemById, getPoemContext, getPoemLines, getPoemList, getRandomPoem } from '../controllers/poems.controller.js';
 import { catchWrapper } from '../utils/catchWrapper.js';
 import { DEFAULT_COUNT_TTL_SECONDS } from '../constants/cache.js';
 import { ENTITY_KEYS } from '../constants/domain.js';

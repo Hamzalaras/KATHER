@@ -1,9 +1,9 @@
 import { Router } from 'express';
-import { defineLimit, defineOffset } from '../middleware/pagination.js';
-import { defineId } from '../middleware/identity.js';
+import { defineLimit, defineOffset } from '../middleware/pagination.middleware.js';
+import { defineId } from '../middleware/identity.middleware.js';
 import { defineCountry, defineEra, defineGender, defineQuafia, defineSea, defineTopic, defineLineType } from '../middleware/catalog.middleware.js';
 import { defineMeta, defineSearchQuery, defineSort } from '../middleware/meta.middleware.js';
-import { getLineList, getLineById, getRandomLine } from '../controllers/line.controller.js';
+import { getLineList, getLineById, getRandomLine } from '../controllers/lines.controller.js';
 import { catchWrapper } from '../utils/catchWrapper.js';
 import { DEFAULT_COUNT_TTL_SECONDS } from '../constants/cache.js';
 import { ENTITY_KEYS } from '../constants/domain.js';

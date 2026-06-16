@@ -10,7 +10,7 @@ import { ERROR_CODES, NOT_FOUND_MESSAGES } from '../constants/errors.js';
 import { buildPagination } from '../utils/builders/buildMeta.js';
 import { buildPoetWhere, buildPoemWhere, buildLineWhere } from '../utils/builders/buildWhere.js';
 import { mapPoetBase, mapPoemBase, mapPoemLineBase } from '../utils/mappers.js';
-import { catalogSources } from './catalog.services.js';
+import { catalogSources } from './catalog.service.js';
 import { CATALOG_GROUPS } from '../constants/catalog.js';
 
 const POET_SELECT = {

@@ -4,7 +4,7 @@ import { getPoetsList as getPoetsListServices,
          getPoetById as getPoetByIdServices,
          getRandomPoet as getRandomPoetServices,
          getPoetLines as getPoetLinesServices,
-        } from '../services/poet.services.js';
+        } from '../services/poet.service.js';
 import { NotFoundError } from '../utils/errors/index.js';
 import { ERROR_CODES, NOT_FOUND_MESSAGES } from '../constants/errors.js';
 import { RESPONSE_STATUS } from '../constants/http.js';

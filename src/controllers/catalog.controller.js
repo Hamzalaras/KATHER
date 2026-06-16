@@ -1,4 +1,4 @@
-import { getCatalogCountsInfo, getCatalogInfo, getCountriesInfo, getErasInfo, getQuawafiInfo, getSeasInfo, getTopicsInfo, getPoemsTypesInfo, catalogRouteLinks } from '../services/catalog.services.js';
+import { getCatalogCountsInfo, getCatalogInfo, getCountriesInfo, getErasInfo, getQuawafiInfo, getSeasInfo, getTopicsInfo, getPoemsTypesInfo, catalogRouteLinks } from '../services/catalog.service.js';
 import { CATALOG_CACHE_CONTROL_HEADER } from '../constants/cache.js';
 import { CATALOG_GROUPS } from '../constants/catalog.js';
 import { RESPONSE_STATUS } from '../constants/http.js';
