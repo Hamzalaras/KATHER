@@ -1,18 +1,12 @@
 import { getLinesList as getLineListServices,
          getLineById as getLineByIdServices,
          getRandomLine as getRandomLineServices,
-        } from '../services/line.services.js';
+        } from '../services/line.service.js';
 import { NotFoundError } from '../utils/errors/index.js';
 import { ERROR_CODES, NOT_FOUND_MESSAGES } from '../constants/errors.js';
 import { RESPONSE_STATUS, V1_RESOURCE_PATHS } from '../constants/http.js';
-import { buildQuery, buildCommuneFilters } from '../utils/builders.js';
-
-const buildLineFilters = (locals) => ({
-    ...buildCommuneFilters(locals),
-    poem_id: locals.poemId,
-    poet_id: locals.poetId,
-    line_type: locals.lineType,
-});
+import { buildQuery } from '../utils/builders/buildMeta.js';
+import { buildLineFilters } from '../utils/builders/buildFilter.js';
 
 export const getLineList = async (req, res) => {
 

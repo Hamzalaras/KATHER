@@ -4,31 +4,19 @@ import { randomSkip } from '../utils/randomSkip.js';
 import { ValidationError } from '../utils/errors/ApiError.js';
 import { DEFAULT_COUNT_TTL_SECONDS } from '../constants/cache.js';
 import { ENTITY_KEYS, RELATED_ITEMS_LIMIT } from '../constants/domain.js';
-import { POEMS_SORT, POETS_SORT } from '../constants/sort.js';
-import { POET_BASE_SELECT, POEM_BASE_SELECT } from '../constants/select.js';
+import { LINES_SORT, POEMS_SORT, POETS_SORT } from '../constants/sort.js';
+import { POET_BASE_SELECT, POEM_BASE_SELECT, LINE_BASE_SELECT } from '../constants/select.js';
 import { ERROR_CODES, NOT_FOUND_MESSAGES } from '../constants/errors.js';
-import { buildPagination } from '../utils/builders.js';
-import { mapPoetBase, mapPoemBase } from '../utils/mappers.js';
-import { catalogSources } from './catalog.services.js';
+import { buildPagination } from '../utils/builders/buildMeta.js';
+import { buildPoetWhere, buildPoemWhere, buildLineWhere } from '../utils/builders/buildWhere.js';
+import { mapPoetBase, mapPoemBase, mapPoemLineBase } from '../utils/mappers.js';
+import { catalogSources } from './catalog.service.js';
 import { CATALOG_GROUPS } from '../constants/catalog.js';
 
 const POET_SELECT = {
     ...POET_BASE_SELECT,
     bio: true,
 };
-
-const buildPoetWhere = ({ era_id, country_id, gender, q }) => ({
-    ...(era_id !== undefined && { era_id }),
-    ...(country_id !== undefined && { country_id }),
-    ...(gender !== undefined && { gender }),
-    ...(q && {
-        OR: [
-            { name_en: { contains: q, mode: 'insensitive' } },
-            { name_ar: { contains: q, mode: 'insensitive' } },
-            { bio: { contains: q, mode: 'insensitive' } },
-        ],
-    }),
-});
 
 const mapPoet = (poet) => ({
     ...mapPoetBase(poet),
@@ -37,7 +25,7 @@ const mapPoet = (poet) => ({
 
 export const getPoetsList = async ({ era_id, country_id, gender, q, sort, limit, offset, meta }) => {
     const where = buildPoetWhere({ era_id, country_id, gender, q });
-    console.log(sort)
+    
     const shouldRunCount = !q || meta;
     const total = shouldRunCount ? await getCachedCount(ENTITY_KEYS.POETS, DEFAULT_COUNT_TTL_SECONDS, where) : null;
 
@@ -83,7 +71,7 @@ export const getPoetById = async (poet_id) => {
     return poet ? mapPoet(poet) : null;
 };
 
-export const getPoetPoems = async ({ poet_id, offset, limit, sort }) => {
+export const getPoetPoems = async ({ poet_id, offset, limit, sort, ...filters }) => {
 
     const poet = await prismaClient.poets.findUnique({
         where: { id: poet_id },
@@ -92,14 +80,21 @@ export const getPoetPoems = async ({ poet_id, offset, limit, sort }) => {
 
     if (!poet) return null;
 
-    const total = await getCachedCount(ENTITY_KEYS.POEMS, DEFAULT_COUNT_TTL_SECONDS, { poet_id });
+    let totalPoems = poet.poem_count;
 
-    if (total !== null && total > 0 && offset >= total) {
+    if (totalPoems > 0 && offset >= totalPoems) {
         throw new ValidationError(NOT_FOUND_MESSAGES.OFFSET_NOT_FOUND, ERROR_CODES.OFFSET_EXCEEDS_TOTAL);
     }
 
-    const data = total === 0 ? [] : await prismaClient.poems.findMany({
-        where: { poet_id },
+    const poemWhere = buildPoemWhere({ poet_id, ...filters });
+    totalPoems = await getCachedCount(ENTITY_KEYS.POEMS, DEFAULT_COUNT_TTL_SECONDS, poemWhere);
+
+    if (totalPoems !== null && totalPoems > 0 && offset >= totalPoems) {
+        throw new ValidationError(NOT_FOUND_MESSAGES.OFFSET_NOT_FOUND, ERROR_CODES.OFFSET_EXCEEDS_TOTAL);
+    }
+
+    const data = totalPoems === 0 ? [] : await prismaClient.poems.findMany({
+        where: poemWhere,
         orderBy: POEMS_SORT.get(sort) ?? POEMS_SORT.get('order'),
         skip: offset,
         take: limit,
@@ -109,7 +104,7 @@ export const getPoetPoems = async ({ poet_id, offset, limit, sort }) => {
     return {
         poet: mapPoetBase(poet),
         data: data.map(mapPoemBase),
-        pagination: buildPagination(offset, limit, total),
+        pagination: buildPagination(offset, limit, totalPoems),
     };
 };
 
@@ -185,4 +180,34 @@ export const getRandomPoet = async ({ era_id, country_id, gender, q }) => {
     });
 
     return poet ? mapPoet(poet) : null;
+};
+
+export const getPoetLines = async ({ poet_id, sort, q, line_type, limit, offset }) => {
+    const poet = await prismaClient.poets.findUnique({
+        where: { id: poet_id },
+        select: POET_BASE_SELECT,
+    });
+
+    if (!poet) return null;
+
+    const linesWhere = buildLineWhere({ line_type, q, poet_id });
+    const total = await getCachedCount(ENTITY_KEYS.POEMS_LINES, DEFAULT_COUNT_TTL_SECONDS, linesWhere);
+
+    if (total !== null && total > 0 && offset >= total) {
+        throw new ValidationError(NOT_FOUND_MESSAGES.OFFSET_NOT_FOUND, ERROR_CODES.OFFSET_EXCEEDS_TOTAL);
+    }
+
+    const data = total === 0 ? [] : await prismaClient.poemsLines.findMany({
+        where: linesWhere,
+        orderBy: LINES_SORT.get(sort) ?? LINES_SORT.get('id'),
+        skip: offset,
+        take: limit,
+        select: LINE_BASE_SELECT,
+    });
+
+    return {
+        poet: mapPoetBase(poet),
+        data: data.map(mapPoemLineBase),
+        pagination: buildPagination(offset, limit, total),
+    };
 };

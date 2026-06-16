@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import packageJson from '../../package.json' with { type: 'json' };
-import { getReadinessStatus } from '../services/system.services.js';
+import { getReadinessStatus } from '../services/system.service.js';
 
 
 

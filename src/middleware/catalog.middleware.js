@@ -3,7 +3,7 @@ import { ValidationError } from '../utils/errors/index.js';
 import { CATALOG_GROUPS } from '../constants/catalog.js';
 import { GENDERS, LINE_TYPE_VALUES, UNSET_VALUES } from '../constants/domain.js';
 
-const createCatalogMiddleware = (queryKey, catalogGroup, errorKey) => {
+const createCatalogMiddleware = (queryKey, localsKey, catalogGroup, errorKey) => {
     return () => (req, res, next) => {
         const raw = req.query[queryKey];
 
@@ -11,7 +11,7 @@ const createCatalogMiddleware = (queryKey, catalogGroup, errorKey) => {
 
         const value = String(raw).trim().toLowerCase();
         if (UNSET_VALUES.has(value)) {
-            res.locals[queryKey] = null;
+            res.locals[localsKey] = null;
             return next();
         }
 
@@ -20,17 +20,17 @@ const createCatalogMiddleware = (queryKey, catalogGroup, errorKey) => {
             throw new ValidationError(`Invalid ${queryKey} value`, `INVALID_${errorKey}`);
         }
 
-        res.locals[queryKey] = resolved;
+        res.locals[localsKey] = resolved;
         next();
     };
 };
 
-export const defineEra = createCatalogMiddleware('era', CATALOG_GROUPS.ERAS, 'ERA');
-export const defineCountry = createCatalogMiddleware('country', CATALOG_GROUPS.COUNTRIES, 'COUNTRY');
-export const defineTopic = createCatalogMiddleware('topic', CATALOG_GROUPS.TOPICS, 'TOPIC');
-export const defineQuafia = createCatalogMiddleware('quafia', CATALOG_GROUPS.QUAWAFI, 'QUAFIA');
-export const defineSea = createCatalogMiddleware('sea', CATALOG_GROUPS.SEAS, 'SEA');
-export const definePoemType = createCatalogMiddleware('poemType',  CATALOG_GROUPS.POEMS_TYPES, 'POEM_TYPE');
+export const defineEra = createCatalogMiddleware('era', 'era_id', CATALOG_GROUPS.ERAS, 'ERA');
+export const defineCountry = createCatalogMiddleware('country', 'country_id', CATALOG_GROUPS.COUNTRIES, 'COUNTRY');
+export const defineTopic = createCatalogMiddleware('topic', 'topic_id', CATALOG_GROUPS.TOPICS, 'TOPIC');
+export const defineQuafia = createCatalogMiddleware('quafia', 'quafia_id',CATALOG_GROUPS.QUAWAFI, 'QUAFIA');
+export const defineSea = createCatalogMiddleware('sea', 'sea_id', CATALOG_GROUPS.SEAS, 'SEA');
+export const definePoemType = createCatalogMiddleware('poemType', 'poem_type_id', CATALOG_GROUPS.POEMS_TYPES, 'POEM_TYPE');
 
 
 export const defineGender = () => {
@@ -69,7 +69,7 @@ export const defineLineType = () => {
             throw new ValidationError('Invalid line type value', 'INVALID_LINE_TYPE_VALUE');
         }
 
-        res.locals.lineType = parsed;
+        res.locals.line_type = parsed;
         next();
     };
 };

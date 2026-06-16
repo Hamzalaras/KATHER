@@ -1,5 +1,4 @@
 
-
 export const buildPagination = (offset, limit, total) => {
     const page = Math.floor(offset / limit) + 1;
 
@@ -31,15 +30,3 @@ export const buildQuery = (query = {}) => {
     const serialized = params.toString();
     return serialized ? `?${serialized}` : '';
 };
-
-export const buildCommuneFilters = (locals) => ({
-    era_id: locals.era,
-    country_id: locals.country,
-    gender: locals.gender,
-    quafia_id: locals.quafia,
-    sea_id: locals.sea,
-    topic_id: locals.topic,
-    sort: locals.sort,
-    q: locals.q,
-    meta: locals.meta,
-});
