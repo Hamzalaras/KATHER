@@ -28,46 +28,39 @@ export const getCatalog = (req, res) => {
         status: RESPONSE_STATUS.SUCCESS,
         data: getCatalogInfo(),
         meta: {
-            collections: 5,
+            collections: 6,
             counts: getCatalogCountsInfo(),
         },
-        links: {
-            self: catalogRouteLinks.self,
-            eras: `${catalogRouteLinks.eras}`,
-            countries: `${catalogRouteLinks.countries}`,
-            quawafi: `${catalogRouteLinks.quawafi}`,
-            seas: `${catalogRouteLinks.seas}`,
-            topics: `${catalogRouteLinks.topics}`,
-        },
+        links: catalogRouteLinks,
     });
-}
+};
 
 export const getEras = (req, res) => {
     setCatalogHeaders(res);
     return res.json(buildCollectionResponse(CATALOG_GROUPS.ERAS, getErasInfo()));
-}
+};
 
 export const getCountries = (req, res) => {
     setCatalogHeaders(res);
     return res.json(buildCollectionResponse(CATALOG_GROUPS.COUNTRIES, getCountriesInfo()));
-}
+};
 
 export const getQuawafi = (req, res) => {
     setCatalogHeaders(res);
     return res.json(buildCollectionResponse(CATALOG_GROUPS.QUAWAFI, getQuawafiInfo()));
-}
+};
 
 export const getSeas = (req, res) => {
     setCatalogHeaders(res);
     return res.json(buildCollectionResponse(CATALOG_GROUPS.SEAS, getSeasInfo()));
-}
+};
 
 export const getTopics = (req, res) => {
     setCatalogHeaders(res);
     return res.json(buildCollectionResponse(CATALOG_GROUPS.TOPICS, getTopicsInfo()));
-}
+};
 
 export const getPoemsTypes = (req, res) => {
     setCatalogHeaders(res);
-    return res.json(buildCollectionResponse(CATALOG_GROUPS.POEMS_TYPES, getPoemsTypes()))
-}
+    return res.json(buildCollectionResponse(CATALOG_GROUPS.POEMS_TYPES, getPoemsTypesInfo()));
+};

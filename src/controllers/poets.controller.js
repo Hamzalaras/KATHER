@@ -13,7 +13,7 @@ import { buildCommuneFilters, buildPoemFilters } from '../utils/builders/buildFi
 
 export const getPoetsList = async (req, res) => {
     const { limit, offset } = res.locals;
-    const filters = buildCommuneFilters(res.locals)
+    const filters = buildCommuneFilters(res.locals);
     const result = await getPoetsListServices({ ...filters, limit, offset });
     const nextOffset = offset + limit;
     const prevOffset = Math.max(offset - limit, 0);
@@ -50,6 +50,7 @@ export const getPoetById = async (req, res) => {
         links: {
             self: `${req.baseUrl}/${poet_id}`,
             poems: `${req.baseUrl}/${poet_id}/poems`,
+            lines: `${req.baseUrl}/${poet_id}/lines`,
             stats: `${req.baseUrl}/${poet_id}/stats`,
             random: `${req.baseUrl}/random`,
         },
@@ -81,7 +82,8 @@ export const getPoetPoems = async (req, res) => {
         },
         meta: {
             filters: {
-                ...poemFilters
+                ...poemFilters,
+                poet_id: undefined,
             },
         },
     });
@@ -102,6 +104,7 @@ export const getPoetStats = async (req, res) => {
             self: `${req.baseUrl}/${poet_id}/stats`,
             poet: `${req.baseUrl}/${poet_id}`,
             poems: `${req.baseUrl}/${poet_id}/poems`,
+            lines: `${req.baseUrl}/${poet_id}/lines`,
         },
     });
 };
@@ -121,6 +124,7 @@ export const getRandomPoet = async (req, res) => {
             self: `${req.baseUrl}/random`,
             poet: `${req.baseUrl}/${result.id}`,
             poems: `${req.baseUrl}/${result.id}/poems`,
+            lines: `${req.baseUrl}/${result.id}/lines`,
             stats: `${req.baseUrl}/${result.id}/stats`,
         },
         meta: {
