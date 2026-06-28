@@ -38,8 +38,8 @@ export const getLineList = async (req, res) => {
 
 export const getLineById = async (req, res) => {
 
-    const { id } = res.locals;
-    const result = await getLineByIdServices(id);
+    const { line_id } = res.locals;
+    const result = await getLineByIdServices(line_id);
 
     if (!result) {
         throw new NotFoundError(NOT_FOUND_MESSAGES.LINE, ERROR_CODES.LINE_NOT_FOUND);
@@ -49,7 +49,7 @@ export const getLineById = async (req, res) => {
         status: RESPONSE_STATUS.SUCCESS,
         data: result,
         links: {
-            self: `${req.baseUrl}/${id}`,
+            self: `${req.baseUrl}/${line_id}`,
             poem: `${V1_RESOURCE_PATHS.POEMS}/${result.poem.id}`,
             poet: `${V1_RESOURCE_PATHS.POETS}/${result.poem.poet.id}`,
             random: `${req.baseUrl}/random`,

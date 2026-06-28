@@ -61,6 +61,7 @@ export const getPoemById = async (req, res) => {
         meta: {
             filters: {
                 ...lineFilters,
+                poem_id: undefined,
             },
         },
     });

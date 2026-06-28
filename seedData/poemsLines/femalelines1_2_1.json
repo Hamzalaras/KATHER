@@ -8540,13 +8540,6 @@
     "order": 9
   },
   {
-    "content": ".....................",
-    "poem_id": 558,
-    "poet_id": 142,
-    "type": 3,
-    "order": 10
-  },
-  {
     "content": "إِنَّ الْجُنُودَ حَثُّها طِلابُها",
     "poem_id": 559,
     "poet_id": 142,
@@ -8953,13 +8946,6 @@
     "order": 3
   },
   {
-    "content": ".....................",
-    "poem_id": 566,
-    "poet_id": 142,
-    "type": 3,
-    "order": 4
-  },
-  {
     "content": "إِيهاً بَنِي شَيْبانَ صَفّاً بَعْدَ صَفّْ",
     "poem_id": 567,
     "poet_id": 142,
@@ -9037,13 +9023,6 @@
     "order": 11
   },
   {
-    "content": "............................",
-    "poem_id": 567,
-    "poet_id": 142,
-    "type": 3,
-    "order": 12
-  },
-  {
     "content": "ذيَوْمُ الْعِزِّ لا يَوْمُ النَّدَمْ",
     "poem_id": 568,
     "poet_id": 142,
@@ -9107,13 +9086,6 @@
     "order": 9
   },
   {
-    "content": "......................................",
-    "poem_id": 568,
-    "poet_id": 142,
-    "type": 3,
-    "order": 10
-  },
-  {
     "content": "الْفَخْرُ فَخْرِي بِسَراةِ عِجْلِ",
     "poem_id": 569,
     "poet_id": 142,
@@ -9175,13 +9147,6 @@
     "poet_id": 142,
     "type": 3,
     "order": 9
-  },
-  {
-    "content": "...........................",
-    "poem_id": 569,
-    "poet_id": 142,
-    "type": 3,
-    "order": 10
   },
   {
     "content": "لُجَيْمُ قَوْمِي وَبَنُو أَبِينا",
@@ -12362,655 +12327,599 @@
     "order": 28
   },
   {
-    "content": "**       **",
+    "content": "مدججون بالأمل ، نمضي الى غاياتنا.",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 29
   },
   {
-    "content": "مدججون بالأمل ، نمضي الى غاياتنا.",
+    "content": "ملء قلوبنا مسرة الحياة ..",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 30
   },
   {
-    "content": "ملء قلوبنا مسرة الحياة ..",
+    "content": "ملء عقولنا الضياء",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 31
   },
   {
-    "content": "ملء عقولنا الضياء",
+    "content": "وفي الخطى  على دروب العمر،",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 32
   },
   {
-    "content": "وفي الخطى  على دروب العمر،",
+    "content": "نخصب الحقول وننثر البهاء",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 33
   },
   {
-    "content": "نخصب الحقول وننثر البهاء",
+    "content": "كأننا الربيع، ومشتهى  النقاء.",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 34
   },
   {
-    "content": "كأننا الربيع، ومشتهى  النقاء.",
+    "content": "لعل من يجيئ بعدنا،",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 35
   },
   {
-    "content": "لعل من يجيئ بعدنا،",
+    "content": "يرى الطريق مشرقا",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 36
   },
   {
-    "content": "يرى الطريق مشرقا",
+    "content": "يقوده إلى رحابة الأمل.",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 37
   },
   {
-    "content": "يقوده إلى رحابة الأمل.",
+    "content": "هلموا  وانهضوا",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 38
   },
   {
-    "content": "***",
+    "content": "يا عشاق الحياة",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 39
   },
   {
-    "content": "هلموا  وانهضوا",
+    "content": "و نساج الأمل",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 40
   },
   {
-    "content": "يا عشاق الحياة",
+    "content": "و ان تلعثمت خطاكم  يوما ادلكم عليه:",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 41
   },
   {
-    "content": "و نساج الأمل",
+    "content": "في  الماء مترفا على نضارة الغصون.",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 42
   },
   {
-    "content": "و ان تلعثمت خطاكم  يوما ادلكم عليه:",
+    "content": "في نأمة الوردة حين  قبلة الندى",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 43
   },
   {
-    "content": "في  الماء مترفا على نضارة الغصون.",
+    "content": "في نقرة الطيور مطمئنة",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 44
   },
   {
-    "content": "في نأمة الوردة حين  قبلة الندى",
+    "content": ". تدرج في رحاب الكون .",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 45
   },
   {
-    "content": "في نقرة الطيور مطمئنة",
+    "content": "في نصوع الرازقية تنث عطرها",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 46
   },
   {
-    "content": ". تدرج في رحاب الكون .",
+    "content": "،تاركة للغصن ان ينوس في الاعالي",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 47
   },
   {
-    "content": "في نصوع الرازقية تنث عطرها",
+    "content": "مبتهجا بزهوها",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 48
   },
   {
-    "content": "،تاركة للغصن ان ينوس في الاعالي",
+    "content": "حين تضيء كالشعاع، في متاهة الغريب.",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 49
   },
   {
-    "content": "مبتهجا بزهوها",
+    "content": "في شهوة الرمان، ورعشة الاسرار في رحيقه",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 50
   },
   {
-    "content": "حين تضيء كالشعاع، في متاهة الغريب.",
+    "content": "في عبق الليمون في استدارة النشوء",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 51
   },
   {
-    "content": "في شهوة الرمان، ورعشة الاسرار في رحيقه",
+    "content": "في اصابعي ، تتلو عليكم",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 52
   },
   {
-    "content": "في عبق الليمون في استدارة النشوء",
+    "content": "في هدأة النفسِ و غفوة ا لزمان",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 53
   },
   {
-    "content": "في اصابعي ، تتلو عليكم",
+    "content": "انشودة  الأمل.",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 54
   },
   {
-    "content": "في هدأة النفسِ و غفوة ا لزمان",
+    "content": "ايها العام المخبأ في الغموض",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 55
   },
   {
-    "content": "انشودة  الأمل.",
+    "content": "،في  شهوة الحروب،",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 56
   },
   {
-    "content": "***",
+    "content": "و في غلائل الأمل",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 57
   },
   {
-    "content": "ايها العام المخبأ في الغموض",
+    "content": "هل ستأتي مجللا بالسلام،",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 58
   },
   {
-    "content": "،في  شهوة الحروب،",
+    "content": "ام مكللا بالقتام؟",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 59
   },
   {
-    "content": "و في غلائل الأمل",
+    "content": "هل نشرع نوافذ القلب دون ان نسألك؟",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 60
   },
   {
-    "content": "هل ستأتي مجللا بالسلام،",
+    "content": "ام ستغلق منافذ الحب",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 61
   },
   {
-    "content": "ام مكللا بالقتام؟",
+    "content": "دون من  يأمرك ؟",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 62
   },
   {
-    "content": "هل نشرع نوافذ القلب دون ان نسألك؟",
+    "content": "تريث اذن ولا تطرق الباب",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 63
   },
   {
-    "content": "ام ستغلق منافذ الحب",
+    "content": "اذا كنتَ عبئا علينا ،وعلى كاهلك",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 64
   },
   {
-    "content": "دون من  يأمرك ؟",
+    "content": "ودعنا نصلي، صلاة الامل",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 65
   },
   {
-    "content": "تريث اذن ولا تطرق الباب",
+    "content": "كي  تمر علينا خفافا ولا  نلعنك",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 66
   },
   {
-    "content": "اذا كنتَ عبئا علينا ،وعلى كاهلك",
+    "content": "راينا السنين تمر علينا سراعا",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 67
   },
   {
-    "content": "ودعنا نصلي، صلاة الامل",
+    "content": "وتنقش وشم خطاها علىصفحات الجسد.",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 68
   },
   {
-    "content": "كي  تمر علينا خفافا ولا  نلعنك",
+    "content": "وراينا الذي ازهق النطفة في رحمها",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 69
   },
   {
-    "content": "***",
+    "content": "قبل  نشوء الولد.",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 70
   },
   {
-    "content": "راينا السنين تمر علينا سراعا",
+    "content": "ورأينا السواد ينشر اجنحة الحزن",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 71
   },
   {
-    "content": "وتنقش وشم خطاها علىصفحات الجسد.",
+    "content": "قبل وصول المنايا اكتمال الوعد.",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 72
   },
   {
-    "content": "وراينا الذي ازهق النطفة في رحمها",
+    "content": "اذن ما الذي سوف تاتي به",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 73
   },
   {
-    "content": "قبل  نشوء الولد.",
+    "content": "ولم يرعب الطفل في مهده،",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 74
   },
   {
-    "content": "ورأينا السواد ينشر اجنحة الحزن",
+    "content": "ولم يرتج الجائعون المدد؟",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 75
   },
   {
-    "content": "قبل وصول المنايا اكتمال الوعد.",
+    "content": "اتئد ايها العام الجديد اتئد",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 76
   },
   {
-    "content": "اذن ما الذي سوف تاتي به",
+    "content": "قبل ان تطرق اعتاب داري",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 77
   },
   {
-    "content": "ولم يرعب الطفل في مهده،",
+    "content": "لأنثر فوق التراب نشيد البذار",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 78
   },
   {
-    "content": "ولم يرتج الجائعون المدد؟",
+    "content": "واهمس للسحب هيا اهطلي يا نشيج البحار",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 79
   },
   {
-    "content": "***",
+    "content": "وانسج ظل  الضحى من ضياء النهار.",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 80
   },
   {
-    "content": "اتئد ايها العام الجديد اتئد",
+    "content": "لتورق في الروح سهب الامل.",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 81
   },
   {
-    "content": "قبل ان تطرق اعتاب داري",
+    "content": "أو لتاتي سريعا",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 82
   },
   {
-    "content": "لأنثر فوق التراب نشيد البذار",
+    "content": "فلست الذي يقف الان منتظرا مقدمك",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 83
   },
   {
-    "content": "واهمس للسحب هيا اهطلي يا نشيج البحار",
+    "content": "ولست الذي ينكفئ   حين تجيء الليالي",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 84
   },
   {
-    "content": "وانسج ظل  الضحى من ضياء النهار.",
+    "content": "بغير ما يشتهيه الهوى .. و انتظاري",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 85
   },
   {
-    "content": "لتورق في الروح سهب الامل.",
+    "content": "ولست الذي لا يرى في الظلام الكثيف",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 86
   },
   {
-    "content": "***",
+    "content": "غير اشتداد الظلام، وغير زئير الضواري",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 87
   },
   {
-    "content": "أو لتاتي سريعا",
+    "content": "فلنا نعمة الحدس",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 88
   },
   {
-    "content": "فلست الذي يقف الان منتظرا مقدمك",
+    "content": "اما  يشفّ  ،نرى ما وراء الغيوب",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 89
   },
   {
-    "content": "ولست الذي ينكفئ   حين تجيء الليالي",
+    "content": "ولنا من وضوح البصيرة ما ينبئ القلب",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 90
   },
   {
-    "content": "بغير ما يشتهيه الهوى .. و انتظاري",
+    "content": "قبل احتدام الخطوب",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 91
   },
   {
-    "content": "ولست الذي لا يرى في الظلام الكثيف",
+    "content": "لنا ملء حقل الوجود نضار الغصون",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 92
   },
   {
-    "content": "غير اشتداد الظلام، وغير زئير الضواري",
+    "content": "ولنا كل ما تشتهي النفس وما يحتويه الفلك",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 93
   },
   {
-    "content": "فلنا نعمة الحدس",
+    "content": "وحين تلج المحن،",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 94
   },
   {
-    "content": "اما  يشفّ  ،نرى ما وراء الغيوب",
+    "content": "ويشتد بالعصف مرج الظنون",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 95
   },
   {
-    "content": "ولنا من وضوح البصيرة ما ينبئ القلب",
+    "content": "لنا  سورة من  حروف الامل وابتهاج الفصول",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 96
   },
   {
-    "content": "قبل احتدام الخطوب",
+    "content": "ولنا بهجة الورد في  عطره",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 97
   },
   {
-    "content": "***",
+    "content": "اذا مس سحر الضحى خلايا الغصون",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 98
   },
   {
-    "content": "لنا ملء حقل الوجود نضار الغصون",
+    "content": "ولنا الابجدية",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 99
   },
   {
-    "content": "ولنا كل ما تشتهي النفس وما يحتويه الفلك",
+    "content": "وكنز المعاني",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 100
   },
   {
-    "content": "وحين تلج المحن،",
+    "content": "إذا ندهت",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 101
   },
   {
-    "content": "ويشتد بالعصف مرج الظنون",
+    "content": "قلنا لبيكِ..الملك لك!",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 102
   },
   {
-    "content": "لنا  سورة من  حروف الامل وابتهاج الفصول",
+    "content": "لتأتي كما شئت  ياايها الزمن المرتقب",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 103
   },
   {
-    "content": "ولنا بهجة الورد في  عطره",
+    "content": "شتاْء؟",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 104
   },
   {
-    "content": "اذا مس سحر الضحى خلايا الغصون",
+    "content": "سانسج  أغطيتي بخيوط الامل",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 105
   },
   {
-    "content": "ولنا الابجدية",
+    "content": "وان  جئت قيظا سأبتردُ  برذاذِ الاملْ",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 106
   },
   {
-    "content": "وكنز المعاني",
+    "content": "واذا ما مررتَ خريفا",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 107
   },
   {
-    "content": "إذا ندهت",
+    "content": "سأزهوَ كالسنبلاتِ بقمح الاملْ",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 108
   },
   {
-    "content": "قلنا لبيكِ..الملك لك!",
+    "content": "واما اذا جئتني في بهاء الربيع،",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 109
   },
   {
-    "content": "***",
+    "content": "سأرقص تيها على شرفات الامل .",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 110
   },
   {
-    "content": "لتأتي كما شئت  ياايها الزمن المرتقب",
+    "content": "وادعو الى مائدة القلب",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 111
   },
   {
-    "content": "شتاْء؟",
+    "content": "كل الذين بضوء  الزمان الوليد",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
     "order": 112
   },
   {
-    "content": "سانسج  أغطيتي بخيوط الامل",
-    "poem_id": 624,
-    "poet_id": 149,
-    "type": 3,
-    "order": 113
-  },
-  {
-    "content": "وان  جئت قيظا سأبتردُ  برذاذِ الاملْ",
-    "poem_id": 624,
-    "poet_id": 149,
-    "type": 3,
-    "order": 114
-  },
-  {
-    "content": "واذا ما مررتَ خريفا",
-    "poem_id": 624,
-    "poet_id": 149,
-    "type": 3,
-    "order": 115
-  },
-  {
-    "content": "سأزهوَ كالسنبلاتِ بقمح الاملْ",
-    "poem_id": 624,
-    "poet_id": 149,
-    "type": 3,
-    "order": 116
-  },
-  {
-    "content": "واما اذا جئتني في بهاء الربيع،",
-    "poem_id": 624,
-    "poet_id": 149,
-    "type": 3,
-    "order": 117
-  },
-  {
-    "content": "سأرقص تيها على شرفات الامل .",
-    "poem_id": 624,
-    "poet_id": 149,
-    "type": 3,
-    "order": 118
-  },
-  {
-    "content": "وادعو الى مائدة القلب",
-    "poem_id": 624,
-    "poet_id": 149,
-    "type": 3,
-    "order": 119
-  },
-  {
-    "content": "كل الذين بضوء  الزمان الوليد",
-    "poem_id": 624,
-    "poet_id": 149,
-    "type": 3,
-    "order": 120
-  },
-  {
     "content": "يغزلون نسيج الامل الامل.",
     "poem_id": 624,
     "poet_id": 149,
     "type": 3,
-    "order": 121
+    "order": 113
   },
   {
     "content": "أربِّت قلبيَ ألا يشطُ",
@@ -13818,445 +13727,431 @@
     "order": 10
   },
   {
-    "content": "***",
+    "content": "وأمي ..",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 11
   },
   {
-    "content": "وأمي ..",
+    "content": "حين يرخي الليل عتمتهُ",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 12
   },
   {
-    "content": "حين يرخي الليل عتمتهُ",
+    "content": "نعرفُ اين مجلسها",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 13
   },
   {
-    "content": "نعرفُ اين مجلسها",
+    "content": "كما القنديل مشتعلا",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 14
   },
   {
-    "content": "كما القنديل مشتعلا",
+    "content": "وأمي..حين تتركنا",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 15
   },
   {
-    "content": "وأمي..حين تتركنا",
+    "content": "تتركُ ضوءها فينا",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 16
   },
   {
-    "content": "تتركُ ضوءها فينا",
+    "content": "وتترك روحها الحلوة",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 17
   },
   {
-    "content": "وتترك روحها الحلوة",
+    "content": "ترف في أمانينا !",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 18
   },
   {
-    "content": "ترف في أمانينا !",
+    "content": "وأمي كائن لا ينتمي للطين",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 19
   },
   {
-    "content": "***",
+    "content": "ربما جاءت من الافق البعيد",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 20
   },
   {
-    "content": "وأمي كائن لا ينتمي للطين",
+    "content": "ومن اكتناز الحب",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 21
   },
   {
-    "content": "ربما جاءت من الافق البعيد",
+    "content": "فالصدر مثل الكون متسعٌ",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 22
   },
   {
-    "content": "ومن اكتناز الحب",
+    "content": "والكفُّ فيض الماء",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 23
   },
   {
-    "content": "فالصدر مثل الكون متسعٌ",
+    "content": "وأمي روحها ماس في صلابته",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 24
   },
   {
-    "content": "والكفُّ فيض الماء",
+    "content": "وماس في طبائعه",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 25
   },
   {
-    "content": "وأمي روحها ماس في صلابته",
+    "content": "وماس في جدارته",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 26
   },
   {
-    "content": "وماس في طبائعه",
+    "content": "وأمي قلبها \"دانات\" من الؤلؤ",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 27
   },
   {
-    "content": "وماس في جدارته",
+    "content": "مخبأة بصندوق من الذهب!",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 28
   },
   {
-    "content": "وأمي قلبها \"دانات\" من الؤلؤ",
+    "content": "وأمي حين تبتسم",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 29
   },
   {
-    "content": "مخبأة بصندوق من الذهب!",
+    "content": "تكتسي الاشجارخضرتها",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 30
   },
   {
-    "content": "وأمي حين تبتسم",
+    "content": "وتنهض في زوايا البيت",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 31
   },
   {
-    "content": "تكتسي الاشجارخضرتها",
+    "content": "عناقيد من الألق",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 32
   },
   {
-    "content": "وتنهض في زوايا البيت",
+    "content": "وينمو في صحارى الروح",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 33
   },
   {
-    "content": "عناقيد من الألق",
+    "content": "شيئ يشبه الزغب !",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 34
   },
   {
-    "content": "وينمو في صحارى الروح",
+    "content": "نعم أمي ..احبك كل هذا الحب",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 35
   },
   {
-    "content": "شيئ يشبه الزغب !",
+    "content": "ولكني..احب فضائي الطلقا",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 36
   },
   {
-    "content": "نعم أمي ..احبك كل هذا الحب",
+    "content": "أحبك أن تحيطيني",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 37
   },
   {
-    "content": "ولكني..احب فضائي الطلقا",
+    "content": "كما تلتف من حولي رحاب الله",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 38
   },
   {
-    "content": "أحبك أن تحيطيني",
+    "content": "احب ان اعود اليك",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 39
   },
   {
-    "content": "كما تلتف من حولي رحاب الله",
+    "content": "من تعبي واسفاري",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 40
   },
   {
-    "content": "احب ان اعود اليك",
+    "content": "ومن خيباتي الكبرى ،",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 41
   },
   {
-    "content": "من تعبي واسفاري",
+    "content": "ومن عثرات احلامي",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 42
   },
   {
-    "content": "ومن خيباتي الكبرى ،",
+    "content": "أحبك مرفأي الدائم",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 43
   },
   {
-    "content": "ومن عثرات احلامي",
+    "content": "اذا ما طوحتُ بالمجداف",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 44
   },
   {
-    "content": "أحبك مرفأي الدائم",
+    "content": "في ضباب اليم!",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 45
   },
   {
-    "content": "اذا ما طوحتُ بالمجداف",
+    "content": "احب حضنك الدافئ",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 46
   },
   {
-    "content": "في ضباب اليم!",
+    "content": "إذا ما سيج العتبات جنون الثلج",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 47
   },
   {
-    "content": "احب حضنك الدافئ",
+    "content": "احبك أجل َأن اسمو ،وأن اصفو",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 48
   },
   {
-    "content": "إذا ما سيج العتبات جنون الثلج",
+    "content": "وأن ارقى ،وان ابدو مثل الطيف",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 49
   },
   {
-    "content": "احبك أجل َأن اسمو ،وأن اصفو",
+    "content": "منسوجا من الأحلام!",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 50
   },
   {
-    "content": "وأن ارقى ،وان ابدو مثل الطيف",
+    "content": "نعم أمي احبك كل هذا الحب",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 51
   },
   {
-    "content": "منسوجا من الأحلام!",
+    "content": "ولكني احبك ان تحبينا كما نحن",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 52
   },
   {
-    "content": "نعم أمي احبك كل هذا الحب",
+    "content": "بحكمتنا او حماقتنا",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 53
   },
   {
-    "content": "ولكني احبك ان تحبينا كما نحن",
+    "content": "بطيش الروح والاهواء والنزوات",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 54
   },
   {
-    "content": "بحكمتنا او حماقتنا",
+    "content": "بما نختار وما نؤمن",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 55
   },
   {
-    "content": "بطيش الروح والاهواء والنزوات",
+    "content": "احبك ان تغفري الزلات",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 56
   },
   {
-    "content": "بما نختار وما نؤمن",
+    "content": "وان تسهي عن النسيان",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 57
   },
   {
-    "content": "احبك ان تغفري الزلات",
+    "content": "وان نبدو لعينيك صغارا بعدُ لم نكبر",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 58
   },
   {
-    "content": "وان تسهي عن النسيان",
+    "content": "وان نبدو لعينيك كما لو اننا الأجمل",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 59
   },
   {
-    "content": "وان نبدو لعينيك صغارا بعدُ لم نكبر",
+    "content": "والافضل والانبل والاكمل!",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 60
   },
   {
-    "content": "وان نبدو لعينيك كما لو اننا الأجمل",
+    "content": "احبك ان تعرفي أنّا",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 61
   },
   {
-    "content": "والافضل والانبل والاكمل!",
+    "content": "إن اترعنا بالاحزان ،",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 62
   },
   {
-    "content": "احبك ان تعرفي أنّا",
+    "content": "أو اترعنا بالنشوة",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 63
   },
   {
-    "content": "إن اترعنا بالاحزان ،",
+    "content": "وان حاقت بنا العتمة",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 64
   },
   {
-    "content": "أو اترعنا بالنشوة",
+    "content": "او ارخت لنا الاقمار",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 65
   },
   {
-    "content": "وان حاقت بنا العتمة",
+    "content": "وإن طوحنا التيه",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 66
   },
   {
-    "content": "او ارخت لنا الاقمار",
+    "content": "وشد العمر قيد العمر",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 67
   },
   {
-    "content": "وإن طوحنا التيه",
+    "content": "وحتى في أواخرنا",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 68
   },
   {
-    "content": "وشد العمر قيد العمر",
+    "content": "نحن لنبعنا الاول!",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 69
   },
   {
-    "content": "وحتى في أواخرنا",
+    "content": "نعم أمي",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
     "order": 70
   },
   {
-    "content": "نحن لنبعنا الاول!",
-    "poem_id": 629,
-    "poet_id": 149,
-    "type": 3,
-    "order": 71
-  },
-  {
-    "content": "نعم أمي",
-    "poem_id": 629,
-    "poet_id": 149,
-    "type": 3,
-    "order": 72
-  },
-  {
     "content": "احبك كل هذا الحب !!",
     "poem_id": 629,
     "poet_id": 149,
     "type": 3,
-    "order": 73
+    "order": 71
   },
   {
     "content": "لهذا البهاء الصباحي",
@@ -15463,88 +15358,81 @@
     "order": 35
   },
   {
-    "content": "... ... ...",
+    "content": "ولاح في عينيك",
     "poem_id": 633,
     "poet_id": 149,
     "type": 3,
     "order": 36
   },
   {
-    "content": "ولاح في عينيك",
+    "content": "سحرٌ غامض",
     "poem_id": 633,
     "poet_id": 149,
     "type": 3,
     "order": 37
   },
   {
-    "content": "سحرٌ غامض",
+    "content": "ورحتْ تلثمني",
     "poem_id": 633,
     "poet_id": 149,
     "type": 3,
     "order": 38
   },
   {
-    "content": "ورحتْ تلثمني",
+    "content": "حتى سكرتُ",
     "poem_id": 633,
     "poet_id": 149,
     "type": 3,
     "order": 39
   },
   {
-    "content": "حتى سكرتُ",
+    "content": "وذاب سحرك",
     "poem_id": 633,
     "poet_id": 149,
     "type": 3,
     "order": 40
   },
   {
-    "content": "وذاب سحرك",
+    "content": "أحبك",
     "poem_id": 633,
     "poet_id": 149,
     "type": 3,
     "order": 41
   },
   {
-    "content": "أحبك",
+    "content": "كأنني",
     "poem_id": 633,
     "poet_id": 149,
     "type": 3,
     "order": 42
   },
   {
-    "content": "كأنني",
+    "content": "لم أعرف الحب قبلك",
     "poem_id": 633,
     "poet_id": 149,
     "type": 3,
     "order": 43
   },
   {
-    "content": "لم أعرف الحب قبلك",
+    "content": "ولم يحتضن",
     "poem_id": 633,
     "poet_id": 149,
     "type": 3,
     "order": 44
   },
   {
-    "content": "ولم يحتضن",
+    "content": "جسدي",
     "poem_id": 633,
     "poet_id": 149,
     "type": 3,
     "order": 45
   },
   {
-    "content": "جسدي",
-    "poem_id": 633,
-    "poet_id": 149,
-    "type": 3,
-    "order": 46
-  },
-  {
     "content": "سواك!",
     "poem_id": 633,
     "poet_id": 149,
     "type": 3,
-    "order": 47
+    "order": 46
   },
   {
     "content": "تنهرنا الكتابة",
@@ -15750,256 +15638,235 @@
     "order": 10
   },
   {
-    "content": "****",
+    "content": "ما الذي يحفر الاوطان",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 11
   },
   {
-    "content": "ما الذي يحفر الاوطان",
+    "content": "مثل الوشمِ",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 12
   },
   {
-    "content": "مثل الوشمِ",
+    "content": "في الروح وفي الذكرى",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 13
   },
   {
-    "content": "في الروح وفي الذكرى",
+    "content": "ويرسي الاهل في الوجدان",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 14
   },
   {
-    "content": "ويرسي الاهل في الوجدان",
+    "content": "كأن لا غيرهم في الكون",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 15
   },
   {
-    "content": "كأن لا غيرهم في الكون",
+    "content": "اصحابا",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 16
   },
   {
-    "content": "اصحابا",
+    "content": "ولا غيرهم في القلب",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 17
   },
   {
-    "content": "ولا غيرهم في القلب",
+    "content": "احبابا ؟!",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 18
   },
   {
-    "content": "احبابا ؟!",
+    "content": "ما الذي يجعلهم وجدَ المجاديف",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 19
   },
   {
-    "content": "ما الذي يجعلهم وجدَ المجاديف",
+    "content": "ويجعلهم في آخر التيه والتطواف",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 20
   },
   {
-    "content": "ويجعلهم في آخر التيه والتطواف",
+    "content": "منتهى الاحلام",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 21
   },
   {
-    "content": "منتهى الاحلام",
+    "content": "والمأوى ؟!",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 22
   },
   {
-    "content": "والمأوى ؟!",
+    "content": "لماذا كلما عدنا كسربٍ",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 23
   },
   {
-    "content": "****",
+    "content": "لم يأنس الهجرات",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 24
   },
   {
-    "content": "لماذا كلما عدنا كسربٍ",
+    "content": "وعادَ بحرقةِ المضنى",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 25
   },
   {
-    "content": "لم يأنس الهجرات",
+    "content": "الى الاوطان",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 26
   },
   {
-    "content": "وعادَ بحرقةِ المضنى",
+    "content": "تكسرنا!",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 27
   },
   {
-    "content": "الى الاوطان",
+    "content": "تبعثر ما اكتنزناه من الاشواق",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 28
   },
   {
-    "content": "تكسرنا!",
+    "content": "وما شفّتْ به ارواحنا في البعدِ",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 29
   },
   {
-    "content": "تبعثر ما اكتنزناه من الاشواق",
+    "content": "من ولهٍ .. تعالى في حقيقتهِ",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 30
   },
   {
-    "content": "وما شفّتْ به ارواحنا في البعدِ",
+    "content": "على الاوصافِ والكلمات؟!",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 31
   },
   {
-    "content": "من ولهٍ .. تعالى في حقيقتهِ",
+    "content": "لماذا كلما عدنا الى الاوطان",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 32
   },
   {
-    "content": "على الاوصافِ والكلمات؟!",
+    "content": "ينازع روحنا فيها",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 33
   },
   {
-    "content": "****",
+    "content": "حنينٌ جارفٌ كالسيلِ",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 34
   },
   {
-    "content": "لماذا كلما عدنا الى الاوطان",
+    "content": "للهجرات ؟!",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 35
   },
   {
-    "content": "ينازع روحنا فيها",
+    "content": "فنهتفُ من وطأةِ الوحشةِْ",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 36
   },
   {
-    "content": "حنينٌ جارفٌ كالسيلِ",
+    "content": "إذ تلقي على أرواحنا الظلا",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 37
   },
   {
-    "content": "للهجرات ؟!",
+    "content": "ونهتفُ من غربةٍ تشتد",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 38
   },
   {
-    "content": "فنهتفُ من وطأةِ الوحشةِْ",
+    "content": "ومن غربةٍ تمتد",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 39
   },
   {
-    "content": "إذ تلقي على أرواحنا الظلا",
+    "content": "ومن هولِ ما يثقلُ الارواحَ",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 40
   },
   {
-    "content": "ونهتفُ من غربةٍ تشتد",
+    "content": "إذ تصبو الى الاسمى",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 41
   },
   {
-    "content": "ومن غربةٍ تمتد",
+    "content": "نهتفُ من فدائحنا",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
     "order": 42
   },
   {
-    "content": "ومن هولِ ما يثقلُ الارواحَ",
-    "poem_id": 635,
-    "poet_id": 149,
-    "type": 3,
-    "order": 43
-  },
-  {
-    "content": "إذ تصبو الى الاسمى",
-    "poem_id": 635,
-    "poet_id": 149,
-    "type": 3,
-    "order": 44
-  },
-  {
-    "content": "نهتفُ من فدائحنا",
-    "poem_id": 635,
-    "poet_id": 149,
-    "type": 3,
-    "order": 45
-  },
-  {
     "content": "الله.. ما أجمل المنفى !!",
     "poem_id": 635,
     "poet_id": 149,
     "type": 3,
-    "order": 46
+    "order": 43
   },
   {
     "content": "حين أموت",
@@ -16184,186 +16051,151 @@
     "order": 5
   },
   {
-    "content": "**",
+    "content": "أزيحوا هذا الركام",
     "poem_id": 639,
     "poet_id": 149,
     "type": 3,
     "order": 6
   },
   {
-    "content": "أزيحوا هذا الركام",
+    "content": "عن طرقاتي",
     "poem_id": 639,
     "poet_id": 149,
     "type": 3,
     "order": 7
   },
   {
-    "content": "عن طرقاتي",
+    "content": "ف كل خطوةِ",
     "poem_id": 639,
     "poet_id": 149,
     "type": 3,
     "order": 8
   },
   {
-    "content": "ف كل خطوةِ",
+    "content": "عثرةٌ ومتاهْ",
     "poem_id": 639,
     "poet_id": 149,
     "type": 3,
     "order": 9
   },
   {
-    "content": "عثرةٌ ومتاهْ",
+    "content": "علقوا لي مصباحا",
     "poem_id": 639,
     "poet_id": 149,
     "type": 3,
     "order": 10
   },
   {
-    "content": "**",
+    "content": "في مشجب السماء",
     "poem_id": 639,
     "poet_id": 149,
     "type": 3,
     "order": 11
   },
   {
-    "content": "علقوا لي مصباحا",
+    "content": "ليتبعني اينما اتجهت",
     "poem_id": 639,
     "poet_id": 149,
     "type": 3,
     "order": 12
   },
   {
-    "content": "في مشجب السماء",
+    "content": "خطاي واحلامي",
     "poem_id": 639,
     "poet_id": 149,
     "type": 3,
     "order": 13
   },
   {
-    "content": "ليتبعني اينما اتجهت",
+    "content": "ف العتمة هاوية",
     "poem_id": 639,
     "poet_id": 149,
     "type": 3,
     "order": 14
   },
   {
-    "content": "خطاي واحلامي",
+    "content": "بلا قرار",
     "poem_id": 639,
     "poet_id": 149,
     "type": 3,
     "order": 15
   },
   {
-    "content": "ف العتمة هاوية",
+    "content": "هزوني كلما سهوتُ",
     "poem_id": 639,
     "poet_id": 149,
     "type": 3,
     "order": 16
   },
   {
-    "content": "بلا قرار",
+    "content": "وارتخى قوس احلامي",
     "poem_id": 639,
     "poet_id": 149,
     "type": 3,
     "order": 17
   },
   {
-    "content": "***",
+    "content": "ف السهو غفوة اليائسين",
     "poem_id": 639,
     "poet_id": 149,
     "type": 3,
     "order": 18
   },
   {
-    "content": "هزوني كلما سهوتُ",
+    "content": "شدوني من يدي",
     "poem_id": 639,
     "poet_id": 149,
     "type": 3,
     "order": 19
   },
   {
-    "content": "وارتخى قوس احلامي",
+    "content": "كلما شدني الخذلان من عنقي",
     "poem_id": 639,
     "poet_id": 149,
     "type": 3,
     "order": 20
   },
   {
-    "content": "ف السهو غفوة اليائسين",
+    "content": "ف في يدي عشرة مفاتيح",
     "poem_id": 639,
     "poet_id": 149,
     "type": 3,
     "order": 21
   },
   {
-    "content": "***",
+    "content": "لأقفال الحياة",
     "poem_id": 639,
     "poet_id": 149,
     "type": 3,
     "order": 22
   },
   {
-    "content": "شدوني من يدي",
+    "content": "خذوني الى قممٍِ",
     "poem_id": 639,
     "poet_id": 149,
     "type": 3,
     "order": 23
   },
   {
-    "content": "كلما شدني الخذلان من عنقي",
+    "content": "لم يرتقيها سواي",
     "poem_id": 639,
     "poet_id": 149,
     "type": 3,
     "order": 24
   },
   {
-    "content": "ف في يدي عشرة مفاتيح",
+    "content": "فالسهولُ مكتظة",
     "poem_id": 639,
     "poet_id": 149,
     "type": 3,
     "order": 25
   },
   {
-    "content": "لأقفال الحياة",
-    "poem_id": 639,
-    "poet_id": 149,
-    "type": 3,
-    "order": 26
-  },
-  {
-    "content": "***",
-    "poem_id": 639,
-    "poet_id": 149,
-    "type": 3,
-    "order": 27
-  },
-  {
-    "content": "خذوني الى قممٍِ",
-    "poem_id": 639,
-    "poet_id": 149,
-    "type": 3,
-    "order": 28
-  },
-  {
-    "content": "لم يرتقيها سواي",
-    "poem_id": 639,
-    "poet_id": 149,
-    "type": 3,
-    "order": 29
-  },
-  {
-    "content": "فالسهولُ مكتظة",
-    "poem_id": 639,
-    "poet_id": 149,
-    "type": 3,
-    "order": 30
-  },
-  {
     "content": "بخطى العاثرين !",
     "poem_id": 639,
     "poet_id": 149,
     "type": 3,
-    "order": 31
+    "order": 26
   },
   {
     "content": "حين نجوسُ مرةً",
@@ -16450,18 +16282,11 @@
     "order": 12
   },
   {
-    "content": "*****",
-    "poem_id": 640,
-    "poet_id": 149,
-    "type": 3,
-    "order": 13
-  },
-  {
     "content": "3/ 1970 الرفاع الشرقي",
     "poem_id": 640,
     "poet_id": 149,
     "type": 3,
-    "order": 14
+    "order": 13
   },
   {
     "content": "كيف يكبر",
@@ -16555,18 +16380,11 @@
     "order": 13
   },
   {
-    "content": "****",
-    "poem_id": 641,
-    "poet_id": 149,
-    "type": 3,
-    "order": 14
-  },
-  {
     "content": "1969 الرفاع الشرقي",
     "poem_id": 641,
     "poet_id": 149,
     "type": 3,
-    "order": 15
+    "order": 14
   },
   {
     "content": "يا لنعمة الصمت!",
@@ -17332,158 +17150,144 @@
     "order": 109
   },
   {
-    "content": "***",
+    "content": "الناس حولكِ أحبة، ورفقة، وصحبة.",
     "poem_id": 642,
     "poet_id": 149,
     "type": 3,
     "order": 110
   },
   {
-    "content": "الناس حولكِ أحبة، ورفقة، وصحبة.",
+    "content": "المحبة محيط دافق،",
     "poem_id": 642,
     "poet_id": 149,
     "type": 3,
     "order": 111
   },
   {
-    "content": "المحبة محيط دافق،",
+    "content": "وأنتِ تجدفين في المحيط وحدك.",
     "poem_id": 642,
     "poet_id": 149,
     "type": 3,
     "order": 112
   },
   {
-    "content": "وأنتِ تجدفين في المحيط وحدك.",
+    "content": "كل كائن هو وحده، وغيره غيره.",
     "poem_id": 642,
     "poet_id": 149,
     "type": 3,
     "order": 113
   },
   {
-    "content": "كل كائن هو وحده، وغيره غيره.",
+    "content": "كل أنسٍ لحظة، والغربة دهر.",
     "poem_id": 642,
     "poet_id": 149,
     "type": 3,
     "order": 114
   },
   {
-    "content": "كل أنسٍ لحظة، والغربة دهر.",
+    "content": "لا وحدة في التوحد،",
     "poem_id": 642,
     "poet_id": 149,
     "type": 3,
     "order": 115
   },
   {
-    "content": "لا وحدة في التوحد،",
+    "content": "ولا وحشة في الغربة",
     "poem_id": 642,
     "poet_id": 149,
     "type": 3,
     "order": 116
   },
   {
-    "content": "ولا وحشة في الغربة",
+    "content": "إن امتلأت النفس بالكون والناس ويقظة الحواس.",
     "poem_id": 642,
     "poet_id": 149,
     "type": 3,
     "order": 117
   },
   {
-    "content": "إن امتلأت النفس بالكون والناس ويقظة الحواس.",
+    "content": "الغربة: إن اغتربت الذات عن الذات.",
     "poem_id": 642,
     "poet_id": 149,
     "type": 3,
     "order": 118
   },
   {
-    "content": "الغربة: إن اغتربت الذات عن الذات.",
+    "content": "الوحشة: إن استوحشت النفس بالنفس.",
     "poem_id": 642,
     "poet_id": 149,
     "type": 3,
     "order": 119
   },
   {
-    "content": "الوحشة: إن استوحشت النفس بالنفس.",
+    "content": "الوحدة: إن فرغت الروح من الكائنات والوجود.",
     "poem_id": 642,
     "poet_id": 149,
     "type": 3,
     "order": 120
   },
   {
-    "content": "الوحدة: إن فرغت الروح من الكائنات والوجود.",
+    "content": "إن آنستِ إليك، آنستِ إلى غيرك.",
     "poem_id": 642,
     "poet_id": 149,
     "type": 3,
     "order": 121
   },
   {
-    "content": "إن آنستِ إليك، آنستِ إلى غيرك.",
+    "content": "وإن أحببتِ وجودك، أحببتِ الحياة.",
     "poem_id": 642,
     "poet_id": 149,
     "type": 3,
     "order": 122
   },
   {
-    "content": "وإن أحببتِ وجودك، أحببتِ الحياة.",
+    "content": "إن عشقتِ، فُضتِ كالنهر في بشائر الربيع.",
     "poem_id": 642,
     "poet_id": 149,
     "type": 3,
     "order": 123
   },
   {
-    "content": "إن عشقتِ، فُضتِ كالنهر في بشائر الربيع.",
+    "content": "وإن كرهتِ، فالروح قفر، والعالم خواء.",
     "poem_id": 642,
     "poet_id": 149,
     "type": 3,
     "order": 124
   },
   {
-    "content": "وإن كرهتِ، فالروح قفر، والعالم خواء.",
+    "content": "مجدٌ لوحدتكِ.",
     "poem_id": 642,
     "poet_id": 149,
     "type": 3,
     "order": 125
   },
   {
-    "content": "***",
+    "content": "مجدٌ لغربتكِ.",
     "poem_id": 642,
     "poet_id": 149,
     "type": 3,
     "order": 126
   },
   {
-    "content": "مجدٌ لوحدتكِ.",
+    "content": "مجدٌ لعزلتكِ.",
     "poem_id": 642,
     "poet_id": 149,
     "type": 3,
     "order": 127
   },
   {
-    "content": "مجدٌ لغربتكِ.",
+    "content": "مجدٌ لهذا الصمت، وأنتِ رافلة في لُجّة السنين،",
     "poem_id": 642,
     "poet_id": 149,
     "type": 3,
     "order": 128
   },
   {
-    "content": "مجدٌ لعزلتكِ.",
-    "poem_id": 642,
-    "poet_id": 149,
-    "type": 3,
-    "order": 129
-  },
-  {
-    "content": "مجدٌ لهذا الصمت، وأنتِ رافلة في لُجّة السنين،",
-    "poem_id": 642,
-    "poet_id": 149,
-    "type": 3,
-    "order": 130
-  },
-  {
     "content": "بالعشبِ، وبالندى!",
     "poem_id": 642,
     "poet_id": 149,
     "type": 3,
-    "order": 131
+    "order": 129
   },
   {
     "content": "لو قلت لي احبك",
@@ -17549,7 +17353,7 @@
     "order": 9
   },
   {
-    "content": ".. ..",
+    "content": "لو قلت لي احبك",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
@@ -17563,389 +17367,319 @@
     "order": 11
   },
   {
-    "content": "***",
+    "content": "أصير نبعا من زلال",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 12
   },
   {
-    "content": "لو قلت لي احبك",
+    "content": "انساب رقة في شهوة الجذور",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 13
   },
   {
-    "content": "أصير نبعا من زلال",
+    "content": "واخصب الحقول",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 14
   },
   {
-    "content": "انساب رقة في شهوة الجذور",
+    "content": "وابعث الانساغ في الجبال",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 15
   },
   {
-    "content": "واخصب الحقول",
+    "content": "كأنني القدرة في تعاقب الفصول",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 16
   },
   {
-    "content": "وابعث الانساغ في الجبال",
+    "content": "والكنه في طبيعة الصلصال",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 17
   },
   {
-    "content": "كأنني القدرة في تعاقب الفصول",
+    "content": "لو قلت لي احبك !",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 18
   },
   {
-    "content": "والكنه في طبيعة الصلصال",
+    "content": "لو قلت لي احبك",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 19
   },
   {
-    "content": "لو قلت لي احبك !",
+    "content": "اصير سحرا مبهما",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 20
   },
   {
-    "content": "***",
+    "content": "في سرة الجواهر",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 21
   },
   {
-    "content": "لو قلت لي احبك",
+    "content": "أخبئ الغموض",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 22
   },
   {
-    "content": "اصير سحرا مبهما",
+    "content": "كيمياء",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 23
   },
   {
-    "content": "في سرة الجواهر",
+    "content": "و ابدع الاعجاز في العناصر",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 24
   },
   {
-    "content": "أخبئ الغموض",
+    "content": "كأنني إلهة السماء",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 25
   },
   {
-    "content": "كيمياء",
+    "content": "لو قلت لي احبك!",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 26
   },
   {
-    "content": "و ابدع الاعجاز في العناصر",
+    "content": "لو قلت لي احبك",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 27
   },
   {
-    "content": "كأنني إلهة السماء",
+    "content": "اصير وردة عصية الذبول",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 28
   },
   {
-    "content": ".....",
+    "content": "وعبقا ينث سحره",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 29
   },
   {
-    "content": "لو قلت لي احبك!",
+    "content": "في أزل الفصول",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 30
   },
   {
-    "content": "***",
+    "content": "أصير فتنة السهوب",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 31
   },
   {
-    "content": "لو قلت لي احبك",
+    "content": "والوديان والحقول",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 32
   },
   {
-    "content": "اصير وردة عصية الذبول",
+    "content": "و قبلة الندى",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 33
   },
   {
-    "content": "وعبقا ينث سحره",
+    "content": "ومشتهى الهطول",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 34
   },
   {
-    "content": "في أزل الفصول",
+    "content": "كأنني إلهة الاسرار والحلول",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 35
   },
   {
-    "content": "أصير فتنة السهوب",
+    "content": "لو قلت لي احبك",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 36
   },
   {
-    "content": "والوديان والحقول",
+    "content": "لو قلت لي احبك",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 37
   },
   {
-    "content": "و قبلة الندى",
+    "content": "اصير نحلة",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 38
   },
   {
-    "content": "ومشتهى الهطول",
+    "content": "تهندس الممالك",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 39
   },
   {
-    "content": "كأنني إلهة الاسرار والحلول",
+    "content": "من لذة العسل",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 40
   },
   {
-    "content": ".....",
+    "content": "وربما فراشة",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 41
   },
   {
-    "content": "لو قلت لي احبك",
+    "content": "تراوغ الشعاع خلسة",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 42
   },
   {
-    "content": "***",
+    "content": "تشق ثوب أسرها",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 43
   },
   {
-    "content": "لو قلت لي احبك",
+    "content": "لفتنة الضياء",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 44
   },
   {
-    "content": "اصير نحلة",
+    "content": "اصير سحرا غامضا",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 45
   },
   {
-    "content": "تهندس الممالك",
+    "content": "في قدرة الشفاء",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 46
   },
   {
-    "content": "من لذة العسل",
+    "content": "لو قلت لي احبك !",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 47
   },
   {
-    "content": "وربما فراشة",
+    "content": "لو قلت لي احبك",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 48
   },
   {
-    "content": "تراوغ الشعاع خلسة",
+    "content": "اصير كونا عارما",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 49
   },
   {
-    "content": "تشق ثوب أسرها",
+    "content": "في جسد امرأة",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 50
   },
   {
-    "content": "لفتنة الضياء",
+    "content": "أختزل الأرحام كلها",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 51
   },
   {
-    "content": "اصير سحرا غامضا",
+    "content": "وألد الخلائق",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 52
   },
   {
-    "content": "في قدرة الشفاء",
+    "content": "من أزل التكوين",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 53
   },
   {
-    "content": "....",
+    "content": "واجعل الخلود من طبيعة الأحياء",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 54
   },
   {
-    "content": "لو قلت لي احبك !",
+    "content": "كأنني إلهة البقاء",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
     "order": 55
   },
   {
-    "content": "***",
-    "poem_id": 643,
-    "poet_id": 149,
-    "type": 3,
-    "order": 56
-  },
-  {
-    "content": "لو قلت لي احبك",
-    "poem_id": 643,
-    "poet_id": 149,
-    "type": 3,
-    "order": 57
-  },
-  {
-    "content": "اصير كونا عارما",
-    "poem_id": 643,
-    "poet_id": 149,
-    "type": 3,
-    "order": 58
-  },
-  {
-    "content": "في جسد امرأة",
-    "poem_id": 643,
-    "poet_id": 149,
-    "type": 3,
-    "order": 59
-  },
-  {
-    "content": "أختزل الأرحام كلها",
-    "poem_id": 643,
-    "poet_id": 149,
-    "type": 3,
-    "order": 60
-  },
-  {
-    "content": "وألد الخلائق",
-    "poem_id": 643,
-    "poet_id": 149,
-    "type": 3,
-    "order": 61
-  },
-  {
-    "content": "من أزل التكوين",
-    "poem_id": 643,
-    "poet_id": 149,
-    "type": 3,
-    "order": 62
-  },
-  {
-    "content": "واجعل الخلود من طبيعة الأحياء",
-    "poem_id": 643,
-    "poet_id": 149,
-    "type": 3,
-    "order": 63
-  },
-  {
-    "content": "كأنني إلهة البقاء",
-    "poem_id": 643,
-    "poet_id": 149,
-    "type": 3,
-    "order": 64
-  },
-  {
-    "content": "....",
-    "poem_id": 643,
-    "poet_id": 149,
-    "type": 3,
-    "order": 65
-  },
-  {
     "content": "لو قلت لي احبك!",
     "poem_id": 643,
     "poet_id": 149,
     "type": 3,
-    "order": 66
+    "order": 56
   },
   {
     "content": "سأظل انقش خطوتي",
@@ -18487,130 +18221,116 @@
     "order": 10
   },
   {
-    "content": "***",
+    "content": "نحن الذين رفعنا الأنهر",
     "poem_id": 649,
     "poet_id": 149,
     "type": 3,
     "order": 11
   },
   {
-    "content": "نحن الذين رفعنا الأنهر",
+    "content": "من بدائتها",
     "poem_id": 649,
     "poet_id": 149,
     "type": 3,
     "order": 12
   },
   {
-    "content": "من بدائتها",
+    "content": "ونهرنا الجبال",
     "poem_id": 649,
     "poet_id": 149,
     "type": 3,
     "order": 13
   },
   {
-    "content": "ونهرنا الجبال",
+    "content": "وابتكرنا الأنجم الضافيات",
     "poem_id": 649,
     "poet_id": 149,
     "type": 3,
     "order": 14
   },
   {
-    "content": "وابتكرنا الأنجم الضافيات",
+    "content": "أضأنا الكواكب",
     "poem_id": 649,
     "poet_id": 149,
     "type": 3,
     "order": 15
   },
   {
-    "content": "أضأنا الكواكب",
+    "content": "في رحم عتمتها",
     "poem_id": 649,
     "poet_id": 149,
     "type": 3,
     "order": 16
   },
   {
-    "content": "في رحم عتمتها",
+    "content": "وهيأنا الفصول",
     "poem_id": 649,
     "poet_id": 149,
     "type": 3,
     "order": 17
   },
   {
-    "content": "وهيأنا الفصول",
+    "content": "لموعد الطيف",
     "poem_id": 649,
     "poet_id": 149,
     "type": 3,
     "order": 18
   },
   {
-    "content": "لموعد الطيف",
+    "content": "تقدم إذن",
     "poem_id": 649,
     "poet_id": 149,
     "type": 3,
     "order": 19
   },
   {
-    "content": "تقدم إذن",
+    "content": "أيها الهدم والهلام..تقدم",
     "poem_id": 649,
     "poet_id": 149,
     "type": 3,
     "order": 20
   },
   {
-    "content": "أيها الهدم والهلام..تقدم",
+    "content": "وانقش خطانا",
     "poem_id": 649,
     "poet_id": 149,
     "type": 3,
     "order": 21
   },
   {
-    "content": "وانقش خطانا",
+    "content": "على ارتجاج المحيط",
     "poem_id": 649,
     "poet_id": 149,
     "type": 3,
     "order": 22
   },
   {
-    "content": "على ارتجاج المحيط",
+    "content": "لا أعمدة لنا",
     "poem_id": 649,
     "poet_id": 149,
     "type": 3,
     "order": 23
   },
   {
-    "content": "***",
+    "content": "غير صعود الحرائق",
     "poem_id": 649,
     "poet_id": 149,
     "type": 3,
     "order": 24
   },
   {
-    "content": "لا أعمدة لنا",
+    "content": "ولا سماء",
     "poem_id": 649,
     "poet_id": 149,
     "type": 3,
     "order": 25
   },
   {
-    "content": "غير صعود الحرائق",
-    "poem_id": 649,
-    "poet_id": 149,
-    "type": 3,
-    "order": 26
-  },
-  {
-    "content": "ولا سماء",
-    "poem_id": 649,
-    "poet_id": 149,
-    "type": 3,
-    "order": 27
-  },
-  {
     "content": "غير ما يلد الغموض",
     "poem_id": 649,
     "poet_id": 149,
     "type": 3,
-    "order": 28
+    "order": 26
   },
   {
     "content": "لم أكن في غفوة الليل الكثيفِ",
@@ -18648,298 +18368,277 @@
     "order": 5
   },
   {
-    "content": "***",
+    "content": "رأيتُ",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 6
   },
   {
-    "content": "رأيتُ",
+    "content": "فيما يرى الناسك في الفلاةِ",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 7
   },
   {
-    "content": "فيما يرى الناسك في الفلاةِ",
+    "content": "إني قد عرجتُ",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 8
   },
   {
-    "content": "إني قد عرجتُ",
+    "content": "سابحة في ملكوت الكون",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 9
   },
   {
-    "content": "سابحة في ملكوت الكون",
+    "content": "والأفلاك أسرى في مداري",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 10
   },
   {
-    "content": "والأفلاك أسرى في مداري",
+    "content": "وتخوم الأرض يمٌ لا يُحدُّ",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 11
   },
   {
-    "content": "وتخوم الأرض يمٌ لا يُحدُّ",
+    "content": "وأنا بين تخوم وسديمٍ",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 12
   },
   {
-    "content": "وأنا بين تخوم وسديمٍ",
+    "content": "لا أرى إلا سنا روحي",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 13
   },
   {
-    "content": "لا أرى إلا سنا روحي",
+    "content": "ولا أحدس إلا من يقيني",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 14
   },
   {
-    "content": "ولا أحدس إلا من يقيني",
+    "content": "لاحَ لي فيما ُيشبه الرؤيا",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 15
   },
   {
-    "content": "***",
+    "content": "سحابٌ عائمٌ",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 16
   },
   {
-    "content": "لاحَ لي فيما ُيشبه الرؤيا",
+    "content": "إثرَ سحاب عائمٍ",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 17
   },
   {
-    "content": "سحابٌ عائمٌ",
+    "content": "ومجاهيلَ وغابات",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 18
   },
   {
-    "content": "إثرَ سحاب عائمٍ",
+    "content": "وأسراب غموضٍ",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 19
   },
   {
-    "content": "ومجاهيلَ وغابات",
+    "content": "ونهار موشكٌ",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 20
   },
   {
-    "content": "وأسراب غموضٍ",
+    "content": "والليلُ في أولهِ",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 21
   },
   {
-    "content": "ونهار موشكٌ",
+    "content": "واختلاطٌ مبهم الغايات",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 22
   },
   {
-    "content": "والليلُ في أولهِ",
+    "content": "أرواح تضيء كالقناديلِ",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 23
   },
   {
-    "content": "واختلاطٌ مبهم الغايات",
+    "content": "وتهوي كالشهبْ",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 24
   },
   {
-    "content": "أرواح تضيء كالقناديلِ",
+    "content": "لا قرارَ الأرض يحويها",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 25
   },
   {
-    "content": "وتهوي كالشهبْ",
+    "content": "ولا حضن السماءْ",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 26
   },
   {
-    "content": "لا قرارَ الأرض يحويها",
+    "content": "فوّهاتٌ من دمٍ يدفقُ",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 27
   },
   {
-    "content": "ولا حضن السماءْ",
+    "content": "أخلاطٌ من الكبريتِ",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 28
   },
   {
-    "content": "فوّهاتٌ من دمٍ يدفقُ",
+    "content": "أسيدٌ وحديدٌ وحِممْ",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 29
   },
   {
-    "content": "أخلاطٌ من الكبريتِ",
+    "content": "والمحيطات هديرٌ يحتدمْ",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 30
   },
   {
-    "content": "أسيدٌ وحديدٌ وحِممْ",
+    "content": "تلفظُ الغرقى كأصدافٍ",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 31
   },
   {
-    "content": "والمحيطات هديرٌ يحتدمْ",
+    "content": "وتمحو كل ما أبدعه الإنسان:",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 32
   },
   {
-    "content": "تلفظُ الغرقى كأصدافٍ",
+    "content": "آلاف الحضاراتِ",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 33
   },
   {
-    "content": "وتمحو كل ما أبدعه الإنسان:",
+    "content": "عصوراً وأممْ",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 34
   },
   {
-    "content": "آلاف الحضاراتِ",
+    "content": "رأيت الكونَ تجرفهُ سيولُ",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 35
   },
   {
-    "content": "عصوراً وأممْ",
+    "content": "رأيتُ الأنجم غرقى و السحبْ..",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 36
   },
   {
-    "content": "رأيت الكونَ تجرفهُ سيولُ",
+    "content": "محض لهيب يستعرْ",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 37
   },
   {
-    "content": "رأيتُ الأنجم غرقى و السحبْ..",
+    "content": "رأيتُ الخلقَ ذرات غبارٍ",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 38
   },
   {
-    "content": "محض لهيب يستعرْ",
+    "content": "عائد نحو السُدُمْ!!",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 39
   },
   {
-    "content": "رأيتُ الخلقَ ذرات غبارٍ",
+    "content": "لم أكن في غفوة الليل الكثيفِ",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 40
   },
   {
-    "content": "عائد نحو السُدُمْ!!",
+    "content": "لم أكن في يقظة الصبح اللطيفِ",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 41
   },
   {
-    "content": "***",
+    "content": "كنت في صحوة الرائي",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 42
   },
   {
-    "content": "لم أكن في غفوة الليل الكثيفِ",
+    "content": "وحدس الروح",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
     "order": 43
   },
   {
-    "content": "لم أكن في يقظة الصبح اللطيفِ",
-    "poem_id": 650,
-    "poet_id": 149,
-    "type": 3,
-    "order": 44
-  },
-  {
-    "content": "كنت في صحوة الرائي",
-    "poem_id": 650,
-    "poet_id": 149,
-    "type": 3,
-    "order": 45
-  },
-  {
-    "content": "وحدس الروح",
-    "poem_id": 650,
-    "poet_id": 149,
-    "type": 3,
-    "order": 46
-  },
-  {
     "content": "إذ تغرق في الحزن الشفيفِ!",
     "poem_id": 650,
     "poet_id": 149,
     "type": 3,
-    "order": 47
+    "order": 44
   },
   {
     "content": "ليس لي مدنا تزدهي بحرية",
@@ -19089,102 +18788,88 @@
     "order": 8
   },
   {
-    "content": "***",
+    "content": "شهيةٌ وغبطتها شركٌ",
     "poem_id": 652,
     "poet_id": 149,
     "type": 3,
     "order": 9
   },
   {
-    "content": "شهيةٌ وغبطتها شركٌ",
+    "content": "خذوا قمحها والتفوا بأرجوانها",
     "poem_id": 652,
     "poet_id": 149,
     "type": 3,
     "order": 10
   },
   {
-    "content": "خذوا قمحها والتفوا بأرجوانها",
+    "content": "ينحني الغصن بثقل مواليده",
     "poem_id": 652,
     "poet_id": 149,
     "type": 3,
     "order": 11
   },
   {
-    "content": "***",
+    "content": "وهي لا تنحني",
     "poem_id": 652,
     "poet_id": 149,
     "type": 3,
     "order": 12
   },
   {
-    "content": "ينحني الغصن بثقل مواليده",
+    "content": "كالروح في صحوتها",
     "poem_id": 652,
     "poet_id": 149,
     "type": 3,
     "order": 13
   },
   {
-    "content": "وهي لا تنحني",
+    "content": "اذا أشرقتْ",
     "poem_id": 652,
     "poet_id": 149,
     "type": 3,
     "order": 14
   },
   {
-    "content": "كالروح في صحوتها",
+    "content": "ترفلُ الكائنات بالهدوءِ",
     "poem_id": 652,
     "poet_id": 149,
     "type": 3,
     "order": 15
   },
   {
-    "content": "اذا أشرقتْ",
+    "content": "وينتشي الألقُ",
     "poem_id": 652,
     "poet_id": 149,
     "type": 3,
     "order": 16
   },
   {
-    "content": "ترفلُ الكائنات بالهدوءِ",
+    "content": "أرجحوا أصابعها",
     "poem_id": 652,
     "poet_id": 149,
     "type": 3,
     "order": 17
   },
   {
-    "content": "وينتشي الألقُ",
+    "content": "على ليلكم وتيه خطاكم",
     "poem_id": 652,
     "poet_id": 149,
     "type": 3,
     "order": 18
   },
   {
-    "content": "أرجحوا أصابعها",
+    "content": "تضيءُ",
     "poem_id": 652,
     "poet_id": 149,
     "type": 3,
     "order": 19
   },
   {
-    "content": "على ليلكم وتيه خطاكم",
-    "poem_id": 652,
-    "poet_id": 149,
-    "type": 3,
-    "order": 20
-  },
-  {
-    "content": "تضيءُ",
-    "poem_id": 652,
-    "poet_id": 149,
-    "type": 3,
-    "order": 21
-  },
-  {
     "content": "وتدلكم.. عليكم!!",
     "poem_id": 652,
     "poet_id": 149,
     "type": 3,
-    "order": 22
+    "order": 20
   },
   {
     "content": "الانسان",

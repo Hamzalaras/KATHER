@@ -28,9 +28,9 @@ export const getTopicsInfo = () => catalogSources[CATALOG_GROUPS.TOPICS] ?? [];
 
 export const getPoemsTypesInfo = () => catalogSources[CATALOG_GROUPS.POEMS_TYPES] ?? [];
 
-export const getCatalogInfo = () => Object.keys(catalogSources).map(source => [source, catalogSources[source] ?? []]);
+export const getCatalogInfo = () => Object.fromEntries(Object.keys(catalogSources).map(source => [source, catalogSources[source] ?? []]));
 
-export const getCatalogCountsInfo = () => Object.keys(catalogSources).map(source => [source, (catalogSources[source] ?? [])]);
+export const getCatalogCountsInfo = () => Object.fromEntries(Object.keys(catalogSources).map(source => [source, (catalogSources[source] ?? []).length]));
 
 export const catalogRouteLinks = {
     self: V1_RESOURCE_PATHS.CATALOG,
@@ -39,4 +39,5 @@ export const catalogRouteLinks = {
     quawafi: `${V1_RESOURCE_PATHS.CATALOG}/${CATALOG_GROUPS.QUAWAFI}`,
     seas: `${V1_RESOURCE_PATHS.CATALOG}/${CATALOG_GROUPS.SEAS}`,
     topics: `${V1_RESOURCE_PATHS.CATALOG}/${CATALOG_GROUPS.TOPICS}`,
+    poemsTypes: `${V1_RESOURCE_PATHS.CATALOG}/${CATALOG_GROUPS.POEMS_TYPES}`,
 };

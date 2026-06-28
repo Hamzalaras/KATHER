@@ -62718,33 +62718,34 @@
     "poet_id": 1115,
     "type": 3,
     "order": 20
-  },{
-  "content": "لقد حركت أشجان المشوق",
-  "poem_id": 37572,
-  "poet_id": 1115,
-  "type": 1,
-  "order": 1
   },
   {
-  "content": "بما أرسلت تسأل يا صديقي",
-  "poem_id": 37572,
-  "poet_id": 1115,
-  "type": 2,
-  "order": 2
+    "content": "لقد حركت أشجان المشوق",
+    "poem_id": 37572,
+    "poet_id": 1115,
+    "type": 1,
+    "order": 1
   },
   {
-  "content": "فهاك جواب نظم ضمن نظم",
-  "poem_id": 37572,
-  "poet_id": 1115,
-  "type": 1,
-  "order": 3
+    "content": "بما أرسلت تسأل يا صديقي",
+    "poem_id": 37572,
+    "poet_id": 1115,
+    "type": 2,
+    "order": 2
   },
   {
-  "content": "ونثر فاق في علم الطريق",
-  "poem_id": 37572,
-  "poet_id": 1115,
-  "type": 2,
-  "order": 4
+    "content": "فهاك جواب نظم ضمن نظم",
+    "poem_id": 37572,
+    "poet_id": 1115,
+    "type": 1,
+    "order": 3
+  },
+  {
+    "content": "ونثر فاق في علم الطريق",
+    "poem_id": 37572,
+    "poet_id": 1115,
+    "type": 2,
+    "order": 4
   },
   {
     "content": "فلا يلتفت في الشيء غيرا فكلما",
@@ -74869,13 +74870,6 @@
     "poet_id": 1118,
     "type": 3,
     "order": 4
-  },
-  {
-    "content": "",
-    "poem_id": 37627,
-    "poet_id": 1118,
-    "type": 0,
-    "order": 0
   },
   {
     "content": "لا شك عندى في فناء الوجود",
