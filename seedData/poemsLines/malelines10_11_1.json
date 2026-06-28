@@ -13013,144 +13013,123 @@
     "order": 22
   },
   {
-    "content": "***",
+    "content": "لم يَطُلْ ما كانَ مِن أخذٍ ورَدّْ",
     "poem_id": 7938,
     "poet_id": 2078,
     "type": 3,
     "order": 23
   },
   {
-    "content": "لم يَطُلْ ما كانَ مِن أخذٍ ورَدّْ",
+    "content": "قرَّرَوا بالأمرِ عَنْ عَزْمٍ وجِدْ",
     "poem_id": 7938,
     "poet_id": 2078,
     "type": 3,
     "order": 24
   },
   {
-    "content": "قرَّرَوا بالأمرِ عَنْ عَزْمٍ وجِدْ",
+    "content": "مِنْ عَلى أنقاضِ جُثمانٍ وَجِيفَهْ",
     "poem_id": 7938,
     "poet_id": 2078,
     "type": 3,
     "order": 25
   },
   {
-    "content": "مِنْ عَلى أنقاضِ جُثمانٍ وَجِيفَهْ",
+    "content": "تمَّ تتويجُ الخَليفَهْ!",
     "poem_id": 7938,
     "poet_id": 2078,
     "type": 3,
     "order": 26
   },
   {
-    "content": "تمَّ تتويجُ الخَليفَهْ!",
+    "content": "وانفَضَّ جَمْعُ المؤتمَرْ",
     "poem_id": 7938,
     "poet_id": 2078,
     "type": 3,
     "order": 27
   },
   {
-    "content": "***",
+    "content": "واستغرَبَ النّاسُ الخبَرْ...",
     "poem_id": 7938,
     "poet_id": 2078,
     "type": 3,
     "order": 28
   },
   {
-    "content": "وانفَضَّ جَمْعُ المؤتمَرْ",
+    "content": "عامٌ مَضَى",
     "poem_id": 7938,
     "poet_id": 2078,
     "type": 3,
     "order": 29
   },
   {
-    "content": "واستغرَبَ النّاسُ الخبَرْ...",
+    "content": "أو بَعضُ عامْ",
     "poem_id": 7938,
     "poet_id": 2078,
     "type": 3,
     "order": 30
   },
   {
-    "content": "***",
+    "content": "والهمسُ في الأنحاءِ قام:",
     "poem_id": 7938,
     "poet_id": 2078,
     "type": 3,
     "order": 31
   },
   {
-    "content": "عامٌ مَضَى",
+    "content": "هل يا ترى ضاعَ السَّلامْ؟",
     "poem_id": 7938,
     "poet_id": 2078,
     "type": 3,
     "order": 32
   },
   {
-    "content": "أو بَعضُ عامْ",
+    "content": "حتّى الأبَدْ؟",
     "poem_id": 7938,
     "poet_id": 2078,
     "type": 3,
     "order": 33
   },
   {
-    "content": "والهمسُ في الأنحاءِ قام:",
+    "content": "مَنْ مُرجِعٌ بِيضَ الحَمَامْ؟",
     "poem_id": 7938,
     "poet_id": 2078,
     "type": 3,
     "order": 34
   },
   {
-    "content": "هل يا ترى ضاعَ السَّلامْ؟",
+    "content": "هَل مِنْ مَدَدْ؟",
     "poem_id": 7938,
     "poet_id": 2078,
     "type": 3,
     "order": 35
   },
   {
-    "content": "حتّى الأبَدْ؟",
+    "content": "مَن ذا الذي يأتي بها؟",
     "poem_id": 7938,
     "poet_id": 2078,
     "type": 3,
     "order": 36
   },
   {
-    "content": "مَنْ مُرجِعٌ بِيضَ الحَمَامْ؟",
+    "content": "مِن بَعْدِ طولِ غِيابِها؟",
     "poem_id": 7938,
     "poet_id": 2078,
     "type": 3,
     "order": 37
   },
   {
-    "content": "هَل مِنْ مَدَدْ؟",
+    "content": "هل مِنْ أحَد؟",
     "poem_id": 7938,
     "poet_id": 2078,
     "type": 3,
     "order": 38
   },
   {
-    "content": "مَن ذا الذي يأتي بها؟",
-    "poem_id": 7938,
-    "poet_id": 2078,
-    "type": 3,
-    "order": 39
-  },
-  {
-    "content": "مِن بَعْدِ طولِ غِيابِها؟",
-    "poem_id": 7938,
-    "poet_id": 2078,
-    "type": 3,
-    "order": 40
-  },
-  {
-    "content": "هل مِنْ أحَد؟",
-    "poem_id": 7938,
-    "poet_id": 2078,
-    "type": 3,
-    "order": 41
-  },
-  {
     "content": "هل مِنْ أحَد؟!!!",
     "poem_id": 7938,
     "poet_id": 2078,
     "type": 3,
-    "order": 42
+    "order": 39
   },
   {
     "content": "مِن مَشتَلِ السَّلامْ،",
@@ -14497,263 +14476,242 @@
     "order": 17
   },
   {
-    "content": "***",
+    "content": "لا تتعِبوا أعصابَكم",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 18
   },
   {
-    "content": "لا تتعِبوا أعصابَكم",
+    "content": "لا تجهِدوا أفكارَكُم",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 19
   },
   {
-    "content": "لا تجهِدوا أفكارَكُم",
+    "content": "فإن نطقتم فاحذروا",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 20
   },
   {
-    "content": "فإن نطقتم فاحذروا",
+    "content": "من بنتِ فِكْرٍ قاتلة...",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 21
   },
   {
-    "content": "من بنتِ فِكْرٍ قاتلة...",
+    "content": "فكل ما تبغون سهلٌ نيلُهُ",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 22
   },
   {
-    "content": "فكل ما تبغون سهلٌ نيلُهُ",
+    "content": "ما أسهلَهْ...",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 23
   },
   {
-    "content": "ما أسهلَهْ...",
+    "content": "من فلقةِ الصابون",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 24
   },
   {
-    "content": "من فلقةِ الصابون",
+    "content": "حتى المغسلهْ..",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 25
   },
   {
-    "content": "حتى المغسلهْ..",
+    "content": "من قارب الصيادِ",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 26
   },
   {
-    "content": "من قارب الصيادِ",
+    "content": "حتى الناقلهْ...",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 27
   },
   {
-    "content": "حتى الناقلهْ...",
+    "content": "من مركب الحنطورِ",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 28
   },
   {
-    "content": "من مركب الحنطورِ",
+    "content": "حتى الحافلَهْ",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 29
   },
   {
-    "content": "حتى الحافلَهْ",
+    "content": "من قشة الكبريت",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 30
   },
   {
-    "content": "من قشة الكبريت",
+    "content": "حتى القُنبلَهْ...",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 31
   },
   {
-    "content": "حتى القُنبلَهْ...",
+    "content": "فلنحمد اللهَ الذي",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 32
   },
   {
-    "content": "***",
+    "content": "أزاحَ عنا الأحملَهْ",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 33
   },
   {
-    "content": "فلنحمد اللهَ الذي",
+    "content": "وخصَّها بغيرنا",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 34
   },
   {
-    "content": "أزاحَ عنا الأحملَهْ",
+    "content": "من غير ما أن نسألَهْ..",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 35
   },
   {
-    "content": "وخصَّها بغيرنا",
+    "content": "فليعملوا،",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 36
   },
   {
-    "content": "من غير ما أن نسألَهْ..",
+    "content": "وليجهدوا،",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 37
   },
   {
-    "content": "فليعملوا،",
+    "content": "ولينتجوا كلَّ الذي",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 38
   },
   {
-    "content": "وليجهدوا،",
+    "content": "نحتاجُ أن نستعملَهْ",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 39
   },
   {
-    "content": "ولينتجوا كلَّ الذي",
+    "content": "أو نلبسَهْ",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 40
   },
   {
-    "content": "نحتاجُ أن نستعملَهْ",
+    "content": "أو نأكُلَهْ...",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 41
   },
   {
-    "content": "أو نلبسَهْ",
+    "content": "يجري بنا أو نحملَهْ...",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 42
   },
   {
-    "content": "أو نأكُلَهْ...",
+    "content": "وليحفظ اللهُ لنا",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 43
   },
   {
-    "content": "يجري بنا أو نحملَهْ...",
+    "content": "أمخاخَنا المعطَّلَهْ",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 44
   },
   {
-    "content": "وليحفظ اللهُ لنا",
+    "content": "مرتاحةً مُدلَّلهْ...",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 45
   },
   {
-    "content": "أمخاخَنا المعطَّلَهْ",
+    "content": "ونحن في المحصّلة",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 46
   },
   {
-    "content": "مرتاحةً مُدلَّلهْ...",
+    "content": "جميعنا يدركُها",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 47
   },
   {
-    "content": "***",
+    "content": "أعرافنا المهلهلهْ",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 48
   },
   {
-    "content": "ونحن في المحصّلة",
+    "content": "لكننا اعتدنا على قيودها المكبِّلَهْ",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 49
   },
   {
-    "content": "جميعنا يدركُها",
+    "content": "حتى غدت في طبعنا",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
     "order": 50
   },
   {
-    "content": "أعرافنا المهلهلهْ",
-    "poem_id": 7944,
-    "poet_id": 2078,
-    "type": 3,
-    "order": 51
-  },
-  {
-    "content": "لكننا اعتدنا على قيودها المكبِّلَهْ",
-    "poem_id": 7944,
-    "poet_id": 2078,
-    "type": 3,
-    "order": 52
-  },
-  {
-    "content": "حتى غدت في طبعنا",
-    "poem_id": 7944,
-    "poet_id": 2078,
-    "type": 3,
-    "order": 53
-  },
-  {
     "content": "والطبعُ لا بديلَ لهْ!",
     "poem_id": 7944,
     "poet_id": 2078,
     "type": 3,
-    "order": 54
+    "order": 51
   },
   {
     "content": "همُ ابتلوها وقالوا",
@@ -20797,88 +20755,60 @@
     "order": 2
   },
   {
-    "content": "***",
+    "content": "هي ذكرى عن هوانـالم تذق مثلـي الهوانـا",
     "poem_id": 7982,
     "poet_id": 2078,
     "type": 3,
     "order": 3
   },
   {
-    "content": "هي ذكرى عن هوانـالم تذق مثلـي الهوانـا",
+    "content": "خاطبتنـي، ذكرتنـيكل ما بالأمسِ كانا...",
     "poem_id": 7982,
     "poet_id": 2078,
     "type": 3,
     "order": 4
   },
   {
-    "content": "خاطبتنـي، ذكرتنـيكل ما بالأمسِ كانا...",
+    "content": "عاتبتني، كيفَ  ضاعتأمنياتُ  الحـب  منـا",
     "poem_id": 7982,
     "poet_id": 2078,
     "type": 3,
     "order": 5
   },
   {
-    "content": "***",
+    "content": "بعدما كنّـا وكانـتقاب قوسيـنِ وأدنـى",
     "poem_id": 7982,
     "poet_id": 2078,
     "type": 3,
     "order": 6
   },
   {
-    "content": "عاتبتني، كيفَ  ضاعتأمنياتُ  الحـب  منـا",
+    "content": "كيف صانت ما  أضعناوهي بعض الشيء عنّا؟",
     "poem_id": 7982,
     "poet_id": 2078,
     "type": 3,
     "order": 7
   },
   {
-    "content": "بعدما كنّـا وكانـتقاب قوسيـنِ وأدنـى",
+    "content": "قلتُ: أي  هيهياتِ  أنّامثلها في الحفظِ  كنّا..",
     "poem_id": 7982,
     "poet_id": 2078,
     "type": 3,
     "order": 8
   },
   {
-    "content": "***",
+    "content": "بينما الصورةُ تـروي وشجون القلبِ  ثارت",
     "poem_id": 7982,
     "poet_id": 2078,
     "type": 3,
     "order": 9
   },
   {
-    "content": "كيف صانت ما  أضعناوهي بعض الشيء عنّا؟",
-    "poem_id": 7982,
-    "poet_id": 2078,
-    "type": 3,
-    "order": 10
-  },
-  {
-    "content": "قلتُ: أي  هيهياتِ  أنّامثلها في الحفظِ  كنّا..",
-    "poem_id": 7982,
-    "poet_id": 2078,
-    "type": 3,
-    "order": 11
-  },
-  {
-    "content": "***",
-    "poem_id": 7982,
-    "poet_id": 2078,
-    "type": 3,
-    "order": 12
-  },
-  {
-    "content": "بينما الصورةُ تـروي وشجون القلبِ  ثارت",
-    "poem_id": 7982,
-    "poet_id": 2078,
-    "type": 3,
-    "order": 13
-  },
-  {
     "content": "هبَّت الريـحُ علينـا ومع الهبّاتِ طـارت!",
     "poem_id": 7982,
     "poet_id": 2078,
     "type": 3,
-    "order": 14
+    "order": 10
   },
   {
     "content": "حَباكَ اللهُ بالحُبِّ،",
@@ -20916,95 +20846,81 @@
     "order": 5
   },
   {
-    "content": "***",
+    "content": "قَضَيتُ العُمرَ مُرتقبًا",
     "poem_id": 7983,
     "poet_id": 2078,
     "type": 3,
     "order": 6
   },
   {
-    "content": "قَضَيتُ العُمرَ مُرتقبًا",
+    "content": "ومُنتظرًا على الدَّربِ",
     "poem_id": 7983,
     "poet_id": 2078,
     "type": 3,
     "order": 7
   },
   {
-    "content": "ومُنتظرًا على الدَّربِ",
+    "content": "أُسائلُ أنجمًا في اللَّيلِ والأفلاكَ كالشُّهبِ..",
     "poem_id": 7983,
     "poet_id": 2078,
     "type": 3,
     "order": 8
   },
   {
-    "content": "أُسائلُ أنجمًا في اللَّيلِ والأفلاكَ كالشُّهبِ..",
+    "content": "وقالتْ نجمةٌ منها: أيا مجنونُ، واعجبي...",
     "poem_id": 7983,
     "poet_id": 2078,
     "type": 3,
     "order": 9
   },
   {
-    "content": "وقالتْ نجمةٌ منها: أيا مجنونُ، واعجبي...",
+    "content": "ألا تدري بأنَّ الحُبَّ قد يُرديكَ، فاجتَنِبِ!",
     "poem_id": 7983,
     "poet_id": 2078,
     "type": 3,
     "order": 10
   },
   {
-    "content": "ألا تدري بأنَّ الحُبَّ قد يُرديكَ، فاجتَنِبِ!",
+    "content": "وكَم مِن مَنهَلٍ عَذْبٍ",
     "poem_id": 7983,
     "poet_id": 2078,
     "type": 3,
     "order": 11
   },
   {
-    "content": "***",
+    "content": "دَعاني دَعْوَةَ الصَّبِّ",
     "poem_id": 7983,
     "poet_id": 2078,
     "type": 3,
     "order": 12
   },
   {
-    "content": "وكَم مِن مَنهَلٍ عَذْبٍ",
+    "content": "وحيّاني وناداني وسيَّلَ رافدًا قُـرْبي....",
     "poem_id": 7983,
     "poet_id": 2078,
     "type": 3,
     "order": 13
   },
   {
-    "content": "دَعاني دَعْوَةَ الصَّبِّ",
+    "content": "قَطَعْتُ الدَّرْبَ عَطشانًا",
     "poem_id": 7983,
     "poet_id": 2078,
     "type": 3,
     "order": 14
   },
   {
-    "content": "وحيّاني وناداني وسيَّلَ رافدًا قُـرْبي....",
+    "content": "ومُمتَنعًا عنِ الشُّرْبِ",
     "poem_id": 7983,
     "poet_id": 2078,
     "type": 3,
     "order": 15
   },
   {
-    "content": "قَطَعْتُ الدَّرْبَ عَطشانًا",
-    "poem_id": 7983,
-    "poet_id": 2078,
-    "type": 3,
-    "order": 16
-  },
-  {
-    "content": "ومُمتَنعًا عنِ الشُّرْبِ",
-    "poem_id": 7983,
-    "poet_id": 2078,
-    "type": 3,
-    "order": 17
-  },
-  {
     "content": "يحيّرني لمَن أهديكَ أو أعطيكَ يا قلـبي!",
     "poem_id": 7983,
     "poet_id": 2078,
     "type": 3,
-    "order": 18
+    "order": 16
   },
   {
     "content": "كان شوكًا كل دربي عندما الليلُ اعتراهْ",
@@ -21434,144 +21350,130 @@
     "order": 18
   },
   {
-    "content": "***",
+    "content": "بلوعةِ عاشقٍ آتي",
     "poem_id": 7986,
     "poet_id": 2078,
     "type": 3,
     "order": 19
   },
   {
-    "content": "بلوعةِ عاشقٍ آتي",
+    "content": "وحمّى الشوقِ تنهشني",
     "poem_id": 7986,
     "poet_id": 2078,
     "type": 3,
     "order": 20
   },
   {
-    "content": "وحمّى الشوقِ تنهشني",
+    "content": "فأرتجفُ ...",
     "poem_id": 7986,
     "poet_id": 2078,
     "type": 3,
     "order": 21
   },
   {
-    "content": "فأرتجفُ ...",
+    "content": "تدثّرُني خُيوطُ الوَهْمِ",
     "poem_id": 7986,
     "poet_id": 2078,
     "type": 3,
     "order": 22
   },
   {
-    "content": "تدثّرُني خُيوطُ الوَهْمِ",
+    "content": "أنسجُها وألتحِفُ...",
     "poem_id": 7986,
     "poet_id": 2078,
     "type": 3,
     "order": 23
   },
   {
-    "content": "أنسجُها وألتحِفُ...",
+    "content": "ومَرَّ الوقتُ،",
     "poem_id": 7986,
     "poet_id": 2078,
     "type": 3,
     "order": 24
   },
   {
-    "content": "ومَرَّ الوقتُ،",
+    "content": "كادَ الليلُ ينتصِفُ...",
     "poem_id": 7986,
     "poet_id": 2078,
     "type": 3,
     "order": 25
   },
   {
-    "content": "كادَ الليلُ ينتصِفُ...",
+    "content": "فهل ساءلتِ مَن شُغِفوا",
     "poem_id": 7986,
     "poet_id": 2078,
     "type": 3,
     "order": 26
   },
   {
-    "content": "***",
+    "content": "بوجهِ البدْرِ كم وقَفوا،",
     "poem_id": 7986,
     "poet_id": 2078,
     "type": 3,
     "order": 27
   },
   {
-    "content": "فهل ساءلتِ مَن شُغِفوا",
+    "content": "وكم مِن عُمرِهم صَرفوا",
     "poem_id": 7986,
     "poet_id": 2078,
     "type": 3,
     "order": 28
   },
   {
-    "content": "بوجهِ البدْرِ كم وقَفوا،",
+    "content": "وهل ظفِروا",
     "poem_id": 7986,
     "poet_id": 2078,
     "type": 3,
     "order": 29
   },
   {
-    "content": "وكم مِن عُمرِهم صَرفوا",
+    "content": "وهل قطفوا؟!",
     "poem_id": 7986,
     "poet_id": 2078,
     "type": 3,
     "order": 30
   },
   {
-    "content": "وهل ظفِروا",
+    "content": "وكم مثلي",
     "poem_id": 7986,
     "poet_id": 2078,
     "type": 3,
     "order": 31
   },
   {
-    "content": "وهل قطفوا؟!",
+    "content": "كما جاؤوا بلوعَتِهم",
     "poem_id": 7986,
     "poet_id": 2078,
     "type": 3,
     "order": 32
   },
   {
-    "content": "وكم مثلي",
+    "content": "كذا انصرَفوا...",
     "poem_id": 7986,
     "poet_id": 2078,
     "type": 3,
     "order": 33
   },
   {
-    "content": "كما جاؤوا بلوعَتِهم",
+    "content": "ولم يدْروا بخيبتهم،",
     "poem_id": 7986,
     "poet_id": 2078,
     "type": 3,
     "order": 34
   },
   {
-    "content": "كذا انصرَفوا...",
+    "content": "فلا عرفوا",
     "poem_id": 7986,
     "poet_id": 2078,
     "type": 3,
     "order": 35
   },
   {
-    "content": "ولم يدْروا بخيبتهم،",
-    "poem_id": 7986,
-    "poet_id": 2078,
-    "type": 3,
-    "order": 36
-  },
-  {
-    "content": "فلا عرفوا",
-    "poem_id": 7986,
-    "poet_id": 2078,
-    "type": 3,
-    "order": 37
-  },
-  {
     "content": "ولا اعترفوا!!!",
     "poem_id": 7986,
     "poet_id": 2078,
     "type": 3,
-    "order": 38
+    "order": 36
   },
   {
     "content": "وذات مساء أطلّت كبدرٍ",
@@ -28196,214 +28098,200 @@
     "order": 123
   },
   {
-    "content": "*",
+    "content": "لا تحكِ لي .. لا تحكِ لي !",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 124
   },
   {
-    "content": "*",
+    "content": "أأنا الذي نيّبت",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 125
   },
   {
-    "content": "لا تحكِ لي .. لا تحكِ لي !",
+    "content": "تخدعني المظاهر .. ؟!",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 126
   },
   {
-    "content": "أأنا الذي نيّبت",
+    "content": "الضؤ والمأساة",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 127
   },
   {
-    "content": "تخدعني المظاهر .. ؟!",
+    "content": "قالا لي: لعنتَ ، إنفذ",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 128
   },
   {
-    "content": "الضؤ والمأساة",
+    "content": "إلى عمق الظواهر",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 129
   },
   {
-    "content": "قالا لي: لعنتَ ، إنفذ",
+    "content": "لا شيئ يبقى نفسه",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 130
   },
   {
-    "content": "إلى عمق الظواهر",
+    "content": "والدّهر",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 131
   },
   {
-    "content": "لا شيئ يبقى نفسه",
+    "content": "دولاب ودائر",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 132
   },
   {
-    "content": "والدّهر",
+    "content": "ولكل ليل آخرٌ ،",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 133
   },
   {
-    "content": "دولاب ودائر",
+    "content": "مهما بدا ..",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 134
   },
   {
-    "content": "ولكل ليل آخرٌ ،",
+    "content": "من دون آخر ..",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 135
   },
   {
-    "content": "مهما بدا ..",
+    "content": "5 ـ شوق العواصِف",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 136
   },
   {
-    "content": "من دون آخر ..",
+    "content": "يا جذر جذري !! إنني سأعود حتماّ",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 137
   },
   {
-    "content": "5 ـ شوق العواصِف",
+    "content": "فانتظرني . انتظرني في شقوق الصخر ،",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 138
   },
   {
-    "content": "يا جذر جذري !! إنني سأعود حتماّ",
+    "content": "والأشواك ، في نوارة الزيتون ، في",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 139
   },
   {
-    "content": "فانتظرني . انتظرني في شقوق الصخر ،",
+    "content": "لون الفراش ، وفي الصدى والظل ،",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 140
   },
   {
-    "content": "والأشواك ، في نوارة الزيتون ، في",
+    "content": "في طين الشتاء وفي غبار الصيف ،",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 141
   },
   {
-    "content": "لون الفراش ، وفي الصدى والظل ،",
+    "content": "في خطو الغزال، وفي قوادم كل طائر..",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 142
   },
   {
-    "content": "في طين الشتاء وفي غبار الصيف ،",
+    "content": "شوق العواصف في خطاي ،",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 143
   },
   {
-    "content": "في خطو الغزال، وفي قوادم كل طائر..",
+    "content": "وفي شراييني ..",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 144
   },
   {
-    "content": "شوق العواصف في خطاي ،",
+    "content": "نداء الأرض .. قاهر",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 145
   },
   {
-    "content": "وفي شراييني ..",
+    "content": "أنا راجع فاحفظنَ لي",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 146
   },
   {
-    "content": "نداء الأرض .. قاهر",
+    "content": "صوتي .. ورائحتي .. وشكلي",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 147
   },
   {
-    "content": "أنا راجع فاحفظنَ لي",
+    "content": "يا أزاهر",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 148
   },
   {
-    "content": "صوتي .. ورائحتي .. وشكلي",
+    "content": "إحفظن لي",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 149
   },
   {
-    "content": "يا أزاهر",
+    "content": "صوتي .. ورائحتي .. وشكلي ،",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
     "order": 150
   },
   {
-    "content": "إحفظن لي",
-    "poem_id": 8018,
-    "poet_id": 2079,
-    "type": 3,
-    "order": 151
-  },
-  {
-    "content": "صوتي .. ورائحتي .. وشكلي ،",
-    "poem_id": 8018,
-    "poet_id": 2079,
-    "type": 3,
-    "order": 152
-  },
-  {
     "content": "يا أ .. ز .. ا .. ه .. ر !!",
     "poem_id": 8018,
     "poet_id": 2079,
     "type": 3,
-    "order": 153
+    "order": 151
   },
   {
     "content": "فلتسمع كل الدنيا ... فلتسمع",

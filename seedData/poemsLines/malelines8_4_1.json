@@ -12873,95 +12873,88 @@
     "order": 115
   },
   {
-    "content": "...",
+    "content": "لماذا نحن يا أبتي",
     "poem_id": 60506,
     "poet_id": 1672,
     "type": 3,
     "order": 116
   },
   {
-    "content": "لماذا نحن يا أبتي",
+    "content": "لماذا نحن أغراب",
     "poem_id": 60506,
     "poet_id": 1672,
     "type": 3,
     "order": 117
   },
   {
-    "content": "لماذا نحن أغراب",
+    "content": "سألتك أمس عن أمي",
     "poem_id": 60506,
     "poet_id": 1672,
     "type": 3,
     "order": 118
   },
   {
-    "content": "سألتك أمس عن أمي",
+    "content": "التي ذهبت ولم ترجع",
     "poem_id": 60506,
     "poet_id": 1672,
     "type": 3,
     "order": 119
   },
   {
-    "content": "التي ذهبت ولم ترجع",
+    "content": "ألا نرجع للبيت",
     "poem_id": 60506,
     "poet_id": 1672,
     "type": 3,
     "order": 120
   },
   {
-    "content": "ألا نرجع للبيت",
+    "content": "وللحقل وللمجد",
     "poem_id": 60506,
     "poet_id": 1672,
     "type": 3,
     "order": 121
   },
   {
-    "content": "وللحقل وللمجد",
+    "content": "لماذا نحن في الألم",
     "poem_id": 60506,
     "poet_id": 1672,
     "type": 3,
     "order": 122
   },
   {
-    "content": "لماذا نحن في الألم",
+    "content": "وفي الجوع وفي السقم",
     "poem_id": 60506,
     "poet_id": 1672,
     "type": 3,
     "order": 123
   },
   {
-    "content": "وفي الجوع وفي السقم",
+    "content": "لنا أمل سيدفعنا",
     "poem_id": 60506,
     "poet_id": 1672,
     "type": 3,
     "order": 124
   },
   {
-    "content": "لنا أمل سيدفعنا",
+    "content": "إذا ما لوح الثأر",
     "poem_id": 60506,
     "poet_id": 1672,
     "type": 3,
     "order": 125
   },
   {
-    "content": "إذا ما لوح الثأر",
+    "content": "فصبراً يا ابنتي صبرا",
     "poem_id": 60506,
     "poet_id": 1672,
     "type": 3,
     "order": 126
   },
   {
-    "content": "فصبراً يا ابنتي صبرا",
-    "poem_id": 60506,
-    "poet_id": 1672,
-    "type": 3,
-    "order": 127
-  },
-  {
     "content": "غداة غد لنا النصر",
     "poem_id": 60506,
     "poet_id": 1672,
     "type": 3,
-    "order": 128
+    "order": 127
   },
   {
     "content": "إليهم قصيدي وما أنظم",
@@ -16658,13 +16651,6 @@
     "poet_id": 1673,
     "type": 3,
     "order": 7
-  },
-  {
-    "content": "...",
-    "poem_id": 60537,
-    "poet_id": 1673,
-    "type": 3,
-    "order": 8
   },
   {
     "content": "ما وجدنا من البرية إلا",
