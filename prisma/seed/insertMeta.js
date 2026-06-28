@@ -1,4 +1,4 @@
-import { catalogSources } from '../../src/services/catalog.services.js';
+import { catalogSources } from '../../src/services/catalog.service.js';
 
 export const insert = async (prisma) => {
     let totalInserted = 0;
