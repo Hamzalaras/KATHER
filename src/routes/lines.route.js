@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import { defineLimit, defineOffset } from '../middleware/pagination.middleware.js';
 import { defineId } from '../middleware/identity.middleware.js';
-import { defineCountry, defineEra, defineGender, defineQuafia, defineSea, defineTopic, defineLineType } from '../middleware/catalog.middleware.js';
+import { defineCountry, defineEra, defineGender, defineQuafia, defineSea, defineTopic, defineLineType, definePoemType } from '../middleware/catalog.middleware.js';
 import { defineMeta, defineSearchQuery, defineSort } from '../middleware/meta.middleware.js';
 import { getLineList, getLineById, getRandomLine } from '../controllers/lines.controller.js';
 import { catchWrapper } from '../utils/catchWrapper.js';
@@ -19,7 +19,7 @@ router.get('/',
     catchWrapper(defineId('poetId', 'poet_id', false)), catchWrapper(defineId('poemId', 'poem_id', false)),catchWrapper(defineSort(LINES_SORT)),
     catchWrapper(defineEra()), catchWrapper(defineCountry()), catchWrapper(defineGender()),
     catchWrapper(defineQuafia()), catchWrapper(defineSea()), catchWrapper(defineTopic()), 
-    catchWrapper(defineLineType()), catchWrapper(defineSearchQuery(LINE_SEARCH_QUERY_MAX_LENGTH)),
+    catchWrapper(defineLineType()), catchWrapper(definePoemType()), catchWrapper(defineSearchQuery(LINE_SEARCH_QUERY_MAX_LENGTH)),
     catchWrapper(getLineList),
 );
 
@@ -27,7 +27,7 @@ router.get('/random',
     catchWrapper(defineId('poetId', 'poet_id', false)), catchWrapper(defineId('poemId', 'poem_id', false)),
     catchWrapper(defineEra()), catchWrapper(defineCountry()), catchWrapper(defineGender()),
     catchWrapper(defineQuafia()), catchWrapper(defineSea()), catchWrapper(defineTopic()), 
-    catchWrapper(defineLineType()), catchWrapper(defineSearchQuery(LINE_SEARCH_QUERY_MAX_LENGTH)),
+    catchWrapper(defineLineType()), catchWrapper(definePoemType()), catchWrapper(defineSearchQuery(LINE_SEARCH_QUERY_MAX_LENGTH)),
     catchWrapper(getRandomLine),
 );
 

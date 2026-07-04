@@ -17,8 +17,7 @@ export const buildPoemFilters = (locals) => ({
 });
 
 export const buildLineFilters = (locals) => ({
-    ...buildCommuneFilters(locals),
+    ...buildPoemFilters(locals),
     poem_id: locals.poem_id,
-    poet_id: locals.poet_id,
     line_type: locals.line_type,
 });
