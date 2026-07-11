@@ -8,7 +8,8 @@ export const buildPoetWhere = ({ era_id, country_id, gender, q }) => ({
         OR: [
             { name_en: { contains: q, mode: 'insensitive' } },
             { name_ar: { contains: q, mode: 'insensitive' } },
-            { bio: { contains: q, mode: 'insensitive' } },
+            // suspended for now because it creates a lot of noise in the results, until we find a better way to handle it
+            // { bio: { contains: q, mode: 'insensitive' } },
         ],
     }),
 });
@@ -30,7 +31,7 @@ export const buildPoemWhere = ({ poet_id, era_id, country_id, gender, quafia_id,
             OR: [
                 { name: { contains: q, mode: 'insensitive' } },
                 { poets: { name_en: { contains: q, mode: 'insensitive' } } },
-                { poets: { name_en: { contains: q, mode: 'insensitive' } } },
+                { poets: { name_ar: { contains: q, mode: 'insensitive' } } },
             ],
         }),
 });

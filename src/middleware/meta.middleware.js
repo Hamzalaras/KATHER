@@ -13,7 +13,8 @@ export const defineMeta = () => {
             throw new ValidationError('Invalid meta value', 'INVALID_META');
         }
 
-        res.locals.meta = true;
+        res.locals.rawParams = { ...res.locals.rawParams, meta: true };
+        res.locals.dbParams = { ...res.locals.dbParams, meta: true };
         next();
     };
 };
@@ -25,16 +26,14 @@ export const defineSearchQuery = (SEARCH_QUERY_MAX_LENGTH) => {
         if (raw == null) return next();
 
         const value = String(raw).trim();
-        if (!value.length) {
-            res.locals.q = undefined;
-            return next();
-        }
+        if (!value.length) return next();
 
         if (value.length > SEARCH_QUERY_MAX_LENGTH) {
             throw new ValidationError('Search query is too long', 'SEARCH_QUERY_TOO_LONG');
         }
 
-        res.locals.q = value;
+        res.locals.rawParams = { ...res.locals.rawParams, q: raw };
+        res.locals.dbParams = { ...res.locals.dbParams, q: raw };
         next();
     };
 };
@@ -50,7 +49,8 @@ export const defineSort = (SORT_MAP) => {
             throw new ValidationError('Invalid sort value', 'INVALID_SORT');
         }
 
-        res.locals.sort = raw;
+        res.locals.rawParams = { ...res.locals.rawParams, sort: raw };
+        res.locals.dbParams = { ...res.locals.dbParams, sort: raw };
         next();
     };
 };

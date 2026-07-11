@@ -11,7 +11,8 @@ const createCatalogMiddleware = (queryKey, localsKey, catalogGroup, errorKey) =>
 
         const value = String(raw).trim().toLowerCase();
         if (UNSET_VALUES.has(value)) {
-            res.locals[localsKey] = null;
+            res.locals.rawParams = { ...res.locals.rawParams, [queryKey]: null };
+            res.locals.dbParams = { ...res.locals.dbParams, [localsKey]: null };
             return next();
         }
 
@@ -20,7 +21,8 @@ const createCatalogMiddleware = (queryKey, localsKey, catalogGroup, errorKey) =>
             throw new ValidationError(`Invalid ${queryKey} value`, `INVALID_${errorKey}`);
         }
 
-        res.locals[localsKey] = resolved;
+        res.locals.rawParams = { ...res.locals.rawParams, [queryKey]: resolved };
+        res.locals.dbParams = { ...res.locals.dbParams, [localsKey]: resolved };
         next();
     };
 };
@@ -41,7 +43,8 @@ export const defineGender = () => {
 
         const value = String(raw).trim().toLowerCase();
         if (UNSET_VALUES.has(value)) { 
-            res.locals.gender = null;
+            res.locals.rawParams = { ...res.locals.rawParams, gender: null };
+            res.locals.dbParams = { ...res.locals.dbParams, gender: null };
             return next();
         }
 
@@ -49,7 +52,8 @@ export const defineGender = () => {
             throw new ValidationError('Invalid gender value', 'INVALID_GENDER');
         }
 
-        res.locals.gender = value;
+        res.locals.rawParams = { ...res.locals.rawParams, gender: value };
+        res.locals.dbParams = { ...res.locals.dbParams, gender: value };
         next();
     };
 };
@@ -69,7 +73,8 @@ export const defineLineType = () => {
             throw new ValidationError('Invalid line type value', 'INVALID_LINE_TYPE_VALUE');
         }
 
-        res.locals.line_type = parsed;
+        res.locals.rawParams = { ...res.locals.rawParams, lineType: parsed };
+        res.locals.dbParams = { ...res.locals.dbParams, line_type: parsed };
         next();
     };
 };

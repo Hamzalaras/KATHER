@@ -9,12 +9,13 @@ import { NotFoundError } from '../utils/errors/index.js';
 import { ERROR_CODES, NOT_FOUND_MESSAGES } from '../constants/errors.js';
 import { RESPONSE_STATUS } from '../constants/http.js';
 import { buildQuery } from '../utils/builders/buildMeta.js';
-import { buildCommuneFilters, buildPoemFilters } from '../utils/builders/buildFilter.js';
+import { buildCommuneFilters, buildPoemFilters, buildCommuneRawFilters, buildPoemRawFilters } from '../utils/builders/buildFilter.js';
 
 export const getPoetsList = async (req, res) => {
-    const { limit, offset } = res.locals;
-    const filters = buildCommuneFilters(res.locals);
-    const result = await getPoetsListServices({ ...filters, limit, offset });
+    const { limit, offset } = res.locals.dbParams;
+    const dbFilters = buildCommuneFilters(res.locals.dbParams);
+    const rawFilters = buildCommuneRawFilters(res.locals.rawParams);
+    const result = await getPoetsListServices({ ...dbFilters, limit, offset });
     const nextOffset = offset + limit;
     const prevOffset = Math.max(offset - limit, 0);
 
@@ -23,21 +24,21 @@ export const getPoetsList = async (req, res) => {
         data: result.data,
         pagination: result.pagination,
         links: {
-            self: `${req.baseUrl}${buildQuery({ ...filters, limit, offset })}`,
-            next: result.pagination.has_more ? `${req.baseUrl}${buildQuery({ ...filters, limit, offset: nextOffset })}` : null,
-            prev: offset > 0 ? `${req.baseUrl}${buildQuery({ ...filters, limit, offset: prevOffset })}` : null,
+            self: `${req.baseUrl}${buildQuery({ ...rawFilters, limit, offset })}`,
+            next: result.pagination.has_more ? `${req.baseUrl}${buildQuery({ ...rawFilters, limit, offset: nextOffset })}` : null,
+            prev: offset > 0 ? `${req.baseUrl}${buildQuery({ ...rawFilters, limit, offset: prevOffset })}` : null,
             random: `${req.baseUrl}/random`,
         },
         meta: {
             filters: {
-                ...filters,
+                ...rawFilters,
             },
         },
     });
 };
 
 export const getPoetById = async (req, res) => {
-    const { poet_id } = res.locals;
+    const { poet_id } = res.locals.dbParams;
     const result = await getPoetByIdServices(poet_id);
 
     if (!result) {
@@ -58,10 +59,11 @@ export const getPoetById = async (req, res) => {
 };
 
 export const getPoetPoems = async (req, res) => {
-    const { poet_id, offset, limit } = res.locals;
-    const poemFilters = buildPoemFilters(res.locals);
+    const { poet_id, offset, limit } = res.locals.dbParams;
+    const poemDbFilters = buildPoemFilters(res.locals.dbParams);
+    const poemRawFilters = buildPoemRawFilters(res.locals.rawParams);
 
-    const result = await getPoetPoemsServices({ offset, limit, ...poemFilters });
+    const result = await getPoetPoemsServices({ offset, limit, ...poemDbFilters });
     const nextOffset = offset + limit;
     const prevOffset = Math.max(offset - limit, 0);
 
@@ -75,14 +77,14 @@ export const getPoetPoems = async (req, res) => {
         data: result.data,
         pagination: result.pagination,
         links: {
-            self: `${req.baseUrl}/${poet_id}/poems${buildQuery({ limit, offset, ...poemFilters })}`,
-            next: result.pagination.has_more ? `${req.baseUrl}/${poet_id}/poems${buildQuery({ limit, offset: nextOffset, ...poemFilters })}` : null,
-            prev: offset > 0 ? `${req.baseUrl}/${poet_id}/poems${buildQuery({ limit, offset: prevOffset, ...poemFilters })}` : null,
+            self: `${req.baseUrl}/${poet_id}/poems${buildQuery({ limit, offset, ...poemRawFilters })}`,
+            next: result.pagination.has_more ? `${req.baseUrl}/${poet_id}/poems${buildQuery({ limit, offset: nextOffset, ...poemRawFilters })}` : null,
+            prev: offset > 0 ? `${req.baseUrl}/${poet_id}/poems${buildQuery({ limit, offset: prevOffset, ...poemRawFilters })}` : null,
             poet: `${req.baseUrl}/${poet_id}`,
         },
         meta: {
             filters: {
-                ...poemFilters,
+                ...poemRawFilters,
                 poet_id: undefined,
             },
         },
@@ -90,7 +92,7 @@ export const getPoetPoems = async (req, res) => {
 };
 
 export const getPoetStats = async (req, res) => {
-    const { poet_id } = res.locals;
+    const { poet_id } = res.locals.dbParams;
     const result = await getPoetStatsServices(poet_id);
 
     if (!result) {
@@ -110,8 +112,9 @@ export const getPoetStats = async (req, res) => {
 };
 
 export const getRandomPoet = async (req, res) => {
-    const filters = buildCommuneFilters(res.locals);
-    const result = await getRandomPoetServices(filters);
+    const dbFilters = buildCommuneFilters(res.locals.dbParams);
+    const rawFilters = buildCommuneRawFilters(res.locals.rawParams);
+    const result = await getRandomPoetServices(dbFilters);
 
     if (!result) {
         throw new NotFoundError(NOT_FOUND_MESSAGES.POET_NO_MATCH, ERROR_CODES.POET_NOT_FOUND);
@@ -129,14 +132,14 @@ export const getRandomPoet = async (req, res) => {
         },
         meta: {
             filters: {
-                ...filters,
+                ...rawFilters,
             },
         },
     });
 };
 
 export const getPoetLines = async (req, res) => {
-    const { poet_id, line_type, sort, q, limit, offset } = res.locals; 
+    const { poet_id, line_type, sort, q, limit, offset } = res.locals.dbParams; 
     const result = await getPoetLinesServices({ poet_id, line_type, sort, q, limit, offset });
     const nextOffset = offset + limit;
     const prevOffset = Math.max(offset - limit, 0);
@@ -151,14 +154,16 @@ export const getPoetLines = async (req, res) => {
         data: result.data,
         pagination: result.pagination,
         links: {
-            self: `${req.baseUrl}/${poet_id}/lines${buildQuery({ limit, offset, sort, line_type, sort, q })}`,
-            next: result.pagination.has_more ? `${req.baseUrl}/${poet_id}/lines${buildQuery({ limit, offset: nextOffset, sort, line_type, sort, q })}` : null,
-            prev: offset > 0 ? `${req.baseUrl}/${poet_id}/lines${buildQuery({ limit, offset: prevOffset, sort, line_type, sort, q })}` : null,
+            self: `${req.baseUrl}/${poet_id}/lines${buildQuery({ limit, offset, sort, lineType: line_type, sort, q })}`,
+            next: result.pagination.has_more ? `${req.baseUrl}/${poet_id}/lines${buildQuery({ limit, offset: nextOffset, sort, lineType: line_type, sort, q })}` : null,
+            prev: offset > 0 ? `${req.baseUrl}/${poet_id}/lines${buildQuery({ limit, offset: prevOffset, sort, lineType: line_type, sort, q })}` : null,
             poet: `${req.baseUrl}/${poet_id}`,
         },
         meta: {
             filters: {
-                line_type, sort, q,
+                lineType: line_type,
+                sort,
+                q,
             },
         },
     });

@@ -19,7 +19,8 @@ export const defineId = (queryKey, localsKey, required = false) => {
             throw new ValidationError('Id is out of range', 'ID_OUT_OF_RANGE');
         }
 
-        res.locals[localsKey] = parsed;
+        res.locals.rawParams = { ...res.locals.rawParams, [queryKey]: parsed };
+        res.locals.dbParams = { ...res.locals.dbParams, [localsKey]: parsed };
         next();
     };
 };
