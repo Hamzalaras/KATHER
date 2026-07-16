@@ -23,8 +23,8 @@ const mapPoet = (poet) => ({
     bio: poet.bio,
 });
 
-export const getPoetsList = async ({ era_id, country_id, gender, q, sort, limit, offset, meta }) => {
-    const where = buildPoetWhere({ era_id, country_id, gender, q });
+export const getPoetsList = async ({ era_id, country_id, gender, q, meta, sort, limit, offset }) => {
+    const where = buildPoetWhere({ era_id, country_id, gender, q, meta });
     
     const shouldRunCount = !q || meta;
     const total = shouldRunCount ? await getCachedCount(ENTITY_KEYS.POETS, DEFAULT_COUNT_TTL_SECONDS, where) : null;
@@ -166,8 +166,8 @@ export const getPoetStats = async (poet_id) => {
     };
 };
 
-export const getRandomPoet = async ({ era_id, country_id, gender, q }) => {
-    const where = buildPoetWhere({ era_id, country_id, gender, q });
+export const getRandomPoet = async ({ era_id, country_id, gender, q, meta }) => {
+    const where = buildPoetWhere({ era_id, country_id, gender, q, meta });
     const total = await getCachedCount(ENTITY_KEYS.POETS, DEFAULT_COUNT_TTL_SECONDS, where);
 
     if (total === 0) return null;

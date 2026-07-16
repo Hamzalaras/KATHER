@@ -20,7 +20,7 @@ router.get('/',
 
 router.get('/random',
             catchWrapper(defineEra()), catchWrapper(defineCountry()), catchWrapper(defineGender()),
-            catchWrapper(defineSearchQuery(POET_SEARCH_QUERY_MAX_LENGTH)),
+            catchWrapper(defineSearchQuery(POET_SEARCH_QUERY_MAX_LENGTH)), catchWrapper(defineMeta()),
             catchWrapper(getRandomPoet),
         );
 
