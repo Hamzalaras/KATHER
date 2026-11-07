@@ -84,6 +84,7 @@ model Poems {
   poemsTypes PoemsTypes?   @relation(fields: [poem_type_id], references: [id])
   seas       Seas?         @relation(fields: [sea_id], references: [id])
   quawafi    Quawafi?      @relation(fields: [quafia_id], references: [id])
+  poemExplanations PoemExplanations?
 
   @@index([name(ops: raw("gin_trgm_ops"))], map: "idx_poems_name_trgm", type: Gin)
   @@index([poet_id, id])
@@ -123,7 +124,7 @@ model Poets {
   created_at  DateTime @default(now())
 
   poems       Poems[]
-  poemsLines PoemsLines[]
+  poemsLines  PoemsLines[]
   eras        Eras?    @relation(fields: [era_id], references: [id])
   countries   Countries? @relation(fields: [country_id], references: [id])
 
@@ -133,4 +134,17 @@ model Poets {
   @@index([gender], map: "idx_poets_gender")
   @@index([era_id], map: "idx_poets_era_id")
   @@index([country_id], map: "idx_poets_country_id")
+}
+
+model PoemExplanations {
+  id                Int      @id @default(autoincrement())
+  poem_id           Int      @unique
+  general_idea      String
+  themes            String
+  styles            String
+  summary           String
+  raw_text          String
+  created_at        DateTime @default(now())
+
+  poems             Poems    @relation(fields: [poem_id], references: [id], onDelete: Cascade)
 }

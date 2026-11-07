@@ -52,6 +52,17 @@ export const mapPoem = (poem) => ({
     poet: mapPoetBase(poem.poets),
 });
 
+export const mapPoemExplanation = (poemExplanation) => ({
+    id: poemExplanation.id,
+    poem_id: poemExplanation.poem_id,
+    general_idea: poemExplanation.general_idea,
+    themes: poemExplanation.themes,
+    styles: poemExplanation.styles,
+    summary: poemExplanation.summary,
+    raw_text: poemExplanation.raw_text,
+    created_at: poemExplanation.created_at,
+})
+
 export const mapPoemLineBase = (line) => ({
     id: line.id,
     content: line.content,

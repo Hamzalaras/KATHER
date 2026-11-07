@@ -5,8 +5,8 @@ import { ValidationError } from '../utils/errors/ApiError.js';
 import { DEFAULT_COUNT_TTL_SECONDS } from '../constants/cache.js';
 import { ENTITY_KEYS, RELATED_ITEMS_LIMIT } from '../constants/domain.js';
 import { LINES_SORT, POEMS_SORT } from '../constants/sort.js';
-import { POEM_SELECT, LINE_BASE_SELECT, POEM_BASE_SELECT } from '../constants/select.js';
-import { mapPoem, mapPoemBase, mapPoemLineBase } from '../utils/mappers.js';
+import { POEM_SELECT, LINE_BASE_SELECT, POEM_BASE_SELECT, POEM_EXPLANATION_SELECT } from '../constants/select.js';
+import { mapPoem, mapPoemExplanation, mapPoemBase, mapPoemLineBase } from '../utils/mappers.js';
 import { buildPagination } from '../utils/builders/buildMeta.js';
 import { buildPoemWhere, buildLineWhere } from '../utils/builders/buildWhere.js';
 import { ERROR_CODES, NOT_FOUND_MESSAGES } from '../constants/errors.js';
@@ -205,4 +205,14 @@ export const getRandomPoem = async ({ limit, ...filters }) => {
         poem: mapPoem(poem),
         lines: poem.poemsLines.map(mapPoemLineBase),
     };
+};
+
+
+export const getPoemExplanation = async (poem_id) => {
+    const poemExplanation = await prismaClient.poemExplanations.findUnique({
+        where: { poem_id },
+        select: POEM_EXPLANATION_SELECT,
+    });
+
+    return poemExplanation ? mapPoemExplanation(poemExplanation) : null;
 };

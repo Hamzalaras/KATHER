@@ -43,6 +43,17 @@ export const POEM_SELECT = {
     },
 };
 
+export const POEM_EXPLANATION_SELECT = {
+    id: true,
+    poem_id: true,
+    general_idea: true,
+    themes: true,
+    styles: true,
+    summary: true,
+    raw_text: true,
+    created_at: true,
+};
+
 export const LINE_BASE_SELECT = {
     id: true,
     content: true,

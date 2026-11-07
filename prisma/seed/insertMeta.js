@@ -14,6 +14,7 @@ export const insert = async (prisma) => {
     
             const result = await prisma[key].createMany({
                 data: toInsert,
+                skipDuplicates: true,
             });
 
             totalInserted += result.count;
