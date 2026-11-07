@@ -43,7 +43,6 @@ export const mapPoemBase = (poem) => ({
         name_en: poem.quawafi.name_en,
         name_ar: poem.quawafi.name_ar,
     }),
-    order: poem.order,
     created_at: poem.created_at,
     line_count: poem._count.poemsLines,
 });

@@ -110,7 +110,7 @@ export const getPoemContext = async (poem_id) => {
             order: { lt: poem.order },
             ...relatedWhere,
         },
-        orderBy: [POEMS_SORT.get('-order'), POEMS_SORT.get('-id')],
+        orderBy: [POEMS_SORT.get('-id'), POEMS_SORT.get('-poet_id')],
         select: POEM_BASE_SELECT,
     });
 
@@ -120,7 +120,7 @@ export const getPoemContext = async (poem_id) => {
             order: { gt: poem.order },
             ...relatedWhere,
         },
-        orderBy: [POEMS_SORT.get('order'), POEMS_SORT.get('id')],
+        orderBy: [POEMS_SORT.get('id'), POEMS_SORT.get('poet_id')],
         select: POEM_BASE_SELECT,
     });
 
@@ -129,7 +129,7 @@ export const getPoemContext = async (poem_id) => {
             poet_id: poem.poet_id,
             ...relatedWhere,
         },
-        orderBy: [POEMS_SORT.get('order'), POEMS_SORT.get('id')],
+        orderBy: [POEMS_SORT.get('id'), POEMS_SORT.get('poet_id')],
         take: RELATED_ITEMS_LIMIT,
         select:POEM_BASE_SELECT,
     });
@@ -140,7 +140,7 @@ export const getPoemContext = async (poem_id) => {
                 ...relatedWhere,
                 topic_id: poem.topic.id,
             },
-            orderBy: [POEMS_SORT.get('order'), POEMS_SORT.get('id')],
+            orderBy: [POEMS_SORT.get('id'), POEMS_SORT.get('poet_id')],
             take: RELATED_ITEMS_LIMIT,
             select: {
                 ...POEM_SELECT,
@@ -155,7 +155,7 @@ export const getPoemContext = async (poem_id) => {
                 ...relatedWhere,
                 sea_id: poem.sea.id,
             },
-            orderBy: [POEMS_SORT.get('order'), POEMS_SORT.get('id')],
+            orderBy: [POEMS_SORT.get('id'), POEMS_SORT.get('poet_id')],
             take: RELATED_ITEMS_LIMIT,
             select: {
                 ...POEM_SELECT,

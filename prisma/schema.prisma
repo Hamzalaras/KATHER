@@ -76,7 +76,6 @@ model Poems {
   poem_type_id Int?
   sea_id     Int?
   quafia_id  Int?
-  order      Int
   created_at DateTime     @default(now())
 
   poemsLines PoemsLines[]
@@ -87,7 +86,7 @@ model Poems {
   quawafi    Quawafi?      @relation(fields: [quafia_id], references: [id])
 
   @@index([name(ops: raw("gin_trgm_ops"))], map: "idx_poems_name_trgm", type: Gin)
-  @@index([poet_id, order, id])
+  @@index([poet_id, id])
   @@index([topic_id], map: "idx_poems_topic_id")
   @@index([poem_type_id], map: "idx_poems_type_id")
   @@index([sea_id], map: "idx_poems_sea_id")
@@ -115,9 +114,9 @@ model PoemsLines {
 
 model Poets {
   id          Int      @id
-  name_en     String   @unique
+  name_en     String
   name_ar     String
-  bio         String
+  bio         String?
   era_id      Int?
   country_id  Int?
   gender      String?

@@ -16,7 +16,6 @@ export const insert = async (prisma) => {
                 poem_type_id: poem.type_id,
                 sea_id: poem.sea_id,
                 quafia_id: poem.quafia_id,
-                order: poem.order,
             }));
 
             const result = await prisma.poems.createMany({

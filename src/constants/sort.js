@@ -22,7 +22,6 @@ export const POETS_SORT = new Map([
 
 export const POEMS_SORT = new Map([
     ...BASIC_SORT,
-    ...ORDER_SORT,
     ['poet_id', { poet_id: 'asc' }],
     ['-poet_id', { poet_id: 'desc' }],
 
