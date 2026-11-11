@@ -107,6 +107,7 @@ model PoemsLines {
   poems      Poems    @relation(fields: [poem_id], references: [id])
   poets      Poets    @relation(fields: [poet_id], references: [id])
 
+  @@unique([poem_id, order])
   @@index([content(ops: raw("gin_trgm_ops"))], map: "idx_poemslines_content_trgm", type: Gin)
   @@index([content_nd(ops: raw("gin_trgm_ops"))], map: "idx_poemslines_content_nd_trgm", type: Gin)
   @@index([poem_id, order], map: "idx_poemslines_poem_id_order")
