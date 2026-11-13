@@ -76,7 +76,6 @@ model Poems {
   poem_type_id Int?
   sea_id     Int?
   quafia_id  Int?
-  order      Int
   created_at DateTime     @default(now())
 
   poemsLines PoemsLines[]
@@ -85,9 +84,11 @@ model Poems {
   poemsTypes PoemsTypes?   @relation(fields: [poem_type_id], references: [id])
   seas       Seas?         @relation(fields: [sea_id], references: [id])
   quawafi    Quawafi?      @relation(fields: [quafia_id], references: [id])
+  poemExplanations PoemExplanations?
+  poemAudio  PoemAudio?
 
   @@index([name(ops: raw("gin_trgm_ops"))], map: "idx_poems_name_trgm", type: Gin)
-  @@index([poet_id, order, id])
+  @@index([poet_id, id])
   @@index([topic_id], map: "idx_poems_topic_id")
   @@index([poem_type_id], map: "idx_poems_type_id")
   @@index([sea_id], map: "idx_poems_sea_id")
@@ -107,6 +108,7 @@ model PoemsLines {
   poems      Poems    @relation(fields: [poem_id], references: [id])
   poets      Poets    @relation(fields: [poet_id], references: [id])
 
+  @@unique([poem_id, order])
   @@index([content(ops: raw("gin_trgm_ops"))], map: "idx_poemslines_content_trgm", type: Gin)
   @@index([content_nd(ops: raw("gin_trgm_ops"))], map: "idx_poemslines_content_nd_trgm", type: Gin)
   @@index([poem_id, order], map: "idx_poemslines_poem_id_order")
@@ -115,16 +117,16 @@ model PoemsLines {
 
 model Poets {
   id          Int      @id
-  name_en     String   @unique
+  name_en     String
   name_ar     String
-  bio         String
+  bio         String?
   era_id      Int?
   country_id  Int?
   gender      String?
   created_at  DateTime @default(now())
 
   poems       Poems[]
-  poemsLines PoemsLines[]
+  poemsLines  PoemsLines[]
   eras        Eras?    @relation(fields: [era_id], references: [id])
   countries   Countries? @relation(fields: [country_id], references: [id])
 
@@ -134,4 +136,27 @@ model Poets {
   @@index([gender], map: "idx_poets_gender")
   @@index([era_id], map: "idx_poets_era_id")
   @@index([country_id], map: "idx_poets_country_id")
+}
+
+model PoemExplanations {
+  id                Int      @id @default(autoincrement())
+  poem_id           Int      @unique
+  general_idea      String
+  themes            String
+  styles            String
+  summary           String
+  raw_text          String
+  created_at        DateTime @default(now())
+
+  poems             Poems    @relation(fields: [poem_id], references: [id], onDelete: Cascade)
+}
+
+model PoemAudio {
+  id                Int      @id @default(autoincrement())
+  poem_id           Int      @unique
+  audio_url         String
+  duration          Int
+  created_at        DateTime @default(now())
+
+  poems             Poems    @relation(fields: [poem_id], references: [id], onDelete: Cascade)
 }

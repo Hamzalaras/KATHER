@@ -5,8 +5,8 @@ import { ValidationError } from '../utils/errors/ApiError.js';
 import { DEFAULT_COUNT_TTL_SECONDS } from '../constants/cache.js';
 import { ENTITY_KEYS } from '../constants/domain.js';
 import { LINES_SORT } from '../constants/sort.js';
-import { POEM_SELECT, LINE_BASE_SELECT } from '../constants/select.js';
-import { mapPoem, mapPoemLineBase } from '../utils/mappers.js';
+import { LINE_BASE_SELECT, POEM_BASE_SELECT, POET_BASE_SELECT } from '../constants/select.js';
+import { mapPoemBase, mapPoemLineBase, mapPoetBase } from '../utils/mappers.js';
 import { buildPagination } from '../utils/builders/buildMeta.js';
 import { buildLineWhere } from '../utils/builders/buildWhere.js';
 import { ERROR_CODES, NOT_FOUND_MESSAGES } from '../constants/errors.js';
@@ -14,13 +14,17 @@ import { ERROR_CODES, NOT_FOUND_MESSAGES } from '../constants/errors.js';
 const LINE_SELECT = {
     ...LINE_BASE_SELECT,
     poems: {
-        select: POEM_SELECT,
+        select: POEM_BASE_SELECT,
+    },
+    poets: {
+        select: POET_BASE_SELECT,
     },
 };
 
 const mapPoemLine = (line) => ({
     ...mapPoemLineBase(line),
-    poem: mapPoem(line.poems),
+    poem: mapPoemBase(line.poems),
+    poet: mapPoetBase(line.poets),
 });
 
 export const getLinesList = async ({ limit, offset, meta, q, sort, ...filters }) => {

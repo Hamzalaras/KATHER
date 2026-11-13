@@ -5,8 +5,8 @@ import { ValidationError } from '../utils/errors/ApiError.js';
 import { DEFAULT_COUNT_TTL_SECONDS } from '../constants/cache.js';
 import { ENTITY_KEYS, RELATED_ITEMS_LIMIT } from '../constants/domain.js';
 import { LINES_SORT, POEMS_SORT } from '../constants/sort.js';
-import { POEM_SELECT, LINE_BASE_SELECT, POEM_BASE_SELECT } from '../constants/select.js';
-import { mapPoem, mapPoemBase, mapPoemLineBase } from '../utils/mappers.js';
+import { POEM_SELECT, LINE_BASE_SELECT, POEM_BASE_SELECT, POEM_EXPLANATION_SELECT, POEM_AUDIO_SELECT } from '../constants/select.js';
+import { mapPoem, mapPoemExplanation, mapPoemBase, mapPoemLineBase, mapPoemAudio } from '../utils/mappers.js';
 import { buildPagination } from '../utils/builders/buildMeta.js';
 import { buildPoemWhere, buildLineWhere } from '../utils/builders/buildWhere.js';
 import { ERROR_CODES, NOT_FOUND_MESSAGES } from '../constants/errors.js';
@@ -110,7 +110,7 @@ export const getPoemContext = async (poem_id) => {
             order: { lt: poem.order },
             ...relatedWhere,
         },
-        orderBy: [POEMS_SORT.get('-order'), POEMS_SORT.get('-id')],
+        orderBy: [POEMS_SORT.get('-id'), POEMS_SORT.get('-poet_id')],
         select: POEM_BASE_SELECT,
     });
 
@@ -120,7 +120,7 @@ export const getPoemContext = async (poem_id) => {
             order: { gt: poem.order },
             ...relatedWhere,
         },
-        orderBy: [POEMS_SORT.get('order'), POEMS_SORT.get('id')],
+        orderBy: [POEMS_SORT.get('id'), POEMS_SORT.get('poet_id')],
         select: POEM_BASE_SELECT,
     });
 
@@ -129,7 +129,7 @@ export const getPoemContext = async (poem_id) => {
             poet_id: poem.poet_id,
             ...relatedWhere,
         },
-        orderBy: [POEMS_SORT.get('order'), POEMS_SORT.get('id')],
+        orderBy: [POEMS_SORT.get('id'), POEMS_SORT.get('poet_id')],
         take: RELATED_ITEMS_LIMIT,
         select:POEM_BASE_SELECT,
     });
@@ -140,7 +140,7 @@ export const getPoemContext = async (poem_id) => {
                 ...relatedWhere,
                 topic_id: poem.topic.id,
             },
-            orderBy: [POEMS_SORT.get('order'), POEMS_SORT.get('id')],
+            orderBy: [POEMS_SORT.get('id'), POEMS_SORT.get('poet_id')],
             take: RELATED_ITEMS_LIMIT,
             select: {
                 ...POEM_SELECT,
@@ -155,7 +155,7 @@ export const getPoemContext = async (poem_id) => {
                 ...relatedWhere,
                 sea_id: poem.sea.id,
             },
-            orderBy: [POEMS_SORT.get('order'), POEMS_SORT.get('id')],
+            orderBy: [POEMS_SORT.get('id'), POEMS_SORT.get('poet_id')],
             take: RELATED_ITEMS_LIMIT,
             select: {
                 ...POEM_SELECT,
@@ -205,4 +205,23 @@ export const getRandomPoem = async ({ limit, ...filters }) => {
         poem: mapPoem(poem),
         lines: poem.poemsLines.map(mapPoemLineBase),
     };
+};
+
+
+export const getPoemExplanation = async (poem_id) => {
+    const poemExplanation = await prismaClient.poemExplanations.findUnique({
+        where: { poem_id },
+        select: POEM_EXPLANATION_SELECT,
+    });
+
+    return poemExplanation ? mapPoemExplanation(poemExplanation) : null;
+};
+
+export const getPoemAudio = async (poem_id) => {
+    const poemAudio = await prismaClient.poemAudio.findUnique({
+        where: { poem_id },
+        select: POEM_AUDIO_SELECT,
+    });
+
+    return poemAudio ? mapPoemAudio(poemAudio) : null;
 };
