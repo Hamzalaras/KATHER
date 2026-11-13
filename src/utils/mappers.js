@@ -43,7 +43,6 @@ export const mapPoemBase = (poem) => ({
         name_en: poem.quawafi.name_en,
         name_ar: poem.quawafi.name_ar,
     }),
-    order: poem.order,
     created_at: poem.created_at,
     line_count: poem._count.poemsLines,
 });
@@ -51,6 +50,25 @@ export const mapPoemBase = (poem) => ({
 export const mapPoem = (poem) => ({
     ...mapPoemBase(poem),
     poet: mapPoetBase(poem.poets),
+});
+
+export const mapPoemExplanation = (poemExplanation) => ({
+    id: poemExplanation.id,
+    poem_id: poemExplanation.poem_id,
+    general_idea: poemExplanation.general_idea,
+    themes: poemExplanation.themes,
+    styles: poemExplanation.styles,
+    summary: poemExplanation.summary,
+    raw_text: poemExplanation.raw_text,
+    created_at: poemExplanation.created_at,
+});
+
+export const mapPoemAudio = (poemAudio) => ({
+    id: poemAudio.id,
+    poem_id: poemAudio.poem_id,
+    audio_url: poemAudio.audio_url,
+    duration: poemAudio.duration,
+    created_at: poemAudio.created_at,
 });
 
 export const mapPoemLineBase = (line) => ({

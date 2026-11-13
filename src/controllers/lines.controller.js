@@ -52,7 +52,7 @@ export const getLineById = async (req, res) => {
         links: {
             self: `${req.baseUrl}/${line_id}`,
             poem: `${V1_RESOURCE_PATHS.POEMS}/${result.poem.id}`,
-            poet: `${V1_RESOURCE_PATHS.POETS}/${result.poem.poet.id}`,
+            poet: `${V1_RESOURCE_PATHS.POETS}/${result.poet.id}`,
             random: `${req.baseUrl}/random`,
         },
     });
@@ -75,7 +75,7 @@ export const getRandomLine = async (req, res) => {
             self: `${req.baseUrl}/random${buildQuery(rawFilters)}`,
             line: `${req.baseUrl}/${result.id}`,
             poem: `${V1_RESOURCE_PATHS.POEMS}/${result.poem.id}`,
-            poet: `${V1_RESOURCE_PATHS.POETS}/${result.poem.poet.id}`,
+            poet: `${V1_RESOURCE_PATHS.POETS}/${result.poet.id}`,
         },
         meta: {
             filters: {

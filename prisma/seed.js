@@ -7,6 +7,8 @@ import { insert as insertMeta } from './seed/insertMeta.js';
 import { insert as insertPoets } from './seed/insertPoets.js';
 import { insert as insertPoems } from './seed/insertPoems.js';
 import { insert as insertLines } from './seed/insertLines.js';
+import { insert as insertExplanations } from './seed/insertExplanations.js';
+import { insert as insertAudio } from './seed/insertAudio.js';
 
 const main = async () => {
     const connectionString = process.env.DATABASE_URL;
@@ -33,8 +35,14 @@ const main = async () => {
         console.log('4  Seeding PoemsLines...');
         const linesCount = await insertLines(prisma);
 
+        console.log('5  Seeding PoemsExplanations...');
+        const explanationsCount = await insertExplanations(prisma);
+
+        console.log('6  Seeding PoemsAudio...');
+        const audioCount = await insertAudio(prisma);
+
         console.log('=== Seed complete ===');
-        console.log(`Summary:\n Meta: ${metaCount}\n Poets: ${poetsCount}\n Poems: ${poemsCount}\n Lines: ${linesCount}\n`);
+        console.log(`Summary:\n Meta: ${metaCount}\n Poets: ${poetsCount}\n Poems: ${poemsCount}\n Lines: ${linesCount}\n Explanations: ${explanationsCount}\n Audio: ${audioCount}`);
     } catch (error) {
         console.error('Seed failed:', error.message);
         process.exit(1);

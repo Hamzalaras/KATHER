@@ -28,7 +28,6 @@ export const POEM_BASE_SELECT = {
     poemsTypes: { select: META_SELECT },
     seas: { select: META_SELECT },
     quawafi: { select: META_SELECT },
-    order: true,
     created_at: true,
     _count: {
         select: {
@@ -42,6 +41,25 @@ export const POEM_SELECT = {
     poets: {
         select: POET_BASE_SELECT,
     },
+};
+
+export const POEM_EXPLANATION_SELECT = {
+    id: true,
+    poem_id: true,
+    general_idea: true,
+    themes: true,
+    styles: true,
+    summary: true,
+    raw_text: true,
+    created_at: true,
+};
+
+export const POEM_AUDIO_SELECT = {
+    id: true,
+    poem_id: true,
+    audio_url: true,
+    duration: true,
+    created_at: true,
 };
 
 export const LINE_BASE_SELECT = {

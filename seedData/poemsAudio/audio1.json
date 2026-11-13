@@ -1,0 +1,3086 @@
+[
+  {
+    "id": 1,
+    "poem_id": 114969,
+    "audio_url": "https://archive.org/download/kather_audio_0/1_114969.mp3",
+    "duration": 127
+  },
+  {
+    "id": 2,
+    "poem_id": 147843,
+    "audio_url": "https://archive.org/download/kather_audio_0/2_147843.mp3",
+    "duration": 52
+  },
+  {
+    "id": 3,
+    "poem_id": 27467,
+    "audio_url": "https://archive.org/download/kather_audio_0/3_27467.mp3",
+    "duration": 83
+  },
+  {
+    "id": 4,
+    "poem_id": 147844,
+    "audio_url": "https://archive.org/download/kather_audio_0/4_147844.mp3",
+    "duration": 172
+  },
+  {
+    "id": 5,
+    "poem_id": 12460,
+    "audio_url": "https://archive.org/download/kather_audio_0/5_12460.mp3",
+    "duration": 134
+  },
+  {
+    "id": 6,
+    "poem_id": 79589,
+    "audio_url": "https://archive.org/download/kather_audio_0/6_79589.mp3",
+    "duration": 115
+  },
+  {
+    "id": 7,
+    "poem_id": 114188,
+    "audio_url": "https://archive.org/download/kather_audio_0/7_114188.mp3",
+    "duration": 91
+  },
+  {
+    "id": 9,
+    "poem_id": 28303,
+    "audio_url": "https://archive.org/download/kather_audio_0/9_28303.mp3",
+    "duration": 179
+  },
+  {
+    "id": 10,
+    "poem_id": 12673,
+    "audio_url": "https://archive.org/download/kather_audio_0/10_12673.mp3",
+    "duration": 285
+  },
+  {
+    "id": 12,
+    "poem_id": 109093,
+    "audio_url": "https://archive.org/download/kather_audio_0/12_109093.mp3",
+    "duration": 105
+  },
+  {
+    "id": 13,
+    "poem_id": 25327,
+    "audio_url": "https://archive.org/download/kather_audio_0/13_25327.mp3",
+    "duration": 191
+  },
+  {
+    "id": 15,
+    "poem_id": 115037,
+    "audio_url": "https://archive.org/download/kather_audio_0/15_115037.mp3",
+    "duration": 85
+  },
+  {
+    "id": 16,
+    "poem_id": 24744,
+    "audio_url": "https://archive.org/download/kather_audio_0/16_24744.mp3",
+    "duration": 268
+  },
+  {
+    "id": 18,
+    "poem_id": 97247,
+    "audio_url": "https://archive.org/download/kather_audio_0/18_97247.mp3",
+    "duration": 295
+  },
+  {
+    "id": 19,
+    "poem_id": 10428,
+    "audio_url": "https://archive.org/download/kather_audio_0/19_10428.mp3",
+    "duration": 42
+  },
+  {
+    "id": 21,
+    "poem_id": 79593,
+    "audio_url": "https://archive.org/download/kather_audio_0/21_79593.mp3",
+    "duration": 57
+  },
+  {
+    "id": 22,
+    "poem_id": 5268,
+    "audio_url": "https://archive.org/download/kather_audio_0/22_5268.mp3",
+    "duration": 335
+  },
+  {
+    "id": 24,
+    "poem_id": 25266,
+    "audio_url": "https://archive.org/download/kather_audio_0/24_25266.mp3",
+    "duration": 215
+  },
+  {
+    "id": 25,
+    "poem_id": 66683,
+    "audio_url": "https://archive.org/download/kather_audio_0/25_66683.mp3",
+    "duration": 558
+  },
+  {
+    "id": 27,
+    "poem_id": 20400,
+    "audio_url": "https://archive.org/download/kather_audio_0/27_20400.mp3",
+    "duration": 152
+  },
+  {
+    "id": 28,
+    "poem_id": 25510,
+    "audio_url": "https://archive.org/download/kather_audio_0/28_25510.mp3",
+    "duration": 145
+  },
+  {
+    "id": 30,
+    "poem_id": 20489,
+    "audio_url": "https://archive.org/download/kather_audio_0/30_20489.mp3",
+    "duration": 237
+  },
+  {
+    "id": 31,
+    "poem_id": 20478,
+    "audio_url": "https://archive.org/download/kather_audio_0/31_20478.mp3",
+    "duration": 238
+  },
+  {
+    "id": 33,
+    "poem_id": 19038,
+    "audio_url": "https://archive.org/download/kather_audio_0/33_19038.mp3",
+    "duration": 97
+  },
+  {
+    "id": 34,
+    "poem_id": 24290,
+    "audio_url": "https://archive.org/download/kather_audio_0/34_24290.mp3",
+    "duration": 180
+  },
+  {
+    "id": 36,
+    "poem_id": 113384,
+    "audio_url": "https://archive.org/download/kather_audio_0/36_113384.mp3",
+    "duration": 481
+  },
+  {
+    "id": 37,
+    "poem_id": 38422,
+    "audio_url": "https://archive.org/download/kather_audio_0/37_38422.mp3",
+    "duration": 349
+  },
+  {
+    "id": 39,
+    "poem_id": 77844,
+    "audio_url": "https://archive.org/download/kather_audio_0/39_77844.mp3",
+    "duration": 187
+  },
+  {
+    "id": 40,
+    "poem_id": 115096,
+    "audio_url": "https://archive.org/download/kather_audio_0/40_115096.mp3",
+    "duration": 42
+  },
+  {
+    "id": 42,
+    "poem_id": 117016,
+    "audio_url": "https://archive.org/download/kather_audio_0/42_117016.mp3",
+    "duration": 361
+  },
+  {
+    "id": 43,
+    "poem_id": 25278,
+    "audio_url": "https://archive.org/download/kather_audio_0/43_25278.mp3",
+    "duration": 155
+  },
+  {
+    "id": 45,
+    "poem_id": 113290,
+    "audio_url": "https://archive.org/download/kather_audio_0/45_113290.mp3",
+    "duration": 361
+  },
+  {
+    "id": 46,
+    "poem_id": 115036,
+    "audio_url": "https://archive.org/download/kather_audio_0/46_115036.mp3",
+    "duration": 36
+  },
+  {
+    "id": 48,
+    "poem_id": 114993,
+    "audio_url": "https://archive.org/download/kather_audio_0/48_114993.mp3",
+    "duration": 26
+  },
+  {
+    "id": 49,
+    "poem_id": 115002,
+    "audio_url": "https://archive.org/download/kather_audio_0/49_115002.mp3",
+    "duration": 79
+  },
+  {
+    "id": 51,
+    "poem_id": 128414,
+    "audio_url": "https://archive.org/download/kather_audio_0/51_128414.mp3",
+    "duration": 40
+  },
+  {
+    "id": 52,
+    "poem_id": 109058,
+    "audio_url": "https://archive.org/download/kather_audio_0/52_109058.mp3",
+    "duration": 53
+  },
+  {
+    "id": 54,
+    "poem_id": 115080,
+    "audio_url": "https://archive.org/download/kather_audio_0/54_115080.mp3",
+    "duration": 72
+  },
+  {
+    "id": 55,
+    "poem_id": 19330,
+    "audio_url": "https://archive.org/download/kather_audio_0/55_19330.mp3",
+    "duration": 112
+  },
+  {
+    "id": 57,
+    "poem_id": 122839,
+    "audio_url": "https://archive.org/download/kather_audio_0/57_122839.mp3",
+    "duration": 131
+  },
+  {
+    "id": 58,
+    "poem_id": 19155,
+    "audio_url": "https://archive.org/download/kather_audio_0/58_19155.mp3",
+    "duration": 87
+  },
+  {
+    "id": 60,
+    "poem_id": 10562,
+    "audio_url": "https://archive.org/download/kather_audio_0/60_10562.mp3",
+    "duration": 158
+  },
+  {
+    "id": 61,
+    "poem_id": 113188,
+    "audio_url": "https://archive.org/download/kather_audio_0/61_113188.mp3",
+    "duration": 296
+  },
+  {
+    "id": 63,
+    "poem_id": 77857,
+    "audio_url": "https://archive.org/download/kather_audio_0/63_77857.mp3",
+    "duration": 362
+  },
+  {
+    "id": 64,
+    "poem_id": 79577,
+    "audio_url": "https://archive.org/download/kather_audio_0/64_79577.mp3",
+    "duration": 56
+  },
+  {
+    "id": 66,
+    "poem_id": 114994,
+    "audio_url": "https://archive.org/download/kather_audio_0/66_114994.mp3",
+    "duration": 36
+  },
+  {
+    "id": 67,
+    "poem_id": 162090,
+    "audio_url": "https://archive.org/download/kather_audio_0/67_162090.mp3",
+    "duration": 194
+  },
+  {
+    "id": 69,
+    "poem_id": 79581,
+    "audio_url": "https://archive.org/download/kather_audio_0/69_79581.mp3",
+    "duration": 132
+  },
+  {
+    "id": 70,
+    "poem_id": 152020,
+    "audio_url": "https://archive.org/download/kather_audio_0/70_152020.mp3",
+    "duration": 77
+  },
+  {
+    "id": 72,
+    "poem_id": 97068,
+    "audio_url": "https://archive.org/download/kather_audio_0/72_97068.mp3",
+    "duration": 115
+  },
+  {
+    "id": 73,
+    "poem_id": 129458,
+    "audio_url": "https://archive.org/download/kather_audio_0/73_129458.mp3",
+    "duration": 241
+  },
+  {
+    "id": 75,
+    "poem_id": 18973,
+    "audio_url": "https://archive.org/download/kather_audio_0/75_18973.mp3",
+    "duration": 81
+  },
+  {
+    "id": 76,
+    "poem_id": 117015,
+    "audio_url": "https://archive.org/download/kather_audio_0/76_117015.mp3",
+    "duration": 112
+  },
+  {
+    "id": 78,
+    "poem_id": 116454,
+    "audio_url": "https://archive.org/download/kather_audio_0/78_116454.mp3",
+    "duration": 218
+  },
+  {
+    "id": 79,
+    "poem_id": 114951,
+    "audio_url": "https://archive.org/download/kather_audio_0/79_114951.mp3",
+    "duration": 190
+  },
+  {
+    "id": 81,
+    "poem_id": 12438,
+    "audio_url": "https://archive.org/download/kather_audio_0/81_12438.mp3",
+    "duration": 351
+  },
+  {
+    "id": 82,
+    "poem_id": 1779,
+    "audio_url": "https://archive.org/download/kather_audio_0/82_1779.mp3",
+    "duration": 89
+  },
+  {
+    "id": 84,
+    "poem_id": 114977,
+    "audio_url": "https://archive.org/download/kather_audio_0/84_114977.mp3",
+    "duration": 134
+  },
+  {
+    "id": 85,
+    "poem_id": 162291,
+    "audio_url": "https://archive.org/download/kather_audio_0/85_162291.mp3",
+    "duration": 92
+  },
+  {
+    "id": 87,
+    "poem_id": 13147,
+    "audio_url": "https://archive.org/download/kather_audio_0/87_13147.mp3",
+    "duration": 239
+  },
+  {
+    "id": 88,
+    "poem_id": 161590,
+    "audio_url": "https://archive.org/download/kather_audio_0/88_161590.mp3",
+    "duration": 413
+  },
+  {
+    "id": 90,
+    "poem_id": 12419,
+    "audio_url": "https://archive.org/download/kather_audio_0/90_12419.mp3",
+    "duration": 61
+  },
+  {
+    "id": 91,
+    "poem_id": 119831,
+    "audio_url": "https://archive.org/download/kather_audio_0/91_119831.mp3",
+    "duration": 47
+  },
+  {
+    "id": 93,
+    "poem_id": 79598,
+    "audio_url": "https://archive.org/download/kather_audio_0/93_79598.mp3",
+    "duration": 108
+  },
+  {
+    "id": 96,
+    "poem_id": 129257,
+    "audio_url": "https://archive.org/download/kather_audio_0/96_129257.mp3",
+    "duration": 61
+  },
+  {
+    "id": 97,
+    "poem_id": 25463,
+    "audio_url": "https://archive.org/download/kather_audio_0/97_25463.mp3",
+    "duration": 241
+  },
+  {
+    "id": 99,
+    "poem_id": 161585,
+    "audio_url": "https://archive.org/download/kather_audio_0/99_161585.mp3",
+    "duration": 270
+  },
+  {
+    "id": 100,
+    "poem_id": 128409,
+    "audio_url": "https://archive.org/download/kather_audio_0/100_128409.mp3",
+    "duration": 46
+  },
+  {
+    "id": 101,
+    "poem_id": 129356,
+    "audio_url": "https://archive.org/download/kather_audio_0/101_129356.mp3",
+    "duration": 208
+  },
+  {
+    "id": 102,
+    "poem_id": 139614,
+    "audio_url": "https://archive.org/download/kather_audio_0/102_139614.mp3",
+    "duration": 210
+  },
+  {
+    "id": 103,
+    "poem_id": 135061,
+    "audio_url": "https://archive.org/download/kather_audio_0/103_135061.mp3",
+    "duration": 87
+  },
+  {
+    "id": 104,
+    "poem_id": 129357,
+    "audio_url": "https://archive.org/download/kather_audio_0/104_129357.mp3",
+    "duration": 115
+  },
+  {
+    "id": 105,
+    "poem_id": 128920,
+    "audio_url": "https://archive.org/download/kather_audio_0/105_128920.mp3",
+    "duration": 122
+  },
+  {
+    "id": 106,
+    "poem_id": 135065,
+    "audio_url": "https://archive.org/download/kather_audio_0/106_135065.mp3",
+    "duration": 158
+  },
+  {
+    "id": 107,
+    "poem_id": 129358,
+    "audio_url": "https://archive.org/download/kather_audio_0/107_129358.mp3",
+    "duration": 98
+  },
+  {
+    "id": 108,
+    "poem_id": 79583,
+    "audio_url": "https://archive.org/download/kather_audio_0/108_79583.mp3",
+    "duration": 38
+  },
+  {
+    "id": 109,
+    "poem_id": 129517,
+    "audio_url": "https://archive.org/download/kather_audio_0/109_129517.mp3",
+    "duration": 241
+  },
+  {
+    "id": 110,
+    "poem_id": 132548,
+    "audio_url": "https://archive.org/download/kather_audio_0/110_132548.mp3",
+    "duration": 180
+  },
+  {
+    "id": 111,
+    "poem_id": 77812,
+    "audio_url": "https://archive.org/download/kather_audio_0/111_77812.mp3",
+    "duration": 192
+  },
+  {
+    "id": 114,
+    "poem_id": 113375,
+    "audio_url": "https://archive.org/download/kather_audio_0/114_113375.mp3",
+    "duration": 390
+  },
+  {
+    "id": 115,
+    "poem_id": 135066,
+    "audio_url": "https://archive.org/download/kather_audio_0/115_135066.mp3",
+    "duration": 136
+  },
+  {
+    "id": 117,
+    "poem_id": 16010,
+    "audio_url": "https://archive.org/download/kather_audio_0/117_16010.mp3",
+    "duration": 151
+  },
+  {
+    "id": 118,
+    "poem_id": 160101,
+    "audio_url": "https://archive.org/download/kather_audio_0/118_160101.mp3",
+    "duration": 66
+  },
+  {
+    "id": 120,
+    "poem_id": 119834,
+    "audio_url": "https://archive.org/download/kather_audio_0/120_119834.mp3",
+    "duration": 140
+  },
+  {
+    "id": 121,
+    "poem_id": 157617,
+    "audio_url": "https://archive.org/download/kather_audio_0/121_157617.mp3",
+    "duration": 259
+  },
+  {
+    "id": 123,
+    "poem_id": 119829,
+    "audio_url": "https://archive.org/download/kather_audio_0/123_119829.mp3",
+    "duration": 54
+  },
+  {
+    "id": 124,
+    "poem_id": 112984,
+    "audio_url": "https://archive.org/download/kather_audio_0/124_112984.mp3",
+    "duration": 181
+  },
+  {
+    "id": 126,
+    "poem_id": 153716,
+    "audio_url": "https://archive.org/download/kather_audio_0/126_153716.mp3",
+    "duration": 64
+  },
+  {
+    "id": 128,
+    "poem_id": 127264,
+    "audio_url": "https://archive.org/download/kather_audio_0/128_127264.mp3",
+    "duration": 98
+  },
+  {
+    "id": 129,
+    "poem_id": 131886,
+    "audio_url": "https://archive.org/download/kather_audio_0/129_131886.mp3",
+    "duration": 111
+  },
+  {
+    "id": 130,
+    "poem_id": 148213,
+    "audio_url": "https://archive.org/download/kather_audio_0/130_148213.mp3",
+    "duration": 174
+  },
+  {
+    "id": 132,
+    "poem_id": 79587,
+    "audio_url": "https://archive.org/download/kather_audio_0/132_79587.mp3",
+    "duration": 65
+  },
+  {
+    "id": 134,
+    "poem_id": 161581,
+    "audio_url": "https://archive.org/download/kather_audio_0/134_161581.mp3",
+    "duration": 342
+  },
+  {
+    "id": 136,
+    "poem_id": 141621,
+    "audio_url": "https://archive.org/download/kather_audio_0/136_141621.mp3",
+    "duration": 201
+  },
+  {
+    "id": 137,
+    "poem_id": 128906,
+    "audio_url": "https://archive.org/download/kather_audio_0/137_128906.mp3",
+    "duration": 174
+  },
+  {
+    "id": 138,
+    "poem_id": 139610,
+    "audio_url": "https://archive.org/download/kather_audio_0/138_139610.mp3",
+    "duration": 362
+  },
+  {
+    "id": 139,
+    "poem_id": 129359,
+    "audio_url": "https://archive.org/download/kather_audio_0/139_129359.mp3",
+    "duration": 189
+  },
+  {
+    "id": 140,
+    "poem_id": 69598,
+    "audio_url": "https://archive.org/download/kather_audio_0/140_69598.mp3",
+    "duration": 32
+  },
+  {
+    "id": 141,
+    "poem_id": 131744,
+    "audio_url": "https://archive.org/download/kather_audio_0/141_131744.mp3",
+    "duration": 19
+  },
+  {
+    "id": 142,
+    "poem_id": 132554,
+    "audio_url": "https://archive.org/download/kather_audio_0/142_132554.mp3",
+    "duration": 157
+  },
+  {
+    "id": 143,
+    "poem_id": 131889,
+    "audio_url": "https://archive.org/download/kather_audio_1/143_131889.mp3",
+    "duration": 128
+  },
+  {
+    "id": 144,
+    "poem_id": 161582,
+    "audio_url": "https://archive.org/download/kather_audio_1/144_161582.mp3",
+    "duration": 329
+  },
+  {
+    "id": 145,
+    "poem_id": 131890,
+    "audio_url": "https://archive.org/download/kather_audio_1/145_131890.mp3",
+    "duration": 141
+  },
+  {
+    "id": 146,
+    "poem_id": 131993,
+    "audio_url": "https://archive.org/download/kather_audio_1/146_131993.mp3",
+    "duration": 46
+  },
+  {
+    "id": 147,
+    "poem_id": 132550,
+    "audio_url": "https://archive.org/download/kather_audio_1/147_132550.mp3",
+    "duration": 140
+  },
+  {
+    "id": 148,
+    "poem_id": 132551,
+    "audio_url": "https://archive.org/download/kather_audio_1/148_132551.mp3",
+    "duration": 170
+  },
+  {
+    "id": 149,
+    "poem_id": 131891,
+    "audio_url": "https://archive.org/download/kather_audio_1/149_131891.mp3",
+    "duration": 144
+  },
+  {
+    "id": 150,
+    "poem_id": 19097,
+    "audio_url": "https://archive.org/download/kather_audio_1/150_19097.mp3",
+    "duration": 297
+  },
+  {
+    "id": 151,
+    "poem_id": 133274,
+    "audio_url": "https://archive.org/download/kather_audio_1/151_133274.mp3",
+    "duration": 151
+  },
+  {
+    "id": 152,
+    "poem_id": 161583,
+    "audio_url": "https://archive.org/download/kather_audio_1/152_161583.mp3",
+    "duration": 277
+  },
+  {
+    "id": 153,
+    "poem_id": 133730,
+    "audio_url": "https://archive.org/download/kather_audio_1/153_133730.mp3",
+    "duration": 82
+  },
+  {
+    "id": 154,
+    "poem_id": 161587,
+    "audio_url": "https://archive.org/download/kather_audio_1/154_161587.mp3",
+    "duration": 332
+  },
+  {
+    "id": 155,
+    "poem_id": 133731,
+    "audio_url": "https://archive.org/download/kather_audio_1/155_133731.mp3",
+    "duration": 28
+  },
+  {
+    "id": 156,
+    "poem_id": 129364,
+    "audio_url": "https://archive.org/download/kather_audio_1/156_129364.mp3",
+    "duration": 161
+  },
+  {
+    "id": 157,
+    "poem_id": 133732,
+    "audio_url": "https://archive.org/download/kather_audio_1/157_133732.mp3",
+    "duration": 119
+  },
+  {
+    "id": 158,
+    "poem_id": 129360,
+    "audio_url": "https://archive.org/download/kather_audio_1/158_129360.mp3",
+    "duration": 185
+  },
+  {
+    "id": 159,
+    "poem_id": 131893,
+    "audio_url": "https://archive.org/download/kather_audio_1/159_131893.mp3",
+    "duration": 91
+  },
+  {
+    "id": 160,
+    "poem_id": 103485,
+    "audio_url": "https://archive.org/download/kather_audio_1/160_103485.mp3",
+    "duration": 317
+  },
+  {
+    "id": 161,
+    "poem_id": 133907,
+    "audio_url": "https://archive.org/download/kather_audio_1/161_133907.mp3",
+    "duration": 108
+  },
+  {
+    "id": 162,
+    "poem_id": 119833,
+    "audio_url": "https://archive.org/download/kather_audio_1/162_119833.mp3",
+    "duration": 93
+  },
+  {
+    "id": 163,
+    "poem_id": 132553,
+    "audio_url": "https://archive.org/download/kather_audio_1/163_132553.mp3",
+    "duration": 78
+  },
+  {
+    "id": 164,
+    "poem_id": 161591,
+    "audio_url": "https://archive.org/download/kather_audio_1/164_161591.mp3",
+    "duration": 154
+  },
+  {
+    "id": 165,
+    "poem_id": 131894,
+    "audio_url": "https://archive.org/download/kather_audio_1/165_131894.mp3",
+    "duration": 150
+  },
+  {
+    "id": 166,
+    "poem_id": 139613,
+    "audio_url": "https://archive.org/download/kather_audio_1/166_139613.mp3",
+    "duration": 254
+  },
+  {
+    "id": 167,
+    "poem_id": 131895,
+    "audio_url": "https://archive.org/download/kather_audio_1/167_131895.mp3",
+    "duration": 121
+  },
+  {
+    "id": 169,
+    "poem_id": 135007,
+    "audio_url": "https://archive.org/download/kather_audio_1/169_135007.mp3",
+    "duration": 178
+  },
+  {
+    "id": 170,
+    "poem_id": 16191,
+    "audio_url": "https://archive.org/download/kather_audio_1/170_16191.mp3",
+    "duration": 514
+  },
+  {
+    "id": 171,
+    "poem_id": 135062,
+    "audio_url": "https://archive.org/download/kather_audio_1/171_135062.mp3",
+    "duration": 113
+  },
+  {
+    "id": 172,
+    "poem_id": 161589,
+    "audio_url": "https://archive.org/download/kather_audio_1/172_161589.mp3",
+    "duration": 228
+  },
+  {
+    "id": 173,
+    "poem_id": 135064,
+    "audio_url": "https://archive.org/download/kather_audio_1/173_135064.mp3",
+    "duration": 164
+  },
+  {
+    "id": 174,
+    "poem_id": 46608,
+    "audio_url": "https://archive.org/download/kather_audio_1/174_46608.mp3",
+    "duration": 211
+  },
+  {
+    "id": 175,
+    "poem_id": 135067,
+    "audio_url": "https://archive.org/download/kather_audio_1/175_135067.mp3",
+    "duration": 80
+  },
+  {
+    "id": 176,
+    "poem_id": 153729,
+    "audio_url": "https://archive.org/download/kather_audio_1/176_153729.mp3",
+    "duration": 37
+  },
+  {
+    "id": 177,
+    "poem_id": 135068,
+    "audio_url": "https://archive.org/download/kather_audio_1/177_135068.mp3",
+    "duration": 68
+  },
+  {
+    "id": 178,
+    "poem_id": 153748,
+    "audio_url": "https://archive.org/download/kather_audio_1/178_153748.mp3",
+    "duration": 47
+  },
+  {
+    "id": 179,
+    "poem_id": 135069,
+    "audio_url": "https://archive.org/download/kather_audio_1/179_135069.mp3",
+    "duration": 61
+  },
+  {
+    "id": 180,
+    "poem_id": 129370,
+    "audio_url": "https://archive.org/download/kather_audio_1/180_129370.mp3",
+    "duration": 183
+  },
+  {
+    "id": 181,
+    "poem_id": 135070,
+    "audio_url": "https://archive.org/download/kather_audio_1/181_135070.mp3",
+    "duration": 195
+  },
+  {
+    "id": 182,
+    "poem_id": 129078,
+    "audio_url": "https://archive.org/download/kather_audio_1/182_129078.mp3",
+    "duration": 37
+  },
+  {
+    "id": 183,
+    "poem_id": 135071,
+    "audio_url": "https://archive.org/download/kather_audio_1/183_135071.mp3",
+    "duration": 63
+  },
+  {
+    "id": 184,
+    "poem_id": 131902,
+    "audio_url": "https://archive.org/download/kather_audio_1/184_131902.mp3",
+    "duration": 119
+  },
+  {
+    "id": 185,
+    "poem_id": 131897,
+    "audio_url": "https://archive.org/download/kather_audio_1/185_131897.mp3",
+    "duration": 139
+  },
+  {
+    "id": 186,
+    "poem_id": 161588,
+    "audio_url": "https://archive.org/download/kather_audio_1/186_161588.mp3",
+    "duration": 324
+  },
+  {
+    "id": 187,
+    "poem_id": 135465,
+    "audio_url": "https://archive.org/download/kather_audio_1/187_135465.mp3",
+    "duration": 194
+  },
+  {
+    "id": 188,
+    "poem_id": 103487,
+    "audio_url": "https://archive.org/download/kather_audio_1/188_103487.mp3",
+    "duration": 60
+  },
+  {
+    "id": 189,
+    "poem_id": 131900,
+    "audio_url": "https://archive.org/download/kather_audio_1/189_131900.mp3",
+    "duration": 182
+  },
+  {
+    "id": 190,
+    "poem_id": 21211,
+    "audio_url": "https://archive.org/download/kather_audio_1/190_21211.mp3",
+    "duration": 194
+  },
+  {
+    "id": 191,
+    "poem_id": 131901,
+    "audio_url": "https://archive.org/download/kather_audio_1/191_131901.mp3",
+    "duration": 151
+  },
+  {
+    "id": 192,
+    "poem_id": 153707,
+    "audio_url": "https://archive.org/download/kather_audio_1/192_153707.mp3",
+    "duration": 24
+  },
+  {
+    "id": 193,
+    "poem_id": 128549,
+    "audio_url": "https://archive.org/download/kather_audio_1/193_128549.mp3",
+    "duration": 306
+  },
+  {
+    "id": 194,
+    "poem_id": 153737,
+    "audio_url": "https://archive.org/download/kather_audio_1/194_153737.mp3",
+    "duration": 50
+  },
+  {
+    "id": 195,
+    "poem_id": 129361,
+    "audio_url": "https://archive.org/download/kather_audio_1/195_129361.mp3",
+    "duration": 161
+  },
+  {
+    "id": 196,
+    "poem_id": 153709,
+    "audio_url": "https://archive.org/download/kather_audio_1/196_153709.mp3",
+    "duration": 38
+  },
+  {
+    "id": 197,
+    "poem_id": 128551,
+    "audio_url": "https://archive.org/download/kather_audio_1/197_128551.mp3",
+    "duration": 240
+  },
+  {
+    "id": 198,
+    "poem_id": 129077,
+    "audio_url": "https://archive.org/download/kather_audio_1/198_129077.mp3",
+    "duration": 38
+  },
+  {
+    "id": 199,
+    "poem_id": 128552,
+    "audio_url": "https://archive.org/download/kather_audio_1/199_128552.mp3",
+    "duration": 383
+  },
+  {
+    "id": 200,
+    "poem_id": 129366,
+    "audio_url": "https://archive.org/download/kather_audio_1/200_129366.mp3",
+    "duration": 263
+  },
+  {
+    "id": 201,
+    "poem_id": 136376,
+    "audio_url": "https://archive.org/download/kather_audio_1/201_136376.mp3",
+    "duration": 161
+  },
+  {
+    "id": 202,
+    "poem_id": 132789,
+    "audio_url": "https://archive.org/download/kather_audio_1/202_132789.mp3",
+    "duration": 301
+  },
+  {
+    "id": 203,
+    "poem_id": 136456,
+    "audio_url": "https://archive.org/download/kather_audio_1/203_136456.mp3",
+    "duration": 182
+  },
+  {
+    "id": 204,
+    "poem_id": 129367,
+    "audio_url": "https://archive.org/download/kather_audio_1/204_129367.mp3",
+    "duration": 178
+  },
+  {
+    "id": 205,
+    "poem_id": 131903,
+    "audio_url": "https://archive.org/download/kather_audio_1/205_131903.mp3",
+    "duration": 136
+  },
+  {
+    "id": 206,
+    "poem_id": 129362,
+    "audio_url": "https://archive.org/download/kather_audio_1/206_129362.mp3",
+    "duration": 97
+  },
+  {
+    "id": 207,
+    "poem_id": 131905,
+    "audio_url": "https://archive.org/download/kather_audio_1/207_131905.mp3",
+    "duration": 209
+  },
+  {
+    "id": 208,
+    "poem_id": 103484,
+    "audio_url": "https://archive.org/download/kather_audio_1/208_103484.mp3",
+    "duration": 476
+  },
+  {
+    "id": 209,
+    "poem_id": 131906,
+    "audio_url": "https://archive.org/download/kather_audio_1/209_131906.mp3",
+    "duration": 128
+  },
+  {
+    "id": 210,
+    "poem_id": 161586,
+    "audio_url": "https://archive.org/download/kather_audio_1/210_161586.mp3",
+    "duration": 295
+  },
+  {
+    "id": 211,
+    "poem_id": 131907,
+    "audio_url": "https://archive.org/download/kather_audio_1/211_131907.mp3",
+    "duration": 139
+  },
+  {
+    "id": 212,
+    "poem_id": 129363,
+    "audio_url": "https://archive.org/download/kather_audio_1/212_129363.mp3",
+    "duration": 160
+  },
+  {
+    "id": 213,
+    "poem_id": 132278,
+    "audio_url": "https://archive.org/download/kather_audio_1/213_132278.mp3",
+    "duration": 53
+  },
+  {
+    "id": 214,
+    "poem_id": 140956,
+    "audio_url": "https://archive.org/download/kather_audio_1/214_140956.mp3",
+    "duration": 38
+  },
+  {
+    "id": 215,
+    "poem_id": 131908,
+    "audio_url": "https://archive.org/download/kather_audio_1/215_131908.mp3",
+    "duration": 131
+  },
+  {
+    "id": 216,
+    "poem_id": 135100,
+    "audio_url": "https://archive.org/download/kather_audio_1/216_135100.mp3",
+    "duration": 116
+  },
+  {
+    "id": 217,
+    "poem_id": 131909,
+    "audio_url": "https://archive.org/download/kather_audio_1/217_131909.mp3",
+    "duration": 116
+  },
+  {
+    "id": 218,
+    "poem_id": 153721,
+    "audio_url": "https://archive.org/download/kather_audio_1/218_153721.mp3",
+    "duration": 21
+  },
+  {
+    "id": 219,
+    "poem_id": 131910,
+    "audio_url": "https://archive.org/download/kather_audio_1/219_131910.mp3",
+    "duration": 135
+  },
+  {
+    "id": 220,
+    "poem_id": 47742,
+    "audio_url": "https://archive.org/download/kather_audio_1/220_47742.mp3",
+    "duration": 162
+  },
+  {
+    "id": 221,
+    "poem_id": 131911,
+    "audio_url": "https://archive.org/download/kather_audio_1/221_131911.mp3",
+    "duration": 43
+  },
+  {
+    "id": 222,
+    "poem_id": 129368,
+    "audio_url": "https://archive.org/download/kather_audio_1/222_129368.mp3",
+    "duration": 142
+  },
+  {
+    "id": 223,
+    "poem_id": 131912,
+    "audio_url": "https://archive.org/download/kather_audio_1/223_131912.mp3",
+    "duration": 180
+  },
+  {
+    "id": 224,
+    "poem_id": 129258,
+    "audio_url": "https://archive.org/download/kather_audio_1/224_129258.mp3",
+    "duration": 124
+  },
+  {
+    "id": 225,
+    "poem_id": 131913,
+    "audio_url": "https://archive.org/download/kather_audio_1/225_131913.mp3",
+    "duration": 183
+  },
+  {
+    "id": 226,
+    "poem_id": 147625,
+    "audio_url": "https://archive.org/download/kather_audio_1/226_147625.mp3",
+    "duration": 193
+  },
+  {
+    "id": 227,
+    "poem_id": 131914,
+    "audio_url": "https://archive.org/download/kather_audio_1/227_131914.mp3",
+    "duration": 135
+  },
+  {
+    "id": 228,
+    "poem_id": 142489,
+    "audio_url": "https://archive.org/download/kather_audio_1/228_142489.mp3",
+    "duration": 232
+  },
+  {
+    "id": 229,
+    "poem_id": 131915,
+    "audio_url": "https://archive.org/download/kather_audio_1/229_131915.mp3",
+    "duration": 290
+  },
+  {
+    "id": 230,
+    "poem_id": 119820,
+    "audio_url": "https://archive.org/download/kather_audio_1/230_119820.mp3",
+    "duration": 111
+  },
+  {
+    "id": 231,
+    "poem_id": 131704,
+    "audio_url": "https://archive.org/download/kather_audio_1/231_131704.mp3",
+    "duration": 106
+  },
+  {
+    "id": 232,
+    "poem_id": 39404,
+    "audio_url": "https://archive.org/download/kather_audio_1/232_39404.mp3",
+    "duration": 121
+  },
+  {
+    "id": 233,
+    "poem_id": 129365,
+    "audio_url": "https://archive.org/download/kather_audio_1/233_129365.mp3",
+    "duration": 256
+  },
+  {
+    "id": 234,
+    "poem_id": 140953,
+    "audio_url": "https://archive.org/download/kather_audio_1/234_140953.mp3",
+    "duration": 40
+  },
+  {
+    "id": 235,
+    "poem_id": 140579,
+    "audio_url": "https://archive.org/download/kather_audio_1/235_140579.mp3",
+    "duration": 41
+  },
+  {
+    "id": 236,
+    "poem_id": 145706,
+    "audio_url": "https://archive.org/download/kather_audio_1/236_145706.mp3",
+    "duration": 147
+  },
+  {
+    "id": 237,
+    "poem_id": 131705,
+    "audio_url": "https://archive.org/download/kather_audio_1/237_131705.mp3",
+    "duration": 209
+  },
+  {
+    "id": 238,
+    "poem_id": 153718,
+    "audio_url": "https://archive.org/download/kather_audio_1/238_153718.mp3",
+    "duration": 37
+  },
+  {
+    "id": 239,
+    "poem_id": 132788,
+    "audio_url": "https://archive.org/download/kather_audio_1/239_132788.mp3",
+    "duration": 68
+  },
+  {
+    "id": 240,
+    "poem_id": 7288,
+    "audio_url": "https://archive.org/download/kather_audio_1/240_7288.mp3",
+    "duration": 58
+  },
+  {
+    "id": 241,
+    "poem_id": 142477,
+    "audio_url": "https://archive.org/download/kather_audio_1/241_142477.mp3",
+    "duration": 104
+  },
+  {
+    "id": 242,
+    "poem_id": 129371,
+    "audio_url": "https://archive.org/download/kather_audio_1/242_129371.mp3",
+    "duration": 225
+  },
+  {
+    "id": 243,
+    "poem_id": 129369,
+    "audio_url": "https://archive.org/download/kather_audio_1/243_129369.mp3",
+    "duration": 240
+  },
+  {
+    "id": 244,
+    "poem_id": 16109,
+    "audio_url": "https://archive.org/download/kather_audio_2/244_16109.mp3",
+    "duration": 226
+  },
+  {
+    "id": 245,
+    "poem_id": 143024,
+    "audio_url": "https://archive.org/download/kather_audio_2/245_143024.mp3",
+    "duration": 13
+  },
+  {
+    "id": 246,
+    "poem_id": 111808,
+    "audio_url": "https://archive.org/download/kather_audio_2/246_111808.mp3",
+    "duration": 164
+  },
+  {
+    "id": 247,
+    "poem_id": 143222,
+    "audio_url": "https://archive.org/download/kather_audio_2/247_143222.mp3",
+    "duration": 14
+  },
+  {
+    "id": 248,
+    "poem_id": 161592,
+    "audio_url": "https://archive.org/download/kather_audio_2/248_161592.mp3",
+    "duration": 205
+  },
+  {
+    "id": 249,
+    "poem_id": 143224,
+    "audio_url": "https://archive.org/download/kather_audio_2/249_143224.mp3",
+    "duration": 41
+  },
+  {
+    "id": 250,
+    "poem_id": 139616,
+    "audio_url": "https://archive.org/download/kather_audio_2/250_139616.mp3",
+    "duration": 227
+  },
+  {
+    "id": 251,
+    "poem_id": 143225,
+    "audio_url": "https://archive.org/download/kather_audio_2/251_143225.mp3",
+    "duration": 14
+  },
+  {
+    "id": 252,
+    "poem_id": 131714,
+    "audio_url": "https://archive.org/download/kather_audio_2/252_131714.mp3",
+    "duration": 166
+  },
+  {
+    "id": 253,
+    "poem_id": 140580,
+    "audio_url": "https://archive.org/download/kather_audio_2/253_140580.mp3",
+    "duration": 26
+  },
+  {
+    "id": 254,
+    "poem_id": 40034,
+    "audio_url": "https://archive.org/download/kather_audio_2/254_40034.mp3",
+    "duration": 151
+  },
+  {
+    "id": 255,
+    "poem_id": 141499,
+    "audio_url": "https://archive.org/download/kather_audio_2/255_141499.mp3",
+    "duration": 173
+  },
+  {
+    "id": 256,
+    "poem_id": 153396,
+    "audio_url": "https://archive.org/download/kather_audio_2/256_153396.mp3",
+    "duration": 72
+  },
+  {
+    "id": 257,
+    "poem_id": 124393,
+    "audio_url": "https://archive.org/download/kather_audio_2/257_124393.mp3",
+    "duration": 78
+  },
+  {
+    "id": 258,
+    "poem_id": 143487,
+    "audio_url": "https://archive.org/download/kather_audio_2/258_143487.mp3",
+    "duration": 31
+  },
+  {
+    "id": 259,
+    "poem_id": 145641,
+    "audio_url": "https://archive.org/download/kather_audio_2/259_145641.mp3",
+    "duration": 62
+  },
+  {
+    "id": 260,
+    "poem_id": 26671,
+    "audio_url": "https://archive.org/download/kather_audio_2/260_26671.mp3",
+    "duration": 47
+  },
+  {
+    "id": 261,
+    "poem_id": 145962,
+    "audio_url": "https://archive.org/download/kather_audio_2/261_145962.mp3",
+    "duration": 154
+  },
+  {
+    "id": 262,
+    "poem_id": 146931,
+    "audio_url": "https://archive.org/download/kather_audio_2/262_146931.mp3",
+    "duration": 89
+  },
+  {
+    "id": 263,
+    "poem_id": 124400,
+    "audio_url": "https://archive.org/download/kather_audio_2/263_124400.mp3",
+    "duration": 53
+  },
+  {
+    "id": 264,
+    "poem_id": 153722,
+    "audio_url": "https://archive.org/download/kather_audio_2/264_153722.mp3",
+    "duration": 29
+  },
+  {
+    "id": 265,
+    "poem_id": 131708,
+    "audio_url": "https://archive.org/download/kather_audio_2/265_131708.mp3",
+    "duration": 165
+  },
+  {
+    "id": 266,
+    "poem_id": 153736,
+    "audio_url": "https://archive.org/download/kather_audio_2/266_153736.mp3",
+    "duration": 60
+  },
+  {
+    "id": 267,
+    "poem_id": 131709,
+    "audio_url": "https://archive.org/download/kather_audio_2/267_131709.mp3",
+    "duration": 288
+  },
+  {
+    "id": 268,
+    "poem_id": 153743,
+    "audio_url": "https://archive.org/download/kather_audio_2/268_153743.mp3",
+    "duration": 43
+  },
+  {
+    "id": 269,
+    "poem_id": 127125,
+    "audio_url": "https://archive.org/download/kather_audio_2/269_127125.mp3",
+    "duration": 117
+  },
+  {
+    "id": 271,
+    "poem_id": 140926,
+    "audio_url": "https://archive.org/download/kather_audio_2/271_140926.mp3",
+    "duration": 284
+  },
+  {
+    "id": 272,
+    "poem_id": 119825,
+    "audio_url": "https://archive.org/download/kather_audio_2/272_119825.mp3",
+    "duration": 101
+  },
+  {
+    "id": 273,
+    "poem_id": 143478,
+    "audio_url": "https://archive.org/download/kather_audio_2/273_143478.mp3",
+    "duration": 36
+  },
+  {
+    "id": 274,
+    "poem_id": 153689,
+    "audio_url": "https://archive.org/download/kather_audio_2/274_153689.mp3",
+    "duration": 51
+  },
+  {
+    "id": 275,
+    "poem_id": 140939,
+    "audio_url": "https://archive.org/download/kather_audio_2/275_140939.mp3",
+    "duration": 157
+  },
+  {
+    "id": 276,
+    "poem_id": 153708,
+    "audio_url": "https://archive.org/download/kather_audio_2/276_153708.mp3",
+    "duration": 52
+  },
+  {
+    "id": 277,
+    "poem_id": 140940,
+    "audio_url": "https://archive.org/download/kather_audio_2/277_140940.mp3",
+    "duration": 176
+  },
+  {
+    "id": 278,
+    "poem_id": 153747,
+    "audio_url": "https://archive.org/download/kather_audio_2/278_153747.mp3",
+    "duration": 60
+  },
+  {
+    "id": 279,
+    "poem_id": 140941,
+    "audio_url": "https://archive.org/download/kather_audio_2/279_140941.mp3",
+    "duration": 66
+  },
+  {
+    "id": 280,
+    "poem_id": 153755,
+    "audio_url": "https://archive.org/download/kather_audio_2/280_153755.mp3",
+    "duration": 35
+  },
+  {
+    "id": 281,
+    "poem_id": 140942,
+    "audio_url": "https://archive.org/download/kather_audio_2/281_140942.mp3",
+    "duration": 157
+  },
+  {
+    "id": 282,
+    "poem_id": 142487,
+    "audio_url": "https://archive.org/download/kather_audio_2/282_142487.mp3",
+    "duration": 84
+  },
+  {
+    "id": 283,
+    "poem_id": 140943,
+    "audio_url": "https://archive.org/download/kather_audio_2/283_140943.mp3",
+    "duration": 112
+  },
+  {
+    "id": 284,
+    "poem_id": 28334,
+    "audio_url": "https://archive.org/download/kather_audio_2/284_28334.mp3",
+    "duration": 110
+  },
+  {
+    "id": 285,
+    "poem_id": 140944,
+    "audio_url": "https://archive.org/download/kather_audio_2/285_140944.mp3",
+    "duration": 112
+  },
+  {
+    "id": 286,
+    "poem_id": 19162,
+    "audio_url": "https://archive.org/download/kather_audio_2/286_19162.mp3",
+    "duration": 101
+  },
+  {
+    "id": 287,
+    "poem_id": 140945,
+    "audio_url": "https://archive.org/download/kather_audio_2/287_140945.mp3",
+    "duration": 172
+  },
+  {
+    "id": 288,
+    "poem_id": 139612,
+    "audio_url": "https://archive.org/download/kather_audio_2/288_139612.mp3",
+    "duration": 214
+  },
+  {
+    "id": 289,
+    "poem_id": 140946,
+    "audio_url": "https://archive.org/download/kather_audio_2/289_140946.mp3",
+    "duration": 47
+  },
+  {
+    "id": 290,
+    "poem_id": 133580,
+    "audio_url": "https://archive.org/download/kather_audio_2/290_133580.mp3",
+    "duration": 162
+  },
+  {
+    "id": 291,
+    "poem_id": 140947,
+    "audio_url": "https://archive.org/download/kather_audio_2/291_140947.mp3",
+    "duration": 47
+  },
+  {
+    "id": 292,
+    "poem_id": 77820,
+    "audio_url": "https://archive.org/download/kather_audio_2/292_77820.mp3",
+    "duration": 124
+  },
+  {
+    "id": 293,
+    "poem_id": 140948,
+    "audio_url": "https://archive.org/download/kather_audio_2/293_140948.mp3",
+    "duration": 121
+  },
+  {
+    "id": 294,
+    "poem_id": 140954,
+    "audio_url": "https://archive.org/download/kather_audio_2/294_140954.mp3",
+    "duration": 51
+  },
+  {
+    "id": 295,
+    "poem_id": 140949,
+    "audio_url": "https://archive.org/download/kather_audio_2/295_140949.mp3",
+    "duration": 121
+  },
+  {
+    "id": 296,
+    "poem_id": 145707,
+    "audio_url": "https://archive.org/download/kather_audio_2/296_145707.mp3",
+    "duration": 152
+  },
+  {
+    "id": 297,
+    "poem_id": 140950,
+    "audio_url": "https://archive.org/download/kather_audio_2/297_140950.mp3",
+    "duration": 102
+  },
+  {
+    "id": 298,
+    "poem_id": 153696,
+    "audio_url": "https://archive.org/download/kather_audio_2/298_153696.mp3",
+    "duration": 39
+  },
+  {
+    "id": 299,
+    "poem_id": 140951,
+    "audio_url": "https://archive.org/download/kather_audio_2/299_140951.mp3",
+    "duration": 41
+  },
+  {
+    "id": 300,
+    "poem_id": 153706,
+    "audio_url": "https://archive.org/download/kather_audio_2/300_153706.mp3",
+    "duration": 28
+  },
+  {
+    "id": 301,
+    "poem_id": 140952,
+    "audio_url": "https://archive.org/download/kather_audio_2/301_140952.mp3",
+    "duration": 52
+  },
+  {
+    "id": 302,
+    "poem_id": 153728,
+    "audio_url": "https://archive.org/download/kather_audio_2/302_153728.mp3",
+    "duration": 30
+  },
+  {
+    "id": 303,
+    "poem_id": 140955,
+    "audio_url": "https://archive.org/download/kather_audio_2/303_140955.mp3",
+    "duration": 99
+  },
+  {
+    "id": 304,
+    "poem_id": 153757,
+    "audio_url": "https://archive.org/download/kather_audio_2/304_153757.mp3",
+    "duration": 20
+  },
+  {
+    "id": 305,
+    "poem_id": 140957,
+    "audio_url": "https://archive.org/download/kather_audio_2/305_140957.mp3",
+    "duration": 181
+  },
+  {
+    "id": 306,
+    "poem_id": 19066,
+    "audio_url": "https://archive.org/download/kather_audio_2/306_19066.mp3",
+    "duration": 142
+  },
+  {
+    "id": 307,
+    "poem_id": 140958,
+    "audio_url": "https://archive.org/download/kather_audio_2/307_140958.mp3",
+    "duration": 203
+  },
+  {
+    "id": 308,
+    "poem_id": 153725,
+    "audio_url": "https://archive.org/download/kather_audio_2/308_153725.mp3",
+    "duration": 34
+  },
+  {
+    "id": 309,
+    "poem_id": 140959,
+    "audio_url": "https://archive.org/download/kather_audio_2/309_140959.mp3",
+    "duration": 145
+  },
+  {
+    "id": 310,
+    "poem_id": 153745,
+    "audio_url": "https://archive.org/download/kather_audio_2/310_153745.mp3",
+    "duration": 37
+  },
+  {
+    "id": 311,
+    "poem_id": 140960,
+    "audio_url": "https://archive.org/download/kather_audio_2/311_140960.mp3",
+    "duration": 95
+  },
+  {
+    "id": 312,
+    "poem_id": 159218,
+    "audio_url": "https://archive.org/download/kather_audio_2/312_159218.mp3",
+    "duration": 108
+  },
+  {
+    "id": 313,
+    "poem_id": 140961,
+    "audio_url": "https://archive.org/download/kather_audio_2/313_140961.mp3",
+    "duration": 112
+  },
+  {
+    "id": 314,
+    "poem_id": 153712,
+    "audio_url": "https://archive.org/download/kather_audio_2/314_153712.mp3",
+    "duration": 65
+  },
+  {
+    "id": 315,
+    "poem_id": 140962,
+    "audio_url": "https://archive.org/download/kather_audio_2/315_140962.mp3",
+    "duration": 75
+  },
+  {
+    "id": 316,
+    "poem_id": 153746,
+    "audio_url": "https://archive.org/download/kather_audio_2/316_153746.mp3",
+    "duration": 61
+  },
+  {
+    "id": 317,
+    "poem_id": 140963,
+    "audio_url": "https://archive.org/download/kather_audio_2/317_140963.mp3",
+    "duration": 96
+  },
+  {
+    "id": 318,
+    "poem_id": 153752,
+    "audio_url": "https://archive.org/download/kather_audio_2/318_153752.mp3",
+    "duration": 41
+  },
+  {
+    "id": 319,
+    "poem_id": 140964,
+    "audio_url": "https://archive.org/download/kather_audio_2/319_140964.mp3",
+    "duration": 155
+  },
+  {
+    "id": 320,
+    "poem_id": 160619,
+    "audio_url": "https://archive.org/download/kather_audio_2/320_160619.mp3",
+    "duration": 111
+  },
+  {
+    "id": 321,
+    "poem_id": 140965,
+    "audio_url": "https://archive.org/download/kather_audio_2/321_140965.mp3",
+    "duration": 151
+  },
+  {
+    "id": 322,
+    "poem_id": 140977,
+    "audio_url": "https://archive.org/download/kather_audio_2/322_140977.mp3",
+    "duration": 83
+  },
+  {
+    "id": 323,
+    "poem_id": 140966,
+    "audio_url": "https://archive.org/download/kather_audio_2/323_140966.mp3",
+    "duration": 101
+  },
+  {
+    "id": 324,
+    "poem_id": 19089,
+    "audio_url": "https://archive.org/download/kather_audio_2/324_19089.mp3",
+    "duration": 434
+  },
+  {
+    "id": 325,
+    "poem_id": 140967,
+    "audio_url": "https://archive.org/download/kather_audio_2/325_140967.mp3",
+    "duration": 89
+  },
+  {
+    "id": 326,
+    "poem_id": 119832,
+    "audio_url": "https://archive.org/download/kather_audio_2/326_119832.mp3",
+    "duration": 35
+  },
+  {
+    "id": 327,
+    "poem_id": 140968,
+    "audio_url": "https://archive.org/download/kather_audio_2/327_140968.mp3",
+    "duration": 265
+  },
+  {
+    "id": 328,
+    "poem_id": 129464,
+    "audio_url": "https://archive.org/download/kather_audio_2/328_129464.mp3",
+    "duration": 172
+  },
+  {
+    "id": 329,
+    "poem_id": 140969,
+    "audio_url": "https://archive.org/download/kather_audio_2/329_140969.mp3",
+    "duration": 85
+  },
+  {
+    "id": 330,
+    "poem_id": 143480,
+    "audio_url": "https://archive.org/download/kather_audio_2/330_143480.mp3",
+    "duration": 39
+  },
+  {
+    "id": 331,
+    "poem_id": 140970,
+    "audio_url": "https://archive.org/download/kather_audio_2/331_140970.mp3",
+    "duration": 35
+  },
+  {
+    "id": 332,
+    "poem_id": 129374,
+    "audio_url": "https://archive.org/download/kather_audio_2/332_129374.mp3",
+    "duration": 198
+  },
+  {
+    "id": 333,
+    "poem_id": 140973,
+    "audio_url": "https://archive.org/download/kather_audio_2/333_140973.mp3",
+    "duration": 64
+  },
+  {
+    "id": 334,
+    "poem_id": 143492,
+    "audio_url": "https://archive.org/download/kather_audio_2/334_143492.mp3",
+    "duration": 87
+  },
+  {
+    "id": 335,
+    "poem_id": 140974,
+    "audio_url": "https://archive.org/download/kather_audio_2/335_140974.mp3",
+    "duration": 85
+  },
+  {
+    "id": 336,
+    "poem_id": 128408,
+    "audio_url": "https://archive.org/download/kather_audio_2/336_128408.mp3",
+    "duration": 23
+  },
+  {
+    "id": 337,
+    "poem_id": 140975,
+    "audio_url": "https://archive.org/download/kather_audio_2/337_140975.mp3",
+    "duration": 90
+  },
+  {
+    "id": 338,
+    "poem_id": 161025,
+    "audio_url": "https://archive.org/download/kather_audio_2/338_161025.mp3",
+    "duration": 161
+  },
+  {
+    "id": 339,
+    "poem_id": 143242,
+    "audio_url": "https://archive.org/download/kather_audio_2/339_143242.mp3",
+    "duration": 79
+  },
+  {
+    "id": 340,
+    "poem_id": 153422,
+    "audio_url": "https://archive.org/download/kather_audio_2/340_153422.mp3",
+    "duration": 311
+  },
+  {
+    "id": 341,
+    "poem_id": 143481,
+    "audio_url": "https://archive.org/download/kather_audio_2/341_143481.mp3",
+    "duration": 31
+  },
+  {
+    "id": 342,
+    "poem_id": 129503,
+    "audio_url": "https://archive.org/download/kather_audio_2/342_129503.mp3",
+    "duration": 184
+  },
+  {
+    "id": 343,
+    "poem_id": 131710,
+    "audio_url": "https://archive.org/download/kather_audio_2/343_131710.mp3",
+    "duration": 172
+  },
+  {
+    "id": 344,
+    "poem_id": 129382,
+    "audio_url": "https://archive.org/download/kather_audio_2/344_129382.mp3",
+    "duration": 109
+  },
+  {
+    "id": 345,
+    "poem_id": 142478,
+    "audio_url": "https://archive.org/download/kather_audio_3/345_142478.mp3",
+    "duration": 101
+  },
+  {
+    "id": 346,
+    "poem_id": 131712,
+    "audio_url": "https://archive.org/download/kather_audio_3/346_131712.mp3",
+    "duration": 331
+  },
+  {
+    "id": 347,
+    "poem_id": 143490,
+    "audio_url": "https://archive.org/download/kather_audio_3/347_143490.mp3",
+    "duration": 92
+  },
+  {
+    "id": 348,
+    "poem_id": 148010,
+    "audio_url": "https://archive.org/download/kather_audio_3/348_148010.mp3",
+    "duration": 66
+  },
+  {
+    "id": 349,
+    "poem_id": 139615,
+    "audio_url": "https://archive.org/download/kather_audio_3/349_139615.mp3",
+    "duration": 245
+  },
+  {
+    "id": 350,
+    "poem_id": 153690,
+    "audio_url": "https://archive.org/download/kather_audio_3/350_153690.mp3",
+    "duration": 45
+  },
+  {
+    "id": 351,
+    "poem_id": 139617,
+    "audio_url": "https://archive.org/download/kather_audio_3/351_139617.mp3",
+    "duration": 200
+  },
+  {
+    "id": 352,
+    "poem_id": 119826,
+    "audio_url": "https://archive.org/download/kather_audio_3/352_119826.mp3",
+    "duration": 122
+  },
+  {
+    "id": 353,
+    "poem_id": 131711,
+    "audio_url": "https://archive.org/download/kather_audio_3/353_131711.mp3",
+    "duration": 103
+  },
+  {
+    "id": 354,
+    "poem_id": 153686,
+    "audio_url": "https://archive.org/download/kather_audio_3/354_153686.mp3",
+    "duration": 40
+  },
+  {
+    "id": 355,
+    "poem_id": 153392,
+    "audio_url": "https://archive.org/download/kather_audio_3/355_153392.mp3",
+    "duration": 299
+  },
+  {
+    "id": 356,
+    "poem_id": 159217,
+    "audio_url": "https://archive.org/download/kather_audio_3/356_159217.mp3",
+    "duration": 76
+  },
+  {
+    "id": 357,
+    "poem_id": 145643,
+    "audio_url": "https://archive.org/download/kather_audio_3/357_145643.mp3",
+    "duration": 62
+  },
+  {
+    "id": 358,
+    "poem_id": 153423,
+    "audio_url": "https://archive.org/download/kather_audio_3/358_153423.mp3",
+    "duration": 59
+  },
+  {
+    "id": 359,
+    "poem_id": 145647,
+    "audio_url": "https://archive.org/download/kather_audio_3/359_145647.mp3",
+    "duration": 62
+  },
+  {
+    "id": 361,
+    "poem_id": 131715,
+    "audio_url": "https://archive.org/download/kather_audio_3/361_131715.mp3",
+    "duration": 253
+  },
+  {
+    "id": 363,
+    "poem_id": 153687,
+    "audio_url": "https://archive.org/download/kather_audio_3/363_153687.mp3",
+    "duration": 79
+  },
+  {
+    "id": 364,
+    "poem_id": 129502,
+    "audio_url": "https://archive.org/download/kather_audio_3/364_129502.mp3",
+    "duration": 150
+  },
+  {
+    "id": 365,
+    "poem_id": 153688,
+    "audio_url": "https://archive.org/download/kather_audio_3/365_153688.mp3",
+    "duration": 53
+  },
+  {
+    "id": 366,
+    "poem_id": 148043,
+    "audio_url": "https://archive.org/download/kather_audio_3/366_148043.mp3",
+    "duration": 122
+  },
+  {
+    "id": 367,
+    "poem_id": 131721,
+    "audio_url": "https://archive.org/download/kather_audio_3/367_131721.mp3",
+    "duration": 179
+  },
+  {
+    "id": 368,
+    "poem_id": 143930,
+    "audio_url": "https://archive.org/download/kather_audio_3/368_143930.mp3",
+    "duration": 81
+  },
+  {
+    "id": 369,
+    "poem_id": 131727,
+    "audio_url": "https://archive.org/download/kather_audio_3/369_131727.mp3",
+    "duration": 87
+  },
+  {
+    "id": 370,
+    "poem_id": 161544,
+    "audio_url": "https://archive.org/download/kather_audio_3/370_161544.mp3",
+    "duration": 228
+  },
+  {
+    "id": 371,
+    "poem_id": 131728,
+    "audio_url": "https://archive.org/download/kather_audio_3/371_131728.mp3",
+    "duration": 299
+  },
+  {
+    "id": 372,
+    "poem_id": 153724,
+    "audio_url": "https://archive.org/download/kather_audio_3/372_153724.mp3",
+    "duration": 61
+  },
+  {
+    "id": 373,
+    "poem_id": 156152,
+    "audio_url": "https://archive.org/download/kather_audio_3/373_156152.mp3",
+    "duration": 59
+  },
+  {
+    "id": 374,
+    "poem_id": 153727,
+    "audio_url": "https://archive.org/download/kather_audio_3/374_153727.mp3",
+    "duration": 43
+  },
+  {
+    "id": 375,
+    "poem_id": 156155,
+    "audio_url": "https://archive.org/download/kather_audio_3/375_156155.mp3",
+    "duration": 40
+  },
+  {
+    "id": 376,
+    "poem_id": 153733,
+    "audio_url": "https://archive.org/download/kather_audio_3/376_153733.mp3",
+    "duration": 40
+  },
+  {
+    "id": 377,
+    "poem_id": 156160,
+    "audio_url": "https://archive.org/download/kather_audio_3/377_156160.mp3",
+    "duration": 61
+  },
+  {
+    "id": 378,
+    "poem_id": 153749,
+    "audio_url": "https://archive.org/download/kather_audio_3/378_153749.mp3",
+    "duration": 54
+  },
+  {
+    "id": 379,
+    "poem_id": 131729,
+    "audio_url": "https://archive.org/download/kather_audio_3/379_131729.mp3",
+    "duration": 312
+  },
+  {
+    "id": 380,
+    "poem_id": 153753,
+    "audio_url": "https://archive.org/download/kather_audio_3/380_153753.mp3",
+    "duration": 41
+  },
+  {
+    "id": 381,
+    "poem_id": 153692,
+    "audio_url": "https://archive.org/download/kather_audio_3/381_153692.mp3",
+    "duration": 39
+  },
+  {
+    "id": 382,
+    "poem_id": 26693,
+    "audio_url": "https://archive.org/download/kather_audio_3/382_26693.mp3",
+    "duration": 178
+  },
+  {
+    "id": 383,
+    "poem_id": 153693,
+    "audio_url": "https://archive.org/download/kather_audio_3/383_153693.mp3",
+    "duration": 28
+  },
+  {
+    "id": 384,
+    "poem_id": 152470,
+    "audio_url": "https://archive.org/download/kather_audio_3/384_152470.mp3",
+    "duration": 204
+  },
+  {
+    "id": 385,
+    "poem_id": 153694,
+    "audio_url": "https://archive.org/download/kather_audio_3/385_153694.mp3",
+    "duration": 19
+  },
+  {
+    "id": 387,
+    "poem_id": 153695,
+    "audio_url": "https://archive.org/download/kather_audio_3/387_153695.mp3",
+    "duration": 41
+  },
+  {
+    "id": 389,
+    "poem_id": 153697,
+    "audio_url": "https://archive.org/download/kather_audio_3/389_153697.mp3",
+    "duration": 33
+  },
+  {
+    "id": 390,
+    "poem_id": 161024,
+    "audio_url": "https://archive.org/download/kather_audio_3/390_161024.mp3",
+    "duration": 435
+  },
+  {
+    "id": 391,
+    "poem_id": 153698,
+    "audio_url": "https://archive.org/download/kather_audio_3/391_153698.mp3",
+    "duration": 25
+  },
+  {
+    "id": 392,
+    "poem_id": 10948,
+    "audio_url": "https://archive.org/download/kather_audio_3/392_10948.mp3",
+    "duration": 121
+  },
+  {
+    "id": 393,
+    "poem_id": 153699,
+    "audio_url": "https://archive.org/download/kather_audio_3/393_153699.mp3",
+    "duration": 50
+  },
+  {
+    "id": 394,
+    "poem_id": 46609,
+    "audio_url": "https://archive.org/download/kather_audio_3/394_46609.mp3",
+    "duration": 68
+  },
+  {
+    "id": 395,
+    "poem_id": 153700,
+    "audio_url": "https://archive.org/download/kather_audio_3/395_153700.mp3",
+    "duration": 27
+  },
+  {
+    "id": 396,
+    "poem_id": 119830,
+    "audio_url": "https://archive.org/download/kather_audio_3/396_119830.mp3",
+    "duration": 90
+  },
+  {
+    "id": 397,
+    "poem_id": 153701,
+    "audio_url": "https://archive.org/download/kather_audio_3/397_153701.mp3",
+    "duration": 46
+  },
+  {
+    "id": 399,
+    "poem_id": 153702,
+    "audio_url": "https://archive.org/download/kather_audio_3/399_153702.mp3",
+    "duration": 28
+  },
+  {
+    "id": 400,
+    "poem_id": 160104,
+    "audio_url": "https://archive.org/download/kather_audio_3/400_160104.mp3",
+    "duration": 126
+  },
+  {
+    "id": 401,
+    "poem_id": 153703,
+    "audio_url": "https://archive.org/download/kather_audio_3/401_153703.mp3",
+    "duration": 44
+  },
+  {
+    "id": 402,
+    "poem_id": 152859,
+    "audio_url": "https://archive.org/download/kather_audio_3/402_152859.mp3",
+    "duration": 161
+  },
+  {
+    "id": 403,
+    "poem_id": 153704,
+    "audio_url": "https://archive.org/download/kather_audio_3/403_153704.mp3",
+    "duration": 50
+  },
+  {
+    "id": 404,
+    "poem_id": 103490,
+    "audio_url": "https://archive.org/download/kather_audio_3/404_103490.mp3",
+    "duration": 480
+  },
+  {
+    "id": 405,
+    "poem_id": 153705,
+    "audio_url": "https://archive.org/download/kather_audio_3/405_153705.mp3",
+    "duration": 30
+  },
+  {
+    "id": 406,
+    "poem_id": 129514,
+    "audio_url": "https://archive.org/download/kather_audio_3/406_129514.mp3",
+    "duration": 193
+  },
+  {
+    "id": 407,
+    "poem_id": 153710,
+    "audio_url": "https://archive.org/download/kather_audio_3/407_153710.mp3",
+    "duration": 53
+  },
+  {
+    "id": 409,
+    "poem_id": 153711,
+    "audio_url": "https://archive.org/download/kather_audio_3/409_153711.mp3",
+    "duration": 57
+  },
+  {
+    "id": 410,
+    "poem_id": 128410,
+    "audio_url": "https://archive.org/download/kather_audio_3/410_128410.mp3",
+    "duration": 43
+  },
+  {
+    "id": 411,
+    "poem_id": 153713,
+    "audio_url": "https://archive.org/download/kather_audio_3/411_153713.mp3",
+    "duration": 44
+  },
+  {
+    "id": 412,
+    "poem_id": 142480,
+    "audio_url": "https://archive.org/download/kather_audio_3/412_142480.mp3",
+    "duration": 122
+  },
+  {
+    "id": 413,
+    "poem_id": 153714,
+    "audio_url": "https://archive.org/download/kather_audio_3/413_153714.mp3",
+    "duration": 44
+  },
+  {
+    "id": 414,
+    "poem_id": 157589,
+    "audio_url": "https://archive.org/download/kather_audio_3/414_157589.mp3",
+    "duration": 99
+  },
+  {
+    "id": 415,
+    "poem_id": 153715,
+    "audio_url": "https://archive.org/download/kather_audio_3/415_153715.mp3",
+    "duration": 29
+  },
+  {
+    "id": 416,
+    "poem_id": 129451,
+    "audio_url": "https://archive.org/download/kather_audio_3/416_129451.mp3",
+    "duration": 199
+  },
+  {
+    "id": 417,
+    "poem_id": 153717,
+    "audio_url": "https://archive.org/download/kather_audio_3/417_153717.mp3",
+    "duration": 52
+  },
+  {
+    "id": 418,
+    "poem_id": 129506,
+    "audio_url": "https://archive.org/download/kather_audio_3/418_129506.mp3",
+    "duration": 241
+  },
+  {
+    "id": 419,
+    "poem_id": 153720,
+    "audio_url": "https://archive.org/download/kather_audio_3/419_153720.mp3",
+    "duration": 41
+  },
+  {
+    "id": 420,
+    "poem_id": 160203,
+    "audio_url": "https://archive.org/download/kather_audio_3/420_160203.mp3",
+    "duration": 97
+  },
+  {
+    "id": 421,
+    "poem_id": 153723,
+    "audio_url": "https://archive.org/download/kather_audio_3/421_153723.mp3",
+    "duration": 45
+  },
+  {
+    "id": 422,
+    "poem_id": 152478,
+    "audio_url": "https://archive.org/download/kather_audio_3/422_152478.mp3",
+    "duration": 260
+  },
+  {
+    "id": 423,
+    "poem_id": 153726,
+    "audio_url": "https://archive.org/download/kather_audio_3/423_153726.mp3",
+    "duration": 50
+  },
+  {
+    "id": 424,
+    "poem_id": 142492,
+    "audio_url": "https://archive.org/download/kather_audio_3/424_142492.mp3",
+    "duration": 143
+  },
+  {
+    "id": 425,
+    "poem_id": 153730,
+    "audio_url": "https://archive.org/download/kather_audio_3/425_153730.mp3",
+    "duration": 32
+  },
+  {
+    "id": 426,
+    "poem_id": 142494,
+    "audio_url": "https://archive.org/download/kather_audio_3/426_142494.mp3",
+    "duration": 98
+  },
+  {
+    "id": 427,
+    "poem_id": 153731,
+    "audio_url": "https://archive.org/download/kather_audio_3/427_153731.mp3",
+    "duration": 60
+  },
+  {
+    "id": 428,
+    "poem_id": 153738,
+    "audio_url": "https://archive.org/download/kather_audio_3/428_153738.mp3",
+    "duration": 48
+  },
+  {
+    "id": 429,
+    "poem_id": 153732,
+    "audio_url": "https://archive.org/download/kather_audio_3/429_153732.mp3",
+    "duration": 60
+  },
+  {
+    "id": 430,
+    "poem_id": 26700,
+    "audio_url": "https://archive.org/download/kather_audio_3/430_26700.mp3",
+    "duration": 115
+  },
+  {
+    "id": 431,
+    "poem_id": 153734,
+    "audio_url": "https://archive.org/download/kather_audio_3/431_153734.mp3",
+    "duration": 60
+  },
+  {
+    "id": 432,
+    "poem_id": 135041,
+    "audio_url": "https://archive.org/download/kather_audio_3/432_135041.mp3",
+    "duration": 192
+  },
+  {
+    "id": 433,
+    "poem_id": 153735,
+    "audio_url": "https://archive.org/download/kather_audio_3/433_153735.mp3",
+    "duration": 51
+  },
+  {
+    "id": 434,
+    "poem_id": 129440,
+    "audio_url": "https://archive.org/download/kather_audio_3/434_129440.mp3",
+    "duration": 170
+  },
+  {
+    "id": 435,
+    "poem_id": 153739,
+    "audio_url": "https://archive.org/download/kather_audio_3/435_153739.mp3",
+    "duration": 60
+  },
+  {
+    "id": 436,
+    "poem_id": 129498,
+    "audio_url": "https://archive.org/download/kather_audio_3/436_129498.mp3",
+    "duration": 149
+  },
+  {
+    "id": 437,
+    "poem_id": 153740,
+    "audio_url": "https://archive.org/download/kather_audio_3/437_153740.mp3",
+    "duration": 61
+  },
+  {
+    "id": 438,
+    "poem_id": 133549,
+    "audio_url": "https://archive.org/download/kather_audio_3/438_133549.mp3",
+    "duration": 124
+  },
+  {
+    "id": 439,
+    "poem_id": 153741,
+    "audio_url": "https://archive.org/download/kather_audio_3/439_153741.mp3",
+    "duration": 61
+  },
+  {
+    "id": 440,
+    "poem_id": 160633,
+    "audio_url": "https://archive.org/download/kather_audio_3/440_160633.mp3",
+    "duration": 93
+  },
+  {
+    "id": 441,
+    "poem_id": 153744,
+    "audio_url": "https://archive.org/download/kather_audio_3/441_153744.mp3",
+    "duration": 48
+  },
+  {
+    "id": 443,
+    "poem_id": 153750,
+    "audio_url": "https://archive.org/download/kather_audio_3/443_153750.mp3",
+    "duration": 48
+  },
+  {
+    "id": 444,
+    "poem_id": 140511,
+    "audio_url": "https://archive.org/download/kather_audio_3/444_140511.mp3",
+    "duration": 169
+  },
+  {
+    "id": 445,
+    "poem_id": 153751,
+    "audio_url": "https://archive.org/download/kather_audio_3/445_153751.mp3",
+    "duration": 35
+  },
+  {
+    "id": 446,
+    "poem_id": 142485,
+    "audio_url": "https://archive.org/download/kather_audio_3/446_142485.mp3",
+    "duration": 81
+  },
+  {
+    "id": 447,
+    "poem_id": 153754,
+    "audio_url": "https://archive.org/download/kather_audio_3/447_153754.mp3",
+    "duration": 34
+  },
+  {
+    "id": 448,
+    "poem_id": 157615,
+    "audio_url": "https://archive.org/download/kather_audio_3/448_157615.mp3",
+    "duration": 311
+  },
+  {
+    "id": 449,
+    "poem_id": 153756,
+    "audio_url": "https://archive.org/download/kather_audio_3/449_153756.mp3",
+    "duration": 27
+  },
+  {
+    "id": 450,
+    "poem_id": 152853,
+    "audio_url": "https://archive.org/download/kather_audio_3/450_152853.mp3",
+    "duration": 357
+  },
+  {
+    "id": 451,
+    "poem_id": 142479,
+    "audio_url": "https://archive.org/download/kather_audio_3/451_142479.mp3",
+    "duration": 99
+  },
+  {
+    "id": 452,
+    "poem_id": 131730,
+    "audio_url": "https://archive.org/download/kather_audio_4/452_131730.mp3",
+    "duration": 324
+  },
+  {
+    "id": 453,
+    "poem_id": 131732,
+    "audio_url": "https://archive.org/download/kather_audio_4/453_131732.mp3",
+    "duration": 404
+  },
+  {
+    "id": 454,
+    "poem_id": 26694,
+    "audio_url": "https://archive.org/download/kather_audio_4/454_26694.mp3",
+    "duration": 127
+  },
+  {
+    "id": 455,
+    "poem_id": 131734,
+    "audio_url": "https://archive.org/download/kather_audio_4/455_131734.mp3",
+    "duration": 113
+  },
+  {
+    "id": 456,
+    "poem_id": 153421,
+    "audio_url": "https://archive.org/download/kather_audio_4/456_153421.mp3",
+    "duration": 142
+  },
+  {
+    "id": 457,
+    "poem_id": 26672,
+    "audio_url": "https://archive.org/download/kather_audio_4/457_26672.mp3",
+    "duration": 180
+  },
+  {
+    "id": 458,
+    "poem_id": 129513,
+    "audio_url": "https://archive.org/download/kather_audio_4/458_129513.mp3",
+    "duration": 173
+  },
+  {
+    "id": 459,
+    "poem_id": 131735,
+    "audio_url": "https://archive.org/download/kather_audio_4/459_131735.mp3",
+    "duration": 79
+  },
+  {
+    "id": 460,
+    "poem_id": 160208,
+    "audio_url": "https://archive.org/download/kather_audio_4/460_160208.mp3",
+    "duration": 37
+  },
+  {
+    "id": 461,
+    "poem_id": 131736,
+    "audio_url": "https://archive.org/download/kather_audio_4/461_131736.mp3",
+    "duration": 106
+  },
+  {
+    "id": 462,
+    "poem_id": 152476,
+    "audio_url": "https://archive.org/download/kather_audio_4/462_152476.mp3",
+    "duration": 206
+  },
+  {
+    "id": 463,
+    "poem_id": 26686,
+    "audio_url": "https://archive.org/download/kather_audio_4/463_26686.mp3",
+    "duration": 388
+  },
+  {
+    "id": 465,
+    "poem_id": 26687,
+    "audio_url": "https://archive.org/download/kather_audio_4/465_26687.mp3",
+    "duration": 339
+  },
+  {
+    "id": 467,
+    "poem_id": 26690,
+    "audio_url": "https://archive.org/download/kather_audio_4/467_26690.mp3",
+    "duration": 160
+  },
+  {
+    "id": 468,
+    "poem_id": 152860,
+    "audio_url": "https://archive.org/download/kather_audio_4/468_152860.mp3",
+    "duration": 193
+  },
+  {
+    "id": 469,
+    "poem_id": 131737,
+    "audio_url": "https://archive.org/download/kather_audio_4/469_131737.mp3",
+    "duration": 164
+  },
+  {
+    "id": 470,
+    "poem_id": 159714,
+    "audio_url": "https://archive.org/download/kather_audio_4/470_159714.mp3",
+    "duration": 127
+  },
+  {
+    "id": 471,
+    "poem_id": 26691,
+    "audio_url": "https://archive.org/download/kather_audio_4/471_26691.mp3",
+    "duration": 182
+  },
+  {
+    "id": 472,
+    "poem_id": 152473,
+    "audio_url": "https://archive.org/download/kather_audio_4/472_152473.mp3",
+    "duration": 270
+  },
+  {
+    "id": 473,
+    "poem_id": 26697,
+    "audio_url": "https://archive.org/download/kather_audio_4/473_26697.mp3",
+    "duration": 148
+  },
+  {
+    "id": 474,
+    "poem_id": 152477,
+    "audio_url": "https://archive.org/download/kather_audio_4/474_152477.mp3",
+    "duration": 194
+  },
+  {
+    "id": 475,
+    "poem_id": 26698,
+    "audio_url": "https://archive.org/download/kather_audio_4/475_26698.mp3",
+    "duration": 241
+  },
+  {
+    "id": 476,
+    "poem_id": 152479,
+    "audio_url": "https://archive.org/download/kather_audio_4/476_152479.mp3",
+    "duration": 162
+  },
+  {
+    "id": 477,
+    "poem_id": 26699,
+    "audio_url": "https://archive.org/download/kather_audio_4/477_26699.mp3",
+    "duration": 129
+  },
+  {
+    "id": 478,
+    "poem_id": 160616,
+    "audio_url": "https://archive.org/download/kather_audio_4/478_160616.mp3",
+    "duration": 166
+  },
+  {
+    "id": 479,
+    "poem_id": 153420,
+    "audio_url": "https://archive.org/download/kather_audio_4/479_153420.mp3",
+    "duration": 120
+  },
+  {
+    "id": 481,
+    "poem_id": 157588,
+    "audio_url": "https://archive.org/download/kather_audio_4/481_157588.mp3",
+    "duration": 62
+  },
+  {
+    "id": 483,
+    "poem_id": 129433,
+    "audio_url": "https://archive.org/download/kather_audio_4/483_129433.mp3",
+    "duration": 144
+  },
+  {
+    "id": 485,
+    "poem_id": 129436,
+    "audio_url": "https://archive.org/download/kather_audio_4/485_129436.mp3",
+    "duration": 169
+  },
+  {
+    "id": 487,
+    "poem_id": 157590,
+    "audio_url": "https://archive.org/download/kather_audio_4/487_157590.mp3",
+    "duration": 74
+  },
+  {
+    "id": 489,
+    "poem_id": 129459,
+    "audio_url": "https://archive.org/download/kather_audio_4/489_129459.mp3",
+    "duration": 213
+  },
+  {
+    "id": 491,
+    "poem_id": 129460,
+    "audio_url": "https://archive.org/download/kather_audio_4/491_129460.mp3",
+    "duration": 232
+  },
+  {
+    "id": 492,
+    "poem_id": 161057,
+    "audio_url": "https://archive.org/download/kather_audio_4/492_161057.mp3",
+    "duration": 46
+  },
+  {
+    "id": 493,
+    "poem_id": 129461,
+    "audio_url": "https://archive.org/download/kather_audio_4/493_129461.mp3",
+    "duration": 219
+  },
+  {
+    "id": 494,
+    "poem_id": 161157,
+    "audio_url": "https://archive.org/download/kather_audio_4/494_161157.mp3",
+    "duration": 174
+  },
+  {
+    "id": 495,
+    "poem_id": 129462,
+    "audio_url": "https://archive.org/download/kather_audio_4/495_129462.mp3",
+    "duration": 163
+  },
+  {
+    "id": 496,
+    "poem_id": 142491,
+    "audio_url": "https://archive.org/download/kather_audio_4/496_142491.mp3",
+    "duration": 174
+  },
+  {
+    "id": 497,
+    "poem_id": 129463,
+    "audio_url": "https://archive.org/download/kather_audio_4/497_129463.mp3",
+    "duration": 241
+  },
+  {
+    "id": 498,
+    "poem_id": 160103,
+    "audio_url": "https://archive.org/download/kather_audio_4/498_160103.mp3",
+    "duration": 384
+  },
+  {
+    "id": 499,
+    "poem_id": 129499,
+    "audio_url": "https://archive.org/download/kather_audio_4/499_129499.mp3",
+    "duration": 179
+  },
+  {
+    "id": 500,
+    "poem_id": 39405,
+    "audio_url": "https://archive.org/download/kather_audio_4/500_39405.mp3",
+    "duration": 415
+  },
+  {
+    "id": 501,
+    "poem_id": 129504,
+    "audio_url": "https://archive.org/download/kather_audio_4/501_129504.mp3",
+    "duration": 156
+  },
+  {
+    "id": 502,
+    "poem_id": 141099,
+    "audio_url": "https://archive.org/download/kather_audio_4/502_141099.mp3",
+    "duration": 320
+  },
+  {
+    "id": 503,
+    "poem_id": 129508,
+    "audio_url": "https://archive.org/download/kather_audio_4/503_129508.mp3",
+    "duration": 241
+  },
+  {
+    "id": 504,
+    "poem_id": 160102,
+    "audio_url": "https://archive.org/download/kather_audio_4/504_160102.mp3",
+    "duration": 268
+  },
+  {
+    "id": 505,
+    "poem_id": 129509,
+    "audio_url": "https://archive.org/download/kather_audio_4/505_129509.mp3",
+    "duration": 156
+  },
+  {
+    "id": 506,
+    "poem_id": 143941,
+    "audio_url": "https://archive.org/download/kather_audio_4/506_143941.mp3",
+    "duration": 40
+  },
+  {
+    "id": 507,
+    "poem_id": 129510,
+    "audio_url": "https://archive.org/download/kather_audio_4/507_129510.mp3",
+    "duration": 241
+  },
+  {
+    "id": 508,
+    "poem_id": 142486,
+    "audio_url": "https://archive.org/download/kather_audio_4/508_142486.mp3",
+    "duration": 106
+  },
+  {
+    "id": 509,
+    "poem_id": 129511,
+    "audio_url": "https://archive.org/download/kather_audio_4/509_129511.mp3",
+    "duration": 148
+  },
+  {
+    "id": 510,
+    "poem_id": 161434,
+    "audio_url": "https://archive.org/download/kather_audio_4/510_161434.mp3",
+    "duration": 130
+  },
+  {
+    "id": 511,
+    "poem_id": 129512,
+    "audio_url": "https://archive.org/download/kather_audio_4/511_129512.mp3",
+    "duration": 136
+  },
+  {
+    "id": 512,
+    "poem_id": 161490,
+    "audio_url": "https://archive.org/download/kather_audio_4/512_161490.mp3",
+    "duration": 142
+  },
+  {
+    "id": 513,
+    "poem_id": 129515,
+    "audio_url": "https://archive.org/download/kather_audio_4/513_129515.mp3",
+    "duration": 131
+  },
+  {
+    "id": 514,
+    "poem_id": 129516,
+    "audio_url": "https://archive.org/download/kather_audio_4/514_129516.mp3",
+    "duration": 111
+  },
+  {
+    "id": 515,
+    "poem_id": 142481,
+    "audio_url": "https://archive.org/download/kather_audio_4/515_142481.mp3",
+    "duration": 94
+  },
+  {
+    "id": 516,
+    "poem_id": 159673,
+    "audio_url": "https://archive.org/download/kather_audio_4/516_159673.mp3",
+    "duration": 103
+  },
+  {
+    "id": 517,
+    "poem_id": 157026,
+    "audio_url": "https://archive.org/download/kather_audio_4/517_157026.mp3",
+    "duration": 99
+  },
+  {
+    "id": 518,
+    "poem_id": 142482,
+    "audio_url": "https://archive.org/download/kather_audio_4/518_142482.mp3",
+    "duration": 68
+  },
+  {
+    "id": 519,
+    "poem_id": 159715,
+    "audio_url": "https://archive.org/download/kather_audio_4/519_159715.mp3",
+    "duration": 84
+  },
+  {
+    "id": 520,
+    "poem_id": 151667,
+    "audio_url": "https://archive.org/download/kather_audio_4/520_151667.mp3",
+    "duration": 230
+  },
+  {
+    "id": 521,
+    "poem_id": 157027,
+    "audio_url": "https://archive.org/download/kather_audio_4/521_157027.mp3",
+    "duration": 151
+  },
+  {
+    "id": 522,
+    "poem_id": 152480,
+    "audio_url": "https://archive.org/download/kather_audio_4/522_152480.mp3",
+    "duration": 164
+  },
+  {
+    "id": 523,
+    "poem_id": 157031,
+    "audio_url": "https://archive.org/download/kather_audio_4/523_157031.mp3",
+    "duration": 76
+  },
+  {
+    "id": 525,
+    "poem_id": 157034,
+    "audio_url": "https://archive.org/download/kather_audio_4/525_157034.mp3",
+    "duration": 123
+  },
+  {
+    "id": 526,
+    "poem_id": 142488,
+    "audio_url": "https://archive.org/download/kather_audio_4/526_142488.mp3",
+    "duration": 82
+  },
+  {
+    "id": 527,
+    "poem_id": 157035,
+    "audio_url": "https://archive.org/download/kather_audio_4/527_157035.mp3",
+    "duration": 224
+  },
+  {
+    "id": 528,
+    "poem_id": 158991,
+    "audio_url": "https://archive.org/download/kather_audio_4/528_158991.mp3",
+    "duration": 84
+  },
+  {
+    "id": 529,
+    "poem_id": 157036,
+    "audio_url": "https://archive.org/download/kather_audio_4/529_157036.mp3",
+    "duration": 36
+  },
+  {
+    "id": 530,
+    "poem_id": 157608,
+    "audio_url": "https://archive.org/download/kather_audio_4/530_157608.mp3",
+    "duration": 186
+  },
+  {
+    "id": 531,
+    "poem_id": 160202,
+    "audio_url": "https://archive.org/download/kather_audio_4/531_160202.mp3",
+    "duration": 104
+  },
+  {
+    "id": 532,
+    "poem_id": 141538,
+    "audio_url": "https://archive.org/download/kather_audio_4/532_141538.mp3",
+    "duration": 51
+  },
+  {
+    "id": 533,
+    "poem_id": 160204,
+    "audio_url": "https://archive.org/download/kather_audio_4/533_160204.mp3",
+    "duration": 100
+  },
+  {
+    "id": 534,
+    "poem_id": 160207,
+    "audio_url": "https://archive.org/download/kather_audio_4/534_160207.mp3",
+    "duration": 100
+  },
+  {
+    "id": 535,
+    "poem_id": 160205,
+    "audio_url": "https://archive.org/download/kather_audio_4/535_160205.mp3",
+    "duration": 72
+  },
+  {
+    "id": 536,
+    "poem_id": 160594,
+    "audio_url": "https://archive.org/download/kather_audio_4/536_160594.mp3",
+    "duration": 117
+  },
+  {
+    "id": 537,
+    "poem_id": 160206,
+    "audio_url": "https://archive.org/download/kather_audio_4/537_160206.mp3",
+    "duration": 64
+  },
+  {
+    "id": 538,
+    "poem_id": 160602,
+    "audio_url": "https://archive.org/download/kather_audio_4/538_160602.mp3",
+    "duration": 60
+  },
+  {
+    "id": 539,
+    "poem_id": 143940,
+    "audio_url": "https://archive.org/download/kather_audio_4/539_143940.mp3",
+    "duration": 112
+  },
+  {
+    "id": 540,
+    "poem_id": 160620,
+    "audio_url": "https://archive.org/download/kather_audio_4/540_160620.mp3",
+    "duration": 123
+  },
+  {
+    "id": 541,
+    "poem_id": 142483,
+    "audio_url": "https://archive.org/download/kather_audio_4/541_142483.mp3",
+    "duration": 154
+  },
+  {
+    "id": 542,
+    "poem_id": 160624,
+    "audio_url": "https://archive.org/download/kather_audio_4/542_160624.mp3",
+    "duration": 128
+  },
+  {
+    "id": 543,
+    "poem_id": 160585,
+    "audio_url": "https://archive.org/download/kather_audio_4/543_160585.mp3",
+    "duration": 123
+  },
+  {
+    "id": 544,
+    "poem_id": 160629,
+    "audio_url": "https://archive.org/download/kather_audio_4/544_160629.mp3",
+    "duration": 173
+  },
+  {
+    "id": 545,
+    "poem_id": 160586,
+    "audio_url": "https://archive.org/download/kather_audio_4/545_160586.mp3",
+    "duration": 113
+  },
+  {
+    "id": 546,
+    "poem_id": 160630,
+    "audio_url": "https://archive.org/download/kather_audio_4/546_160630.mp3",
+    "duration": 163
+  },
+  {
+    "id": 547,
+    "poem_id": 160592,
+    "audio_url": "https://archive.org/download/kather_audio_4/547_160592.mp3",
+    "duration": 128
+  },
+  {
+    "id": 548,
+    "poem_id": 160632,
+    "audio_url": "https://archive.org/download/kather_audio_4/548_160632.mp3",
+    "duration": 109
+  },
+  {
+    "id": 549,
+    "poem_id": 160605,
+    "audio_url": "https://archive.org/download/kather_audio_4/549_160605.mp3",
+    "duration": 169
+  },
+  {
+    "id": 550,
+    "poem_id": 160636,
+    "audio_url": "https://archive.org/download/kather_audio_4/550_160636.mp3",
+    "duration": 85
+  },
+  {
+    "id": 551,
+    "poem_id": 160607,
+    "audio_url": "https://archive.org/download/kather_audio_4/551_160607.mp3",
+    "duration": 93
+  },
+  {
+    "id": 552,
+    "poem_id": 153130,
+    "audio_url": "https://archive.org/download/kather_audio_4/552_153130.mp3",
+    "duration": 194
+  },
+  {
+    "id": 553,
+    "poem_id": 160609,
+    "audio_url": "https://archive.org/download/kather_audio_4/553_160609.mp3",
+    "duration": 143
+  },
+  {
+    "id": 554,
+    "poem_id": 142596,
+    "audio_url": "https://archive.org/download/kather_audio_4/554_142596.mp3",
+    "duration": 79
+  },
+  {
+    "id": 555,
+    "poem_id": 160614,
+    "audio_url": "https://archive.org/download/kather_audio_4/555_160614.mp3",
+    "duration": 143
+  },
+  {
+    "id": 557,
+    "poem_id": 160615,
+    "audio_url": "https://archive.org/download/kather_audio_4/557_160615.mp3",
+    "duration": 140
+  },
+  {
+    "id": 559,
+    "poem_id": 160622,
+    "audio_url": "https://archive.org/download/kather_audio_4/559_160622.mp3",
+    "duration": 88
+  },
+  {
+    "id": 560,
+    "poem_id": 145087,
+    "audio_url": "https://archive.org/download/kather_audio_4/560_145087.mp3",
+    "duration": 149
+  },
+  {
+    "id": 561,
+    "poem_id": 160627,
+    "audio_url": "https://archive.org/download/kather_audio_4/561_160627.mp3",
+    "duration": 153
+  },
+  {
+    "id": 562,
+    "poem_id": 142490,
+    "audio_url": "https://archive.org/download/kather_audio_4/562_142490.mp3",
+    "duration": 125
+  },
+  {
+    "id": 563,
+    "poem_id": 160628,
+    "audio_url": "https://archive.org/download/kather_audio_5/563_160628.mp3",
+    "duration": 232
+  },
+  {
+    "id": 564,
+    "poem_id": 161007,
+    "audio_url": "https://archive.org/download/kather_audio_5/564_161007.mp3",
+    "duration": 369
+  },
+  {
+    "id": 565,
+    "poem_id": 160631,
+    "audio_url": "https://archive.org/download/kather_audio_5/565_160631.mp3",
+    "duration": 113
+  },
+  {
+    "id": 566,
+    "poem_id": 157604,
+    "audio_url": "https://archive.org/download/kather_audio_5/566_157604.mp3",
+    "duration": 172
+  },
+  {
+    "id": 567,
+    "poem_id": 160634,
+    "audio_url": "https://archive.org/download/kather_audio_5/567_160634.mp3",
+    "duration": 104
+  },
+  {
+    "id": 568,
+    "poem_id": 161751,
+    "audio_url": "https://archive.org/download/kather_audio_5/568_161751.mp3",
+    "duration": 67
+  },
+  {
+    "id": 570,
+    "poem_id": 161787,
+    "audio_url": "https://archive.org/download/kather_audio_5/570_161787.mp3",
+    "duration": 222
+  },
+  {
+    "id": 572,
+    "poem_id": 161841,
+    "audio_url": "https://archive.org/download/kather_audio_5/572_161841.mp3",
+    "duration": 121
+  },
+  {
+    "id": 573,
+    "poem_id": 142484,
+    "audio_url": "https://archive.org/download/kather_audio_5/573_142484.mp3",
+    "duration": 102
+  },
+  {
+    "id": 574,
+    "poem_id": 161433,
+    "audio_url": "https://archive.org/download/kather_audio_5/574_161433.mp3",
+    "duration": 75
+  },
+  {
+    "id": 575,
+    "poem_id": 142493,
+    "audio_url": "https://archive.org/download/kather_audio_5/575_142493.mp3",
+    "duration": 97
+  },
+  {
+    "id": 576,
+    "poem_id": 157600,
+    "audio_url": "https://archive.org/download/kather_audio_5/576_157600.mp3",
+    "duration": 131
+  },
+  {
+    "id": 577,
+    "poem_id": 157609,
+    "audio_url": "https://archive.org/download/kather_audio_5/577_157609.mp3",
+    "duration": 197
+  },
+  {
+    "id": 578,
+    "poem_id": 147850,
+    "audio_url": "https://archive.org/download/kather_audio_5/578_147850.mp3",
+    "duration": 61
+  }
+]
