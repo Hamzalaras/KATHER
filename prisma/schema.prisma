@@ -85,6 +85,7 @@ model Poems {
   seas       Seas?         @relation(fields: [sea_id], references: [id])
   quawafi    Quawafi?      @relation(fields: [quafia_id], references: [id])
   poemExplanations PoemExplanations?
+  poemAudio  PoemAudio?
 
   @@index([name(ops: raw("gin_trgm_ops"))], map: "idx_poems_name_trgm", type: Gin)
   @@index([poet_id, id])
@@ -145,6 +146,16 @@ model PoemExplanations {
   styles            String
   summary           String
   raw_text          String
+  created_at        DateTime @default(now())
+
+  poems             Poems    @relation(fields: [poem_id], references: [id], onDelete: Cascade)
+}
+
+model PoemAudio {
+  id                Int      @id @default(autoincrement())
+  poem_id           Int      @unique
+  audio_url         String
+  duration          Int
   created_at        DateTime @default(now())
 
   poems             Poems    @relation(fields: [poem_id], references: [id], onDelete: Cascade)

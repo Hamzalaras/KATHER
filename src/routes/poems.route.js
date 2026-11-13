@@ -3,7 +3,7 @@ import { defineLimit, defineOffset } from '../middleware/pagination.middleware.j
 import { defineId } from '../middleware/identity.middleware.js';
 import { defineEra, defineCountry, defineGender, defineQuafia, defineSea, defineTopic, definePoemType, defineLineType } from '../middleware/catalog.middleware.js';
 import { defineMeta, defineSort, defineSearchQuery } from '../middleware/meta.middleware.js';
-import { getPoemById, getPoemContext, getPoemLines, getPoemList, getRandomPoem, getPoemExplanation } from '../controllers/poems.controller.js';
+import { getPoemById, getPoemContext, getPoemLines, getPoemList, getRandomPoem, getPoemExplanation, getPoemAudio } from '../controllers/poems.controller.js';
 import { catchWrapper } from '../utils/catchWrapper.js';
 import { POEM_DETAIL_LINES_LIMIT, POEM_LINES_LIMIT, POEMS_LIST_LIMIT } from '../constants/pagination.js';
 import { LINE_SEARCH_QUERY_MAX_LENGTH, POEM_SEARCH_QUERY_MAX_LENGTH } from '../constants/validation.js';
@@ -40,6 +40,11 @@ router.get('/:id/lines',
 router.get('/:id/explanation',
     catchWrapper(defineId('id', 'poem_id', true)),
     catchWrapper(getPoemExplanation),
+);
+
+router.get('/:id/audio',
+    catchWrapper(defineId('id', 'poem_id', true)),
+    catchWrapper(getPoemAudio),
 );
 
 router.get('/:id',

@@ -5,8 +5,8 @@ import { ValidationError } from '../utils/errors/ApiError.js';
 import { DEFAULT_COUNT_TTL_SECONDS } from '../constants/cache.js';
 import { ENTITY_KEYS, RELATED_ITEMS_LIMIT } from '../constants/domain.js';
 import { LINES_SORT, POEMS_SORT } from '../constants/sort.js';
-import { POEM_SELECT, LINE_BASE_SELECT, POEM_BASE_SELECT, POEM_EXPLANATION_SELECT } from '../constants/select.js';
-import { mapPoem, mapPoemExplanation, mapPoemBase, mapPoemLineBase } from '../utils/mappers.js';
+import { POEM_SELECT, LINE_BASE_SELECT, POEM_BASE_SELECT, POEM_EXPLANATION_SELECT, POEM_AUDIO_SELECT } from '../constants/select.js';
+import { mapPoem, mapPoemExplanation, mapPoemBase, mapPoemLineBase, mapPoemAudio } from '../utils/mappers.js';
 import { buildPagination } from '../utils/builders/buildMeta.js';
 import { buildPoemWhere, buildLineWhere } from '../utils/builders/buildWhere.js';
 import { ERROR_CODES, NOT_FOUND_MESSAGES } from '../constants/errors.js';
@@ -215,4 +215,13 @@ export const getPoemExplanation = async (poem_id) => {
     });
 
     return poemExplanation ? mapPoemExplanation(poemExplanation) : null;
+};
+
+export const getPoemAudio = async (poem_id) => {
+    const poemAudio = await prismaClient.poemAudio.findUnique({
+        where: { poem_id },
+        select: POEM_AUDIO_SELECT,
+    });
+
+    return poemAudio ? mapPoemAudio(poemAudio) : null;
 };

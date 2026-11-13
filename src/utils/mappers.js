@@ -61,7 +61,15 @@ export const mapPoemExplanation = (poemExplanation) => ({
     summary: poemExplanation.summary,
     raw_text: poemExplanation.raw_text,
     created_at: poemExplanation.created_at,
-})
+});
+
+export const mapPoemAudio = (poemAudio) => ({
+    id: poemAudio.id,
+    poem_id: poemAudio.poem_id,
+    audio_url: poemAudio.audio_url,
+    duration: poemAudio.duration,
+    created_at: poemAudio.created_at,
+});
 
 export const mapPoemLineBase = (line) => ({
     id: line.id,

@@ -4,6 +4,7 @@ import {
     getPoemContext as getPoemContextServices,
     getRandomPoem as getRandomPoemServices,
     getPoemExplanation as getPoemExplanationServices,
+    getPoemAudio as getPoemAudioServices,
 } from '../services/poem.service.js';
 import { NotFoundError } from '../utils/errors/index.js';
 import { ERROR_CODES, NOT_FOUND_MESSAGES } from '../constants/errors.js';
@@ -59,7 +60,7 @@ export const getPoemById = async (req, res) => {
             lines: `${req.baseUrl}/${poem_id}/lines${buildQuery({ limit, offset, ...lineRawFilters })}`,
             context: `${req.baseUrl}/${poem_id}/context`,
             explanation: `${req.baseUrl}/${poem_id}/explanation`,
-            random: `${req.baseUrl}/random`,
+            audio: `${req.baseUrl}/${poem_id}/audio`,
             poet: `${V1_RESOURCE_PATHS.POETS}/${result.poem.poet_id}`,
         },
         meta: {
@@ -95,6 +96,7 @@ export const getPoemLines = async (req, res) => {
             poem: `${req.baseUrl}/${poem_id}`,
             context: `${req.baseUrl}/${poem_id}/context`,
             explanation: `${req.baseUrl}/${poem_id}/explanation`,
+            audio: `${req.baseUrl}/${poem_id}/audio`,
         },
         meta: {
             filters: {
@@ -120,6 +122,7 @@ export const getPoemContext = async (req, res) => {
             poem: `${req.baseUrl}/${poem_id}`,
             lines: `${req.baseUrl}/${poem_id}/lines`,
             explanation: `${req.baseUrl}/${poem_id}/explanation`,
+            audio: `${req.baseUrl}/${poem_id}/audio`,
             poet: `${V1_RESOURCE_PATHS.POETS}/${result.poet.id}`,
         },
     });
@@ -147,6 +150,7 @@ export const getRandomPoem = async (req, res) => {
             lines: `${req.baseUrl}/${result.poem.id}/lines`,
             context: `${req.baseUrl}/${result.poem.id}/context`,
             explanation: `${req.baseUrl}/${result.poem.id}/explanation`,
+            audio: `${req.baseUrl}/${result.poem.id}/audio`,
             poet: `${V1_RESOURCE_PATHS.POETS}/${result.poem.poet_id}`,
         },
         meta: {
@@ -173,6 +177,29 @@ export const getPoemExplanation = async (req, res) => {
             poem: `${req.baseUrl}/${poem_id}`,
             lines: `${req.baseUrl}/${poem_id}/lines`,
             context: `${req.baseUrl}/${poem_id}/context`,
+            audio: `${req.baseUrl}/${poem_id}/audio`,
         },
     });
+};
+
+export const getPoemAudio = async (req, res) => {
+    const { poem_id } = res.locals.dbParams;
+    const result = await getPoemAudioServices(poem_id);
+
+    if (!result) {
+        throw new NotFoundError(NOT_FOUND_MESSAGES.POEM, ERROR_CODES.POEM_NOT_FOUND);
+    }
+
+    res.json({
+        status: RESPONSE_STATUS.SUCCESS,
+        data: result,
+        links: {
+            self: `${req.baseUrl}/${poem_id}/audio`,
+            poem: `${req.baseUrl}/${poem_id}`,
+            lines: `${req.baseUrl}/${poem_id}/lines`,
+            context: `${req.baseUrl}/${poem_id}/context`,
+            explanation: `${req.baseUrl}/${poem_id}/explanation`,
+        },
+    });
+
 };

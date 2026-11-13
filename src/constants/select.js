@@ -54,6 +54,14 @@ export const POEM_EXPLANATION_SELECT = {
     created_at: true,
 };
 
+export const POEM_AUDIO_SELECT = {
+    id: true,
+    poem_id: true,
+    audio_url: true,
+    duration: true,
+    created_at: true,
+};
+
 export const LINE_BASE_SELECT = {
     id: true,
     content: true,
