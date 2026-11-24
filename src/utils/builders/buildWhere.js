@@ -18,18 +18,32 @@ export const buildPoetWhere = ({ era_id, country_id, gender, q, meta }) => ({
     }),
 });
 
-export const buildPoemWhere = ({ poet_id, era_id, country_id, gender, quafia_id, sea_id, topic_id, poem_type_id, q }) => {
+export const buildPoemWhere = ({ poet_id, era_id, country_id, gender, quafia_id, sea_id, topic_id, poem_type_id, q, has_audio, has_explanation }) => {
     const poetsFilter = pruneUndefined({ era_id, country_id, gender });
 
     return {
         ...pruneUndefined({ poet_id, quafia_id, sea_id, topic_id, poem_type_id }),
         ...(poetsFilter && { poets: poetsFilter }),
         ...(q && { name: { contains: q, mode: 'insensitive' } }),
+        ...(has_audio !== undefined && {
+            poemAudio: has_audio ? { isNot: null } : { is: null },
+        }),
+        ...(has_explanation !== undefined && {
+            poemExplanations: has_explanation ? { isNot: null } : { is: null },
+        }),
     };
 };
 
-export const buildLineWhere = ({ poem_id, poet_id, era_id, country_id, gender, quafia_id, sea_id, topic_id, poem_type_id, line_type, q }) => {
-    const poemsFilter = pruneUndefined({ id: poem_id, quafia_id, sea_id, topic_id, poem_type_id });
+export const buildLineWhere = ({ poem_id, poet_id, era_id, country_id, gender, quafia_id, sea_id, topic_id, poem_type_id, line_type, q, has_audio, has_explanation }) => {
+    const poemsFilter = pruneUndefined({
+        id: poem_id, quafia_id, sea_id, topic_id, poem_type_id,
+        ...(has_audio !== undefined && {
+            poemAudio: has_audio ? { isNot: null } : { is: null },
+        }),
+        ...(has_explanation !== undefined && {
+            poemExplanations: has_explanation ? { isNot: null } : { is: null },
+        }),
+    });
     const poetsFilter = pruneUndefined({ id: poet_id, era_id, country_id, gender });
 
     return {

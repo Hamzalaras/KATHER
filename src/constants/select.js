@@ -34,6 +34,8 @@ export const POEM_BASE_SELECT = {
             poemsLines: true,
         },
     },
+    poemExplanations: { select: { poem_id: true, } },
+    poemAudio: { select: { poem_id: true, } },
 };
 
 export const POEM_SELECT = {

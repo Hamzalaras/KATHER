@@ -8,6 +8,8 @@ export const buildPoemFilters = (dbParams = {}) => ({
     ...buildCommuneFilters(dbParams),
     poet_id: dbParams.poet_id,
     poem_type_id: dbParams.poem_type_id,
+    has_audio: dbParams.has_audio,
+    has_explanation: dbParams.has_explanation,
 });
 
 export const buildLineFilters = (dbParams = {}) => ({
@@ -25,6 +27,8 @@ export const buildPoemRawFilters = (rawParams = {}) => ({
     ...buildCommuneRawFilters(rawParams),
     poet: rawParams.poet,
     poemType: rawParams.poemType,
+    hasAudio: rawParams.hasAudio,
+    hasExplanation: rawParams.hasExplanation,
 });
 
 export const buildLineRawFilters = (rawParams = {}) => ({

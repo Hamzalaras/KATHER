@@ -2,17 +2,18 @@ import { Router } from 'express';
 import { defineOffset, defineLimit } from '../middleware/pagination.middleware.js';
 import { defineId } from '../middleware/identity.middleware.js';
 import { defineEra, defineCountry, defineGender, defineLineType, defineTopic, definePoemType, defineSea, defineQuafia } from '../middleware/catalog.middleware.js';
-import { defineMeta, defineSearchQuery, defineSort } from '../middleware/meta.middleware.js';
+import { defineSearchQuery, defineSort } from '../middleware/meta.middleware.js';
 import { getPoetById, getPoetPoems, getPoetsList, getPoetStats, getRandomPoet, getPoetLines } from '../controllers/poets.controller.js';
 import { catchWrapper } from '../utils/catchWrapper.js';
-import { DEFAULT_COUNT_TTL_SECONDS } from '../constants/cache.js';
 import { LINE_SEARCH_QUERY_MAX_LENGTH, POEM_SEARCH_QUERY_MAX_LENGTH, POET_SEARCH_QUERY_MAX_LENGTH } from '../constants/validation.js';
 import { LINES_SORT, POEMS_SORT, POETS_SORT } from '../constants/sort.js';
+import { defineBoolean } from '../middleware/boolean.middleware.js';
+import { BOOLEAN_MIDDLEWARE } from '../constants/boolean.js';
 
 const router = new Router();
 
 router.get('/',
-            catchWrapper(defineOffset()), catchWrapper(defineLimit()), catchWrapper(defineMeta()),
+            catchWrapper(defineOffset()), catchWrapper(defineLimit()), catchWrapper(defineBoolean(BOOLEAN_MIDDLEWARE.META)),
             catchWrapper(defineEra()), catchWrapper(defineCountry()), catchWrapper(defineGender()),
             catchWrapper(defineSearchQuery(POET_SEARCH_QUERY_MAX_LENGTH)), catchWrapper(defineSort(POETS_SORT)),
             catchWrapper(getPoetsList),
@@ -20,7 +21,7 @@ router.get('/',
 
 router.get('/random',
             catchWrapper(defineEra()), catchWrapper(defineCountry()), catchWrapper(defineGender()),
-            catchWrapper(defineSearchQuery(POET_SEARCH_QUERY_MAX_LENGTH)), catchWrapper(defineMeta()),
+            catchWrapper(defineSearchQuery(POET_SEARCH_QUERY_MAX_LENGTH)), catchWrapper(defineBoolean(BOOLEAN_MIDDLEWARE.META)),
             catchWrapper(getRandomPoet),
         );
 
