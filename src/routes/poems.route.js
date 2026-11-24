@@ -2,20 +2,23 @@ import { Router } from 'express';
 import { defineLimit, defineOffset } from '../middleware/pagination.middleware.js';
 import { defineId } from '../middleware/identity.middleware.js';
 import { defineEra, defineCountry, defineGender, defineQuafia, defineSea, defineTopic, definePoemType, defineLineType } from '../middleware/catalog.middleware.js';
-import { defineMeta, defineSort, defineSearchQuery } from '../middleware/meta.middleware.js';
+import { defineSort, defineSearchQuery } from '../middleware/meta.middleware.js';
 import { getPoemById, getPoemContext, getPoemLines, getPoemList, getRandomPoem, getPoemExplanation, getPoemAudio } from '../controllers/poems.controller.js';
 import { catchWrapper } from '../utils/catchWrapper.js';
 import { POEM_DETAIL_LINES_LIMIT, POEM_LINES_LIMIT, POEMS_LIST_LIMIT } from '../constants/pagination.js';
 import { LINE_SEARCH_QUERY_MAX_LENGTH, POEM_SEARCH_QUERY_MAX_LENGTH } from '../constants/validation.js';
 import { LINES_SORT, POEMS_SORT } from '../constants/sort.js';
+import { defineBoolean } from '../middleware/boolean.middleware.js';
+import { BOOLEAN_MIDDLEWARE } from '../constants/boolean.js';
 
 const router = new Router();
 
 router.get('/',
-    catchWrapper(defineLimit(POEMS_LIST_LIMIT)), catchWrapper(defineOffset()), catchWrapper(defineMeta()),
+    catchWrapper(defineLimit(POEMS_LIST_LIMIT)), catchWrapper(defineOffset()), catchWrapper(defineBoolean(BOOLEAN_MIDDLEWARE.META)),
     catchWrapper(defineId('poetId', 'poet_id', false)), catchWrapper(defineEra()), catchWrapper(defineCountry()), catchWrapper(defineGender()),
     catchWrapper(defineQuafia()), catchWrapper(defineSea()), catchWrapper(defineTopic()), catchWrapper(defineSort(POEMS_SORT)),
     catchWrapper(definePoemType()), catchWrapper(defineSearchQuery(POEM_SEARCH_QUERY_MAX_LENGTH)),
+    catchWrapper(defineBoolean(BOOLEAN_MIDDLEWARE.HAS_AUDIO)), catchWrapper(defineBoolean(BOOLEAN_MIDDLEWARE.HAS_EXPLANATION)),
     catchWrapper(getPoemList),
 );
 
@@ -23,6 +26,7 @@ router.get('/random',
     catchWrapper(defineId('poetId', 'poet_id', false)), catchWrapper(defineEra()), catchWrapper(defineCountry()), catchWrapper(defineGender()),
     catchWrapper(defineQuafia()), catchWrapper(defineSea()), catchWrapper(defineTopic()), catchWrapper(defineLimit(POEM_DETAIL_LINES_LIMIT)),
     catchWrapper(definePoemType()), catchWrapper(defineSearchQuery(POEM_SEARCH_QUERY_MAX_LENGTH)),
+    catchWrapper(defineBoolean(BOOLEAN_MIDDLEWARE.HAS_AUDIO)), catchWrapper(defineBoolean(BOOLEAN_MIDDLEWARE.HAS_EXPLANATION)),
     catchWrapper(getRandomPoem),
 );
 

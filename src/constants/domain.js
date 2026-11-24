@@ -16,8 +16,8 @@ export const UNSET_VALUES = new Set([
 	'unset', 'null', 'undefined', 'false', '',
 ]);
 
-export const META_VALUES = new Set([
-	'full', 'all', 'true',
+export const SET_VALUES = new Set([
+	'full', 'all', 'true', 'any',
 ]);
 
 export const RELATED_ITEMS_LIMIT = 5;
