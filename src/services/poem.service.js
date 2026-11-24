@@ -207,20 +207,36 @@ export const getRandomPoem = async ({ limit, ...filters }) => {
 };
 
 
-export const getPoemExplanation = async (poem_id) => {
-    const poemExplanation = await prismaClient.poemExplanations.findUnique({
-        where: { poem_id },
-        select: POEM_EXPLANATION_SELECT,
+export const getPoemExplanation = async (id) => {
+    const poem = await prismaClient.poems.findUnique({
+        where: { id },
+        select: {
+            poemExplanations: { select: POEM_EXPLANATION_SELECT },
+            poemAudio: { select: { poem_id: true, } },
+        },
     });
 
-    return poemExplanation ? mapPoemExplanation(poemExplanation) : null;
+    if (!poem) return null;
+
+    return {
+        explanation: poem.poemExplanations ? mapPoemExplanation(poem.poemExplanations) : null,
+        has_audio: Boolean(poem.poemAudio),
+    };
 };
 
-export const getPoemAudio = async (poem_id) => {
-    const poemAudio = await prismaClient.poemAudio.findUnique({
-        where: { poem_id },
-        select: POEM_AUDIO_SELECT,
+export const getPoemAudio = async (id) => {
+    const poem = await prismaClient.poems.findUnique({
+        where: { id },
+        select: {
+            poemAudio: { select: POEM_AUDIO_SELECT },
+            poemExplanations: { select: { poem_id: true, } },
+        },
     });
 
-    return poemAudio ? mapPoemAudio(poemAudio) : null;
+    if (!poem) return null;
+
+    return {
+        audio: poem.poemAudio ? mapPoemAudio(poem.poemAudio) : null,
+        has_explanation: Boolean(poem.poemExplanations),
+    };
 };

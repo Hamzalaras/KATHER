@@ -59,8 +59,8 @@ export const getPoemById = async (req, res) => {
             self: `${req.baseUrl}/${poem_id}${buildQuery({ limit, offset, ...lineRawFilters })}`,
             lines: `${req.baseUrl}/${poem_id}/lines${buildQuery({ limit, offset, ...lineRawFilters })}`,
             context: `${req.baseUrl}/${poem_id}/context`,
-            explanation: `${req.baseUrl}/${poem_id}/explanation`,
-            audio: `${req.baseUrl}/${poem_id}/audio`,
+            explanation: result.poem.has_explanation ? `${req.baseUrl}/${poem_id}/explanation` : null,
+            audio: result.poem.has_audio ? `${req.baseUrl}/${poem_id}/audio` : null,
             poet: `${V1_RESOURCE_PATHS.POETS}/${result.poem.poet_id}`,
         },
         meta: {
@@ -95,8 +95,8 @@ export const getPoemLines = async (req, res) => {
             prev: offset > 0 ? `${req.baseUrl}/${poem_id}/lines${buildQuery({ limit, offset: prevOffset, ...lineRawFilters })}` : null,
             poem: `${req.baseUrl}/${poem_id}`,
             context: `${req.baseUrl}/${poem_id}/context`,
-            explanation: `${req.baseUrl}/${poem_id}/explanation`,
-            audio: `${req.baseUrl}/${poem_id}/audio`,
+            explanation: result.poem.has_explanation ? `${req.baseUrl}/${poem_id}/explanation` : null,
+            audio: result.poem.has_audio ? `${req.baseUrl}/${poem_id}/audio` : null,
         },
         meta: {
             filters: {
@@ -121,8 +121,8 @@ export const getPoemContext = async (req, res) => {
             self: `${req.baseUrl}/${poem_id}/context`,
             poem: `${req.baseUrl}/${poem_id}`,
             lines: `${req.baseUrl}/${poem_id}/lines`,
-            explanation: `${req.baseUrl}/${poem_id}/explanation`,
-            audio: `${req.baseUrl}/${poem_id}/audio`,
+            explanation: result.poem.has_explanation ? `${req.baseUrl}/${poem_id}/explanation` : null,
+            audio: result.poem.has_audio ? `${req.baseUrl}/${poem_id}/audio` : null,
             poet: `${V1_RESOURCE_PATHS.POETS}/${result.poet.id}`,
         },
     });
@@ -149,8 +149,8 @@ export const getRandomPoem = async (req, res) => {
             poem: `${req.baseUrl}/${result.poem.id}`,
             lines: `${req.baseUrl}/${result.poem.id}/lines`,
             context: `${req.baseUrl}/${result.poem.id}/context`,
-            explanation: `${req.baseUrl}/${result.poem.id}/explanation`,
-            audio: `${req.baseUrl}/${result.poem.id}/audio`,
+            explanation: result.poem.has_explanation ? `${req.baseUrl}/${result.poem.id}/explanation` : null,
+            audio: result.poem.has_audio ? `${req.baseUrl}/${result.poem.id}/audio` : null,
             poet: `${V1_RESOURCE_PATHS.POETS}/${result.poem.poet_id}`,
         },
         meta: {
@@ -169,15 +169,19 @@ export const getPoemExplanation = async (req, res) => {
         throw new NotFoundError(NOT_FOUND_MESSAGES.POEM, ERROR_CODES.POEM_NOT_FOUND);
     }
 
+    if (!result.explanation) {
+        throw new NotFoundError(NOT_FOUND_MESSAGES.EXPLANATION, ERROR_CODES.EXPLANATION_NOT_FOUND);
+    }
+
     res.json({
         status: RESPONSE_STATUS.SUCCESS,
-        data: result,
+        data: result.explanation,
         links: {
             self: `${req.baseUrl}/${poem_id}/explanation`,
             poem: `${req.baseUrl}/${poem_id}`,
             lines: `${req.baseUrl}/${poem_id}/lines`,
             context: `${req.baseUrl}/${poem_id}/context`,
-            audio: `${req.baseUrl}/${poem_id}/audio`,
+            audio: result.has_audio ? `${req.baseUrl}/${poem_id}/audio` : null,
         },
     });
 };
@@ -190,15 +194,19 @@ export const getPoemAudio = async (req, res) => {
         throw new NotFoundError(NOT_FOUND_MESSAGES.POEM, ERROR_CODES.POEM_NOT_FOUND);
     }
 
+    if (!result.audio) {
+        throw new NotFoundError(NOT_FOUND_MESSAGES.AUDIO, ERROR_CODES.AUDIO_NOT_FOUND);
+    }
+
     res.json({
         status: RESPONSE_STATUS.SUCCESS,
-        data: result,
+        data: result.audio,
         links: {
             self: `${req.baseUrl}/${poem_id}/audio`,
             poem: `${req.baseUrl}/${poem_id}`,
             lines: `${req.baseUrl}/${poem_id}/lines`,
             context: `${req.baseUrl}/${poem_id}/context`,
-            explanation: `${req.baseUrl}/${poem_id}/explanation`,
+            explanation: result.has_explanation ? `${req.baseUrl}/${poem_id}/explanation` : null,
         },
     });
 

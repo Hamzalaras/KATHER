@@ -45,6 +45,8 @@ export const mapPoemBase = (poem) => ({
     }),
     created_at: poem.created_at,
     line_count: poem._count.poemsLines,
+    has_explanation: Boolean(poem.poemExplanations),
+    has_audio: Boolean(poem.poemAudio),
 });
 
 export const mapPoem = (poem) => ({
