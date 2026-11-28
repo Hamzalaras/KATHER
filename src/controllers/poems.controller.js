@@ -53,8 +53,8 @@ export const getPoemById = async (req, res) => {
         data: {
             poem: result.poem,
             lines: result.lines,
-            pagination: result.pagination,
         },
+        pagination: result.pagination,
         links: {
             self: `${req.baseUrl}/${poem_id}${buildQuery({ limit, offset, ...lineRawFilters })}`,
             lines: `${req.baseUrl}/${poem_id}/lines${buildQuery({ limit, offset, ...lineRawFilters })}`,
