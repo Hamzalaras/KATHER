@@ -12,6 +12,11 @@ const ORDER_SORT = [
     ['-order', { order: 'desc' }],
 ];
 
+const POET_ID_SORT = [
+    ['poet_id', { poet_id: 'asc' }],
+    ['-poet_id', { poet_id: 'desc' }],
+];
+
 export const POETS_SORT = new Map([
     ...BASIC_SORT,
     ['name_en', { name_en: 'asc' }],
@@ -22,14 +27,13 @@ export const POETS_SORT = new Map([
 
 export const POEMS_SORT = new Map([
     ...BASIC_SORT,
-    ['poet_id', { poet_id: 'asc' }],
-    ['-poet_id', { poet_id: 'desc' }],
-
+    ...POET_ID_SORT,
 ]);
 
 export const LINES_SORT = new Map([
     ...BASIC_SORT,
     ...ORDER_SORT,
+    ...POET_ID_SORT,
     ['poem_id', { poem_id: 'asc' }],
     ['-poem_id', { poem_id: 'desc' }],
 ]);
